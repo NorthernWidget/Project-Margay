@@ -530,6 +530,14 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <smd name="GND" x="0" y="0" dx="10.16" dy="10.16" layer="1" roundness="100"/>
 <smd name="POWER0" x="-7.62" y="0" dx="2.54" dy="5.08" layer="1"/>
 <smd name="POWER1" x="7.62" y="0" dx="2.54" dy="5.08" layer="1"/>
+<wire x1="-6.75" y1="3.675" x2="-6.75" y2="-3.675" width="0.127" layer="39"/>
+<wire x1="-6.75" y1="-3.675" x2="-4.75" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="-4.75" y1="-5.08" x2="4.75" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="4.75" y1="-5.08" x2="6.75" y2="-3.675" width="0.127" layer="39"/>
+<wire x1="6.75" y1="-3.675" x2="6.75" y2="3.675" width="0.127" layer="39"/>
+<wire x1="6.75" y1="3.675" x2="4.75" y2="5.08" width="0.127" layer="39"/>
+<wire x1="4.75" y1="5.08" x2="-4.75" y2="5.08" width="0.127" layer="39"/>
+<wire x1="-4.75" y1="5.08" x2="-6.75" y2="3.675" width="0.127" layer="39"/>
 </package>
 <package name="BATT_12MM_CLIP_VERT">
 <smd name="BATT-" x="0" y="8.2" dx="2.3" dy="4.5" layer="1"/>
@@ -3900,10 +3908,10 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" rot="R90"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
@@ -9933,7 +9941,7 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="adafruit">
+<library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
 <package name="SCDA">
 <wire x1="-14" y1="-26.3" x2="-14" y2="2.8" width="0.127" layer="21"/>
@@ -10474,7 +10482,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY33" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$12" library="MyPOW" deviceset="VUSB" device=""/>
 <part name="SUPPLY48" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY49" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U2" library="bschulz" deviceset="FT231X" device="-Q"/>
@@ -10528,7 +10535,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C6" library="bschulz" deviceset="C-EU" device="C0603" technology="0.1UF" value="0.1uF"/>
 <part name="C8" library="bschulz" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="U$20" library="MyPOW" deviceset="VUSB" device=""/>
-<part name="U$3" library="adafruit" deviceset="SDMMC" device="06132"/>
+<part name="U$3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SDMMC" device="06132"/>
 <part name="Q5" library="bschulz" deviceset="MOSFET_PCH" device="-IRLML2244" value="MOSFET_PCH-IRLML2244"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="U$18" library="bschulz" deviceset="MIC842" device=""/>
@@ -10581,7 +10588,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="195.58" y="93.98" size="1.778" layer="91">NOTE:
 Connect to MUX (open drain)</text>
 <text x="111.76" y="149.86" size="1.778" layer="91">Note replace buttons!</text>
-<text x="152.4" y="35.56" size="1.778" layer="91">Pin 12</text>
+<text x="157.48" y="35.56" size="1.778" layer="91">Pin 12</text>
 <text x="152.4" y="111.76" size="1.778" layer="91">Pin A7</text>
 <text x="152.4" y="109.22" size="1.778" layer="91">Pin A6</text>
 <text x="152.4" y="106.68" size="1.778" layer="91">Pin A5</text>
@@ -10591,7 +10598,7 @@ Connect to MUX (open drain)</text>
 <text x="360.68" y="93.98" size="1.778" layer="97">USB &amp; ISP</text>
 <text x="152.4" y="66.04" size="1.778" layer="91">Pin 23</text>
 <text x="152.4" y="101.6" size="1.778" layer="91">Pin A3</text>
-<text x="157.48" y="81.28" size="1.778" layer="91">Also SS and ext PWM</text>
+<text x="157.48" y="78.74" size="1.778" layer="91">Also ext PWM</text>
 <text x="269.24" y="127" size="1.778" layer="91">ICSP</text>
 <text x="327.66" y="231.14" size="1.778" layer="91">add voltage divider??</text>
 <text x="180.34" y="170.18" size="1.778" layer="91">Reverse Polarity Protection</text>
@@ -10626,7 +10633,6 @@ Connect to MUX (open drain)</text>
 <instance part="SUPPLY31" gate="GND" x="307.34" y="25.4"/>
 <instance part="SUPPLY33" gate="GND" x="342.9" y="63.5"/>
 <instance part="SUPPLY36" gate="GND" x="256.54" y="78.74"/>
-<instance part="U$12" gate="G$1" x="325.12" y="20.32"/>
 <instance part="SUPPLY48" gate="GND" x="248.92" y="20.32"/>
 <instance part="SUPPLY49" gate="GND" x="231.14" y="20.32"/>
 <instance part="U2" gate="G$1" x="309.88" y="60.96"/>
@@ -10850,15 +10856,15 @@ Connect to MUX (open drain)</text>
 <junction x="243.84" y="190.5"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="149.86" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
-<label x="152.4" y="152.4" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="ISP2" gate="G$1" pin="VCC"/>
 <wire x1="287.02" y1="121.92" x2="294.64" y2="121.92" width="0.1524" layer="91"/>
 <label x="289.56" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="339.852" y1="15.24" x2="325.12" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U$16" gate="G$1" pin="ANODE"/>
+<wire x1="339.852" y1="23.114" x2="339.852" y2="15.24" width="0.1524" layer="91"/>
+<label x="325.12" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -11174,9 +11180,9 @@ Connect to MUX (open drain)</text>
 <label x="68.58" y="149.86" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="(PCINT11/OC0A/AIN1)PB3"/>
-<wire x1="132.08" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
-<label x="137.16" y="78.74" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="(PCINT12/OC0B/!SS!)PB4"/>
+<wire x1="132.08" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
+<label x="137.16" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -11204,6 +11210,15 @@ Connect to MUX (open drain)</text>
 <pinref part="IC1" gate="G$1" pin="(PCINT9/CLKO/T1)PB1"/>
 <wire x1="132.08" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 <label x="137.16" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="CARD_DETECT"/>
+<wire x1="50.8" y1="162.56" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
+<label x="50.8" y="149.86" size="1.778" layer="95" rot="R90"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="160.02" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
+<junction x="50.8" y="160.02"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -11441,13 +11456,6 @@ Connect to MUX (open drain)</text>
 <pinref part="U$14" gate="G$1" pin="VUSB"/>
 <wire x1="307.34" y1="86.36" x2="307.34" y2="83.82" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="339.852" y1="15.24" x2="325.12" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="15.24" x2="325.12" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="VUSB"/>
-<pinref part="U$16" gate="G$1" pin="ANODE"/>
-<wire x1="339.852" y1="23.114" x2="339.852" y2="15.24" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$40" class="0">
 <segment>
@@ -11494,16 +11502,11 @@ Connect to MUX (open drain)</text>
 <wire x1="43.18" y1="172.72" x2="40.64" y2="172.72" width="0.1524" layer="91"/>
 <label x="40.64" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="SC_CD" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="CARD_DETECT"/>
-<wire x1="50.8" y1="162.56" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<label x="50.8" y="149.86" size="1.778" layer="95" rot="R90"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="160.02" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<junction x="50.8" y="160.02"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="149.86" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
+<label x="152.4" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3.3V_EXT_CTRL" class="0">
@@ -11511,6 +11514,11 @@ Connect to MUX (open drain)</text>
 <pinref part="U$18" gate="G$1" pin="INP"/>
 <wire x1="312.42" y1="175.26" x2="289.56" y2="175.26" width="0.1524" layer="91"/>
 <label x="289.56" y="175.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="(PCINT28/OC1B)PD4"/>
+<wire x1="132.08" y1="35.56" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
+<label x="137.16" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -11572,9 +11580,9 @@ Connect to MUX (open drain)</text>
 <label x="289.56" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="(PCINT12/OC0B/!SS!)PB4"/>
-<wire x1="132.08" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
-<label x="137.16" y="81.28" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="(PCINT11/OC0A/AIN1)PB3"/>
+<wire x1="132.08" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
+<label x="137.16" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSWITCH" class="0">
