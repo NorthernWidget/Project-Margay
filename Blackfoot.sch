@@ -530,14 +530,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <smd name="GND" x="0" y="0" dx="10.16" dy="10.16" layer="1" roundness="100"/>
 <smd name="POWER0" x="-7.62" y="0" dx="2.54" dy="5.08" layer="1"/>
 <smd name="POWER1" x="7.62" y="0" dx="2.54" dy="5.08" layer="1"/>
-<wire x1="-6.75" y1="3.675" x2="-6.75" y2="-3.675" width="0.127" layer="39"/>
-<wire x1="-6.75" y1="-3.675" x2="-4.75" y2="-5.08" width="0.127" layer="39"/>
-<wire x1="-4.75" y1="-5.08" x2="4.75" y2="-5.08" width="0.127" layer="39"/>
-<wire x1="4.75" y1="-5.08" x2="6.75" y2="-3.675" width="0.127" layer="39"/>
-<wire x1="6.75" y1="-3.675" x2="6.75" y2="3.675" width="0.127" layer="39"/>
-<wire x1="6.75" y1="3.675" x2="4.75" y2="5.08" width="0.127" layer="39"/>
-<wire x1="4.75" y1="5.08" x2="-4.75" y2="5.08" width="0.127" layer="39"/>
-<wire x1="-4.75" y1="5.08" x2="-6.75" y2="3.675" width="0.127" layer="39"/>
 </package>
 <package name="BATT_12MM_CLIP_VERT">
 <smd name="BATT-" x="0" y="8.2" dx="2.3" dy="4.5" layer="1"/>
@@ -3815,12 +3807,12 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="-2.54" y1="0.762" x2="-2.032" y2="1.27" width="0.127" layer="21"/>
 <wire x1="-2.032" y1="1.27" x2="-2.54" y2="1.778" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="1.778" x2="-2.54" y2="3.048" width="0.127" layer="21"/>
-<pad name="3" x="-1.27" y="0" drill="0.9" diameter="1.6256"/>
-<pad name="4" x="1.27" y="0" drill="0.9" diameter="1.6256"/>
-<pad name="2" x="1.27" y="2.54" drill="0.9" diameter="1.6256"/>
-<pad name="1" x="-1.27" y="2.54" drill="0.9" diameter="1.6256"/>
-<pad name="5" x="-1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
-<pad name="6" x="1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
+<pad name="3" x="-1.27" y="0" drill="1.02" diameter="1.6256"/>
+<pad name="4" x="1.27" y="0" drill="1.02" diameter="1.6256"/>
+<pad name="2" x="1.27" y="2.54" drill="1.02" diameter="1.6256"/>
+<pad name="1" x="-1.27" y="2.54" drill="1.02" diameter="1.6256"/>
+<pad name="5" x="-1.27" y="-2.54" drill="1.02" diameter="1.6256"/>
+<pad name="6" x="1.27" y="-2.54" drill="1.02" diameter="1.6256"/>
 <text x="-3.048" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-3.048" y="3.556" size="0.8128" layer="21" font="vector" ratio="20">1</text>
 </package>
