@@ -27,7 +27,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
@@ -3910,13 +3910,13 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-5.31" y1="3.25" x2="5.31" y2="3.25" width="0.127" layer="21"/>
-<wire x1="5.31" y1="3.25" x2="5.31" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.31" y1="-2.54" x2="5.31" y2="-3.25" width="0.127" layer="21"/>
-<wire x1="5.31" y1="-3.25" x2="-5.31" y2="-3.25" width="0.127" layer="21"/>
-<wire x1="-5.31" y1="-3.25" x2="-5.31" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-5.31" y1="-2.54" x2="-5.31" y2="3.25" width="0.127" layer="21"/>
-<wire x1="-5.31" y1="-2.54" x2="5.31" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-5.31" y1="3.2" x2="5.31" y2="3.2" width="0.254" layer="21"/>
+<wire x1="5.31" y1="3.2" x2="5.31" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="5.31" y1="-2.54" x2="5.31" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="5.31" y1="-3.3" x2="-5.31" y2="-3.3" width="0.254" layer="21"/>
+<wire x1="-5.31" y1="-3.3" x2="-5.31" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-5.31" y1="-2.54" x2="-5.31" y2="3.2" width="0.254" layer="21"/>
+<wire x1="-5.31" y1="-2.54" x2="5.31" y2="-2.54" width="0.254" layer="21"/>
 </package>
 <package name="1X02">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
@@ -7102,7 +7102,7 @@ Standard 6 pin header for AVR programming</description>
 <gate name="G$1" symbol="CONN_06" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1X06_SCREW">
+<device name="SCREW_2.54" package="1X06_SCREW">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -7112,7 +7112,11 @@ Standard 6 pin header for AVR programming</description>
 <connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="ED10565-ND" constant="no"/>
+<attribute name="MF" value="OnShore" constant="no"/>
+<attribute name="MPN" value="OSTVN06A150" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7131,7 +7135,11 @@ Standard 6 pin header for AVR programming</description>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="ED10563-ND" constant="no"/>
+<attribute name="MF" value="OnShore" constant="no"/>
+<attribute name="MPN" value="OSTVN04A150" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7375,13 +7383,17 @@ Standard 6 pin header for AVR programming</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="2.54MM_SCREWTERM" package="1X02_2.54_SCREWTERM">
+<device name="SCREW_2.54" package="1X02_2.54_SCREWTERM">
 <connects>
 <connect gate="G$1" pin="1" pad="P1"/>
 <connect gate="G$1" pin="2" pad="P2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="ED10561-ND" constant="no"/>
+<attribute name="MF" value="OnShore" constant="no"/>
+<attribute name="MPN" value="OSTVN02A150" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="SMALL_POKEHOME" package="1X02_POKEHOME">
@@ -10487,10 +10499,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="bschulz" deviceset="CONN_4" device="SCREW_2.54"/>
-<part name="J2" library="bschulz" deviceset="CONN_6" device=""/>
-<part name="J3" library="bschulz" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
-<part name="J4" library="bschulz" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
-<part name="J5" library="bschulz" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="J2" library="bschulz" deviceset="CONN_6" device="SCREW_2.54"/>
+<part name="J3" library="bschulz" deviceset="CONN_02" device="SCREW_2.54"/>
+<part name="J4" library="bschulz" deviceset="CONN_02" device="SCREW_2.54"/>
+<part name="J5" library="bschulz" deviceset="CONN_02" device="SCREW_2.54"/>
 <part name="R12" library="bschulz" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
 <part name="R15" library="bschulz" deviceset="R-EU_" device="R0603" value="10k"/>
@@ -10519,6 +10531,16 @@ Connect to MUX (open drain)</text>
 <text x="269.24" y="127" size="1.778" layer="91">ICSP</text>
 <text x="327.66" y="231.14" size="1.778" layer="91">add voltage divider??</text>
 <text x="180.34" y="170.18" size="1.778" layer="91">Reverse Polarity Protection</text>
+<text x="175.26" y="55.88" size="1.778" layer="91">Pin 19</text>
+<text x="152.4" y="40.64" size="1.778" layer="91">Pin 14</text>
+<text x="152.4" y="38.1" size="1.778" layer="91">Pin 13</text>
+<text x="175.26" y="78.74" size="1.778" layer="91">Pin 3</text>
+<text x="175.26" y="76.2" size="1.778" layer="91">Pin 2</text>
+<text x="175.26" y="73.66" size="1.778" layer="91">Pin 1</text>
+<text x="175.26" y="81.28" size="1.778" layer="91">Pin 4</text>
+<text x="162.56" y="93.98" size="1.778" layer="91">Pin A0</text>
+<text x="162.56" y="96.52" size="1.778" layer="91">Pin A1</text>
+<text x="162.56" y="99.06" size="1.778" layer="91">Pin A2</text>
 </plain>
 <instances>
 <instance part="RTC1" gate="G$1" x="132.08" y="182.88"/>
