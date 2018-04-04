@@ -58,7 +58,7 @@ This includes a usage guide to demo software which is provided to both test the 
 
 To use this software the following libraries must be installed in the Arduino IDE:
 * [SdFat](https://github.com/greiman/SdFat)
-* [DS3231_Logger](https://github.com/NorthernWidget)
+* [DS3231_Logger](https://github.com/NorthernWidget/DS3231_Logger)
 * [MCP3421](https://github.com/NorthernWidget/MCP3421)
 * [MS5803](https://github.com/NorthernWidget/MS5803)
 
