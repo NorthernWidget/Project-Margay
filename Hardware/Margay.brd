@@ -1203,7 +1203,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="RC0603FR-07330RL" x="21.336" y="29.083" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE_PART" value="330" x="21.336" y="29.083" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R11" library="bschulz" package="R0603" value="" x="10.16" y="19.558" rot="R90">
+<element name="R11" library="bschulz" package="R0603" value="1.62M" x="10.16" y="19.558" rot="R90">
 <attribute name="DIGIKEY" value="" x="10.16" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="10.16" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="10.16" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1287,7 +1287,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="" x="8.128" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE_PART" value="" x="8.128" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R9" library="bschulz" package="R0603" value="" x="10.16" y="22.733" rot="R90">
+<element name="R9" library="bschulz" package="R0603" value="1.62M" x="10.16" y="22.733" rot="R90">
 <attribute name="DIGIKEY" value="" x="10.16" y="22.733" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="10.16" y="22.733" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="10.16" y="22.733" size="1.778" layer="27" rot="R90" display="off"/>
