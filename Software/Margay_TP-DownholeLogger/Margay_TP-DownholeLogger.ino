@@ -667,8 +667,8 @@ void sleepNow()         // here we put the arduino to sleep
      * sleep mode: SLEEP_MODE_PWR_DOWN
      *
      */  
-    MCUCR = bit (BODS) | bit (BODSE);
-  	MCUCR = bit (BODS);
+    // MCUCR = bit (BODS) | bit (BODSE);
+  	// MCUCR = bit (BODS);
 	wdt_disable();
 	// power_adc_disable(); // ADC converter
 	// // power_spi_disable(); // SPI
