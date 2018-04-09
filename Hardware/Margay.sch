@@ -10482,8 +10482,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R2" library="bschulz" deviceset="R-EU_" device="R0603" value="330R"/>
 <part name="R6" library="bschulz" deviceset="R-EU_" device="R0603"/>
 <part name="R8" library="bschulz" deviceset="R-EU_" device="R0603"/>
-<part name="R9" library="bschulz" deviceset="R-EU_" device="R0603"/>
-<part name="R11" library="bschulz" deviceset="R-EU_" device="R0603"/>
+<part name="R9" library="bschulz" deviceset="R-EU_" device="R0603" value="1.62M"/>
+<part name="R11" library="bschulz" deviceset="R-EU_" device="R0603" value="1.62M"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$7" library="bschulz" deviceset="MAX6070AAUT*" device="" technology="18"/>
@@ -10516,7 +10516,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="205.74" y="142.24" size="1.778" layer="91">Indicators</text>
 <text x="195.58" y="93.98" size="1.778" layer="91">NOTE:
 Connect to MUX (open drain)</text>
-<text x="111.76" y="149.86" size="1.778" layer="91">Note replace buttons!</text>
 <text x="157.48" y="35.56" size="1.778" layer="91">Pin 12</text>
 <text x="152.4" y="111.76" size="1.778" layer="91">Pin A7</text>
 <text x="152.4" y="109.22" size="1.778" layer="91">Pin A6</text>
@@ -10541,6 +10540,12 @@ Connect to MUX (open drain)</text>
 <text x="162.56" y="93.98" size="1.778" layer="91">Pin A0</text>
 <text x="162.56" y="96.52" size="1.778" layer="91">Pin A1</text>
 <text x="162.56" y="99.06" size="1.778" layer="91">Pin A2</text>
+<text x="312.42" y="114.3" size="1.778" layer="91">Make ext 3v3</text>
+<text x="279.4" y="137.16" size="1.778" layer="91">Make switched Bat</text>
+<text x="294.64" y="154.94" size="1.778" layer="91">Make switched Bat</text>
+<text x="177.8" y="157.48" size="1.778" layer="91">Make switched bat</text>
+<text x="25.4" y="218.44" size="1.778" layer="91">Switch internal SDA line to isolate MCP3425 and to prevent general conflicts!</text>
+<text x="317.5" y="93.98" size="1.778" layer="91">Connect to FTDI isolated 3v3 line</text>
 </plain>
 <instances>
 <instance part="RTC1" gate="G$1" x="132.08" y="182.88"/>
