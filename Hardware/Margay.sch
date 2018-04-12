@@ -4738,6 +4738,14 @@ Soure: &lt;a href="http://www.ti.com/lit/ds/symlink/ads7042.pdf"&gt; Data sheet 
 <text x="-1.25" y="-2" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.5" y="-2" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
+<package name="CRYSTAL_3.2X1.5_2-SMD">
+<smd name="P$1" x="-1.25" y="0" dx="1.9" dy="1.1" layer="1" rot="R90"/>
+<smd name="P$2" x="1.25" y="0" dx="1.9" dy="1.1" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL_SF">
@@ -4919,21 +4927,16 @@ Switches electrical signals</description>
 <text x="-7.366" y="5.588" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="AWICKERT_BATTERY">
-<wire x1="-3.175" y1="0.635" x2="-3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="0" x2="-3.175" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="-1.905" y1="2.54" x2="-1.905" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="2.54" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
-<pin name="+" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="-" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
-<text x="-3.81" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="BATTERY">
+<wire x1="-2.54" y1="1.778" x2="0" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="1.778" x2="2.54" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0.762" x2="0" y2="0.762" width="0.254" layer="94"/>
+<pin name="+" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="-" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.778" width="0.1524" layer="94"/>
+<text x="-4.318" y="1.27" size="1.27" layer="95" rot="R90" align="center">&gt;NAME</text>
 </symbol>
 <symbol name="FT231X_FT231X">
 <wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
@@ -5198,15 +5201,18 @@ Switches electronic signals</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CRYSTAL_5X3.2_2LEAD">
-<description>TXC Crystal, 5 x 3.2mm, SMD, 2 Lead
-
-8 MHz PN = 887-2634-1-ND</description>
+<deviceset name="CRYSTAL" prefix="XTAL">
+<description>&lt;h3&gt;Crystal Oscilator&lt;/h3&gt;
+&lt;p&gt;2 Pin quartz crystal oscilators&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Variants&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.digikey.com/products/en/crystals-oscillators-resonators/crystals/171?FV=b839bf%2Cb83a33%2C8640001%2C864000f%2C8640003%2C1f140000%2Cmu32.768kHz%7C2150%2Cffe000ab&amp;quantity=10&amp;ColumnSort=1000011&amp;page=1&amp;stock=1&amp;k=crystal&amp;pageSize=25&amp;pkeyword=crystal”&gt;3.2x1.5mm (Only available in 32.768kHz)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.digikey.com/products/en/crystals-oscillators-resonators/crystals/171?FV=402f3e%2Cb8434d%2C1f140000%2Cffe000ab&amp;quantity=10&amp;ColumnSort=1000011&amp;page=1&amp;stock=1&amp;pageSize=25”&gt;5 x 3.2mm (8MHz ~ 50MHz)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL_SF" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRYSTAL_5X3.2_2-SMD">
+<device name="5X3.2" package="CRYSTAL_5X3.2_2-SMD">
 <connects>
 <connect gate="G$1" pin="1" pad="OSC1"/>
 <connect gate="G$1" pin="2" pad="OSC2"/>
@@ -5221,6 +5227,24 @@ Switches electronic signals</description>
 <attribute name="DIGIKEY" value="887-1740-1-ND" constant="no"/>
 <attribute name="MF" value="TXC" constant="no"/>
 <attribute name="MPN" value="7A-8.000MAAE-T" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3.2X1.5" package="CRYSTAL_3.2X1.5_2-SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+<technology name="32.768KHZ">
+<attribute name="DIGIKEY" value="XC2160CT-ND" constant="no"/>
+<attribute name="MF" value="ECS" constant="no"/>
+<attribute name="MPN" value="ECS-.327-9-34QCS-TR" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5489,10 +5513,10 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 </device>
 </devices>
 </deviceset>
-<deviceset name="BATTERY_COIN">
+<deviceset name="BATTERY_COIN" prefix="BT">
 <description>&lt;b&gt;Coin Cell Battery Holder &lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="AWICKERT_BATTERY" x="0" y="0"/>
+<gate name="G$1" symbol="BATTERY" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="12MM" package="LINX_BAT-HLD-012-SMT">
@@ -13398,7 +13422,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY47" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="MICRO_USB" library="bschulz" deviceset="MICRO_USB_LONGPADS" device=""/>
-<part name="U$1" library="bschulz" deviceset="CRYSTAL_5X3.2_2LEAD" device=""/>
+<part name="U$1" library="bschulz" deviceset="CRYSTAL" device="5X3.2" technology="8MHZ" value="CRYSTAL8MHZ5X3.2"/>
 <part name="R4" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="330" value="330">
 <attribute name="MPN" value="RC0603FR-07330RL"/>
 </part>
@@ -13539,8 +13563,8 @@ Connect to MUX (open drain)</text>
 </plain>
 <instances>
 <instance part="RTC1" gate="G$1" x="132.08" y="182.88"/>
-<instance part="BT1" gate="G$1" x="157.48" y="175.26" rot="R90"/>
-<instance part="GND24" gate="1" x="157.48" y="162.56"/>
+<instance part="BT1" gate="G$1" x="154.94" y="177.8"/>
+<instance part="GND24" gate="1" x="154.94" y="170.18"/>
 <instance part="GND25" gate="1" x="147.32" y="167.64"/>
 <instance part="SUPPLY4" gate="G$1" x="210.82" y="137.16"/>
 <instance part="IC1" gate="G$1" x="106.68" y="68.58"/>
@@ -13871,7 +13895,7 @@ Connect to MUX (open drain)</text>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
 <pinref part="BT1" gate="G$1" pin="-"/>
-<wire x1="157.48" y1="165.1" x2="157.48" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="172.72" x2="154.94" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RTC1" gate="G$1" pin="GND"/>
@@ -14150,9 +14174,9 @@ Connect to MUX (open drain)</text>
 <net name="N$31" class="0">
 <segment>
 <pinref part="RTC1" gate="G$1" pin="VBAT"/>
-<wire x1="144.78" y1="182.88" x2="157.48" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="182.88" x2="154.94" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="BT1" gate="G$1" pin="+"/>
-<junction x="157.48" y="182.88"/>
+<junction x="154.94" y="182.88"/>
 </segment>
 </net>
 <net name="RTC_INT" class="0">
