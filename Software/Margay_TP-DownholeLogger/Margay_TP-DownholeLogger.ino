@@ -14,7 +14,7 @@
 #include <avr/power.h>
 
 //////////////////////////////////USER DEFINE//////////////////////////////////
-const unsigned int LogInterval = 5; //Number of minutes between each logging event
+const unsigned int LogInterval = 900; //Number of minutes between each logging event
 //#define BARO //Uncomment this line if barometer is connected to logger
 
 // int Log_Interval_Seconds = 5; //Valid range is 0-59 seconds

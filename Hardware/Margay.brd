@@ -1406,10 +1406,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MF" value="Maxim" x="27.432" y="13.716" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="DS3231MZ+" x="27.432" y="13.716" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$1" library="bschulz" package="CRYSTAL_5X3.2_2-SMD" value="CRYSTAL_5X3.2_2LEAD" x="16.51" y="12.827" rot="R180">
-<attribute name="DIGIKEY" value="" x="16.51" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="16.51" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="16.51" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="U$1" library="bschulz" package="CRYSTAL_5X3.2_2-SMD" value="CRYSTAL8MHZ5X3.2" x="16.51" y="12.827" rot="R180">
+<attribute name="DIGIKEY" value="887-1740-1-ND" x="16.51" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="TXC" x="16.51" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="7A-8.000MAAE-T" x="16.51" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$15" library="bschulz" package="CLVBA-FKA" value="CLVBA-FKA" x="16.637" y="28.575" rot="R180">
 <attribute name="DIGIKEY" value="CLVBA-FKA-CAEDH8BBB7A363CT-ND" x="16.637" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
