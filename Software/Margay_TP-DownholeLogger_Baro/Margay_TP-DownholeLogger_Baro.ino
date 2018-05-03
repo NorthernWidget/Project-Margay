@@ -15,7 +15,7 @@
 
 //////////////////////////////////USER DEFINE//////////////////////////////////
 const unsigned int LogInterval = 900; //Number of seconds between each logging event
-//#define BARO //Uncomment this line if barometer is connected to logger
+#define BARO //Uncomment this line if barometer is connected to logger
 
 // int Log_Interval_Seconds = 5; //Valid range is 0-59 seconds
 // int Log_Interval_Minutes = 0; //Valid range is 0-59 minutes
