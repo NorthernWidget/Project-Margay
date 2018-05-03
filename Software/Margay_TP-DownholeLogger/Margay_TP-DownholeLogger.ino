@@ -14,7 +14,7 @@
 #include <avr/power.h>
 
 //////////////////////////////////USER DEFINE//////////////////////////////////
-const unsigned int LogInterval = 900; //Number of minutes between each logging event
+const unsigned int LogInterval = 60; //Number of seconds between each logging event
 //#define BARO //Uncomment this line if barometer is connected to logger
 
 // int Log_Interval_Seconds = 5; //Valid range is 0-59 seconds
@@ -132,15 +132,13 @@ void setup () {
 void loop() {
 
 	if(NewLog) {
-		pinMode(3, OUTPUT); //DEBUG!
-		digitalWrite(3, HIGH); //DEBUG!
 		LogEvent = true;
 		RTC.SetAlarm(LogInterval);
 		// SetAlarm(Log_Interval_Hours, Log_Interval_Minutes, Log_Interval_Seconds); //Setup alarm when log button is pressed
 		InitLogFile(); //Start a new file each time log button is pressed
 		// Log(); //Log a value at that instant as well as set up future logs
-		digitalWrite(3, LOW); //DEBUG!
 		NewLog = false;
+    Blink();
 	}
 
 	if(LogEvent) {
@@ -150,16 +148,29 @@ void loop() {
 		LogEvent = false; //Clear log flag
 	}
 
+//  Serial.println("AlarmTest"); //DEBUG!
 	if(!digitalRead(RTCInt)) {
+//    Serial.println("Reset Alarm"); //DEBUG!
+//    RTC.ClearAlarm(); //
 		RTC.SetAlarm(LogInterval); //Turn alarm back on 
 	}
 
 	AwakeCount++;
 
 	if(AwakeCount > 5) {
+//    AwakeCount = 0;
 		sleepNow();
 	}
 	delay(1);	
+}
+
+void Blink() {
+  for(int i = 0; i < 5; i++) {
+    digitalWrite(BlueLED, LOW);
+    delay(500);
+    digitalWrite(BlueLED, HIGH);
+    delay(500);
+  }
 }
 
 void I2CTest() {
@@ -380,11 +391,14 @@ void Init() {
   	attachInterrupt(digitalPinToInterrupt(RTCInt), Log, FALLING); //Attach an interrupt driven by the interrupt from RTC, logs data
   	attachInterrupt(digitalPinToInterrupt(LogInt), StartLog, FALLING);	//Attach an interrupt driven by the manual log button, sets logging flag and logs data
 
-  	RTC.Begin(); //Initalize RTC
+  RTC.Begin(); //Initalize RTC
 	RTC.ClearAlarm(); //
 	Downhole.reset();
 	Downhole.begin();
-
+  #if defined(BARO) 
+    Baro.reset();
+    Baro.begin();
+  #endif
 }
 
 void Update() {
@@ -596,10 +610,11 @@ void GetTPDownholeVals() {
   //Get pressure, get temp1, get temp2
   	adc.SetResolution(18);
 	Pressure[0] = Downhole.getPressure(ADC_4096);
+// Serial.println(Pressure[0]); //DEBUG!
 	Temp[0] = Downhole.getTemperature(CELSIUS, ADC_512);
 	float Vcc = 3.3;
 	float Val = Vcc - adc.GetVoltage();
-  	float TempData = TempConvert(Val, Vcc, 47000, A, B, C, D, 10000);
+  	float TempData = TempConvert(Val, Vcc, 47000.0, A, B, C, D, 10000.0);
   	Temp[1] = TempData - 273.15; //Get temp from on board thermistor 
 }
 
@@ -617,10 +632,11 @@ void GetOnBoardVals() {
   // Serial.println(Vcc); //DEBUG!
 
 
-  float Val = analogRead(ThermSense_Pin)*(Vcc/1024.0);
-  // float Vout = Vcc - Val;
-
-  float TempData = TempConvert(Val, Vcc, 10000, A, B, C, D, 10000);
+  float Val = float(analogRead(ThermSense_Pin))*(Vcc/1024.0);
+//  float Vout = Vcc - Val;
+//  Serial.println(Val); //DEBUG!
+//  Serial.println(Vout);  //DEBUG!
+  float TempData = TempConvert(Val, Vcc, 10000.0, A, B, C, D, 10000.0);
   Temp[2] = TempData - 273.15; //Get temp from on board thermistor 
 
   BatVoltage = analogRead(BatSense_Pin)*9.0*(Vcc/1024.0); //Get battery voltage, Include voltage divider in math
@@ -636,7 +652,9 @@ void StartLog() {
 }
 
 float TempConvert(float V, float Vcc, float R, float A, float B, float C, float D, float R25){
-  float Rt = (Vcc/V)*R - R;
+//  Serial.print("R = "); //DEBUG!
+//  Serial.println(R); //DEBUG!
+  float Rt = ((Vcc/V)*R) - R;
 //  Serial.print("Rt = "); //DEBUG!
 //  Serial.println(Rt); //DEBUG!
   float LogRt = log(Rt/R25);
@@ -698,7 +716,7 @@ void sleepNow()         // here we put the arduino to sleep
     sleep_disable();         // first thing after waking from sleep:
                              // disable sleep...
     // detachInterrupt(0);      // disables interrupt 0 on pin 2 so the
-    ADCSRA = 1; //Turn ADC back on
+//    ADCSRA = 1; //Turn ADC back on
     // digitalWrite(Ext3v3Ctrl, LOW); //turn external rail back on
     // digitalWrite(SD_CS, HIGH);
     // SPI.begin();
