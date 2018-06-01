@@ -160,7 +160,10 @@ void loop() {
 
       if(ReadString == "SN Set") {
         char Data[5] = {0};
-//        Serial.flush();
+        while(Serial.available() > 0) {
+          int x = Serial.read();
+        }
+//        Serial.flush(); 
         Serial.print("Enter Board Type... ");
         while(Serial.available() == 0);
         String DeviceIDStr = Serial.readString();
