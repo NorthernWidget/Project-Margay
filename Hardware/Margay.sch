@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9887,8 +9887,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="21"/>
@@ -11522,7 +11522,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+<technology name="0.1UF">
+<attribute name="DIGIKEY" value="399-14268-1-ND" constant="no"/>
+<attribute name="MF" value="KEMET" constant="no"/>
+<attribute name="MPN" value="C0402C104M4PAC7867" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0504" package="C0504">
@@ -13292,21 +13301,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <packages3d>
-<package3d name="SMT-JUMPER_3_1-NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39291/1" type="box" library_version="1">
-</package3d>
 <package3d name="SMT-JUMPER_3_1-NC_PASTE_SILK" urn="urn:adsk.eagle:package:39293/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_3_1-NC_PASTE_SILK"/>
+</packageinstances>
 </package3d>
 <package3d name="SMT-JUMPER_2_NC_PASTE_SILK" urn="urn:adsk.eagle:package:39282/1" type="box" library_version="1">
-</package3d>
-<package3d name="SMT-JUMPER_2_NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39283/1" type="box" library_version="1">
-</package3d>
-<package3d name="SMT-JUMPER_2_NO_NO-SILK" urn="urn:adsk.eagle:package:39277/1" type="box" library_version="1">
-</package3d>
-<package3d name="SMT-JUMPER_2_NO_NO-SILK_ROUND" urn="urn:adsk.eagle:package:39278/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NC_PASTE_SILK"/>
+</packageinstances>
 </package3d>
 <package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_3_1-NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39291/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_3_1-NC_PASTE_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39283/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NC_PASTE_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NO_NO-SILK" urn="urn:adsk.eagle:package:39277/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_NO-SILK"/>
+</packageinstances>
+</package3d>
+<package3d name="SMT-JUMPER_2_NO_NO-SILK_ROUND" urn="urn:adsk.eagle:package:39278/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_NO-SILK_ROUND"/>
+</packageinstances>
 </package3d>
 <package3d name="SMT-JUMPER_2_NO_SILK_ROUND" urn="urn:adsk.eagle:package:39280/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SMT-JUMPER_2_NO_SILK_ROUND"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
