@@ -1307,9 +1307,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" value="DMG3404" x="41.148" y="9.271" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="bschulz_passives" package="R0603" value="10k" x="32.131" y="10.033" rot="R90">
-<attribute name="DIGIKEY" value="311-10.0KHRCT-ND" x="32.131" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Yageo" x="32.131" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="32.131" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="P10.0KHCT-ND" x="32.131" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Panasonic" x="32.131" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1002V" x="32.131" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE_PART" value="10k" x="32.131" y="10.033" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R10" library="bschulz_passives" package="R0603" value="330" x="21.336" y="29.083">
@@ -1319,15 +1319,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE_PART" value="330" x="21.336" y="29.083" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R11" library="bschulz_passives" package="R0603" value="1.62M" x="10.16" y="19.558" rot="R90">
-<attribute name="DIGIKEY" value="RMCF0603FT1M62TR-ND" x="10.16" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="RMCF0603FT1M62CT-ND" x="10.16" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Stackpole" x="10.16" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RMCF0603FT1M62" x="10.16" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE_PART" value="1.62M" x="10.16" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R12" library="bschulz_passives" package="R0603" value="10k" x="41.275" y="11.811">
-<attribute name="DIGIKEY" value="311-10.0KHRCT-ND" x="41.275" y="11.811" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Yageo" x="41.275" y="11.811" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="41.275" y="11.811" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="P10.0KHCT-ND" x="41.275" y="11.811" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic" x="41.275" y="11.811" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1002V" x="41.275" y="11.811" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE_PART" value="10k" x="41.275" y="11.811" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R13" library="bschulz" package="R0603" value="10k" x="12.573" y="26.289" rot="R90">
@@ -1343,9 +1343,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE_PART" value="330" x="16.764" y="25.273" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R15" library="bschulz_passives" package="R0603" value="10k" x="8.509" y="1.397" rot="R180">
-<attribute name="DIGIKEY" value="311-10.0KHRCT-ND" x="8.509" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Yageo" x="8.509" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="8.509" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="P10.0KHCT-ND" x="8.509" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Panasonic" x="8.509" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1002V" x="8.509" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE_PART" value="10k" x="8.509" y="1.397" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="bschulz" package="R0603" value="330" x="30.48" y="22.352">
@@ -1395,14 +1395,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="RC0603FR-07330RL" x="21.336" y="25.019" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE_PART" value="330" x="21.336" y="25.019" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R8" library="bschulz" package="R0603" value="" x="8.128" y="19.558" rot="R90">
+<element name="R8" library="bschulz_passives" package="R0603" value="" x="8.128" y="19.558" rot="R90">
 <attribute name="DIGIKEY" value="P10KDBCT-ND " x="8.128" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Panasonic" x="8.128" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ERA-3AEB103V" x="8.128" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE_PART" value="" x="8.128" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE_PART" value="10k" x="8.128" y="19.558" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R9" library="bschulz_passives" package="R0603" value="1.62M" x="10.16" y="22.733" rot="R90">
-<attribute name="DIGIKEY" value="RMCF0603FT1M62TR-ND" x="10.16" y="22.733" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="RMCF0603FT1M62CT-ND" x="10.16" y="22.733" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Stackpole" x="10.16" y="22.733" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RMCF0603FT1M62" x="10.16" y="22.733" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE_PART" value="1.62M" x="10.16" y="22.733" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1492,9 +1492,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE_PART" value="180k" x="36.957" y="20.701" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R17" library="bschulz_passives" package="R0603" value="10k" x="39.497" y="19.304" rot="R90">
-<attribute name="DIGIKEY" value="311-10.0KHRCT-ND" x="39.497" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Yageo" x="39.497" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="39.497" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="P10.0KHCT-ND" x="39.497" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Panasonic" x="39.497" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1002V" x="39.497" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE_PART" value="10k" x="39.497" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$10" library="bschulz" package="DCK_R-PDSO-G5" value="TPS79733" x="34.163" y="17.145">

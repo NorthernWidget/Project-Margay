@@ -24,7 +24,7 @@ const uint8_t Ext3v3Ctrl = 12;
 const uint8_t ExtInt = 11;
 ////////////////////////////////////////LED//////////////////////////////////
 
-const uint8_t BuiltInLED = 19;
+const uint8_t BuiltInLED = 20;
 
 const uint8_t RED = 13;
 const uint8_t GREEN = 15;
@@ -47,6 +47,8 @@ void setup() {
   pinMode(9, LOW);
   pinMode(8, OUTPUT);
   pinMode(8, LOW);
+  pinMode(20, OUTPUT);
+  digitalWrite(20, HIGH);
   
   Serial.begin(38400);
   Serial.print("Loading...");
