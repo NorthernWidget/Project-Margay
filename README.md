@@ -66,3 +66,6 @@ Information on library instilation can be found on the [Arduino](https://www.ard
 
 
 The Northern Widget board definitions will also be required, the Margay board should be run using the "TLog v1" board defintion. Information on how to install and select a board definiton can be found in the Northern Widget Board Definitions [readme](https://github.com/NorthernWidget/Arduino_Boards)
+
+<br>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
