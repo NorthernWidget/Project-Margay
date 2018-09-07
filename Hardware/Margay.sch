@@ -289,10 +289,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="21"/>
 </package>
 <package name="SWITCH_4.2X3.2">
-<smd name="1" x="-2.075" y="1.4" dx="1.05" dy="0.8125" layer="1"/>
-<smd name="2" x="2.075" y="1.4" dx="1.05" dy="0.8125" layer="1"/>
-<smd name="4" x="2.075" y="-1.4" dx="1.05" dy="0.8125" layer="1"/>
-<smd name="3" x="-2.075" y="-1.4" dx="1.05" dy="0.8125" layer="1"/>
+<smd name="1" x="-2.075" y="1.075" dx="1.05" dy="0.65" layer="1"/>
+<smd name="2" x="2.075" y="1.075" dx="1.05" dy="0.65" layer="1"/>
+<smd name="4" x="2.075" y="-1.075" dx="1.05" dy="0.65" layer="1"/>
+<smd name="3" x="-2.075" y="-1.075" dx="1.05" dy="0.65" layer="1"/>
 <wire x1="-2.3" y1="1.6" x2="-2.3" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="-2.3" y1="-1.6" x2="2.3" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="2.3" y1="-1.6" x2="2.3" y2="1.6" width="0.127" layer="21"/>
@@ -5074,8 +5074,30 @@ NTC Thermistors:
 </devices>
 </deviceset>
 <deviceset name="TPS797*" prefix="U">
-<description>TPS797xx, Ultra low power linear voltage regulator, fixed voltages of 1.8v, 3v, 3.3v
-Input voltage rage of 1.8-5.5v</description>
+<description>&lt;b&gt;TPS797*&lt;/b&gt; - Ultra Low Power Low Dropout Linear Regulator
+ 
+&lt;p&gt;Characteristics:
+&lt;ul&gt;
+&lt;li&gt;Vin: 1.4V ~ 5.5V&lt;/li&gt;
+&lt;li&gt;Vout: 1.8, 2.85, 3.0, 3.3V fixed&lt;/il&gt;
+&lt;li&gt; I&lt;sub&gt;Q&lt;/sub&gt;: 1.2&amp;mu;A typ, 2&amp;mu;A max &lt;/li&gt;
+&lt;li&gt; Voltage Accuracy: 4% max &lt;/li&gt;
+&lt;li&gt; Dropout Voltage: 105mV @ 10mA &lt;/li&gt;
+&lt;li&gt; Output Current: 50 mA &lt;/li&gt;
+&lt;li&gt;Operating Temperature: -40°C to 85°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+ 
+&lt;p&gt;Digikey: &lt;br&gt;
+&lt;ul&gt;
+&lt;a href = "https://www.digikey.com/product-detail/en/texas-instruments/TPS79733DCKR/296-11990-1-ND/390520"&gt; TPS79733 (3.3V Fixed) &lt;/a&gt;&lt;br/&gt;
+
+&lt;a href = "https://www.digikey.com/product-detail/en/texas-instruments/TPS79730DCKR/296-11989-1-ND/390518"&gt; TPS79730 (3.0V Fixed) &lt;/a&gt;&lt;br/&gt;
+
+&lt;a href = "https://www.digikey.com/product-detail/en/texas-instruments/TPS797285DCKR/296-25465-1-ND/2187585"&gt; TPS797285 (2.85V Fixed) &lt;/a&gt;&lt;br/&gt;
+
+&lt;a href = "https://www.digikey.com/product-detail/en/texas-instruments/TPS79718DCKR/296-11988-1-ND/390516"&gt; TPS79718 (1.8V Fixed) &lt;/a&gt;&lt;br/&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="TPS797XX" x="0" y="0"/>
 </gates>
