@@ -43,10 +43,15 @@ boolean SD_Init = false;
 DS3231 Clock;
 
 void setup() {
+  pinMode(Ext3v3Ctrl, OUTPUT);
+  digitalWrite(Ext3v3Ctrl, LOW);
   pinMode(9, OUTPUT);
   pinMode(9, LOW);
   pinMode(8, OUTPUT);
   pinMode(8, LOW);
+
+  pinMode(19, OUTPUT);
+  digitalWrite(19,LOW); 
   pinMode(20, OUTPUT);
   digitalWrite(20, HIGH);
   
