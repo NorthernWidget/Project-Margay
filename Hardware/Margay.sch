@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -3574,7 +3574,7 @@ Switches electrical signals</description>
 <wire x1="-7.62" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-3.048" y="8.636" size="1.27" layer="95">MCP3425</text>
+<text x="-3.048" y="8.636" size="1.27" layer="95">&gt;DISP</text>
 </symbol>
 <symbol name="AVRISP">
 <wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
@@ -5199,8 +5199,8 @@ NTC Thermistors:
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP3425" prefix="U">
-<description>&lt;b&gt;MCP3425&lt;/b&gt; - Sigma Delta ADC
+<deviceset name="MCP342*" prefix="U">
+<description>&lt;b&gt;MCP342*&lt;/b&gt; - Sigma Delta ADC
  
 &lt;p&gt;Characteristics:
 &lt;ul&gt;
@@ -5208,11 +5208,26 @@ NTC Thermistors:
 &lt;li&gt;Operating Temperature: -40°C to 125°C&lt;/li&gt;
 &lt;li&gt;Number of Inputs: 1 (Differenital)&lt;/li&gt;
 &lt;li&gt;Sample Rate: 15 Samples Per Second &lt;/li&gt;
-&lt;li&gt;Number of Bits: 16 &lt;/li&gt;
+&lt;li&gt;Number of Bits: 16 (MCP3425), 18 (MCP3421) &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
  
-&lt;p&gt;Digikey: &lt;a href = "https://www.digikey.com/product-detail/en/microchip-technology/MCP3425A0T-E-CH/MCP3425A0T-E-CHCT-ND/1979810"&gt; MCP3425A0T-E/CHCT-ND &lt;/a&gt;&lt;br/&gt;
+&lt;p&gt;Digikey: &lt;br&gt;
+&lt;br&gt;
+MCP3421
+&lt;ul&gt;
+&lt;li&gt;&lt;a href = "https://www.digikey.com/product-detail/en/microchip-technology/MCP3425A0T-E-CH/MCP3425A0T-E-CHCT-ND/1979810"&gt; MCP3425A0T-E/CHCT-ND &lt;/a&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+MCP3425
+&lt;ul&gt;
+&lt;li&gt;&lt;a href = "https://www.digikey.com/product-detail/en/microchip-technology/MCP3421A0T-E-CH/MCP3421A0T-E-CHCT-ND/2183406"&gt; MCP3421A0T-E/CHCT-ND &lt;/a&gt;&lt;br/&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href = "https://www.digikey.com/product-detail/en/microchip-technology/MCP3421A1T-E-CH/MCP3421A1T-E-CHCT-ND/2183407"&gt; MCP3421A1T-E/CHCT-ND &lt;/a&gt;&lt;br/&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href = "https://www.digikey.com/product-detail/en/microchip-technology/MCP3421A3T-E-CH/MCP3421A3T-E-CHCT-ND/2183409"&gt; MCP3421A3T-E/CHCT-ND &lt;/a&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="MCP3425" x="0" y="2.54"/>
@@ -5229,7 +5244,32 @@ NTC Thermistors:
 </connects>
 <technologies>
 <technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DISP" value="" constant="no"/>
+<attribute name="MF" value="Microchip" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+<technology name="1A0">
+<attribute name="DIGIKEY" value="MCP3421A0T-E/CHCT-ND" constant="no"/>
+<attribute name="DISP" value="MCP3421" constant="no"/>
+<attribute name="MF" value="Microchip" constant="no"/>
+<attribute name="MPN" value="MCP3421A0T-E/CH" constant="no"/>
+</technology>
+<technology name="1A1">
+<attribute name="DIGIKEY" value="MCP3421A1T-E/CHCT-ND" constant="no"/>
+<attribute name="DISP" value="MCP3421" constant="no"/>
+<attribute name="MF" value="Microchip" constant="no"/>
+<attribute name="MPN" value="MCP3421A1T-E/CH" constant="no"/>
+</technology>
+<technology name="1A3">
+<attribute name="DIGIKEY" value="MCP3421A3T-E/CHCT-ND" constant="no"/>
+<attribute name="DISP" value="MCP3421" constant="no"/>
+<attribute name="MF" value="Microchip" constant="no"/>
+<attribute name="MPN" value="MCP3421A3T-E/CH" constant="no"/>
+</technology>
+<technology name="5">
 <attribute name="DIGIKEY" value="MCP3425A0T-E/CHCT-ND" constant="no"/>
+<attribute name="DISP" value="MCP3425" constant="no"/>
 <attribute name="MF" value="Microchip" constant="no"/>
 <attribute name="MPN" value="MCP3425A0T-E/CH" constant="no"/>
 </technology>
@@ -11276,8 +11316,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY49" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U2" library="bschulz" deviceset="FT231X" device="-Q"/>
 <part name="U$14" library="MyPOW" deviceset="VUSB" device=""/>
-<part name="D-" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="27" value="27ohm"/>
-<part name="D+" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="27" value="27ohm"/>
+<part name="D-" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="27" value="27"/>
+<part name="D+" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="27" value="27"/>
 <part name="C14" library="bschulz_passives" deviceset="C-EU" device="C0603" technology="0.1UF" value="0.1uF"/>
 <part name="SUPPLY43" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="CX2" library="bschulz_passives" deviceset="C-EU" device="C0603" technology="12PF" value="12pF"/>
@@ -11355,7 +11395,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C3" library="bschulz_passives" deviceset="C-EU" device="C0603" technology="0.1UF" value="0.1uF"/>
 <part name="C4" library="bschulz_passives" deviceset="C-EU" device="C0603" technology="0.1UF" value="0.1uF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$8" library="bschulz" deviceset="MCP3425" device=""/>
+<part name="U$8" library="bschulz" deviceset="MCP342*" device="" technology="1A1" value="MCP3421A1"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ISP2" library="bschulz" deviceset="AVRISP" device="-6">
 <attribute name="DIGIKEY" value="609-3234-ND"/>
@@ -11410,19 +11450,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="157.48" y="35.56" size="1.778" layer="91">Pin 12</text>
-<text x="152.4" y="111.76" size="1.778" layer="91">Pin A7</text>
-<text x="152.4" y="109.22" size="1.778" layer="91">Pin A6</text>
-<text x="152.4" y="106.68" size="1.778" layer="91">Pin A5</text>
-<text x="152.4" y="104.14" size="1.778" layer="91">Pin A4</text>
-<text x="152.4" y="43.18" size="1.778" layer="91">Pin 15</text>
-<text x="129.54" y="15.24" size="1.778" layer="91">NOTE: Add LEDs to TX and RX lines? </text>
+<text x="162.56" y="111.76" size="1.778" layer="91">Pin A7</text>
+<text x="162.56" y="109.22" size="1.778" layer="91">Pin A6</text>
+<text x="162.56" y="106.68" size="1.778" layer="91">Pin A5</text>
+<text x="162.56" y="104.14" size="1.778" layer="91">Pin A4</text>
+<text x="157.48" y="43.18" size="1.778" layer="91">Pin 15</text>
 <text x="251.46" y="195.58" size="1.778" layer="97">USB &amp; ISP</text>
 <text x="175.26" y="66.04" size="1.778" layer="91">Pin 23</text>
-<text x="152.4" y="101.6" size="1.778" layer="91">Pin A3</text>
+<text x="162.56" y="101.6" size="1.778" layer="91">Pin A3</text>
 <text x="157.48" y="78.74" size="1.778" layer="91">Also ext PWM</text>
 <text x="175.26" y="55.88" size="1.778" layer="91">Pin 19</text>
-<text x="152.4" y="40.64" size="1.778" layer="91">Pin 14</text>
-<text x="152.4" y="38.1" size="1.778" layer="91">Pin 13</text>
+<text x="157.48" y="40.64" size="1.778" layer="91">Pin 14</text>
+<text x="157.48" y="38.1" size="1.778" layer="91">Pin 13</text>
 <text x="175.26" y="78.74" size="1.778" layer="91">Pin 3</text>
 <text x="175.26" y="76.2" size="1.778" layer="91">Pin 2</text>
 <text x="175.26" y="73.66" size="1.778" layer="91">Pin 1</text>
@@ -11430,9 +11469,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="162.56" y="93.98" size="1.778" layer="91">Pin A0</text>
 <text x="162.56" y="96.52" size="1.778" layer="91">Pin A1</text>
 <text x="162.56" y="99.06" size="1.778" layer="91">Pin A2</text>
-<text x="208.28" y="195.58" size="1.778" layer="91">Connect to FTDI isolated 3v3 line</text>
 <text x="175.26" y="58.42" size="1.778" layer="91">Pin 20</text>
 <text x="10.16" y="200.66" size="5.08" layer="91" ratio="15">Digital Core</text>
+<text x="157.48" y="33.02" size="1.778" layer="91">Pin 11</text>
+<text x="157.48" y="30.48" size="1.778" layer="91">Pin 10</text>
+<text x="157.48" y="27.94" size="1.778" layer="91">Pin 9</text>
+<text x="157.48" y="25.4" size="1.778" layer="91">Pin 8</text>
+<text x="175.26" y="48.26" size="1.778" layer="91">Pin 16</text>
+<text x="175.26" y="50.8" size="1.778" layer="91">Pin 17</text>
+<text x="175.26" y="53.34" size="1.778" layer="91">Pin 18</text>
+<text x="175.26" y="60.96" size="1.778" layer="91">Pin 21</text>
+<text x="175.26" y="63.5" size="1.778" layer="91">Pin 22</text>
+<text x="175.26" y="71.12" size="1.778" layer="91">Pin 0</text>
+<text x="175.26" y="83.82" size="1.778" layer="91">Pin 5</text>
+<text x="175.26" y="86.36" size="1.778" layer="91">Pin 6</text>
+<text x="175.26" y="88.9" size="1.778" layer="91">Pin 7</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="106.68" y="68.58"/>
@@ -11448,10 +11499,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="U$9" gate="G$1" x="50.8" y="99.06"/>
 <instance part="GND20" gate="1" x="45.72" y="88.9"/>
-<instance part="C25" gate="G$1" x="63.5" y="88.9" rot="R90">
+<instance part="C25" gate="G$1" x="63.5" y="88.9" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" x="63.5" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="63.5" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="63.5" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="59.182" y="86.487" size="1.778" layer="95"/>
+<attribute name="VALUE" x="66.294" y="86.487" size="1.778" layer="96"/>
 </instance>
 <instance part="GND39" gate="1" x="58.42" y="83.82"/>
 <instance part="C17" gate="G$1" x="121.92" y="132.08"/>
@@ -11494,15 +11547,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" x="236.22" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U$16" gate="G$1" x="228.092" y="132.334" rot="MR90"/>
-<instance part="C5" gate="G$1" x="63.5" y="93.98" rot="R90">
+<instance part="C5" gate="G$1" x="63.5" y="93.98" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" x="63.5" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="63.5" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="63.5" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="59.436" y="94.361" size="1.778" layer="95"/>
+<attribute name="VALUE" x="66.294" y="94.615" size="1.778" layer="96"/>
 </instance>
 <instance part="C6" gate="G$1" x="58.42" y="109.22" rot="R90"/>
 <instance part="U$20" gate="G$1" x="142.24" y="193.04"/>
 <instance part="U$3" gate="G$1" x="71.12" y="175.26" rot="R90"/>
-<instance part="R2" gate="G$1" x="152.4" y="58.42"/>
+<instance part="R2" gate="G$1" x="152.4" y="58.42" smashed="yes">
+<attribute name="NAME" x="148.59" y="59.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="153.67" y="59.944" size="1.778" layer="96"/>
+</instance>
 <instance part="R15" gate="G$1" x="43.18" y="165.1" rot="R90"/>
 <instance part="GND8" gate="1" x="53.34" y="144.78"/>
 <instance part="U$17" gate="G$1" x="78.74" y="132.08"/>
@@ -11745,7 +11803,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="66.04" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <junction x="66.04" y="99.06"/>
 <junction x="73.66" y="99.06"/>
-<label x="76.2" y="99.06" size="1.778" layer="95" rot="R180"/>
+<label x="76.2" y="98.044" size="1.778" layer="95" rot="R180"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
@@ -12123,15 +12181,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="30.48" y="101.6" size="1.778" layer="91">I2C Breakout</text>
 <text x="30.48" y="78.74" size="1.778" layer="91">SPI Breakout</text>
-<text x="96.52" y="81.28" size="1.778" layer="91">Check polarity!</text>
 <text x="154.94" y="104.14" size="1.778" layer="91">Jump auxillary power rails together, reduces brownout protection</text>
 <text x="154.94" y="93.98" size="1.778" layer="91">Jump SDA channels together, prevents using occupied addresses on the external I2C port</text>
 <text x="43.18" y="160.02" size="1.778" layer="91">Indicators</text>
-<text x="33.02" y="111.76" size="1.778" layer="91">NOTE:
-Connect to MUX (open drain)</text>
 <text x="109.22" y="154.94" size="1.778" layer="91">ICSP</text>
-<text x="152.4" y="149.86" size="1.778" layer="91">Switch internal SDA line to isolate MCP3425 and to prevent general conflicts!</text>
-<text x="152.4" y="144.78" size="1.778" layer="91">Provide jumper for SDA switch and power switch</text>
 <text x="10.16" y="200.66" size="5.08" layer="91" ratio="15">Connectors, Indicators, Switching</text>
 </plain>
 <instances>
@@ -12455,13 +12508,8 @@ Connect to MUX (open drain)</text>
 </sheet>
 <sheet>
 <plain>
-<text x="20.32" y="165.1" size="1.778" layer="91">Reverse Polarity Protection</text>
-<text x="53.34" y="20.32" size="1.778" layer="91">Make ext 3v3</text>
-<text x="20.32" y="43.18" size="1.778" layer="91">Make switched Bat</text>
-<text x="35.56" y="60.96" size="1.778" layer="91">Make switched Bat</text>
+<text x="15.24" y="190.5" size="1.778" layer="91">Reverse Polarity Protection</text>
 <text x="12.7" y="200.66" size="5.08" layer="91" ratio="15">Power</text>
-<text x="248.92" y="147.32" size="1.778" layer="91">add voltage divider??</text>
-<text x="228.6" y="190.5" size="1.778" layer="91">Make switched bat</text>
 <text x="165.1" y="200.66" size="5.08" layer="91" ratio="15">Sensor Peripherals</text>
 <wire x1="139.7" y1="212.09" x2="139.7" y2="0" width="0.1524" layer="94" style="shortdash"/>
 </plain>
@@ -12483,17 +12531,17 @@ Connect to MUX (open drain)</text>
 <instance part="Q2" gate="NMOS" x="35.56" y="177.8" smashed="yes" rot="MR270">
 <attribute name="NAME" x="35.56" y="172.72" size="1.778" layer="95" font="vector" rot="MR270"/>
 </instance>
-<instance part="Q3" gate="NMOS" x="66.04" y="121.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="72.39" y="121.92" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="73.914" y="126.238" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="Q3" gate="NMOS" x="71.12" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="77.47" y="121.92" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="78.994" y="126.238" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="Q4" gate="G$1" x="38.1" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.148" y="131.064" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="33.274" y="126.492" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R16" gate="G$1" x="27.94" y="134.62" rot="R90"/>
-<instance part="R17" gate="G$1" x="78.74" y="119.38" rot="R90"/>
-<instance part="GND11" gate="1" x="71.12" y="111.76"/>
+<instance part="R17" gate="G$1" x="83.82" y="119.38" rot="R90"/>
+<instance part="GND11" gate="1" x="76.2" y="111.76"/>
 <instance part="U$10" gate="G$1" x="63.5" y="162.56"/>
 <instance part="C7" gate="G$1" x="45.72" y="160.02"/>
 <instance part="C9" gate="G$1" x="83.82" y="160.02"/>
@@ -12583,12 +12631,12 @@ Connect to MUX (open drain)</text>
 </segment>
 <segment>
 <pinref part="Q3" gate="NMOS" pin="S"/>
-<wire x1="63.5" y1="116.84" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="116.84" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="114.3" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="71.12" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
-<junction x="71.12" y="114.3"/>
+<wire x1="76.2" y1="114.3" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
+<junction x="76.2" y="114.3"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -12668,13 +12716,13 @@ Connect to MUX (open drain)</text>
 <net name="VUSB" class="0">
 <segment>
 <pinref part="Q3" gate="NMOS" pin="G"/>
-<wire x1="71.12" y1="119.38" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="119.38" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="119.38" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
-<junction x="78.74" y="124.46"/>
-<label x="83.82" y="124.46" size="1.778" layer="95" xref="yes"/>
+<wire x1="83.82" y1="124.46" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
+<junction x="83.82" y="124.46"/>
+<label x="88.9" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12755,8 +12803,8 @@ Connect to MUX (open drain)</text>
 <pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="35.56" y1="139.7" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="NMOS" pin="D"/>
-<wire x1="63.5" y1="127" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="127" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <junction x="35.56" y="139.7"/>
 </segment>
 </net>
