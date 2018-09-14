@@ -1,0 +1,15 @@
+* C:\Users\You\Documents\Project-Margay\Hardware\Simulation\Draft4.asc
+M1 N003 N001 N002 N002 FDC638P
+R1 N002 0 1Meg
+R2 N001 N002 180k
+M2 N001 N004 0 0 2N7002
+R3 N004 0 10k
+V3 N002 0 3.3
+R4 N003 0 10Meg
+R5 N004 0 10Meg
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\You\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 10e-3
+.backanno
+.end
