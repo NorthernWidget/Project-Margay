@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9274,7 +9274,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q3" library="bschulz" deviceset="MOSFET-NCH" device="-2N7002PW" value="2N7002"/>
 <part name="Q4" library="bschulz" deviceset="MOSFET_PCH" device="-FDN360P" value="FDN360P"/>
 <part name="R16" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="180K" value="180k"/>
-<part name="R17" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="330" value="10k"/>
+<part name="R17" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k"/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C7" library="bschulz_passives" deviceset="C-EU" device="C0603" technology="1UF" value="1uF"/>
 <part name="C9" library="bschulz_passives" deviceset="C-EU" device="C0805" technology="10UF" value="10uF"/>
@@ -9868,6 +9868,7 @@ SDA Ctrl</text>
 <segment>
 <wire x1="132.08" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
 <label x="137.16" y="58.42" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="(PCINT20/TDO)PC4"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
