@@ -6,22 +6,22 @@ This includes a description of the PCB and component functionality
 
 ## Features:
 * ATMega644P Processor
-* Single channel 16 bit ADC
+* Single channel 18 bit ADC
 * On board full size SD card (for ease of field use)
-* Less than 1mA sleep current (with future improvement to < 15uA)
+* Extremely low sleep current (< 1mA Mrk 0.0, 2.5uA Mrk 1.0)
 * Input voltage range, 3.3v ~ 5.5v
 * Supply up to 50mA of current at 3.3v on switched output rail
 * 0.1" Pitch headers can be populated with header pins and placed on a breadboard for prototyping 
 
 ### IO:
-* 1 ADC 18 Bit (Not present of alpha models)
+* 1 ADC 18 Bit (Not present on Mrk 0.0 ALPHA)
 * 1 I2C Bus
-* 1 SPI Bus, with up to 2 CS pins
+* 1 SPI Bus (<= Mrk 1.0), with up to 2 CS pins
 * 1 PWM Channel (output configurable to 3.3v or VBat via a jumper on bottom of board)
 * RGB Status LED
 * Auxiliary LED
 * Reset Button
-* Reconcilable Button
+* Reconfigurable Button
 
 ### Pinout:
 Pinout is listed on bottom of board, and shown below for Mrk. 0.0
@@ -73,8 +73,9 @@ Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Function
 `LogInt` | D2 | D2 | Interrupt (`INT2`) connected to **LOG** button, active low 
 
 
-
 # Software
+
+## Using Northern Widget Software
 This includes a usage guide to demo software which is provided to both test the hardware features of the board in general (the MargayHardwareTest file), and to set the device up as a logger using a [TP-Downhole](https://github.com/NorthernWidget/TP-DownHole) device as a sensor which runs on I2C. This logger demo tests all hardware on the board and ensures all required systems are connected and indicates the result of these tests using the Status LED on startup. A green light indicated all systems check out, and the device is ready to log, otherwise a red light indicates there is a problem, it is recommended to open up a serial monitor to determine which system is failing. If a green light is indicated, when the system is ready to log, logging is initiated by pressing the log button, which makes an initial log and starts a sequence of logs which will continue to occur every 15 minutes (by default) of by a different user defined time. In between logging events, the system is put to sleep to save power. Each time the log button is pressed, a new SD card file is created named "Logx.txt" where x increments with each button press, and each one of these individual files is initiated with a header to inform the user of the data columns used by the CSV type file.
 
 To use this software the following libraries must be installed in the Arduino IDE:
@@ -83,10 +84,31 @@ To use this software the following libraries must be installed in the Arduino ID
 * [MCP3421](https://github.com/NorthernWidget/MCP3421)
 * [MS5803](https://github.com/NorthernWidget/MS5803)
 
-Information on library instilation can be found on the [Arduino](https://www.arduino.cc/en/Guide/Libraries) site, the "Manual" instillation method should be used to ensure success 
+Information on library instillation can be found on the [Arduino](https://www.arduino.cc/en/Guide/Libraries) site, the "Manual" instillation method should be used to ensure success 
 
 
 The Northern Widget board definitions will also be required, the Margay board should be run using the "TLog v1" board definition. Information on how to install and select a board definition can be found in the Northern Widget Board Definitions [readme](https://github.com/NorthernWidget/Arduino_Boards)
+
+## Using Custom Software (Developer)
+As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for instillation and use are provided on the MightyCore GitHub page. 
+
+For the Margay (any model), the recommended settings are as follows:
+
+Setting | Value
+--------|------
+`Board` | `ATmega644`
+`Pinout` | `Standard`
+`Clock` | `8MHz External`
+`Compiler LTO` | `Disabled`
+`Variant` | `644P/644PA`
+`BOD` | `2.7v`
+
+# Developer Notes
+
++ (**<= Mrk 1.0**) When using power from the external rail (the 3v3 on the screw terminals) it is always advised to have a battery connected to the board, even if connected via USB. The USB connection is able to power the core components, but not the external rail. We know this is annoying, but fear not, the Northern Widget team is [working tirelessly](https://i.imgur.com/Kx97N0l.gifv) to fix this for the Mrk 2.0! 
++ (**<= Mrk 1.0**) When using I<sup>2</sup>C on the device, external pullups (4.7k Omega; ~ 10k Omega;) are required. If using device strictly onboard the internal pullups on the ATMEGA seem sufficient, but if you add capacitance of a cable attaching to an external sensor, etc, this is often too much, since the internal pullups are very weak. This is also being fixed in the Mrk 2.0 version with dedicated switchable on board pullups. 
++ (**All models**) The external power rails and the switched battery rail should be enabled in hardware by default, however, it is our recommendation to explicitly define these pins (`Ext3v3Ctrl`) as outputs and drive them `LOW` even if you never intend to switch them on and off. This prevents the rails from inadvertently being turned off due to a transient on the floating control line. 
+
 
 <br>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
