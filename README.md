@@ -6,6 +6,7 @@ This includes a description of the PCB and component functionality
 
 ## Features:
 * ATMega644P Processor
+* 3.3v Logic
 * On board full size SD card (for ease of field use)
 * Extremely low sleep current 
 * Input voltage designed for use with easy to find alkaline batteries 
