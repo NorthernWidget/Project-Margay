@@ -6,17 +6,53 @@ This includes a description of the PCB and component functionality
 
 ## Features:
 * ATMega644P Processor
-* Single channel 18 bit ADC
 * On board full size SD card (for ease of field use)
-* Extremely low sleep current (< 1mA Mrk 0.0, 2.5uA Mrk 1.0)
-* Input voltage range, 3.3v ~ 5.5v
-* Supply up to 50mA of current at 3.3v on switched output rail
+* Extremely low sleep current 
+* Input voltage designed for use with easy to find alkaline batteries 
 * 0.1" Pitch headers can be populated with header pins and placed on a breadboard for prototyping 
 
-### IO:
-* 1 ADC 18 Bit (Not present on Mrk 0.0 ALPHA)
+### v0.0 (Retired)
+**Features** <br>
+I<sub>Q</sub> = 1.6mA <br>
+I<sub>out</sub> = 50mA, max (Regulated power supplied to sensors) <br>
+V<sub>in</sub> = 3.3 ~ 5.5v <br>
+
+**IO**:
 * 1 I2C Bus
-* 1 SPI Bus (<= Mrk 1.0), with up to 2 CS pins
+* 1 SPI Bus, with up to 2 CS pins
+* 1 PWM Channel (output configurable to 3.3v or VBat via a jumper on bottom of board)
+* RGB Status LED
+* Auxiliary LED
+* Reset Button
+* Reconfigurable Button
+
+### v1.0 
+**Features** <br>
+I<sub>Q</sub> = 2.5&mu;A <br>
+I<sub>out</sub> = 50mA, max (Regulated power supplied to sensors) <br>
+V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
+
+**IO**
+* 1 ADC, 18 bit
+* 1 I<sup>2</sup>C Bus
+* 1 SPI Bus, with up to 2 CS pins
+* 1 PWM Channel (output configurable to 3.3v or VBat via a jumper on bottom of board)
+* RGB Status LED
+* Auxiliary LED
+* Reset Button
+* Reconfigurable Button
+
+### v2.0 (In development)
+**Features** <br>
+I<sub>Q</sub> = <2.5&mu;A (Estimated) <br>
+I<sub>out</sub> = 200mA, max (Regulated power supplied to sensors) <br>
+V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
+
+**IO**
+* 1 ADC, 18 bit
+* 1 I<sup>2</sup>C Bus
+* 1 UART Channel 
+* 2 GPIO Pins (one configurable as an 8 bit ADC)
 * 1 PWM Channel (output configurable to 3.3v or VBat via a jumper on bottom of board)
 * RGB Status LED
 * Auxiliary LED
