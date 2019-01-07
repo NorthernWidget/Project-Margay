@@ -2430,7 +2430,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="8.632" y1="16.252" x2="7.721" y2="16.252" width="0.2" layer="1"/>
 <wire x1="9.565" y1="17.185" x2="8.632" y2="16.252" width="0.2" layer="1"/>
 </signal>
-<signal name="N$31">
+<signal name="RTC_BAT+">
 <contactref element="RTC1" pad="6"/>
 <contactref element="BT1" pad="POWER0"/>
 <contactref element="BT1" pad="POWER1"/>
@@ -3557,6 +3557,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="4,16,0c816b31a9b34dbf"/>
 <approved hash="19,1,cfb3964d8bb53f44"/>
 <approved hash="19,1,760a340bddf372fd"/>
+<approved hash="21,19,4df34ff34ff34df3"/>
 </errors>
 </board>
 </drawing>
