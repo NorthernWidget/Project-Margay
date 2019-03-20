@@ -1761,6 +1761,33 @@ Holes are offset 0.005" to hold pins in place while soldering.
 <rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
 <rectangle x1="11.176" y1="-0.254" x2="11.684" y2="0.254" layer="51"/>
 </package>
+<package name="YFP0004">
+<description>DSBGA 0.4mm x 0.4mm 0.75 x 0.75 body</description>
+<smd name="A1" x="-0.2" y="0.2" dx="0.23" dy="0.23" layer="1" roundness="100"/>
+<smd name="B1" x="-0.2" y="-0.2" dx="0.23" dy="0.23" layer="1" roundness="100"/>
+<smd name="B2" x="0.2" y="-0.2" dx="0.23" dy="0.23" layer="1" roundness="100"/>
+<smd name="A2" x="0.2" y="0.2" dx="0.23" dy="0.23" layer="1" roundness="100"/>
+<wire x1="-0.4" y1="0.4" x2="0.4" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.4" y1="0.4" x2="0.4" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.4" x2="-0.4" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-0.4" x2="-0.4" y2="0.4" width="0.127" layer="21"/>
+<circle x="-0.635" y="0.635" radius="0.127" width="0.127" layer="21"/>
+</package>
+<package name="DPF0006A">
+<smd name="1" x="-0.525" y="0.35" dx="0.15" dy="0.35" layer="1" rot="R90"/>
+<smd name="2" x="-0.525" y="0" dx="0.15" dy="0.35" layer="1" rot="R90"/>
+<smd name="3" x="-0.525" y="-0.35" dx="0.15" dy="0.35" layer="1" rot="R90"/>
+<smd name="4" x="0.525" y="-0.35" dx="0.15" dy="0.35" layer="1" rot="R90"/>
+<smd name="5" x="0.525" y="0" dx="0.15" dy="0.35" layer="1" rot="R90"/>
+<smd name="6" x="0.525" y="0.35" dx="0.15" dy="0.35" layer="1" rot="R90"/>
+<wire x1="-0.5334" y1="-0.5334" x2="-0.5334" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="0.5334" y1="-0.5334" x2="0.5334" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-0.5334" y1="0.5334" x2="0.5334" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-0.5334" y1="-0.5334" x2="0.5334" y2="-0.5334" width="0.1524" layer="51"/>
+<wire x1="-0.5842" y1="0.6858" x2="-0.7874" y2="0.6858" width="0.0508" layer="51" curve="-180"/>
+<wire x1="-0.7874" y1="0.6858" x2="-0.5842" y2="0.6858" width="0.0508" layer="51" curve="-180"/>
+<text x="0" y="-1.016" size="0.6096" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL_SF">
@@ -2310,6 +2337,31 @@ http://creativecommons.org/licenses/by-sa/4.0/</text>
 <pin name="8" x="10.16" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="9" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="10" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="TLV3691">
+<pin name="IN+" x="-12.7" y="2.54" length="middle" direction="in"/>
+<pin name="IN-" x="-12.7" y="0" length="middle" direction="in"/>
+<pin name="OUT" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+<pin name="VCC" x="-12.7" y="7.62" length="middle" direction="pwr"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="0" y="11.43" size="1.27" layer="96" ratio="15" align="center">TLV3691</text>
+<text x="0" y="-9.144" size="1.27" layer="95" ratio="15" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="TPS22916">
+<pin name="VIN" x="-12.7" y="2.54" length="middle" direction="pwr"/>
+<pin name="EN" x="-12.7" y="-2.54" length="middle" direction="in"/>
+<pin name="VOUT" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="12.7" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="6.604" size="1.778" layer="95" ratio="15" align="center">TPS22916</text>
+<text x="0" y="-6.604" size="1.778" layer="95" ratio="15" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3823,6 +3875,99 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <attribute name="MF" value="On Shore" constant="no"/>
 <attribute name="MPN" value="OSTVN10A150" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV3691" prefix="U">
+<description>&lt;b&gt;TLV3691&lt;/b&gt; - Nanopower Analog Comparator 
+ 
+&lt;p&gt;Characteristics:
+&lt;ul&gt;
+&lt;li&gt;Vin: 0.9V ~ 6.5V (&amp;plusmn; 0.45V ~ &amp;plusmn; 3.25V)&lt;/li&gt;
+&lt;li&gt;Response Time: 24us&lt;/li&gt;
+&lt;li&gt;Push-Pull Output&lt;/li&gt;
+&lt;li&gt;I&lt;sub&gt;Q&lt;/sub&gt;: 75nA&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -40°C to 125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+ 
+&lt;p&gt;Digikey: &lt;br&gt;
+&lt;ul&gt;
+&lt;a href = "https://www.digikey.com/products/en/integrated-circuits-ics/linear-comparators/692?k=TLV3691&amp;k=&amp;pkeyword=TLV3691&amp;sv=0&amp;pv7=2&amp;sf=0&amp;FV=142c0371%2Cffe002b4&amp;quantity=&amp;ColumnSort=1000011&amp;page=1&amp;stock=1&amp;pageSize=25"&gt; 296-37910-1-ND (DCK)&lt;/a&gt;&lt;br/&gt; 
+
+&lt;a href = "https://www.digikey.com/product-detail/en/texas-instruments/TLV3691IDPFR/296-37242-6-ND/4695352"&gt; 296-37242-6-ND (DPF)&lt;/a&gt;&lt;br/&gt; 
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TLV3691" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DCK" package="DCK_R-PDSO-G5">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN+" pad="1"/>
+<connect gate="G$1" pin="IN-" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="296-37910-1-ND" constant="no"/>
+<attribute name="MF" value="TI" constant="no"/>
+<attribute name="MPN" value="TLV3691IDCKR" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DPF" package="DPF0006A">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN+" pad="1"/>
+<connect gate="G$1" pin="IN-" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="296-37242-6-ND" constant="no"/>
+<attribute name="MF" value="TI" constant="no"/>
+<attribute name="MPN" value="TLV3691IDPFR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS22916">
+<description>&lt;b&gt;TPS22916&lt;/b&gt; - Ultra Low Leakage Load Switch
+
+&lt;p&gt;Characteristics:
+&lt;ul&gt;
+&lt;li&gt;Vin: 1v ~ 5.5v&lt;/li&gt;
+&lt;li&gt; I&lt;sub&gt;Q&lt;/sub&gt;: 10nA (OFF), 0.5&amp;mu;A (ON) &lt;/li&gt;
+&lt;li&gt;R&lt;sub&gt;DS(ON)&lt;/sub&gt;: 60m&amp;Omega; (Vin = 5v), 100m&amp;Omega; (Vin = 1.8v)&lt;/li&gt;
+&lt;li&gt; Output Current: 2A&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -40°C to 125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+ 
+&lt;p&gt;Digikey: &lt;br&gt;
+&lt;ul&gt;
+&lt;a href = "https://www.digikey.com/product-detail/en/texas-instruments/TPS22916CYFPT/296-47464-1-ND/7896953"&gt; 296-47464-1-ND (TPS22916CYFPT) &lt;/a&gt;&lt;br/&gt;
+
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS22916" x="0" y="0"/>
+</gates>
+<devices>
+<device name="YFP" package="YFP0004">
+<connects>
+<connect gate="G$1" pin="EN" pad="B2"/>
+<connect gate="G$1" pin="GND" pad="B1"/>
+<connect gate="G$1" pin="VIN" pad="A2"/>
+<connect gate="G$1" pin="VOUT" pad="A1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -9440,6 +9585,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J6" library="bschulz" deviceset="CONN_10" device="2.54_SCREW"/>
 <part name="J7" library="bschulz" deviceset="CONN_6" device="SCREW_2.54"/>
+<part name="U4" library="bschulz" deviceset="TLV3691" device="DPF" value="TLV3691DPF"/>
+<part name="U$4" library="bschulz" deviceset="TPS22916" device="YFP"/>
 </parts>
 <sheets>
 <sheet>
@@ -10747,8 +10894,8 @@ SDA Ctrl</text>
 <text x="215.9" y="190.5" size="1.778" layer="91">NOTE: Reduce resistance?? Add capacitor in parellel </text>
 </plain>
 <instances>
-<instance part="JP1" gate="G$1" x="43.18" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="40.64" y="45.339" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="JP1" gate="G$1" x="45.72" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.18" y="40.259" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="U$6" gate="G$1" x="63.5" y="185.42" smashed="yes"/>
 <instance part="C1" gate="G$1" x="45.72" y="182.88" smashed="yes">
@@ -10900,9 +11047,15 @@ SDA Ctrl</text>
 <attribute name="NAME" x="250.444" y="58.801" size="1.778" layer="95"/>
 <attribute name="VALUE" x="250.444" y="53.721" size="1.778" layer="96"/>
 </instance>
-<instance part="U$10" gate="G$1" x="71.12" y="43.18" smashed="yes"/>
-<instance part="GND15" gate="1" x="86.36" y="35.56" smashed="yes">
-<attribute name="VALUE" x="83.82" y="33.02" size="1.778" layer="96"/>
+<instance part="U$10" gate="G$1" x="73.66" y="38.1" smashed="yes"/>
+<instance part="GND15" gate="1" x="88.9" y="30.48" smashed="yes">
+<attribute name="VALUE" x="86.36" y="27.94" size="1.778" layer="96"/>
+</instance>
+<instance part="U4" gate="G$1" x="66.04" y="58.42" smashed="yes">
+<attribute name="NAME" x="66.04" y="49.276" size="1.27" layer="95" ratio="15" align="center"/>
+</instance>
+<instance part="U$4" gate="G$1" x="66.04" y="99.06" smashed="yes">
+<attribute name="NAME" x="66.04" y="92.456" size="1.778" layer="95" ratio="15" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -10927,6 +11080,11 @@ SDA Ctrl</text>
 <wire x1="27.94" y1="129.54" x2="22.86" y2="129.54" width="0.1524" layer="91"/>
 <junction x="27.94" y="129.54"/>
 <label x="22.86" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="VCC"/>
+<wire x1="53.34" y1="66.04" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
+<label x="48.26" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11043,9 +11201,19 @@ SDA Ctrl</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GND"/>
-<wire x1="83.82" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="86.36" y1="40.64" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="35.56" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="GND"/>
+<wire x1="53.34" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
+<label x="48.26" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+<wire x1="78.74" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<label x="83.82" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -11080,24 +11248,23 @@ SDA Ctrl</text>
 <label x="27.94" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$18" gate="G$1" pin="IN1"/>
-<label x="45.72" y="86.36" size="1.778" layer="95"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="VIN"/>
+<wire x1="53.34" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
+<label x="48.26" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VSWITCH_CTRL" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="EN"/>
-<wire x1="58.42" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
-<label x="40.64" y="40.64" size="1.778" layer="95"/>
+<wire x1="60.96" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
+<label x="43.18" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VSWITCH" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="VOUT"/>
-<wire x1="83.82" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
-<label x="86.36" y="45.72" size="1.778" layer="95"/>
+<wire x1="86.36" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
+<label x="88.9" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PG" class="0">
@@ -11134,22 +11301,13 @@ SDA Ctrl</text>
 <wire x1="43.18" y1="129.54" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
 <label x="45.72" y="129.54" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IN-"/>
+<wire x1="53.34" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
+<label x="48.26" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="VBAT_SW" class="0">
-<segment>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="162.56" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
-<junction x="45.72" y="162.56"/>
-<label x="40.64" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="VIN"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="43.18" y1="50.8" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
-<label x="40.64" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="182.88" x2="226.06" y2="185.42" width="0.1524" layer="91"/>
@@ -11157,9 +11315,20 @@ SDA Ctrl</text>
 <label x="228.6" y="185.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$18" gate="G$1" pin="OUT"/>
-<label x="81.28" y="86.36" size="1.778" layer="95"/>
-<wire x1="104.14" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="VOUT"/>
+<wire x1="78.74" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
+<label x="83.82" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="IN+"/>
+<wire x1="53.34" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
+<label x="48.26" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$18" gate="G$1" pin="IN1"/>
+<label x="40.64" y="86.36" size="1.778" layer="95"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3_AUX" class="0">
@@ -11173,9 +11342,9 @@ SDA Ctrl</text>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="40.64" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
-<label x="40.64" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="45.72" y1="35.56" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<label x="43.18" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="RTC1" gate="G$1" pin="VCC"/>
@@ -11214,13 +11383,6 @@ SDA Ctrl</text>
 <pinref part="U$12" gate="G$1" pin="SDO"/>
 <wire x1="190.5" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
 <label x="193.04" y="172.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VBAT_SW_CTRL" class="0">
-<segment>
-<pinref part="U$18" gate="G$1" pin="EN"/>
-<wire x1="78.74" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
-<label x="81.28" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -11333,7 +11495,44 @@ SDA Ctrl</text>
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="U$10" gate="G$1" pin="VIN"/>
-<wire x1="48.26" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="40.64" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VMAIN" class="0">
+<segment>
+<pinref part="U$18" gate="G$1" pin="OUT"/>
+<label x="81.28" y="86.36" size="1.778" layer="95"/>
+<wire x1="91.44" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<label x="43.18" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="162.56" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
+<junction x="45.72" y="162.56"/>
+<label x="40.64" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="VIN"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="OUT"/>
+<wire x1="78.74" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$18" gate="G$1" pin="EN"/>
+<wire x1="83.82" y1="58.42" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VBAT_SW_CTRL" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="EN"/>
+<wire x1="53.34" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
+<label x="48.26" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
