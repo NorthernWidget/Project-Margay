@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -378,7 +378,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <smd name="42" x="-1.5" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
 <smd name="43" x="-2" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
 <smd name="44" x="-2.5" y="3.325" dx="0.3" dy="0.7" layer="1" roundness="50"/>
-<smd name="TH" x="0" y="0" dx="5" dy="5" layer="1" roundness="10"/>
+<smd name="TH" x="0" y="0" dx="5" dy="5" layer="1" roundness="10" cream="no"/>
 <text x="-2.5" y="1" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-2.75" y="-1.5" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-3.5" y1="2.375" x2="-3" y2="2.625" layer="51"/>
@@ -425,6 +425,15 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <rectangle x1="-1.625" y1="3" x2="-1.375" y2="3.5" layer="51"/>
 <rectangle x1="-2.125" y1="3" x2="-1.875" y2="3.5" layer="51"/>
 <rectangle x1="-2.625" y1="3" x2="-2.375" y2="3.5" layer="51"/>
+<rectangle x1="-2.325" y1="0.975" x2="-0.975" y2="2.325" layer="31"/>
+<rectangle x1="-0.675" y1="0.975" x2="0.675" y2="2.325" layer="31"/>
+<rectangle x1="0.977" y1="0.977" x2="2.327" y2="2.327" layer="31" rot="R90"/>
+<rectangle x1="0.975" y1="-2.325" x2="2.325" y2="-0.975" layer="31" rot="R180"/>
+<rectangle x1="-0.675" y1="-2.325" x2="0.675" y2="-0.975" layer="31" rot="R180"/>
+<rectangle x1="-2.327" y1="-2.327" x2="-0.977" y2="-0.977" layer="31" rot="R270"/>
+<rectangle x1="0.975" y1="-0.674" x2="2.325" y2="0.676" layer="31" rot="R180"/>
+<rectangle x1="-0.675" y1="-0.674" x2="0.675" y2="0.676" layer="31" rot="R180"/>
+<rectangle x1="-2.327" y1="-0.676" x2="-0.977" y2="0.674" layer="31" rot="R270"/>
 </package>
 <package name="SOT23-3">
 <description>SOT23-3</description>
@@ -556,9 +565,13 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 <smd name="18" x="-0.032" y="1.968" dx="0.7" dy="0.25" layer="1" rot="R90"/>
 <smd name="19" x="-0.532" y="1.968" dx="0.7" dy="0.25" layer="1" rot="R90"/>
 <smd name="20" x="-1.032" y="1.968" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<smd name="EP" x="-0.032" y="-0.032" dx="2.45" dy="2.45" layer="1"/>
+<smd name="EP" x="-0.032" y="-0.032" dx="2.45" dy="2.45" layer="1" cream="no"/>
 <text x="0" y="2.921" size="0.6096" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <circle x="-2.413" y="2.286" radius="0.127" width="0.127" layer="21"/>
+<rectangle x1="-1.05" y1="0.2" x2="-0.2" y2="1.05" layer="31"/>
+<rectangle x1="-1.05" y1="-1.05" x2="-0.2" y2="-0.2" layer="31"/>
+<rectangle x1="0.2" y1="-1.05" x2="1.05" y2="-0.2" layer="31"/>
+<rectangle x1="0.2" y1="0.2" x2="1.05" y2="1.05" layer="31"/>
 </package>
 <package name="DCK_R-PDSO-G5">
 <description>&lt;b&gt;DCK (R-PDSO-G5)&lt;/b&gt; SC-70&lt;p&gt;
