@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23,12 +23,12 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -193,7 +193,7 @@
 <text x="9.398" y="9.017" size="0.8128" layer="51" font="vector" ratio="15" distance="40" align="center">RST</text>
 <text x="13.081" y="28.829" size="0.8128" layer="51" font="vector" ratio="15" distance="40" rot="SR90" align="center">STAT</text>
 <text x="33.782" y="21.59" size="0.8128" layer="51" font="vector" ratio="15" distance="40" align="center">AUX</text>
-<text x="49.53" y="21.971" size="0.8128" layer="22" font="vector" ratio="15" distance="40" rot="MR0" align="center-left">Project Margay v1.0
+<text x="49.53" y="21.971" size="0.8128" layer="52" font="vector" ratio="15" distance="40" rot="MR0" align="center-left">Project Margay v2.0
 ----------------
 Developed by 
 Northern Widget and 
@@ -1541,19 +1541,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="887-1740-1-ND" x="16.51" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="TXC" x="16.51" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="7A-8.000MAAE-T" x="16.51" y="12.827" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="16.51" y="10.668" size="0.6096" layer="21" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="U$15" library="bschulz" package="CLVBA-FKA" value="CLVBA-FKA" x="15.748" y="28.575" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="CLVBA-FKA-CAEDH8BBB7A363CT-ND" x="15.748" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Cree" x="15.748" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CLVBA-FKA-CAEDH8BBB7A363" x="15.748" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15.748" y="26.67" size="0.6096" layer="21" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="U$16" library="bschulz" package="CLVBA-FKA" value="CLVBA-FKA" x="33.782" y="24.384" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="CLVBA-FKA-CAEDH8BBB7A363CT-ND" x="33.782" y="24.384" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Cree" x="33.782" y="24.384" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CLVBA-FKA-CAEDH8BBB7A363" x="33.782" y="24.384" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="31.877" y="24.384" size="0.6096" layer="21" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="U$3" library="bschulz" package="06132" value="SDMMC06132" x="19.558" y="5.334" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="3M5646CT-ND" x="19.558" y="5.334" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -1564,7 +1561,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="CKN10504CT-ND" x="9.398" y="27.305" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="C&amp;K" x="9.398" y="27.305" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="PTS810 SJG 250 SMTR LFS" x="9.398" y="27.305" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7.239" y="27.305" size="0.6096" layer="21" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="U$6" library="bschulz" package="DCK_R-PDSO-G5" value="TPS79733" x="36.449" y="9.779" smashed="yes">
 <attribute name="DIGIKEY" value="296-11990-1-ND" x="36.449" y="9.779" size="1.778" layer="27" display="off"/>
@@ -1592,7 +1588,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="CKN10504CT-ND" x="9.398" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="C&amp;K" x="9.398" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="PTS810 SJG 250 SMTR LFS" x="9.398" y="12.192" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="9.398" y="9.398" size="0.6096" layer="21" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="U2" library="bschulz" package="QFN20" value="FT231X-Q" x="25.908" y="25.4" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="768-1128-1-ND" x="25.908" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1648,7 +1643,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DISP" value="SN74LVC1G3157" x="29.337" y="19.939" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="TI" x="29.337" y="19.939" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="SN74LVC1G3157DRLR" x="29.337" y="19.939" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28.067" y="19.939" size="0.6096" layer="21" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="U$17" library="bschulz" package="DCU_(R-PDSO-G8)" value="SN74AUP3G34DCU" x="9.271" y="16.002" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="296-25595-1-ND" x="9.271" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
