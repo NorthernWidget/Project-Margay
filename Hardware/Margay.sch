@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3377,6 +3377,83 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
 <rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
+<package name="SOD-923">
+<description>&lt;p&gt;SOD-923&lt;br&gt;Diode Package&lt;/p&gt;</description>
+<smd name="ANODE" x="-0.45" y="0" dx="0.3" dy="0.4" layer="1"/>
+<smd name="CATHODE" x="0.45" y="0" dx="0.3" dy="0.4" layer="1"/>
+<wire x1="-0.4" y1="0.3" x2="-0.4" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-0.3" x2="0.4" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.3" x2="0.4" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0.4" y1="0.3" x2="-0.4" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0.254" x2="0.254" y2="-0.254" width="0.2032" layer="21"/>
+</package>
+<package name="DO-216AA">
+<smd name="ANODE" x="0.6985" y="0" dx="1.27" dy="0.762" layer="1" rot="R90"/>
+<smd name="CATHODE" x="-1.6525" y="0" dx="2.67" dy="2.54" layer="1" rot="R180"/>
+<wire x1="-2.916" y1="1" x2="0.984" y2="1" width="0.127" layer="22"/>
+<wire x1="0.984" y1="1" x2="0.984" y2="-1" width="0.127" layer="22"/>
+<wire x1="0.984" y1="-1" x2="-2.916" y2="-1" width="0.127" layer="22"/>
+<wire x1="-2.916" y1="-1" x2="-2.916" y2="1" width="0.127" layer="22"/>
+</package>
+<package name="SOD-123F">
+<smd name="CAT" x="-1.43" y="0" dx="1.34" dy="1.8" layer="1"/>
+<smd name="ANODE" x="1.43" y="0" dx="1.34" dy="1.8" layer="1"/>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.127" layer="21"/>
+<rectangle x1="-1.5" y1="-1" x2="-0.5" y2="1" layer="21"/>
+<text x="-2.54" y="1.27" size="1.016" layer="27">&gt;NAME&lt;</text>
+<text x="-2.54" y="-2.54" size="1.016" layer="27">&gt;VALUE&lt;</text>
+</package>
+<package name="SOD323-R" urn="urn:adsk.eagle:footprint:43204/1">
+<description>&lt;b&gt;SOD323 Reflow soldering&lt;/b&gt; Philips SC01_Mounting_1996.pdf</description>
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="21"/>
+<smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.7" y1="-0.7" x2="-0.5" y2="0.7" layer="51"/>
+</package>
+<package name="DO214AC" urn="urn:adsk.eagle:footprint:43214/1" locally_modified="yes">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-2.3" y1="1" x2="2.3" y2="1" width="0.254" layer="21"/>
+<wire x1="2.3" y1="1" x2="2.3" y2="-0.95" width="0.254" layer="21"/>
+<wire x1="2.3" y1="-0.95" x2="-2.3" y2="-0.95" width="0.254" layer="21"/>
+<wire x1="-2.3" y1="-0.95" x2="-2.3" y2="1" width="0.254" layer="21"/>
+<wire x1="-0.8" y1="0" x2="0.25" y2="0.75" width="0.254" layer="21"/>
+<wire x1="0.25" y1="0.75" x2="0.25" y2="-0.7" width="0.254" layer="21"/>
+<wire x1="0.25" y1="-0.7" x2="-0.8" y2="0" width="0.254" layer="21"/>
+<smd name="C" x="-2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
+<smd name="A" x="2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
+<text x="-0.1" y="1.54" size="0.6096" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-0.1" y="-1.54" size="0.6096" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<rectangle x1="-2.65" y1="-0.7" x2="-2.4" y2="0.65" layer="21"/>
+<rectangle x1="2.4" y1="-0.7" x2="2.65" y2="0.65" layer="21"/>
+<rectangle x1="-1" y1="-1.05" x2="-0.7" y2="1.05" layer="21"/>
+</package>
+<package name="SOD-123">
+<smd name="ANODE" x="1.675" y="0" dx="0.85" dy="0.85" layer="1"/>
+<smd name="CAT" x="-1.675" y="0" dx="0.85" dy="0.85" layer="1"/>
+<wire x1="-1.35" y1="0.775" x2="-1.35" y2="-0.775" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="-0.775" x2="1.35" y2="-0.7753" width="0.127" layer="21"/>
+<wire x1="1.35" y1="-0.7753" x2="1.35" y2="0.775" width="0.127" layer="21"/>
+<wire x1="1.35" y1="0.775" x2="-1.35" y2="0.775" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-0.889" y="0.762"/>
+<vertex x="-0.889" y="-0.762"/>
+<vertex x="-0.635" y="-0.762"/>
+<vertex x="-0.635" y="0.762"/>
+</polygon>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL_SF">
@@ -3962,6 +4039,17 @@ http://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="D">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6361,6 +6449,80 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/scripts/DkSearch/dksus.
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE" prefix="D" uservalue="yes">
+<description>&lt;p&gt;Genaric Diode &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOD-923" package="SOD-923">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DO-216AA" package="DO-216AA">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-123F" package="SOD-123F">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CAT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-323" package="SOD323-R">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DO-214AC" package="DO214AC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOD-123" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CAT"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10512,9 +10674,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="VALUE_PART" value="1.62M" constant="no"/>
 </technology>
 <technology name="10K">
-<attribute name="DIGIKEY" value="P10.0KHCT-ND" constant="no"/>
-<attribute name="MF" value="Panasonic" constant="no"/>
-<attribute name="MPN" value="ERJ-3EKF1002V" constant="no"/>
+<attribute name="DIGIKEY" value="311-10.0KHRCT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-0710KL" constant="no"/>
 <attribute name="VALUE_PART" value="10k" constant="no"/>
 </technology>
 <technology name="10M">
@@ -10642,6 +10804,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MF" value="Panasonic" constant="no"/>
 <attribute name="MPN" value="ERA-3AEB102V" constant="no"/>
 <attribute name="VALUE_PART" value="1k" constant="no"/>
+</technology>
+<technology name="P30K">
+<attribute name="DIGIKEY" value="P30KDBCT-ND" constant="no"/>
+<attribute name="MF" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="ERA-3AEB303V" constant="no"/>
+<attribute name="VALUE_PART" value="30k" constant="no"/>
 </technology>
 <technology name="P62K">
 <attribute name="DIGIKEY" value="P62KDBCT-ND" constant="no"/>
@@ -11994,6 +12162,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J7" library="bschulz" deviceset="CONN_6" device="SCREW_2.54"/>
 <part name="U4" library="bschulz" deviceset="TLV3691" device="DPF" value="TLV3691DPF"/>
 <part name="U$4" library="bschulz" deviceset="TPS22916" device="YFP"/>
+<part name="D1" library="bschulz" deviceset="DIODE" device="SOD-323"/>
+<part name="R8" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K"/>
+<part name="R20" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k"/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12107,8 +12279,8 @@ SDA Ctrl</text>
 <instance part="U2" gate="G$1" x="200.66" y="162.56" smashed="yes">
 <attribute name="NAME" x="185.42" y="142.24" size="1.524" layer="95" ratio="10"/>
 </instance>
-<instance part="U$14" gate="G$1" x="198.12" y="190.5" smashed="yes">
-<attribute name="VALUE" x="195.072" y="192.532" size="1.778" layer="96"/>
+<instance part="U$14" gate="G$1" x="198.12" y="198.12" smashed="yes">
+<attribute name="VALUE" x="195.072" y="200.152" size="1.778" layer="96"/>
 </instance>
 <instance part="D-" gate="G$1" x="167.64" y="175.26" smashed="yes" rot="R180">
 <attribute name="VALUE" x="171.45" y="178.562" size="1.778" layer="96" rot="R180"/>
@@ -12221,6 +12393,10 @@ SDA Ctrl</text>
 </instance>
 <instance part="GND17" gate="1" x="10.16" y="38.1" smashed="yes">
 <attribute name="VALUE" x="7.62" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="D1" gate="G$1" x="198.12" y="190.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="198.6026" y="187.96" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="195.8086" y="187.96" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -12685,9 +12861,9 @@ SDA Ctrl</text>
 <junction x="142.24" y="187.96"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VCC"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="U$14" gate="G$1" pin="VUSB"/>
-<wire x1="198.12" y1="187.96" x2="198.12" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="193.04" x2="198.12" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -12726,9 +12902,9 @@ SDA Ctrl</text>
 <net name="3V3_FTDI" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VCCIO"/>
-<wire x1="203.2" y1="185.42" x2="203.2" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="195.58" x2="175.26" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="195.58" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="185.42" x2="203.2" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="203.2" x2="175.26" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="203.2" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="3V3OUT"/>
 <wire x1="180.34" y1="177.8" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="177.8" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
@@ -12738,10 +12914,9 @@ SDA Ctrl</text>
 <pinref part="C14" gate="G$1" pin="1"/>
 <junction x="175.26" y="177.8"/>
 <junction x="175.26" y="162.56"/>
-<wire x1="203.2" y1="195.58" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="200.66" x2="205.74" y2="200.66" width="0.1524" layer="91"/>
-<junction x="203.2" y="195.58"/>
-<label x="205.74" y="200.66" size="1.778" layer="95" xref="yes"/>
+<wire x1="203.2" y1="203.2" x2="205.74" y2="203.2" width="0.1524" layer="91"/>
+<junction x="203.2" y="203.2"/>
+<label x="205.74" y="203.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3V3_AUX" class="0">
@@ -12893,6 +13068,13 @@ SDA Ctrl</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="U3" gate="G$1" pin="DELAY"/>
 <wire x1="10.16" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
+<wire x1="198.12" y1="187.96" x2="198.12" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -13464,6 +13646,17 @@ SDA Ctrl</text>
 <instance part="U$4" gate="G$1" x="66.04" y="99.06" smashed="yes">
 <attribute name="NAME" x="66.04" y="92.456" size="1.778" layer="95" ratio="15" align="center"/>
 </instance>
+<instance part="R8" gate="G$1" x="22.86" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.3614" y="52.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="26.162" y="52.07" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R20" gate="G$1" x="22.86" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.3614" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="26.162" y="64.77" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND18" gate="1" x="22.86" y="45.72" smashed="yes">
+<attribute name="VALUE" x="20.32" y="43.18" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13622,6 +13815,11 @@ SDA Ctrl</text>
 <wire x1="78.74" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
 <label x="83.82" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VUSB" class="0">
 <segment>
@@ -13727,15 +13925,16 @@ SDA Ctrl</text>
 <label x="83.82" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="IN+"/>
-<wire x1="53.34" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
-<label x="48.26" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$18" gate="G$1" pin="IN1"/>
 <label x="40.64" y="86.36" size="1.778" layer="95"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="73.66" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<label x="20.32" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3V3_AUX" class="0">
@@ -13940,6 +14139,16 @@ SDA Ctrl</text>
 <pinref part="U$4" gate="G$1" pin="EN"/>
 <wire x1="53.34" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
 <label x="48.26" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="63.5" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="IN+"/>
+<wire x1="53.34" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<junction x="22.86" y="60.96"/>
 </segment>
 </net>
 </nets>
