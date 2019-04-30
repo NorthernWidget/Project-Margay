@@ -436,14 +436,10 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/doc2593.pdf</descripti
 </package>
 <package name="SOT23-3">
 <description>SOT23-3</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
 <smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
 <smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
 <smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
@@ -652,14 +648,10 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <rectangle x1="0.2" y1="0.2" x2="1.05" y2="1.05" layer="31"/>
 </package>
 <package name="SOT323">
-<wire x1="1.1224" y1="0.6604" x2="1.1224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.1224" y1="-0.6604" x2="-1.1224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.1224" y1="-0.6604" x2="-1.1224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.1224" y1="0.6604" x2="1.1224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.673" y1="0.7" x2="-1.1" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.1" y1="0.7" x2="-1.1" y2="-0.354" width="0.2032" layer="21"/>
-<wire x1="0.673" y1="0.7" x2="1.1" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.354" width="0.2032" layer="21"/>
+<wire x1="1.1224" y1="0.6604" x2="1.1224" y2="-0.6604" width="0.1524" layer="21"/>
+<wire x1="1.1224" y1="-0.6604" x2="-1.1224" y2="-0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.1224" y1="-0.6604" x2="-1.1224" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.1224" y1="0.6604" x2="1.1224" y2="0.6604" width="0.1524" layer="21"/>
 <smd name="1" x="-0.65" y="-0.925" dx="0.7" dy="0.7" layer="1"/>
 <smd name="2" x="0.65" y="-0.925" dx="0.7" dy="0.7" layer="1"/>
 <smd name="3" x="0" y="0.925" dx="0.7" dy="0.7" layer="1"/>
@@ -1775,7 +1767,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="40.5765" y="20.574" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="37.5285" y="20.574" size="0.6096" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="U$4" library="bschulz" package="YFP0004" value="TPS22916YFP" x="33.401" y="19.431" smashed="yes" rot="R270"/>
+<element name="U$4" library="bschulz" package="YFP0004" value="TPS22916YFP" x="33.401" y="19.431" smashed="yes" rot="R270">
+<attribute name="DIGIKEY" value="296-47464-1-ND" x="33.401" y="19.431" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="TI" x="33.401" y="19.431" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="TPS22916CYFPT" x="33.401" y="19.431" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="D1" library="bschulz" package="SOD323-R" value="" x="30.2895" y="26.543" smashed="yes">
 <attribute name="DIGIKEY" value="" x="30.2895" y="26.543" size="1.778" layer="27" ratio="15" display="off"/>
 <attribute name="MF" value="" x="30.2895" y="26.543" size="1.778" layer="27" ratio="15" display="off"/>
@@ -3089,7 +3085,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="27.8431125" y1="26.4648875" x2="27.8431125" y2="27.0208875" width="0.254" layer="1"/>
 <via x="36.957" y="22.352" extent="1-16" drill="0.3"/>
 <wire x1="36.957" y1="22.352" x2="35.9608" y2="23.3482" width="0.254" layer="16"/>
-<wire x1="32.090575" y1="23.3482" x2="35.9608" y2="23.3482" width="0.254" layer="16"/>
+<wire x1="35.9608" y1="23.3482" x2="32.090575" y2="23.3482" width="0.254" layer="16"/>
 <wire x1="23.94" y1="24.368" x2="23.9974" y2="24.3106" width="0.254" layer="1"/>
 <wire x1="23.9974" y1="24.3106" x2="23.9974" y2="23.7434" width="0.254" layer="1"/>
 <via x="23.9974" y="23.7434" extent="1-16" drill="0.35"/>
@@ -3105,15 +3101,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="28.4178875" y1="27.8431125" x2="28.082" y2="28.179" width="0.254" layer="1"/>
 <contactref element="U4" pad="3"/>
 <wire x1="36.957" y1="22.352" x2="36.957" y2="20.871" width="0.254" layer="1"/>
-<wire x1="28.4178875" y1="27.0208875" x2="30.3228875" y2="25.1158875" width="0.254" layer="16"/>
-<wire x1="30.3228875" y1="25.1158875" x2="32.090575" y2="23.3482" width="0.254" layer="16"/>
-<wire x1="28.88891875" y1="24.1916" x2="29.81320625" y2="25.1158875" width="0.254" layer="16"/>
-<wire x1="29.81320625" y1="25.1158875" x2="30.3228875" y2="25.1158875" width="0.254" layer="16"/>
 <wire x1="36.957" y1="20.871" x2="37.6985" y2="20.871" width="0.1524" layer="1"/>
 <wire x1="38.0676" y1="21.2401" x2="39.4519" y2="21.2401" width="0.1524" layer="1"/>
 <wire x1="37.6985" y1="20.871" x2="38.0676" y2="21.2401" width="0.1524" layer="1"/>
 <wire x1="39.5775" y1="21.1145" x2="39.5775" y2="20.924" width="0.1524" layer="1"/>
 <wire x1="39.5775" y1="21.1145" x2="39.4519" y2="21.2401" width="0.1524" layer="1"/>
+<wire x1="28.4178875" y1="27.0208875" x2="28.88891875" y2="26.54985625" width="0.254" layer="16"/>
+<wire x1="28.88891875" y1="26.54985625" x2="28.88891875" y2="25.4" width="0.254" layer="16"/>
+<wire x1="28.88891875" y1="25.4" x2="28.88891875" y2="24.1916" width="0.254" layer="16"/>
+<wire x1="30.038775" y1="25.4" x2="28.88891875" y2="25.4" width="0.254" layer="16"/>
+<wire x1="32.090575" y1="23.3482" x2="30.038775" y2="25.4" width="0.254" layer="16"/>
 </signal>
 <signal name="VBAT_SW">
 <contactref element="R9" pad="2"/>
