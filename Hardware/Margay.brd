@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -212,6 +212,7 @@ University of Minnesota</text>
 <smd name="GND" x="0" y="0" dx="10.16" dy="10.16" layer="1" roundness="100" cream="no"/>
 <smd name="POWER0" x="-7.62" y="0" dx="2.54" dy="5.08" layer="1"/>
 <smd name="POWER1" x="7.62" y="0" dx="2.54" dy="5.08" layer="1"/>
+<text x="-10.16" y="0" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="MLF44-TH">
 <description>&lt;b&gt;44M1&lt;/b&gt; Micro Lead Frame package (MLF)&lt;p&gt;
@@ -739,7 +740,7 @@ Soure: &lt;a href="http://www.ti.com/lit/ds/symlink/ads7042.pdf"&gt; Data sheet 
 <smd name="GP3" x="11.7" y="-0.9" dx="2.8" dy="2" layer="1" rot="R90"/>
 <hole x="-11.6" y="-2.1" drill="1.1"/>
 <hole x="9.5" y="-2.1" drill="1.6"/>
-<text x="-13.97" y="-11.43" size="1.27" layer="51" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<text x="-13.97" y="-11.43" size="1.27" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="BME280">
 <smd name="8" x="-1.025" y="0.975" dx="0.35" dy="0.5" layer="1" rot="R90"/>
@@ -1262,6 +1263,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="BAT-HLD-012-SMT-ND" x="17.78" y="5.588" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Linx" x="17.78" y="5.588" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="BAT-HLD-012-SMT" x="17.78" y="5.588" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="27.94" y="5.588" size="1.27" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="C12" library="bschulz_passives" package="C0402" value="0.1uF" x="38.608" y="9.271" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="490-4759-1-ND" x="38.608" y="9.271" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1552,7 +1554,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="A101492CT-ND" x="19.558" y="5.334" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="TE" x="19.558" y="5.334" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="2041021-4" x="19.558" y="5.334" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="5.588" y="16.764" size="1.27" layer="52" font="vector" ratio="15" rot="MR270" align="center"/>
+<attribute name="NAME" x="5.588" y="16.764" size="1.27" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
 </element>
 <element name="S2" library="bschulz" package="SWITCH_4.2X3.2" value="BUTTON4.2X3.2" x="9.398" y="27.305" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="CKN10504CT-ND" x="9.398" y="27.305" size="1.778" layer="27" rot="R90" display="off"/>
