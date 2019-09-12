@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -635,7 +635,7 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <pad name="1" x="-1.27" y="2.54" drill="1.02" diameter="1.6256"/>
 <pad name="5" x="-1.27" y="-2.54" drill="1.02" diameter="1.6256"/>
 <pad name="6" x="1.27" y="-2.54" drill="1.02" diameter="1.6256"/>
-<text x="-3.048" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.048" y="0" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
 <text x="-3.048" y="3.556" size="0.8128" layer="21" font="vector" ratio="20">1</text>
 </package>
 <package name="AVRISP-BOX">
@@ -8353,9 +8353,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="VALUE_PART" value="100k" constant="no"/>
 </technology>
 <technology name="10K">
-<attribute name="DIGIKEY" value="311-10.0KHRCT-ND" constant="no"/>
+<attribute name="DIGIKEY" value="311-10.0KLRCT-ND" constant="no"/>
 <attribute name="MF" value="Yageo" constant="no"/>
-<attribute name="MPN" value="RC0603FR-0710KL" constant="no"/>
+<attribute name="MPN" value="RC0402FR-0710KL" constant="no"/>
 <attribute name="VALUE_PART" value="10k" constant="no"/>
 </technology>
 <technology name="120K">
@@ -9863,9 +9863,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C4" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="0.1UF" value="0.1uF"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R2" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k">
-<attribute name="DIGIKEY" value="311-10.0KHRCT-ND"/>
-</part>
+<part name="R2" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k"/>
 <part name="S1" library="bschulz" deviceset="BUTTON" device="4.2X3.2"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C3" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="12PF" value="12pF"/>
@@ -9900,9 +9898,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="S2" library="bschulz" deviceset="BUTTON" device="4.2X3.2"/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R14" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k">
-<attribute name="DIGIKEY" value="311-10.0KHRCT-ND"/>
-</part>
+<part name="R14" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k"/>
 <part name="D3" library="bschulz" deviceset="CLVBA-FKA" device=""/>
 <part name="R11" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="330" value="330"/>
 <part name="R12" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="330" value="330"/>
