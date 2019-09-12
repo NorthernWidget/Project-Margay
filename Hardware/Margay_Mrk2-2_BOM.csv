@@ -2,7 +2,7 @@
 "1","","CONN_102.54_SCREW","1X10_SCREW","J2","Genaric 10 terminal header","ED10567-ND","","On Shore","","OSTVN10A150","","","",
 "11","0.1uF","C-EU0.1UFC0402","C0402","C1, C4, C5, C9, C10, C11, C12, C16, C17, C18, C19","CAPACITOR, European symbol","490-4759-1-ND","","Murata","","GCM155R71C104KA55D","","","",
 "2","100k","R-EU_100KR0402","R0402","R10, R19","RESISTOR, European symbol","311-100KLRCT-ND","","Yageo","","RC0402FR-07100KL","","","100k",
-"9","10k","R-EU_10KR0402","R0402","R1, R2, R14, R15, R16, R17, R18, R20, R21","RESISTOR, European symbol","311-10.0KHRCT-ND","","Yageo","","RC0603FR-0710KL","","","10k",
+"9","10k","R-EU_10KR0402","R0402","R1, R2, R14, R15, R16, R17, R18, R20, R21","RESISTOR, European symbol","311-10.0KLRCT-ND","","Yageo","","RC0402FR-0710KL","","","10k",
 "2","10k","R-EU_10KR0603","R0603","R22, R23","RESISTOR, European symbol","311-10.0KHRCT-ND","","Yageo","","RC0603FR-0710KL","","","10k",
 "1","10k","R-EU_P10KR0603","R0603","R24","RESISTOR, European symbol","P10KDBCT-ND","","Panasonic","","ERA-3AEB103V","","","10k",
 "2","10uF","C-EU10UFC0805","C0805","C6, C15","CAPACITOR, European symbol","490-6473-6-ND","","Murata","","GRM21BR61C106KE15K","","","",
