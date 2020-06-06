@@ -82,6 +82,8 @@ Pinout is listed on bottom of board, and shown here for v2.2.
 * Digital I/O: gray
 * UART (also called USART) bus: blue
 
+*The jumper on the front of the board, to the right of "B+" and "Ax", connects an on-board reference resistor (10 kOhm in our builds) with the analog pin Ax to create a voltage divider in which the sensor between Ax and REF is on the GND side of the voltage divider.*
+
 ![Margay v2.2, bottom annotated](Documentation/images/Margay_v220_bottom_annotated_20200428.png "Margay v2.2, bottom annotated")
 
 ***Margay data logger, bottom annotated.*** This is where the labels for the above pins are printed.
