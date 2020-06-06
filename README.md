@@ -1,16 +1,25 @@
 # Project-Margay
 Project Margay is a micro scale environmental data logger designed based on the ALog series, it is designed to trade IO capabilities for cost and size, allowing for a very simple, but very useful data logger
 
+![Margay Andy hand Dec 2020](Documentation/images/MargayAndyHand_cropped_2020-02-16_19.22.39.png)
+
+***Margay data logger v2.2.*** *Back side with full-size SD card holder and pinout labels. Standard sized SD card for data storage and scale.*
+
+
 # Hardware
-This includes a description of the PCB and component functionality 
+This includes a description of the PCB and component functionality
 
 ## Features:
 * ATMega644P Processor
 * 3.3v Logic
 * On board full size SD card (for ease of field use)
-* Extremely low sleep current 
-* Input voltage designed for use with easy to find alkaline batteries 
-* 0.1" Pitch headers can be populated with header pins and placed on a breadboard for prototyping 
+* Extremely low sleep current
+* Input voltage designed for use with easy to find alkaline batteries
+* 0.1" Pitch headers can be populated with header pins and placed on a breadboard for prototyping
+
+![Margay v2.2 interior elements labeled](Documentation/images/Margay_v220_top_annotated_interior_20200428.png)
+
+***Significant components on the Margay v2.2.***
 
 ### v0.0 (Retired)
 **Features** <br>
@@ -27,7 +36,7 @@ V<sub>in</sub> = 3.3 ~ 5.5v <br>
 * Reset Button
 * Reconfigurable Button
 
-### v1.0 
+### v1.0
 **Features** <br>
 I<sub>Q</sub> = 2.5&mu;A <br>
 I<sub>out</sub> = 50mA, max (Regulated power supplied to sensors) <br>
@@ -52,7 +61,7 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 **IO**
 * 1 ADC, 18 bit
 * 1 I<sup>2</sup>C Bus
-* 1 UART Channel 
+* 1 UART Channel
 * 2 GPIO Pins (one configurable as an 8 bit ADC)
 * 1 PWM Channel (output configurable to 3.3v or VBat via a jumper on bottom of board)
 * RGB Status LED
@@ -61,8 +70,22 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 * Reconfigurable Button
 
 ### Pinout:
-Pinout is listed on bottom of board, and shown below for Mrk. 0.0
-![](MargayPinout.png?raw=true "Title")
+Pinout is listed on bottom of board, and shown here for v2.2.
+
+![Margay v2.2, top annotated](Documentation/images/Margay_v220_top_annotated_20200428.png "Margay v2.2, top annotated")
+
+***Margay data logger, top annotated.***
+* Positive voltage: red
+* Ground: black
+* Analog measurement system: green
+* I2C bus: purple
+* Digital I/O: gray
+* UART (also called USART) bus: blue
+
+![Margay v2.2, bottom annotated](Documentation/images/Margay_v220_bottom_annotated_20200428.png "Margay v2.2, bottom annotated")
+
+***Margay data logger, bottom annotated.*** This is where the labels for the above pins are printed.
+
 
 In this pinout, the name of each pin is shown, as well as the group of pins which it belongs to, a detailed description of the pins and callouts follows:
 
@@ -86,8 +109,8 @@ In this pinout, the name of each pin is shown, as well as the group of pins whic
 2. This is the micro USB connection, which can be used for both programing via the Arduino IDE, and serial monitoring
 3. This is the primary RGB status LED, where the individual channels are controlled by **D15**, **D14**, and **D13**
 4. This is the reconfigurable push-button, generally used to initiate logging, it is read by **D2**, which is also **INT2**
-5. This is the hardware reset button, which will force the micro to return to the initial state after code upload 
-6. This is the ICSP header, which can be used to burn the bootloader to the board or write programs to the chip without using the USB and bootloader 
+5. This is the hardware reset button, which will force the micro to return to the initial state after code upload
+6. This is the ICSP header, which can be used to burn the bootloader to the board or write programs to the chip without using the USB and bootloader
 
 ### Onboard Pins:
 Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Function
@@ -107,7 +130,7 @@ Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Function
 `PG` | D18 | D18 | Power good pin from core 3v3, can be used to test if core 3v3 is stable, pulled low when power is not stable
 `ExtInt` | D11 | D11 | External interrupt and external chip select pin
 `RTCInt` | D10 | D10 | Interrupt (`INT0`) connected to RTC /INT line, active low
-`LogInt` | D2 | D2 | Interrupt (`INT2`) connected to **LOG** button, active low 
+`LogInt` | D2 | D2 | Interrupt (`INT2`) connected to **LOG** button, active low
 
 
 # Software
@@ -121,13 +144,13 @@ To use this software the following libraries must be installed in the Arduino ID
 * [MCP3421](https://github.com/NorthernWidget/MCP3421)
 * [MS5803](https://github.com/NorthernWidget/MS5803)
 
-Information on library instillation can be found on the [Arduino](https://www.arduino.cc/en/Guide/Libraries) site, the "Manual" instillation method should be used to ensure success 
+Information on library instillation can be found on the [Arduino](https://www.arduino.cc/en/Guide/Libraries) site, the "Manual" instillation method should be used to ensure success
 
 
 The Northern Widget board definitions will also be required, the Margay board should be run using the "TLog v1" board definition. Information on how to install and select a board definition can be found in the Northern Widget Board Definitions [readme](https://github.com/NorthernWidget/Arduino_Boards)
 
 ## Using Custom Software (Developer)
-As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for instillation and use are provided on the MightyCore GitHub page. 
+As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for instillation and use are provided on the MightyCore GitHub page.
 
 For the Margay (any model), the recommended settings are as follows:
 
@@ -142,9 +165,9 @@ Setting | Value
 
 # Developer Notes
 
-+ (**<= Mrk 1.0**) When using power from the external rail (the 3v3 on the screw terminals) it is always advised to have a battery connected to the board, even if connected via USB. The USB connection is able to power the core components, but not the external rail. We know this is annoying, but fear not, the Northern Widget team is [working tirelessly](https://i.imgur.com/Kx97N0l.gifv) to fix this for the Mrk 2.0! 
-+ (**<= Mrk 1.0**) When using I<sup>2</sup>C on the device, external pullups (4.7k&Omega; ~ 10k&Omega;) are required. If using device strictly onboard the internal pullups on the ATMEGA seem sufficient, but if you add capacitance of a cable attaching to an external sensor, etc, this is often too much, since the internal pullups are very weak. This is also being fixed in the Mrk 2.0 version with dedicated switchable on board pullups. 
-+ (**All models**) The external power rails and the switched battery rail should be enabled in hardware by default, however, it is our recommendation to explicitly define these pins (`Ext3v3Ctrl`) as outputs and drive them `LOW` even if you never intend to switch them on and off. This prevents the rails from inadvertently being turned off due to a transient on the floating control line. 
++ (**<= Mrk 1.0**) When using power from the external rail (the 3v3 on the screw terminals) it is always advised to have a battery connected to the board, even if connected via USB. The USB connection is able to power the core components, but not the external rail. We know this is annoying, but fear not, the Northern Widget team is [working tirelessly](https://i.imgur.com/Kx97N0l.gifv) to fix this for the Mrk 2.0!
++ (**<= Mrk 1.0**) When using I<sup>2</sup>C on the device, external pullups (4.7k&Omega; ~ 10k&Omega;) are required. If using device strictly onboard the internal pullups on the ATMEGA seem sufficient, but if you add capacitance of a cable attaching to an external sensor, etc, this is often too much, since the internal pullups are very weak. This is also being fixed in the Mrk 2.0 version with dedicated switchable on board pullups.
++ (**All models**) The external power rails and the switched battery rail should be enabled in hardware by default, however, it is our recommendation to explicitly define these pins (`Ext3v3Ctrl`) as outputs and drive them `LOW` even if you never intend to switch them on and off. This prevents the rails from inadvertently being turned off due to a transient on the floating control line.
 
 
 <br>
