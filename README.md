@@ -137,6 +137,10 @@ Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Function
 
 # Software
 
+NOTE: Users should see the code included below in the README and follow the directions indicated in http://northernwidget.com/tutorial. Some of the below information is deprecated.
+
+NOTE: Currently, users should modify their Arduino libraries to include the most recent version 1 of SdFat; Margay is incompatible at present with version 2.
+
 ## Using Northern Widget Software
 This includes a usage guide to demo software which is provided to both test the hardware features of the board in general (the MargayHardwareTest file), and to set the device up as a logger using a [TP-Downhole](https://github.com/NorthernWidget/TP-DownHole) device as a sensor which runs on I2C. This logger demo tests all hardware on the board and ensures all required systems are connected and indicates the result of these tests using the Status LED on startup. A green light indicated all systems check out, and the device is ready to log, otherwise a red light indicates there is a problem, it is recommended to open up a serial monitor to determine which system is failing. If a green light is indicated, when the system is ready to log, logging is initiated by pressing the log button, which makes an initial log and starts a sequence of logs which will continue to occur every 15 minutes (by default) of by a different user defined time. In between logging events, the system is put to sleep to save power. Each time the log button is pressed, a new SD card file is created named "Logx.txt" where x increments with each button press, and each one of these individual files is initiated with a header to inform the user of the data columns used by the CSV type file.
 
@@ -164,6 +168,59 @@ Setting | Value
 `Compiler LTO` | `Disabled`
 `Variant` | `644P/644PA`
 `BOD` | `2.7v`
+
+# Sample code
+
+`Margay_NoSensors.ino`
+
+```c++
+// Include the Walrus library
+#include "Margay.h"
+// Include any sensor libraries.
+// The Northern Widget standard interface is demonstrated here.
+//Sensor mySensor;
+
+// Declare variables -- just as strings
+String header;
+String data;
+
+// Instantiate classes
+// Sensor mySensor (for any Northern Widget standard sensor library)
+Margay Logger(Model_2v0, Build_B); // Margay v2.2; UPDATE CODE TO INDICATE THIS
+
+
+// Empty header to start; will include sensor labels and information
+String Header = "";
+
+// I2CVals for sensors
+// Add these for any sensors that you attach
+// These are used in the I2C device check (for the warning light)
+// But at the time of writing, the logger should still work without this.
+uint8_t I2CVals[] = {};
+
+//Number of seconds between readings
+uint32_t updateRate = 60;
+
+void setup(){
+    Header = Header;//+ mySensor.getHeader();
+    Logger.begin(I2CVals, sizeof(I2CVals), Header);
+}
+
+void loop(){
+    Logger.Run(update, updateRate);
+}
+
+String update() {
+    initialize();
+    //return mySensor.getString(); // If there were a sensor attached
+    return ""; // Empty string for this example: no sensors attached
+}
+
+void initialize(){
+    //mySensor.begin(); // For any Northern Widget sensor
+                        // Other libraries may have different standards
+}
+```
 
 # Developer Notes
 
