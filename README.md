@@ -1,15 +1,27 @@
 # Project-Margay
-Project Margay is a micro scale environmental data logger designed based on the ALog series, it is designed to trade IO capabilities for cost and size, allowing for a very simple, but very useful data logger
 
 ![Margay Andy hand Dec 2020](Documentation/images/MargayAndyHand_cropped_2020-02-16_19.22.39.png)
 
 ***Margay data logger v2.2.*** *Back side with full-size SD card holder and pinout labels. Standard sized SD card for data storage and scale.*
 
+Project Margay is a micro scale environmental data logger designed based on the ALog series, it is designed to trade IO capabilities for cost and size, allowing for a very simple, but very useful data logger
 
-# Hardware
+## Namesake
+
+Due to its small size and adaptability to its environment, Project Margay takes its name from the small Margay cat native to the forests of South and Central America.
+
+>> @awickert: Might be best to add in some feature abilities of the Margay datalogger in part of the namesake to mirror that of the Resnik - let me know what you think the highlights of the logger are and I'll (Josh) put them in
+
+![A margay, yawning](https://upload.wikimedia.org/wikipedia/commons/4/45/Leopardus_wiedii%2C_R%C3%A9serve_Zoologique_de_Calviac.jpg)
+
+##Technical Specifications
+
+>> @awickert: I'm (Josh) drafting up a couple of ways to display the technical specs better, no substantial changes at the moment, but it's next on my list
+
+### Electronic Hardware
 This includes a description of the PCB and component functionality
 
-## Features:
+#### Features:
 * ATMega644P Processor
 * 3.3v Logic
 * On board full size SD card (for ease of field use)
@@ -21,7 +33,7 @@ This includes a description of the PCB and component functionality
 
 ***Significant components on the Margay v2.2.***
 
-### v0.0 (Retired)
+#### v0.0 (Retired)
 **Features** <br>
 I<sub>Q</sub> = 1.6mA <br>
 I<sub>out</sub> = 50mA, max (Regulated power supplied to sensors) <br>
@@ -36,7 +48,7 @@ V<sub>in</sub> = 3.3 ~ 5.5v <br>
 * Reset Button
 * Reconfigurable Button
 
-### v1.0
+#### v1.0
 **Features** <br>
 I<sub>Q</sub> = 2.5&mu;A <br>
 I<sub>out</sub> = 50mA, max (Regulated power supplied to sensors) <br>
@@ -52,7 +64,7 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 * Reset Button
 * Reconfigurable Button
 
-### v2.0 (In development)
+#### v2.0 (In development)
 **Features** <br>
 I<sub>Q</sub> = <2.5&mu;A (Estimated) <br>
 I<sub>out</sub> = 200mA, max (Regulated power supplied to sensors) <br>
@@ -69,7 +81,7 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 * Reset Button
 * Reconfigurable Button
 
-### Pinout:
+### Pinout and board interfaces
 Pinout is listed on bottom of board, and shown here for v2.2.
 
 ![Margay v2.2, top annotated](Documentation/images/Margay_v220_top_annotated_20200428.png "Margay v2.2, top annotated")
@@ -114,7 +126,7 @@ In this pinout, the name of each pin is shown, as well as the group of pins whic
 5. This is the hardware reset button, which will force the micro to return to the initial state after code upload
 6. This is the ICSP header, which can be used to burn the bootloader to the board or write programs to the chip without using the USB and bootloader
 
-### Onboard Pins:
+#### Onboard Pins:
 Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Function
 -------- | ----------------- | ----------------- | --------
 `SD_CS` | D4 | D4 | Chip select pin on SD card
@@ -134,12 +146,26 @@ Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Function
 `RTCInt` | D10 | D10 | Interrupt (`INT0`) connected to RTC /INT line, active low
 `LogInt` | D2 | D2 | Interrupt (`INT2`) connected to **LOG** button, active low
 
+### Assembly
 
-# Software
+Assembling this data logger is possible by hand with sufficient skill and the following tools:
+* Temperature-controlled soldering iron
+* Hot-air rework station
+* Equipment for stenciling with solder paste
+* ESD-safe tweezers and workstation
+* Solder wick
+
+Mechanized assembly by a professional circuit-board assembly house, which is available in many parts of the world, may be preferred due to the complexity of this data logger board.
+
+>> @awickert: I copy and pasted the same bit from the Resnik readme, let me (Josh) know if anything should be more specific/changed here - could also start work on that assembly guide mentioned in the Resnik readme comment after the Margay readme is more put together
+
+### Electronic Software and Firmware
 
 NOTE: Users should see the code included below in the README and follow the directions indicated in http://northernwidget.com/tutorial. Some of the below information is deprecated.
 
 NOTE: Currently, users should modify their Arduino libraries to include the most recent version 1 of SdFat; Margay is incompatible at present with version 2.
+
+>> @awickert: This section and the section below should be reorganized to mirror that of the Resnik readme, will get to it as soon as I (Josh) reorganize some of the previous info
 
 ## Using Northern Widget Software
 This includes a usage guide to demo software which is provided to both test the hardware features of the board in general (the MargayHardwareTest file), and to set the device up as a logger using a [TP-Downhole](https://github.com/NorthernWidget/TP-DownHole) device as a sensor which runs on I2C. This logger demo tests all hardware on the board and ensures all required systems are connected and indicates the result of these tests using the Status LED on startup. A green light indicated all systems check out, and the device is ready to log, otherwise a red light indicates there is a problem, it is recommended to open up a serial monitor to determine which system is failing. If a green light is indicated, when the system is ready to log, logging is initiated by pressing the log button, which makes an initial log and starts a sequence of logs which will continue to occur every 15 minutes (by default) of by a different user defined time. In between logging events, the system is put to sleep to save power. Each time the log button is pressed, a new SD card file is created named "Logx.txt" where x increments with each button press, and each one of these individual files is initiated with a header to inform the user of the data columns used by the CSV type file.
