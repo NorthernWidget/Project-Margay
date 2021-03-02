@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/123350026.svg)](https://zenodo.org/badge/latestdoi/123350026)
+
 # Project-Margay
 
 ![Margay Andy hand Dec 2020](Documentation/images/MargayAndyHand_cropped_2020-02-16_19.22.39.png)
