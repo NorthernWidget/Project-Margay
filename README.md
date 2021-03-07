@@ -16,7 +16,9 @@ Due to its small size and adaptability to its environment, Project Margay takes 
 
 ![A margay, yawning](https://upload.wikimedia.org/wikipedia/commons/4/45/Leopardus_wiedii%2C_R%C3%A9serve_Zoologique_de_Calviac.jpg)
 
-##Technical Specifications
+***A yawning margay cat***
+
+## Technical Specifications
 
 >> @awickert: I'm (Josh) drafting up a couple of ways to display the technical specs better, no substantial changes at the moment, but it's next on my list
 
@@ -83,6 +85,15 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 * Reset Button
 * Reconfigurable Button
 
+### Electronic Software and Firmware
+
+* Programmable using the Arduino IDE https://www.arduino.cc/en/main/software
+* Custom bootloader and board definition for ATMega1284p available via https://github.com/NorthernWidget/Arduino_Boards
+* Custom libraries from Northern Widget and the open-source community
+  * Primary data-logger functions
+  * Libraries available with each sensor, exposing a standard interface
+* Open-source licensing via GNU GPL 3.0
+
 ### Pinout and board interfaces
 Pinout is listed on bottom of board, and shown here for v2.2.
 
@@ -148,7 +159,7 @@ Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Function
 `RTCInt` | D10 | D10 | Interrupt (`INT0`) connected to RTC /INT line, active low
 `LogInt` | D2 | D2 | Interrupt (`INT2`) connected to **LOG** button, active low
 
-### Assembly
+## Assembly
 
 Assembling this data logger is possible by hand with sufficient skill and the following tools:
 * Temperature-controlled soldering iron
@@ -161,13 +172,31 @@ Mechanized assembly by a professional circuit-board assembly house, which is ava
 
 >> @awickert: I copy and pasted the same bit from the Resnik readme, let me (Josh) know if anything should be more specific/changed here - could also start work on that assembly guide mentioned in the Resnik readme comment after the Margay readme is more put together
 
-### Electronic Software and Firmware
+## Programming
+
+### Downloading and installing the Arduino IDE
+
+Go to https://www.arduino.cc/en/main/software. Choose the proper IDE version for your computer. For Windows, we suggest the non-app version to have more control over Arduino; this might change in the future. You will have to add custom libraries, so the web version will not work (at least, as of the time of writing). Download and install the Arduino IDE. Open it to begin the next steps.
 
 NOTE: Users should see the code included below in the README and follow the directions indicated in http://northernwidget.com/tutorial. Some of the below information is deprecated.
 
 NOTE: Currently, users should modify their Arduino libraries to include the most recent version 1 of SdFat; Margay is incompatible at present with version 2.
 
 >> @awickert: This section and the section below should be reorganized to mirror that of the Resnik readme, will get to it as soon as I (Josh) reorganize some of the previous info
+
+### Installing the Bootloader
+
+Before a data logger can receive programs via the convenient USB port, it must have a *bootloader* that tells it to expect to receive new programs that way.  You can read more about bootloaders in general here: https://www.arduino.cc/en/Hacking/Bootloader.
+
+Because you can't upload the bootloader via USB, you use the 2x3-pin 6-pin ICSP (also called ISP) header with a special device called an "in-circuit system programmer" (or just "in-system programmer; yup, that's what the acronym stands for).
+
+Many devices exist to upload a bootloader including:
+* The official [AVR ISP mkII](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42093-AVR-ISP-mkII_UserGuide.pdf) (no longer produced but available used)
+* Using an [Arduino as an ISP](https://www.arduino.cc/en/tutorial/arduinoISP)
+* The versatile [Olimex AVR-ISP-MK2](https://www.olimex.com/Products/AVR/Programmers/AVR-ISP-MK2/open-source-hardware)
+* The [Adafruit USBtinyISP](https://www.adafruit.com/product/46)
+
+***Important note for Linux users:*** You must supply permissions to the Arduino IDE for it to be able to use the ICSP, or you will have to run it using `sudo`. The former option is better; the latter is easier in the moment.
 
 ## Using Northern Widget Software
 This includes a usage guide to demo software which is provided to both test the hardware features of the board in general (the MargayHardwareTest file), and to set the device up as a logger using a [TP-Downhole](https://github.com/NorthernWidget/TP-DownHole) device as a sensor which runs on I2C. This logger demo tests all hardware on the board and ensures all required systems are connected and indicates the result of these tests using the Status LED on startup. A green light indicated all systems check out, and the device is ready to log, otherwise a red light indicates there is a problem, it is recommended to open up a serial monitor to determine which system is failing. If a green light is indicated, when the system is ready to log, logging is initiated by pressing the log button, which makes an initial log and starts a sequence of logs which will continue to occur every 15 minutes (by default) of by a different user defined time. In between logging events, the system is put to sleep to save power. Each time the log button is pressed, a new SD card file is created named "Logx.txt" where x increments with each button press, and each one of these individual files is initiated with a header to inform the user of the data columns used by the CSV type file.
@@ -250,13 +279,81 @@ void initialize(){
 }
 ```
 
+### Reference
+
+A full index of the public variables and functions within the Margay data logger library is available at https://github.com/NorthernWidget-Skunkworks/Margay_Library. (currently under construction)
+
+>> @awickert: do you want to make the Margay_Library just like the Resnik_Library? let me (Josh) know. I Can get that sorted after this main document if I can put together all of the relevant tech info for it.
+
+## Wiring
+
+## Power Supply
+
+## Housing
+
+### Materials
+
+### Tools
+
+### Assembly
+
+## Field operator's guide
+
+### Logging Start:
+Using this library, logging begins automatically once power is applied. If error conditions are found, they will be indicated by status lights, but the logger will attempt to continue if possible. The following should represent the light sequence.
+
+- On power application
+	- `AUX` light will illuminate **green**, will stay on while testing
+- After testing is complete
+	- `AUX` light will turn **off**
+	- `STAT` light will illuminate with various colors depending on the status of the logger
+		- **Green** -> All systems check out OK, logging will proceed
+		- **Orange** -> A sensor system is not registering properly, some sensor data may be missing or incorrect
+		- **Cyan** -> Clock time is incorrect, but otherwise working correctly
+		- **Pink** -> SD card is not inserted
+		- **Red** -> Critical on board component ([Jesus Nut](https://en.wikipedia.org/wiki/Jesus_nut)) is not functioning correctly, such as SD card or clock, logging will likely not be able to proceed
+		- **Yellow, Fast Blinking** -> Battery capacity (assuming 3 series alkaline cells) is less than 50% of operational range. Device will still function fine, but operational time is less than ideal.
+		- **Red, Fast Blinking** -> Battery voltage is less than 3.3v. Functionality of hardware no longer guaranteed beyond this point.  
+- After display of status code(s)
+	- `STAT` light will blink blue to indicate logging (or attempted logging) has begun
+
+### Troubleshooting:
+If an error code is received try the following steps:
+
+- **General**
+	- Disconnect and reconnect power, both USB and battery ([Turn it off and back on again](https://i.imgur.com/Yj6dB3W.gif))
+	- Verify the quality of all screw terminal connections by gently tugging on the wires and making sure they stay in place, if not, remove and re-tighten the connection
+	- Ensure sensors and/or cables are not damaged, this can result in shorts or other problems
+	- Make sure batteries have sufficient voltage to run the logger, when the battery voltage drops below *3.3v*, malfunctions can occur
+- **Orange**
+	- Verify correct polarity of sensor connection
+	- Ensure the right sensor is connected
+	- Verify the screw terminals are well connected to the wires (a loose connection can cause a failure)
+	- Make sure battery power is applied, some sensors can fail otherwise
+- **Cyan**
+	- Connect the logger to a computer and reset the clock using the [Northern Widget Time Set GUI](https://github.com/NorthernWidget/SetTime_GUI)
+- **Pink**
+	- Insert the SD card, or make sure card is fully seated
+- **Red**
+	- Attempt power cycle
+	- Try different SD card
+	- Disconnect all sensors
+	- If none of the previous steps remove the red light, contact [Northern Widget](http://www.northernwidget.com/contact/) for further support
+- **Yellow, Fast Blinking**
+	- Replace batteries
+- **Red, Fast Blinking**
+	- *If* this error occurs while also connected over USB, check proper connection of batteries
+	- Replace batteries
+
+>> I copied this over from the Margay_Library as it seemed relevant, I may modify it to better match the Resnik document.
+
 # Developer Notes
 
 + (**<= Mrk 1.0**) When using power from the external rail (the 3v3 on the screw terminals) it is always advised to have a battery connected to the board, even if connected via USB. The USB connection is able to power the core components, but not the external rail. We know this is annoying, but fear not, the Northern Widget team is [working tirelessly](https://i.imgur.com/Kx97N0l.gifv) to fix this for the Mrk 2.0!
 + (**<= Mrk 1.0**) When using I<sup>2</sup>C on the device, external pullups (4.7k&Omega; ~ 10k&Omega;) are required. If using device strictly onboard the internal pullups on the ATMEGA seem sufficient, but if you add capacitance of a cable attaching to an external sensor, etc, this is often too much, since the internal pullups are very weak. This is also being fixed in the Mrk 2.0 version with dedicated switchable on board pullups.
 + (**All models**) The external power rails and the switched battery rail should be enabled in hardware by default, however, it is our recommendation to explicitly define these pins (`Ext3v3Ctrl`) as outputs and drive them `LOW` even if you never intend to switch them on and off. This prevents the rails from inadvertently being turned off due to a transient on the floating control line.
 
-## Acknowledgments
+# Acknowledgments
 
 Support for this project provided by:
 
