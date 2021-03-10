@@ -159,6 +159,25 @@ Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Function
 `RTCInt` | D10 | D10 | Interrupt (`INT0`) connected to RTC /INT line, active low
 `LogInt` | D2 | D2 | Interrupt (`INT2`) connected to **LOG** button, active low
 
+
+## On-board Devices
+
+### I2C
+
+| **Device**                                                	| **Default address** 	| **Reprogrammable address** 	| **Function**                                                     	|
+|-----------------------------------------------------------	|---------------------	|----------------------------	|------------------------------------------------------------------	|
+| [DS3231](https://github.com/NorthernWidget/DS3231_Logger) 	| 0x68                	| N                          	| Real-time clock                                                  	|
+| [MCP3421](https://github.com/NorthernWidget/MCP3421)      	| 0x6A                	| N                          	| ADC                                                              	|
+| [BME280](https://github.com/NorthernWidget/BME_Library)   	| 0x77                	| N                          	| On-board barometric pressure, temperature, and relative humidity 	|
+
+### SPI
+
+* SD Card
+
+### UART (USART)
+
+* FTDI USB-Serial converter
+
 ## Assembly
 
 Assembling this data logger is possible by hand with sufficient skill and the following tools:
