@@ -10,7 +10,7 @@ Project Margay is a micro scale environmental data logger designed based on the 
 
 ## Namesake
 
-Due to its small size and adaptability to its environment, Project Margay takes its name from the small Margay cat native to the forests of South and Central America.
+Due to its small size and adaptability to its environment, Project Margay owes its name to the small Margay cat native to the forests of Central and South America.
 
 >> @awickert: Might be best to add in some feature abilities of the Margay datalogger in part of the namesake to mirror that of the Resnik - let me know what you think the highlights of the logger are and I'll (Josh) put them in
 
