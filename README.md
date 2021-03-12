@@ -318,6 +318,10 @@ A full index of the public variables and functions within the Margay data logger
 
 ## Field operator's guide
 
+**Note**: Logger will not be able to wake up unless the clock (RTC) is powered.
+
+>>> @awickert Likely going to move this note somewhere, but wanted to include if for the moment so I don't forget
+
 ### Logging Start
 Logging begins automatically once power is applied. If error conditions are found, they will be indicated by status lights, but the logger will attempt to continue if possible. The following should represent the light sequence.
 
@@ -339,17 +343,17 @@ Logging begins automatically once power is applied. If error conditions are foun
 ### Troubleshooting
 If an error code is received try the following steps:
 
-- **General**
-	- Disconnect and reconnect power, both USB and battery ([Turn it off and back on again](https://i.imgur.com/Yj6dB3W.gif))
-	- Verify the quality of all screw terminal connections by gently tugging on the wires and making sure they stay in place, if not, remove and re-tighten the connection
-	- Ensure sensors and/or cables are not damaged, this can result in shorts or other problems
-	- Make sure batteries have sufficient voltage to run the logger, when the battery voltage drops below *3.3v*, malfunctions can occur
+**General**
+* Disconnect and reconnect power, both USB and battery ([Turn it off and back on again](https://i.imgur.com/Yj6dB3W.gif))
+* Verify the quality of all screw terminal connections by gently tugging on the wires and making sure they stay in place, if not, remove and re-tighten the connection
+* Ensure sensors and/or cables are not damaged, this can result in shorts or other problems
+* Make sure batteries have sufficient voltage to run the logger, when the battery voltage drops below *3.3v*, malfunctions can occur
 
 #### Status Codes
 
 The second LED (STAT) will have one of the colors below.
 
-**Green:**: All systems check out OK, logging will proceed
+**Green**: All systems check out OK, logging will proceed
 
 **Orange**: A sensor system is not registering properly, some sensor data may be missing or incorrect
 * Verify correct polarity of sensor connection
