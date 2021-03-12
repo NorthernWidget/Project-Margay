@@ -318,8 +318,8 @@ A full index of the public variables and functions within the Margay data logger
 
 ## Field operator's guide
 
-### Logging Start:
-Using this library, logging begins automatically once power is applied. If error conditions are found, they will be indicated by status lights, but the logger will attempt to continue if possible. The following should represent the light sequence.
+### Logging Start
+Logging begins automatically once power is applied. If error conditions are found, they will be indicated by status lights, but the logger will attempt to continue if possible. The following should represent the light sequence.
 
 - On power application
 	- `AUX` light will illuminate **green**, will stay on while testing
@@ -336,7 +336,7 @@ Using this library, logging begins automatically once power is applied. If error
 - After display of status code(s)
 	- `STAT` light will blink blue to indicate logging (or attempted logging) has begun
 
-### Troubleshooting:
+### Troubleshooting
 If an error code is received try the following steps:
 
 - **General**
@@ -344,25 +344,38 @@ If an error code is received try the following steps:
 	- Verify the quality of all screw terminal connections by gently tugging on the wires and making sure they stay in place, if not, remove and re-tighten the connection
 	- Ensure sensors and/or cables are not damaged, this can result in shorts or other problems
 	- Make sure batteries have sufficient voltage to run the logger, when the battery voltage drops below *3.3v*, malfunctions can occur
-- **Orange**
-	- Verify correct polarity of sensor connection
-	- Ensure the right sensor is connected
-	- Verify the screw terminals are well connected to the wires (a loose connection can cause a failure)
-	- Make sure battery power is applied, some sensors can fail otherwise
-- **Cyan**
-	- Connect the logger to a computer and reset the clock using the [Northern Widget Time Set GUI](https://github.com/NorthernWidget/SetTime_GUI)
-- **Pink**
-	- Insert the SD card, or make sure card is fully seated
-- **Red**
-	- Attempt power cycle
-	- Try different SD card
-	- Disconnect all sensors
-	- If none of the previous steps remove the red light, contact [Northern Widget](http://www.northernwidget.com/contact/) for further support
-- **Yellow, Fast Blinking**
-	- Replace batteries
-- **Red, Fast Blinking**
-	- *If* this error occurs while also connected over USB, check proper connection of batteries
-	- Replace batteries
+
+#### Status Codes
+
+The second LED (STAT) will have one of the colors below.
+
+**Green:**: All systems check out OK, logging will proceed
+
+**Orange**: A sensor system is not registering properly, some sensor data may be missing or incorrect
+* Verify correct polarity of sensor connection
+* Ensure the right sensor is connected
+* Verify the screw terminals are well connected to the wires (a loose connection can cause a failure)
+* Make sure battery power is applied, some sensors can fail otherwise
+
+**Cyan**: Clock time is incorrect, but logger is otherwise working correctly
+* Connect the logger to a computer and reset the clock using the [Northern Widget Time Set GUI](https://github.com/NorthernWidget/SetTime_GUI)
+* Note and record the wrong time if the logger has been out in the field, alongside the current (correct) time, to correct the prior measurements
+
+**Pink**: (looks like purple to some people): SD card is not inserted
+* Insert the SD card, or make sure card is fully seated
+
+**Red**: Critical on-board component is not functioning correctly, such as SD card or clock; Logging will likely not be able to proceed
+* Attempt power cycle
+* Try different SD card
+* Disconnect all sensors
+* If none of the previous steps remove the red light, contact [Northern Widget](http://www.northernwidget.com/contact/) for further support
+
+**Yellow, Fast Blinking**: <50% battery capacity
+* Replace batteries
+
+**Red, Fast Blinking**: Batteries <3.3V, voltage too low to properly function
+* *If* this error occurs while also connected over USB, check proper connection of batteries
+* Replace batteries
 
 >> I copied this over from the Margay_Library as it seemed relevant, I may modify it to better match the Resnik document.
 
