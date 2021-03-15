@@ -99,20 +99,21 @@ Pinout is listed on bottom of board, and shown here for v2.2.
 
 ![Margay v2.2, top annotated](Documentation/images/Margay_v220_top_annotated_20200428.png "Margay v2.2, top annotated")
 
-***Margay data logger, top annotated.***
-* Positive voltage: red
+***Margay data logger with pins, connectors, and interactive items annotated, top side.***
+
+**Pins are colored following this convention:**
 * Ground: black
+* Positive voltage: red
+* Universal Serial Asynchronous Receiver--Transmitter (UART or USART) bus: blue
+* Digital I/O: gray
 * Analog measurement system: green
 * I2C bus: purple
-* Digital I/O: gray
-* UART (also called USART) bus: blue
 
 *The jumper on the front of the board, to the right of "B+" and "Ax", connects an on-board reference resistor (10 kOhm in our builds) with the analog pin Ax to create a voltage divider in which the sensor between Ax and REF is on the GND side of the voltage divider.*
 
 ![Margay v2.2, bottom annotated](Documentation/images/Margay_v220_bottom_annotated_20200428.png "Margay v2.2, bottom annotated")
 
-***Margay data logger, bottom annotated.*** This is where the labels for the above pins are printed.
-
+***Margay data logger annotated, bottom side.*** This is where the labels for the above pins are printed.
 
 In this pinout, the name of each pin is shown, as well as the group of pins which it belongs to, a detailed description of the pins and callouts follows:
 
@@ -120,7 +121,7 @@ In this pinout, the name of each pin is shown, as well as the group of pins whic
 * 3v3, the switched 3.3v output rail, this rail can be turned on and off to disconnect power consumptive external devices
 * GND, the main output ground
 * BAT+, the positive connection for the battery line, voltage range 3.3v ~ 5.5v
-* BAT-, Negative battery connection, this pin is NOT interchangeable with GND, as BAT- is reverse voltage protected to prevent damage from plugging the battery in backwards
+* BAT-, Negative battery connection, **Note**: this pin is NOT interchangeable with GND, as BAT- is reverse voltage protected to prevent damage from plugging the battery in backwards
 * Vs, this is the switched PWM output, the voltage of this output is determined by a solder jumper on the bottom of the board, controlled by **D3**
 
 * MOSI, this is the master out, slave in, pin for the SPI bus, which doubles as **D5** when SPI and SD card are not used
@@ -197,9 +198,9 @@ Mechanized assembly by a professional circuit-board assembly house, which is ava
 
 Go to https://www.arduino.cc/en/main/software. Choose the proper IDE version for your computer. For Windows, we suggest the non-app version to have more control over Arduino; this might change in the future. You will have to add custom libraries, so the web version will not work (at least, as of the time of writing). Download and install the Arduino IDE. Open it to begin the next steps.
 
-NOTE: Users should see the code included below in the README and follow the directions indicated in http://northernwidget.com/tutorial. Some of the below information is deprecated.
+**Note**: Users should see the code included below in the README and follow the directions indicated in http://northernwidget.com/tutorial. Some of the below information is deprecated.
 
-NOTE: Currently, users should modify their Arduino libraries to include the most recent version 1 of SdFat; Margay is incompatible at present with version 2.
+**Note**: Currently, users should modify their Arduino libraries to include the most recent version 1 of SdFat; Margay is incompatible at present with version 2.
 
 >> @awickert: This section and the section below should be reorganized to mirror that of the Resnik readme, will get to it as soon as I (Josh) reorganize some of the previous info
 
