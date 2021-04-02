@@ -20,8 +20,6 @@ Due to its small size and adaptability to its environment, Project Margay owes i
 
 ## Technical Specifications
 
->> @awickert: I'm (Josh) drafting up a couple of ways to display the technical specs better, no substantial changes at the moment, but it's next on my list
-
 ### Electronic Hardware
 This includes a description of the PCB and component functionality
 
@@ -32,10 +30,6 @@ This includes a description of the PCB and component functionality
 * Extremely low sleep current
 * Input voltage designed for use with easy to find alkaline batteries
 * 0.1" Pitch headers can be populated with header pins and placed on a breadboard for prototyping
-
-![Margay v2.2 interior elements labeled](Documentation/images/Margay_v220_top_annotated_interior_20200428.png)
-
-***Significant components on the Margay v2.2.***
 
 #### v0.0 (Retired)
 **Features** <br>
@@ -67,6 +61,10 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 * Auxiliary LED
 * Reset Button
 * Reconfigurable Button
+
+![Margay v2.2 interior elements labeled](Documentation/images/Margay_v220_top_annotated_interior_20200428.png)
+
+***Significant components on the Margay v2.2.***
 
 #### v2.0 (In development)
 **Features** <br>
@@ -218,7 +216,7 @@ Many devices exist to upload a bootloader including:
 
 ***Important note for Linux users:*** You must supply permissions to the Arduino IDE for it to be able to use the ICSP, or you will have to run it using `sudo`. The former option is better; the latter is easier in the moment.
 
-## Using Northern Widget Software
+### Using Northern Widget Software
 This includes a usage guide to demo software which is provided to both test the hardware features of the board in general (the MargayHardwareTest file), and to set the device up as a logger using a [TP-Downhole](https://github.com/NorthernWidget/TP-DownHole) device as a sensor which runs on I2C. This logger demo tests all hardware on the board and ensures all required systems are connected and indicates the result of these tests using the Status LED on startup. A green light indicated all systems check out, and the device is ready to log, otherwise a red light indicates there is a problem, it is recommended to open up a serial monitor to determine which system is failing. If a green light is indicated, when the system is ready to log, logging is initiated by pressing the log button, which makes an initial log and starts a sequence of logs which will continue to occur every 15 minutes (by default) of by a different user defined time. In between logging events, the system is put to sleep to save power. Each time the log button is pressed, a new SD card file is created named "Logx.txt" where x increments with each button press, and each one of these individual files is initiated with a header to inform the user of the data columns used by the CSV type file.
 
 To use this software the following libraries must be installed in the Arduino IDE:
@@ -232,7 +230,7 @@ Information on library instillation can be found on the [Arduino](https://www.ar
 
 The Northern Widget board definitions will also be required, the Margay board should be run using the "TLog v1" board definition. Information on how to install and select a board definition can be found in the Northern Widget Board Definitions [readme](https://github.com/NorthernWidget/Arduino_Boards)
 
-## Using Custom Software (Developer)
+### Using Custom Software (Developer)
 As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for instillation and use are provided on the MightyCore GitHub page.
 
 For the Margay (any model), the recommended settings are as follows:
@@ -246,7 +244,7 @@ Setting | Value
 `Variant` | `644P/644PA`
 `BOD` | `2.7v`
 
-# Sample code
+#### Sample code
 
 `Margay_NoSensors.ino`
 
