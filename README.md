@@ -31,6 +31,31 @@ This includes a description of the PCB and component functionality
 * Input voltage designed for use with easy to find alkaline batteries
 * 0.1" Pitch headers can be populated with header pins and placed on a breadboard for prototyping
 
+### Current iteration:
+
+![Margay v2.2 interior elements labeled](Documentation/images/Margay_v220_top_annotated_interior_20200428.png)
+
+***Significant components on the Margay v2.2.***
+
+#### v2.2
+**Features** <br>
+I<sub>Q</sub> = <2.5&mu;A (Estimated) <br>
+I<sub>out</sub> = 200mA, max (Regulated power supplied to sensors) <br>
+V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
+
+**IO**
+* 1 ADC, 18 bit
+* 1 I<sup>2</sup>C Bus
+* 1 UART Channel
+* 2 GPIO Pins (one configurable as an 8 bit ADC)
+* 1 PWM Channel (output configurable to 3.3v or VBat via a jumper on bottom of board)
+* RGB Status LED
+* Auxiliary LED
+* Reset Button
+* Reconfigurable Button
+
+### Past Iterations:
+
 #### v0.0 (Retired)
 **Features** <br>
 I<sub>Q</sub> = 1.6mA <br>
@@ -62,11 +87,7 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 * Reset Button
 * Reconfigurable Button
 
-![Margay v2.2 interior elements labeled](Documentation/images/Margay_v220_top_annotated_interior_20200428.png)
-
-***Significant components on the Margay v2.2.***
-
-#### v2.0 (In development)
+#### v2.0
 **Features** <br>
 I<sub>Q</sub> = <2.5&mu;A (Estimated) <br>
 I<sub>out</sub> = 200mA, max (Regulated power supplied to sensors) <br>
@@ -216,8 +237,17 @@ Many devices exist to upload a bootloader including:
 
 ***Important note for Linux users:*** You must supply permissions to the Arduino IDE for it to be able to use the ICSP, or you will have to run it using `sudo`. The former option is better; the latter is easier in the moment.
 
+To upload the bootloader, do the following:
+
+1. Open the Arduino IDE. If you have not yet installed the Northern Widget board definitions, find and install them here (instructions provided): https://github.com/NorthernWidget/Arduino_Boards - the Margay board should be run using the "TLog v1" board definition.
+2. Select the desired board -- most likely ***ATMega1284p 8MHz*** under *Northern Widget Boards*.
+3. Plug the data logger into your computer via a micro-USB cable to provide power.
+4. Plug your ISP of choice into your computer (via a USB cable) and onto the 6-pin header. There are two ways to place it on; the header is aligned such that the ribbon cable should be facing away from the board while programming. If this fails without being able to upload, try flipping the header around.
+5. Go to Tools --> Programmer and select the appropriate programmer based on what you are using.
+6. Go to Tools --> Burn bootloader. Typically, within a few seconds, you learn whether you succeeded or failed. Hopefully it worked!
+
 ### Using Northern Widget Software
-This includes a usage guide to demo software which is provided to both test the hardware features of the board in general (the MargayHardwareTest file), and to set the device up as a logger using a [TP-Downhole](https://github.com/NorthernWidget/TP-DownHole) device as a sensor which runs on I2C. This logger demo tests all hardware on the board and ensures all required systems are connected and indicates the result of these tests using the Status LED on startup. A green light indicated all systems check out, and the device is ready to log, otherwise a red light indicates there is a problem, it is recommended to open up a serial monitor to determine which system is failing. If a green light is indicated, when the system is ready to log, logging is initiated by pressing the log button, which makes an initial log and starts a sequence of logs which will continue to occur every 15 minutes (by default) of by a different user defined time. In between logging events, the system is put to sleep to save power. Each time the log button is pressed, a new SD card file is created named "Logx.txt" where x increments with each button press, and each one of these individual files is initiated with a header to inform the user of the data columns used by the CSV type file.
+This includes a usage guide to demo software which is provided to both test the hardware features of the board in general (the MargayHardwareTest file), and to set the device up as a logger using a [TP-Downhole](https://github.com/NorthernWidget/TP-DownHole) device as a sensor which runs on I2C. This logger demo tests all hardware on the board and ensures all required systems are connected and indicates the result of these tests using the Status LED on startup. A green light indicated all systems check out, and the device is ready to log, otherwise a red light indicates there is a problem, it is recommended to open up a serial monitor to determine which system is failing. If a green light is indicated, when the system is ready to log, logging is initiated by pressing the log button, which makes an initial log and starts a sequence of logs which will continue to occur every 15 minutes (by default) or by a different user defined time. In between logging events, the system is put to sleep to save power. Each time the log button is pressed, a new SD card file is created named "Logx.txt" where x increments with each button press, and each one of these individual files is initiated with a header to inform the user of the data columns used by the CSV type file.
 
 To use this software the following libraries must be installed in the Arduino IDE:
 * [SdFat](https://github.com/greiman/SdFat)
@@ -226,9 +256,6 @@ To use this software the following libraries must be installed in the Arduino ID
 * [MS5803](https://github.com/NorthernWidget/MS5803)
 
 Information on library instillation can be found on the [Arduino](https://www.arduino.cc/en/Guide/Libraries) site, the "Manual" instillation method should be used to ensure success
-
-
-The Northern Widget board definitions will also be required, the Margay board should be run using the "TLog v1" board definition. Information on how to install and select a board definition can be found in the Northern Widget Board Definitions [readme](https://github.com/NorthernWidget/Arduino_Boards)
 
 ### Using Custom Software (Developer)
 As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for instillation and use are provided on the MightyCore GitHub page.
@@ -319,7 +346,7 @@ A full index of the public variables and functions within the Margay data logger
 
 **Note**: Logger will not be able to wake up unless the clock (RTC) is powered.
 
->>> @awickert Likely going to move this note somewhere, but wanted to include if for the moment so I don't forget
+>>> @awickert Likely going to move this note somewhere, but wanted to include it for the moment so I don't forget
 
 ### Logging Start
 Logging begins automatically once power is applied. If error conditions are found, they will be indicated by status lights, but the logger will attempt to continue if possible. The following should represent the light sequence.
