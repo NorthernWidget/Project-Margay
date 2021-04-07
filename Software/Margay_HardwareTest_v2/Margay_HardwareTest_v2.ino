@@ -86,15 +86,16 @@ void loop() {
   if(Serial.available() > 0) {
     char Input = Serial.read();
 
-    if(Input != '\r') { //Wait for carrage return
+    // Increment counter while waiting for carrage return or newline
+    if(Input != 13 || Input != 10) {
 //      Serial.println(Input); //DEBUG!
       ReadArray[ReadLength] = Input;
 //      Serial.println(ReadArray[ReadLength]); //DEBUG!
       ReadLength++;
     }
 
-    if(Input == '\r') {
-//      Serial.println("CARRAGE"); //DEBUG!
+    if(Input == 13 || Input == 10) { // carriage or newline
+//      Serial.println("CARRAGE OR NEWLINE"); //DEBUG!
       ReadString = String(ReadArray);
 //      Serial.println(ReadString);
       ReadString.trim();
@@ -530,4 +531,3 @@ String bool2pf(boolean TestResult){
   if(TestResult) return "FAIL";
   return "PASS";
 }
-
