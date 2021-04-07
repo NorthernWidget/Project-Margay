@@ -257,6 +257,21 @@ To use this software the following libraries must be installed in the Arduino ID
 
 Information on library instillation can be found on the [Arduino](https://www.arduino.cc/en/Guide/Libraries) site, the "Manual" instillation method should be used to ensure success
 
+### Setting the serial number
+
+If you need to set a serial number on your Margay board, upload [this sketch](https://github.com/NorthernWidget-Skunkworks/Project-Margay/tree/master/Software/Margay_HardwareTest_v2) available in the "Software" folder within this repository.
+
+Once the above testing sketch has been uploaded
+
+Type `SN Set`, followed by either a carriage return or a linefeed/newline character, to enter a prompt to set the serial number. This will give you three fields into which you can enter 4-digit hexadecimal (0-F) numbers:
+* Board type; at Northern Widget, this is `0x4D02` for the Margay v2.2. If you are working with one of our boards, please use this number and enter a group ID and uniuqe ID as instructed. If you have built your own board, please do *not* use this number, as we would like to keep our series separate for the sake of recordkeeping (and not track every single 3rd-party built board out there)
+* Group ID: We use this to denote collaborative projects vs. internal use vs. general sales
+* Unique ID: This is a monotonically increasing number.
+
+If you wish to later read the serial number, type `SN Read`.
+
+>> @awickert @bschulz: Document other testing capabilities within the sketch?
+
 ### Using Custom Software (Developer)
 As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for instillation and use are provided on the MightyCore GitHub page.
 
