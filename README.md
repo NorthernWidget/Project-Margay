@@ -12,8 +12,6 @@ Project Margay is a micro scale environmental data logger designed based on the 
 
 Due to its small size and adaptability to its environment, Project Margay owes its name to the small Margay cat native to the forests of Central and South America.
 
->> @awickert: Might be best to add in some feature abilities of the Margay datalogger in part of the namesake to mirror that of the Resnik - let me know what you think the highlights of the logger are and I'll (Josh) put them in
-
 ![A margay, yawning](https://upload.wikimedia.org/wikipedia/commons/4/45/Leopardus_wiedii%2C_R%C3%A9serve_Zoologique_de_Calviac.jpg)
 
 ***A yawning margay cat***
@@ -24,7 +22,7 @@ Due to its small size and adaptability to its environment, Project Margay owes i
 This includes a description of the PCB and component functionality
 
 #### Features:
-* ATMega644P Processor
+* ATMega1284p Processor
 * 3.3v Logic
 * On board full size SD card (for ease of field use)
 * Extremely low sleep current
@@ -38,10 +36,30 @@ This includes a description of the PCB and component functionality
 ***Significant components on the Margay v2.2.***
 
 #### v2.2
-**Features** <br>
-I<sub>Q</sub> = <2.5&mu;A (Estimated) <br>
-I<sub>out</sub> = 200mA, max (Regulated power supplied to sensors) <br>
-V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
+* Microcontroller (computer) core
+  * ATMega1284p
+  * Arduino compatible
+  * programmable using C++
+  * 8 MHz
+* Real-time clock
+  * DS3231M
+  * Temperature-compensated crystal for high accuracy (±5 ppm)
+* Sensor and general-purpose connections
+  * Combined digital humidity and pressure sensor
+    * BME280
+* Data storage and return
+  * Local storage: SD card
+* Power
+  * Coin cell battery - CR1220, 3V
+  * Power consumption
+    * I<sub>Q</sub> = <2.5&mu;A (Estimated)
+    * I<sub>out</sub> = 200mA, max (Regulated power supplied to sensors)
+    * V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected)
+* User interface
+  * "Log" button
+  * "Reset" button
+  * Auxiliary LED
+  * RGB Status LED
 
 **IO**
 * 1 ADC, 18 bit
@@ -51,10 +69,18 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 * 1 PWM Channel (output configurable to 3.3v or VBat via a jumper on bottom of board)
 * RGB Status LED
 * Auxiliary LED
+* Log Button
 * Reset Button
-* Reconfigurable Button
 
 ### Past Iterations:
+
+#### Features:
+* ATMega644p Processor
+* 3.3v Logic
+* On board full size SD card (for ease of field use)
+* Extremely low sleep current
+* Input voltage designed for use with easy to find alkaline batteries
+* 0.1" Pitch headers can be populated with header pins and placed on a breadboard for prototyping
 
 #### v0.0 (Retired)
 **Features** <br>
@@ -209,8 +235,6 @@ Assembling this data logger is possible by hand with sufficient skill and the fo
 
 Mechanized assembly by a professional circuit-board assembly house, which is available in many parts of the world, may be preferred due to the complexity of this data logger board.
 
->> @awickert: I copy and pasted the same bit from the Resnik readme, let me (Josh) know if anything should be more specific/changed here - could also start work on that assembly guide mentioned in the Resnik readme comment after the Margay readme is more put together
-
 ## Programming
 
 ### Downloading and installing the Arduino IDE
@@ -220,8 +244,6 @@ Go to https://www.arduino.cc/en/main/software. Choose the proper IDE version for
 **Note**: Users should see the code included below in the README and follow the directions indicated in http://northernwidget.com/tutorial. Some of the below information is deprecated.
 
 **Note**: Currently, users should modify their Arduino libraries to include the most recent version 1 of SdFat; Margay is incompatible at present with version 2.
-
->> @awickert: This section and the section below should be reorganized to mirror that of the Resnik readme, will get to it as soon as I (Josh) reorganize some of the previous info
 
 ### Installing the Bootloader
 
@@ -343,25 +365,9 @@ void initialize(){
 
 A full index of the public variables and functions within the Margay data logger library is available at https://github.com/NorthernWidget-Skunkworks/Margay_Library. (currently under construction)
 
->> @awickert: do you want to make the Margay_Library just like the Resnik_Library? let me (Josh) know. I Can get that sorted after this main document if I can put together all of the relevant tech info for it.
-
-## Wiring
-
-## Power Supply
-
-## Housing
-
-### Materials
-
-### Tools
-
-### Assembly
-
 ## Field operator's guide
 
 **Note**: Logger will not be able to wake up unless the clock (RTC) is powered.
-
->>> @awickert Likely going to move this note somewhere, but wanted to include it for the moment so I don't forget
 
 ### Logging Start
 Logging begins automatically once power is applied. If error conditions are found, they will be indicated by status lights, but the logger will attempt to continue if possible. The following should represent the light sequence.
@@ -371,14 +377,7 @@ Logging begins automatically once power is applied. If error conditions are foun
 - After testing is complete
 	- `AUX` light will turn **off**
 	- `STAT` light will illuminate with various colors depending on the status of the logger
-		- **Green** -> All systems check out OK, logging will proceed
-		- **Orange** -> A sensor system is not registering properly, some sensor data may be missing or incorrect
-		- **Cyan** -> Clock time is incorrect, but otherwise working correctly
-		- **Pink** -> SD card is not inserted
-		- **Red** -> Critical on board component ([Jesus Nut](https://en.wikipedia.org/wiki/Jesus_nut)) is not functioning correctly, such as SD card or clock, logging will likely not be able to proceed
-		- **Yellow, Fast Blinking** -> Battery capacity (assuming 3 series alkaline cells) is less than 50% of operational range. Device will still function fine, but operational time is less than ideal.
-		- **Red, Fast Blinking** -> Battery voltage is less than 3.3v. Functionality of hardware no longer guaranteed beyond this point.  
-- After display of status code(s)
+    - See "Status Codes" under "Troubleshooting" below for details
 	- `STAT` light will blink blue to indicate logging (or attempted logging) has begun
 
 ### Troubleshooting
@@ -421,8 +420,6 @@ The second LED (STAT) will have one of the colors below.
 **Red, Fast Blinking**: Batteries <3.3V, voltage too low to properly function
 * *If* this error occurs while also connected over USB, check proper connection of batteries
 * Replace batteries
-
->> I copied this over from the Margay_Library as it seemed relevant, I may modify it to better match the Resnik document.
 
 # Developer Notes
 
