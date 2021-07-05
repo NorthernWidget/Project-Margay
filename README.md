@@ -313,7 +313,6 @@ Setting | Value
 `Margay_NoSensors.ino`
 
 ```c++
-// Include the Walrus library
 #include "Margay.h"
 // Include any sensor libraries.
 // The Northern Widget standard interface is demonstrated here.
@@ -332,7 +331,10 @@ String header;
 // But at the time of writing, the logger should still work without this.
 uint8_t I2CVals[] = {};
 
-//Number of seconds between readings
+// Number of seconds between readings
+// The Watchdog timer will automatically reset the logger after approximately 36 minutes.
+// We recommend logging intervals of 30 minutes (1800 s) or less.
+// Intervals that divide cleanly into hours are strongly preferable.
 uint32_t updateRate = 60;
 
 void setup(){
