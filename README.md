@@ -319,17 +319,12 @@ Setting | Value
 // The Northern Widget standard interface is demonstrated here.
 //Sensor mySensor;
 
-// Declare variables -- just as strings
-String header;
-String data;
-
 // Instantiate classes
 // Sensor mySensor (for any Northern Widget standard sensor library)
 Margay Logger(Model_2v0, Build_B); // Margay v2.2; UPDATE CODE TO INDICATE THIS
 
-
 // Empty header to start; will include sensor labels and information
-String Header = "";
+String header;
 
 // I2CVals for sensors
 // Add these for any sensors that you attach
@@ -341,8 +336,9 @@ uint8_t I2CVals[] = {};
 uint32_t updateRate = 60;
 
 void setup(){
-    Header = Header;//+ mySensor.getHeader();
-    Logger.begin(I2CVals, sizeof(I2CVals), Header);
+    // No sensors attached; header may remain empty.
+    // header = header + mySensor.getHeader(); // + nextSensor.getHeader() + ...
+    Logger.begin(I2CVals, sizeof(I2CVals), header);
 }
 
 void loop(){
@@ -351,7 +347,7 @@ void loop(){
 
 String update() {
     initialize();
-    //return mySensor.getString(); // If there were a sensor attached
+    //return mySensor.getString(); // If a sensor were attached
     return ""; // Empty string for this example: no sensors attached
 }
 
