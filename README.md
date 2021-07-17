@@ -319,8 +319,8 @@ Setting | Value
 //Sensor mySensor;
 
 // Instantiate classes
-// Sensor mySensor (for any Northern Widget standard sensor library)
-Margay Logger(Model_2v0, Build_B); // Margay v2.2; UPDATE CODE TO INDICATE THIS
+// Sensor mySensor; (for any Northern Widget standard sensor library)
+Margay Logger;
 
 // Empty header to start; will include sensor labels and information
 String header;
@@ -344,7 +344,7 @@ void setup(){
 }
 
 void loop(){
-    Logger.Run(update, updateRate);
+    Logger.run(update, updateRate);
 }
 
 String update() {
