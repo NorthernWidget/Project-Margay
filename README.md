@@ -378,7 +378,7 @@ Logging begins automatically once power is applied. If error conditions are foun
 	- `AUX` light will turn **off**
 	- `STAT` light will illuminate with various colors depending on the status of the logger
     - See "Status Codes" under "Troubleshooting" below for details
-	- `STAT` light will blink blue to indicate logging (or attempted logging) has begun
+	- `STAT` light will blink blue quickly once to indicate logging (or attempted logging) has begun
 
 ### Troubleshooting
 If an error code is received try the following steps:
