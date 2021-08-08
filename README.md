@@ -241,9 +241,9 @@ Mechanized assembly by a professional circuit-board assembly house, which is ava
 
 Go to https://www.arduino.cc/en/main/software. Choose the proper IDE version for your computer. For Windows, we suggest the non-app version to have more control over Arduino; this might change in the future. You will have to add custom libraries, so the web version will not work (at least, as of the time of writing). Download and install the Arduino IDE. Open it to begin the next steps.
 
-**Note**: Users should see the code included below in the README and follow the directions indicated in http://northernwidget.com/tutorial. Some of the below information is deprecated.
+***Note: Users should see the code included below in the README and follow the directions indicated in http://northernwidget.com/tutorial. Some of the below information is deprecated.***
 
-**Note**: Currently, users should modify their Arduino libraries to include the most recent version 1 of SdFat; Margay is incompatible at present with version 2.
+***Note: Currently, users should modify their Arduino libraries to include the most recent version 1 of SdFat; Margay is incompatible at present with version 2.***
 
 ### Installing the Bootloader
 
@@ -268,7 +268,7 @@ To upload the bootloader, do the following:
 5. Go to Tools --> Programmer and select the appropriate programmer based on what you are using.
 6. Go to Tools --> Burn bootloader. Typically, within a few seconds, you learn whether you succeeded or failed. Hopefully it worked!
 
-***Note: be sure to download and/or update drivers for your ISP***
+***Note: Be sure to download and/or update drivers for your ISP.***
 
 ### Using Northern Widget Software
 This includes a usage guide to demo software which is provided to both test the hardware features of the board in general (the MargayHardwareTest file), and to set the device up as a logger using a [TP-Downhole](https://github.com/NorthernWidget/TP-DownHole) device as a sensor which runs on I2C. This logger demo tests all hardware on the board and ensures all required systems are connected and indicates the result of these tests using the Status LED on startup. A green light indicated all systems check out, and the device is ready to log, otherwise a red light indicates there is a problem, it is recommended to open up a serial monitor to determine which system is failing. If a green light is indicated, when the system is ready to log, logging is initiated by pressing the log button, which makes an initial log and starts a sequence of logs which will continue to occur every 15 minutes (by default) or by a different user defined time. In between logging events, the system is put to sleep to save power. Each time the log button is pressed, a new SD card file is created named "Logx.txt" where x increments with each button press, and each one of these individual files is initiated with a header to inform the user of the data columns used by the CSV type file.
@@ -367,7 +367,7 @@ A full index of the public variables and functions within the Margay data logger
 
 ## Field operator's guide
 
-**Note**: Logger will not be able to wake up unless the clock (RTC) is powered.
+***Note: Logger will not be able to wake up unless the clock (RTC) is powered.***
 
 ### Logging Start
 Logging begins automatically once power is applied. If error conditions are found, they will be indicated by status lights, but the logger will attempt to continue if possible. The following should represent the light sequence.
