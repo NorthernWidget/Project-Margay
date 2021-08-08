@@ -166,7 +166,7 @@ In this pinout, the name of each pin is shown, as well as the group of pins whic
 * 3v3, the switched 3.3v output rail, this rail can be turned on and off to disconnect power consumptive external devices
 * GND, the main output ground
 * BAT+, the positive connection for the battery line, voltage range 3.3v ~ 5.5v
-* BAT-, Negative battery connection, **Note**: this pin is NOT interchangeable with GND, as BAT- is reverse voltage protected to prevent damage from plugging the battery in backwards
+* BAT-, Negative battery connection, ***note: this pin is NOT interchangeable with GND, as BAT- is reverse voltage protected to prevent damage from plugging the battery in backwards***
 * Vs, this is the switched PWM output, the voltage of this output is determined by a solder jumper on the bottom of the board, controlled by **D3**
 
 * MOSI, this is the master out, slave in, pin for the SPI bus, which doubles as **D5** when SPI and SD card are not used
