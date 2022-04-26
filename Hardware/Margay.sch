@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -12249,7 +12249,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="177.8" y1="170.18" x2="180.34" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="XTAL2" class="0">
 <segment>
 <pinref part="XTAL1" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
@@ -12259,7 +12259,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="XTAL1" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="XTAL1" gate="G$1" pin="1"/>
@@ -12270,28 +12270,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="43.18" y="81.28"/>
 </segment>
 </net>
-<net name="LED3" class="0">
+<net name="GREEN_STAT_LED" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="(PCINT31/OC2A)PD7"/>
 <wire x1="109.22" y1="35.56" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
 <label x="111.76" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED1" class="0">
+<net name="RED_STAT_LED" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="(PCINT29/OC1A)PD5"/>
 <wire x1="109.22" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
 <label x="111.76" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED2" class="0">
+<net name="BLUE_STAT_LED" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="(PCINT30/OC2B/ICP)PD6"/>
 <wire x1="109.22" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
 <label x="111.76" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ALIVE_LED" class="0">
+<net name="GREEN_AUX_LED" class="0">
 <segment>
 <wire x1="109.22" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 <label x="111.76" y="50.8" size="1.27" layer="95" xref="yes"/>
@@ -12452,7 +12452,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="111.76" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO_EXT" class="0">
+<net name="GPIO_EXT_D0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="(PCINT11/OC0A/AIN1)PB3"/>
 <wire x1="109.22" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
@@ -12480,7 +12480,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="111.76" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ADC_EXT" class="0">
+<net name="ADC_EXT_A0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="(PCINT0/ADC0)PA0"/>
 <wire x1="109.22" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
@@ -12698,7 +12698,7 @@ Prevents using occupied addresses on the external I2C port</text>
 <label x="40.64" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO_EXT" class="0">
+<net name="GPIO_EXT_D0" class="0">
 <segment>
 <wire x1="40.64" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
 <label x="43.18" y="30.48" size="1.27" layer="95" xref="yes"/>
@@ -12712,7 +12712,7 @@ Prevents using occupied addresses on the external I2C port</text>
 <pinref part="J3" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="A0" class="0">
+<net name="AX" class="0">
 <segment>
 <wire x1="78.74" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
 <label x="81.28" y="27.94" size="1.27" layer="95" xref="yes"/>
@@ -12835,7 +12835,7 @@ Prevents using occupied addresses on the external I2C port</text>
 <label x="83.82" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="_BLUE_STAT_LED" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="BLUE_CATH"/>
@@ -12843,14 +12843,14 @@ Prevents using occupied addresses on the external I2C port</text>
 <wire x1="40.64" y1="139.7" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="_GREEN_STAT_LED" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="GREEN_CATH"/>
 <wire x1="48.26" y1="137.16" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="_RED_STAT_LED" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="RED_CATH"/>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -12858,21 +12858,21 @@ Prevents using occupied addresses on the external I2C port</text>
 <wire x1="55.88" y1="139.7" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED3" class="0">
+<net name="GREEN_STAT_LED" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="127" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
 <label x="48.26" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="LED1" class="0">
+<net name="RED_STAT_LED" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="127" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
 <label x="55.88" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="LED2" class="0">
+<net name="BLUE_STAT_LED" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="127" x2="40.64" y2="124.46" width="0.1524" layer="91"/>
@@ -12950,7 +12950,7 @@ Prevents using occupied addresses on the external I2C port</text>
 <pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="ADC_EXT" class="0">
+<net name="ADC_EXT_A0" class="0">
 <segment>
 <wire x1="40.64" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
 <label x="43.18" y="27.94" size="1.27" layer="95" xref="yes"/>
@@ -13013,7 +13013,7 @@ Prevents using occupied addresses on the external I2C port</text>
 <label x="73.914" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="_RED_TX_AUX_LED" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="D2" gate="G$1" pin="RED_CATH"/>
@@ -13021,7 +13021,7 @@ Prevents using occupied addresses on the external I2C port</text>
 <wire x1="73.914" y1="139.7" x2="79.248" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="_BLUE_RX_AUX_LED" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="BLUE_CATH"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -13029,14 +13029,14 @@ Prevents using occupied addresses on the external I2C port</text>
 <wire x1="88.9" y1="139.7" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ALIVE_LED" class="0">
+<net name="GREEN_AUX_LED" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="81.788" y1="127" x2="81.788" y2="124.46" width="0.1524" layer="91"/>
 <label x="81.788" y="124.46" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="_GREEN_AUX_LED" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="GREEN_CATH"/>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -13605,7 +13605,7 @@ Create on board voltage divider</text>
 <label x="193.04" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="VCOIN+" class="0">
 <segment>
 <pinref part="RTC1" gate="G$1" pin="VBAT"/>
 <wire x1="231.14" y1="60.96" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
@@ -13643,14 +13643,14 @@ Create on board voltage divider</text>
 <pinref part="C17" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="VDIV_AX" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="127" x2="243.84" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A0" class="0">
+<net name="AX" class="0">
 <segment>
 <pinref part="U14" gate="G$1" pin="VIN+"/>
 <wire x1="228.6" y1="137.16" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
