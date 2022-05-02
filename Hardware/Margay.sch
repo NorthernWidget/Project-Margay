@@ -11969,7 +11969,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U3" library="bschulz" deviceset="TPL5010" device="DDC"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R10" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100" value="100k"/>
+<part name="R10" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="130K" value="130k"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="bschulz" deviceset="CONN_10" device="2.54_SCREW"/>
 <part name="J3" library="bschulz" deviceset="CONN_6" device="SCREW_2.54"/>
