@@ -2826,20 +2826,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="41.759" y="31.373" size="0.4064" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R31" library="bschulz_passives" package="R0402" value="5.1K" x="40.005" y="22.352" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="" x="40.005" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="311-5.10KLRCT-ND" x="40.005" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Yageo" x="40.005" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="40.005" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0402FR-075K1L" x="40.005" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.005" y="20.955" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="40.005" y="23.749" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE_PART" value="" x="40.005" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE_PART" value="5.1k" x="40.005" y="22.352" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R32" library="bschulz_passives" package="R0402" value="5.1K" x="43.053" y="22.352" smashed="yes">
-<attribute name="DIGIKEY" value="" x="43.053" y="22.352" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="311-5.10KLRCT-ND" x="43.053" y="22.352" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="43.053" y="22.352" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="43.053" y="22.352" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0402FR-075K1L" x="43.053" y="22.352" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="43.053" y="23.749" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="43.053" y="20.955" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE_PART" value="" x="43.053" y="22.352" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE_PART" value="5.1k" x="43.053" y="22.352" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

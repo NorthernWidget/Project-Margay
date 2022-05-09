@@ -8590,6 +8590,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MPN" value="RC0402FR-07470RL" constant="no"/>
 <attribute name="VALUE_PART" value="470" constant="no"/>
 </technology>
+<technology name="5.1K">
+<attribute name="DIGIKEY" value="311-5.10KLRCT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0402FR-075K1L" constant="no"/>
+<attribute name="VALUE_PART" value="5.1k" constant="no"/>
+</technology>
 <technology name="5.6K">
 <attribute name="DIGIKEY" value="311-5.6KLRCT-ND" constant="no"/>
 <attribute name="MF" value="Yageo" constant="no"/>
@@ -11989,8 +11995,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="X1" library="microbuilder" deviceset="USB_C" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R31" library="bschulz_passives" deviceset="R-EU_" device="R0402" value="5.1K"/>
-<part name="R32" library="bschulz_passives" deviceset="R-EU_" device="R0402" value="5.1K"/>
+<part name="R31" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="5.1K" value="5.1K"/>
+<part name="R32" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="5.1K" value="5.1K"/>
 </parts>
 <sheets>
 <sheet>
