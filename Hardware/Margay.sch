@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -12568,6 +12568,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="205.74" y1="185.42" x2="201.422" y2="185.42" width="0.1524" layer="91"/>
 <label x="201.422" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="VBUS"/>
+<label x="124.46" y="195.58" size="1.778" layer="95"/>
+<wire x1="124.46" y1="195.58" x2="162.56" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="195.58" x2="162.56" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<junction x="162.56" y="195.58"/>
+<label x="177.8" y="195.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="177.8" y1="195.58" x2="172.72" y2="195.58" width="0.1524" layer="91"/>
+<junction x="172.72" y="195.58"/>
+</segment>
 </net>
 <net name="PG" class="0">
 <segment>
@@ -12745,20 +12757,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="205.74" y1="177.8" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VBUS" class="0">
-<segment>
-<pinref part="X1" gate="G$1" pin="VBUS"/>
-<label x="124.46" y="195.58" size="1.778" layer="95"/>
-<wire x1="124.46" y1="195.58" x2="162.56" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="195.58" x2="162.56" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<junction x="162.56" y="195.58"/>
-<label x="177.8" y="195.58" size="1.27" layer="95" xref="yes"/>
-<wire x1="177.8" y1="195.58" x2="172.72" y2="195.58" width="0.1524" layer="91"/>
-<junction x="172.72" y="195.58"/>
 </segment>
 </net>
 <net name="D+" class="0">
