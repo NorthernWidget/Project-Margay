@@ -55,6 +55,7 @@ This includes a description of the PCB and component functionality
     * I<sub>Q</sub> = <2.5&mu;A (Estimated)
     * I<sub>out</sub> = 200mA, max (Regulated power supplied to sensors)
     * V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected)
+    <!-- Absolute max voltage 6.0V; we recommend not exceeding 5.5V -->
 * User interface
   * "Log" button
   * "Reset" button
