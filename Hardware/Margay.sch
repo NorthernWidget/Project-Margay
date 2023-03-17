@@ -2337,6 +2337,73 @@ Holes are offset 0.005" to hold pins in place while soldering.
 <circle x="0" y="0" radius="2.65" width="0.127" layer="21"/>
 <pad name="GND" x="0" y="0" drill="3.175"/>
 </package>
+<package name="SD_WURTH_WR-CRD">
+<description>&lt;a href = "https://www.we-online.com/components/products/datasheet/693063010911.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-13.25" y1="-0.45" x2="-13.25" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-13.25" y1="-1.55" x2="-13.25" y2="-21.95" width="0.127" layer="51"/>
+<wire x1="-13.25" y1="-21.95" x2="-13.25" y2="-23.6" width="0.127" layer="51"/>
+<wire x1="-13.25" y1="-23.6" x2="-13.25" y2="-25.45" width="0.127" layer="51"/>
+<wire x1="-13.25" y1="-25.45" x2="13.35" y2="-25.45" width="0.127" layer="51"/>
+<wire x1="13.35" y1="-25.45" x2="13.35" y2="-23.6" width="0.127" layer="51"/>
+<wire x1="13.35" y1="-23.6" x2="13.35" y2="-21.95" width="0.127" layer="51"/>
+<wire x1="13.35" y1="-21.95" x2="13.35" y2="-9.2" width="0.127" layer="51"/>
+<wire x1="13.35" y1="-9.2" x2="11.05" y2="-6.01" width="0.127" layer="51"/>
+<wire x1="11.05" y1="-6.01" x2="11.05" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="11.05" y1="-1.55" x2="11.05" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="11.05" y1="-0.45" x2="-13.25" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="-13.95" y1="-21.95" x2="-13.95" y2="-23.6" width="0.127" layer="51"/>
+<wire x1="-13.95" y1="-21.95" x2="-13.25" y2="-21.95" width="0.127" layer="51"/>
+<wire x1="-13.95" y1="-23.6" x2="-13.25" y2="-23.6" width="0.127" layer="51"/>
+<wire x1="-13.25" y1="-0.45" x2="-14.025" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="-14.025" y1="-0.45" x2="-14.025" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="-14.025" y1="-1.55" x2="-13.25" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="11.05" y1="-0.45" x2="11.825" y2="-0.45" width="0.127" layer="51"/>
+<wire x1="11.825" y1="-0.45" x2="11.825" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="11.825" y1="-1.55" x2="11.05" y2="-1.55" width="0.127" layer="51"/>
+<wire x1="13.35" y1="-21.95" x2="13.95" y2="-21.95" width="0.127" layer="51"/>
+<wire x1="13.95" y1="-21.95" x2="13.95" y2="-23.6" width="0.127" layer="51"/>
+<wire x1="13.95" y1="-23.6" x2="13.35" y2="-23.6" width="0.127" layer="51"/>
+<wire x1="-14.65" y1="1.05" x2="14.65" y2="1.05" width="0.05" layer="39"/>
+<wire x1="14.65" y1="1.05" x2="14.65" y2="-25.7" width="0.05" layer="39"/>
+<wire x1="14.65" y1="-25.7" x2="-14.65" y2="-25.7" width="0.05" layer="39"/>
+<wire x1="-14.65" y1="-25.7" x2="-14.65" y2="1.05" width="0.05" layer="39"/>
+<circle x="7.225" y="1.842" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-13.25" y1="-2.5" x2="-13.25" y2="-20.75" width="0.127" layer="21"/>
+<wire x1="-13.25" y1="-24" x2="-13.25" y2="-25.45" width="0.127" layer="21"/>
+<wire x1="-13.25" y1="-25.45" x2="13.35" y2="-25.45" width="0.127" layer="21"/>
+<wire x1="13.35" y1="-25.45" x2="13.35" y2="-24" width="0.127" layer="21"/>
+<wire x1="11.05" y1="-2.75" x2="11.05" y2="-6.01" width="0.127" layer="21"/>
+<wire x1="13.35" y1="-9.2" x2="11.05" y2="-6.01" width="0.127" layer="21"/>
+<wire x1="13.35" y1="-9.2" x2="13.35" y2="-20.75" width="0.127" layer="21"/>
+<text x="-13.97" y="1.81" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-14.2687" y="-27.2832" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<hole x="-11.5" y="-2" drill="1.1"/>
+<hole x="9.5" y="-2" drill="1.6"/>
+<smd name="9" x="9.375" y="0.75" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="1" x="6.875" y="0.75" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="2" x="4.375" y="0.75" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="3" x="1.875" y="0.75" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="4" x="-0.625" y="0.75" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="5" x="-3.125" y="0.75" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="6" x="-5.625" y="0.75" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="7" x="-8.055" y="0.75" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="8" x="-9.755" y="0.75" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="CD" x="-11.055" y="0.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="WP" x="-12.255" y="0.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="GP" x="-13.65" y="-0.8" dx="1.5" dy="2.8" layer="1"/>
+<smd name="GP2" x="11.45" y="-1" dx="1.5" dy="2.8" layer="1"/>
+<smd name="GP3" x="13.65" y="-22.5" dx="1.5" dy="2.8" layer="1"/>
+<smd name="GP4" x="-13.65" y="-22.5" dx="1.5" dy="2.8" layer="1"/>
+<rectangle x1="-10.355" y1="-8.2" x2="-9.155" y2="-6.7" layer="43"/>
+<rectangle x1="-8.725" y1="-8.2" x2="-7.525" y2="-6.7" layer="43"/>
+<rectangle x1="-6.225" y1="-8.2" x2="-5.025" y2="-6.7" layer="43"/>
+<rectangle x1="-3.725" y1="-8.2" x2="-2.525" y2="-6.7" layer="43"/>
+<rectangle x1="-1.225" y1="-9.2" x2="-0.025" y2="-7.7" layer="43"/>
+<rectangle x1="1.275" y1="-9.2" x2="2.475" y2="-7.7" layer="43"/>
+<rectangle x1="3.775" y1="-8.7" x2="4.975" y2="-7.2" layer="43"/>
+<rectangle x1="6.275" y1="-8.2" x2="7.475" y2="-6.7" layer="43"/>
+<rectangle x1="8.775" y1="-10" x2="9.975" y2="-8.5" layer="43"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box">
@@ -4250,6 +4317,30 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/scripts/DkSearch/dksus.
 <attribute name="DIGIKEY" value="A101492CT-ND" constant="no"/>
 <attribute name="MF" value="TE" constant="no"/>
 <attribute name="MPN" value="2041021-4" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="WR-CRD" package="SD_WURTH_WR-CRD">
+<connects>
+<connect gate="G$1" pin="CARD_DETECT" pad="CD"/>
+<connect gate="G$1" pin="COMMON_SW" pad="GP" route="any"/>
+<connect gate="G$1" pin="CS" pad="1"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="9"/>
+<connect gate="G$1" pin="DATA_IN" pad="2"/>
+<connect gate="G$1" pin="DATA_OUT" pad="7"/>
+<connect gate="G$1" pin="GND" pad="GP2 GP3 GP4"/>
+<connect gate="G$1" pin="SCLK" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS1" pad="3"/>
+<connect gate="G$1" pin="VSS2" pad="6"/>
+<connect gate="G$1" pin="WRITE_PROTECT" pad="WP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="732-3817-1-ND" constant="no"/>
+<attribute name="MF" value="Wurth" constant="no"/>
+<attribute name="MPN" value="693063010911" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12424,7 +12515,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C2" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="18PF" value="18pF"/>
 <part name="C1" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="0.1UF" value="0.1uF"/>
 <part name="C16" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="0.1UF" value="0.1uF"/>
-<part name="J1" library="bschulz" deviceset="SDMMC" device="06132"/>
+<part name="J1" library="bschulz" deviceset="SDMMC" device="WR-CRD" value="SDMMCWR-CRD"/>
 <part name="JP2" library="bschulz" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39293/1"/>
 <part name="U6" library="bschulz" deviceset="TPS797*" device="" technology="33"/>
 <part name="C12" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="0.1UF" value="0.1uF"/>
@@ -12450,14 +12541,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="67997-206HLF"/>
 </part>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R24" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="P10K" value="10k"/>
+<part name="R24" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="P10K" value="10k">
+<attribute name="DIGIKEY" value="CRT0603-BY-1002ELFCT-ND"/>
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="CRT0603-BY-1002ELF"/>
+</part>
 <part name="JP3" library="bschulz" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39282/1"/>
 <part name="R1" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="bschulz" deviceset="MOSFET-NCH" device="-DMG3404L" value="DMG3404"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q3" library="bschulz" deviceset="MOSFET-NCH" device="-2N7002PW" value="2N7002"/>
-<part name="Q2" library="bschulz" deviceset="MOSFET_PCH" device="-FDN360P" value="FDN360P"/>
+<part name="Q2" library="bschulz" deviceset="MOSFET_PCH" device="-FDN360P" value="FDN360P">
+<attribute name="DIGIKEY" value="DMP3099L-7DICT-ND"/>
+<attribute name="MF" value="Diodes Inc"/>
+<attribute name="MPN" value="DMP3099L-7"/>
+</part>
 <part name="R19" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100" value="100k"/>
 <part name="R21" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k"/>
 <part name="GND22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -12465,7 +12564,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C15" library="bschulz_passives" deviceset="C-EU" device="C0805" technology="10UF" value="10uF"/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="U4" library="bschulz" deviceset="SN74LVC1G3157" device="DRL"/>
+<part name="U4" library="bschulz" deviceset="SN74LVC1G3157" device="SC70" value="SN74LVC1G3157SC70"/>
 <part name="U5" library="bschulz" deviceset="SN74AUP3G34" device="DCU"/>
 <part name="JP1" library="bschulz" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="FRAME3" library="bschulz" deviceset="FRAME_A_L" device="">
