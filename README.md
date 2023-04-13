@@ -131,6 +131,23 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 * Reset Button
 * Reconfigurable Button
 
+#### v2.2
+**Features** <br>
+I<sub>Q</sub> = 1.68&mu;A <br>
+I<sub>out</sub> = 200mA, max (Regulated power supplied to sensors) <br>
+V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
+
+**IO**
+* 1 ADC, 18 bit
+* 1 I<sup>2</sup>C Bus
+* 1 UART Channel
+* 2 GPIO Pins (one configurable as an 8 bit ADC)
+* 1 PWM Channel (output configurable to 3.3v or VBat via a jumper on bottom of board)
+* RGB Status LED
+* Auxiliary LED
+* Reset Button
+* Reconfigurable Button
+
 ### Electronic Software and Firmware
 
 * Programmable using the Arduino IDE https://www.arduino.cc/en/main/software
@@ -168,7 +185,7 @@ In this pinout, the name of each pin is shown, as well as the group of pins whic
 * GND, the main output ground
 * BAT+, the positive connection for the battery line, voltage range 3.3v ~ 5.5v
 * BAT-, Negative battery connection, ***note: this pin is NOT interchangeable with GND, as BAT- is reverse voltage protected to prevent damage from plugging the battery in backwards***
-* Vs, this is the switched PWM output, the voltage of this output is determined by a solder jumper on the bottom of the board, controlled by **D3**
+* Vs, this is the switched PWM output, the voltage of this output is determined by a solder jumper on the bottom of the board, controlled by `VSwitch_Pin` - See information of limits and configuration below
 
 * MOSI, this is the master out, slave in, pin for the SPI bus, which doubles as **D5** when SPI and SD card are not used
 * MISO, this is the master in, slave out, pin for the SPI bus, which doubles as **D6** when SPI and SD card are not used
@@ -179,33 +196,42 @@ In this pinout, the name of each pin is shown, as well as the group of pins whic
 * SDA, this is the dedicated serial data line for the I2C bus
 
 #### Callouts:
-1. This is the auxiliary LED, which indicate TX and RX status using red and blue channels, green channel is controlled by **D19**
+1. This is the auxiliary LED, which indicate TX and RX status using red and blue channels, green channel is controlled by `BuiltInLED` pin
 2. This is the micro USB connection, which can be used for both programing via the Arduino IDE, and serial monitoring
 3. This is the primary RGB status LED, where the individual channels are controlled by **D15**, **D14**, and **D13**
-4. This is the reconfigurable push-button, generally used to initiate logging, it is read by **D2**, which is also **INT2**
+4. This is the reconfigurable push-button, generally used to initiate logging, it is read by `LogInt` pin
 5. This is the hardware reset button, which will force the micro to return to the initial state after code upload
 6. This is the ICSP header, which can be used to burn the bootloader to the board or write programs to the chip without using the USB and bootloader
 
 #### Onboard Pins:
-Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Function
--------- | ----------------- | ----------------- | --------
-`SD_CS` | D4 | D4 | Chip select pin on SD card
-`SD_CD` | D1 | D1 | Card detection pin for SD card, active low, AUX power must be on to use
-`BuiltInLED` | D19 | D20 | Connected to green channel on **AUX** LED, on when pin is low
-`RedLED` | D13 | D13 | Connected to red channel on **STAT** LED, on when pin is low
-`GreenLED` | D15 | D15 | Connected to green channel on **STAT** LED, on when pin is low
-`BlueLED` | D14 | D14 | Connected to blue channel on **STAT** LED, on when pin is low
-`VRef_Pin` | A2 | A2 | Analog pin to read 1.8v on board reference, AUX power must be on to use
-`ThermSensePin` | A1 | A1 | Analog pin to read thermistor voltage divider, AUX power must be on to use
-`BatSensePin` | A0 | A0 | Analog pin to read battery voltage divider, AUX power must be on to use
-`VSwitch_Pin` | D3 | D3 | Connected to MOSFET driver for **Vs** pin, active low
-`Ext3v3Ctrl` | D12 | D19 | Turns on AUX power, active low
-`I2C_SW` | N/A | D12 | Switches between on board I2C and external I2C
-`PG` | D18 | D18 | Power good pin from core 3v3, can be used to test if core 3v3 is stable, pulled low when power is not stable
-`ExtInt` | D11 | D11 | External interrupt and external chip select pin
-`RTCInt` | D10 | D10 | Interrupt (`INT0`) connected to RTC /INT line, active low
-`LogInt` | D2 | D2 | Interrupt (`INT2`) connected to **LOG** button, active low
+Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Pin Number (v2.x) | Function
+-------- | ----------------- | ----------------- | ----------------- | --------
+`SD_CS` | D4 | D4 | D4 | Chip select pin on SD card
+`SD_CD` | D1 | D1 | D1 | Card detection pin for SD card, active low, AUX power must be on to use
+`BuiltInLED` | D19 | D20 | D20 | Connected to green channel on **AUX** LED, on when pin is low
+`RedLED` | D13 | D13 | D13 | Connected to red channel on **STAT** LED, on when pin is low
+`GreenLED` | D15 | D15 | D15 | Connected to green channel on **STAT** LED, on when pin is low
+`BlueLED` | D14 | D14 | D14 | Connected to blue channel on **STAT** LED, on when pin is low
+`VRef_Pin` | A2 | A2 | A3 | Analog pin to read 1.8v on board reference, AUX power must be on to use
+`ThermSensePin` | A1 | A1 | A1 | Analog pin to read thermistor voltage divider, AUX power must be on to use
+`BatSensePin` | A0 | A0 | A2 | Analog pin to read battery voltage divider, AUX power must be on to use
+`VSwitch_Pin` | D3 | D3 | D12 | Connected to MOSFET driver for **Vs** pin, active low
+`Ext3v3Ctrl` | D12 | D19 | D22 | Turns on AUX power, active low
+`I2C_SW` | N/A | D12 | D21 | Switches between on board I2C and external I2C
+`PG` | D18 | D18 | D18 | Power good pin from core 3v3, can be used to test if core 3v3 is stable, pulled low when power is not stable
+`ExtInt` | D11 | D11 | D11 | External interrupt and external chip select pin
+`RTCInt` | D10 | D10 | D2 | Interrupt connected to RTC /INT line, active low
+`LogInt` | D2 | D2 | A4 | Interrupt connected to **LOG** button, active low
 
+#### VSwitch Power Limits/Configuration:
+Jumper Selected | Logger Power Source | Current Limit, Avg [mA] | Power Limit, Avg [W] 
+--------------- | ------------------- | ---------------------- | -------------------- 
+VMain | USB | 220 | 0.5 
+VMain | Bat | 500 | 2.25 
+3v3 | USB | 220 | 0.5 
+3v3 | Bat | 450 | 2.0
+
+Note: Instantanious current may exceed these values - these values corespond to the time averaged power consumption. This disctinction is most important when driving a load via PWM. 
 
 ## On-board Devices
 
