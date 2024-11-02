@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.127" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -234,6 +234,8 @@ OB</text>
 <wire x1="43.815" y1="9.144" x2="43.815" y2="10.414" width="0.254" layer="52"/>
 <text x="34.036" y="12.7" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">SDA
 EXT</text>
+<text x="45.212" y="4.953" size="0.8128" layer="52" font="vector" ratio="15" rot="MR270" align="center">J1</text>
+<text x="35.687" y="15.113" size="0.8128" layer="52" font="vector" ratio="15" rot="MR270" align="center">J2</text>
 </plain>
 <libraries>
 <library name="bschulz">
@@ -897,7 +899,7 @@ Soure: &lt;a href="http://www.ti.com/lit/ds/symlink/ads7042.pdf"&gt; Data sheet 
 &lt;br&gt;TPlace ring is for diameter of pan head screw (recomended clearance) &lt;/p&gt;</description>
 <hole x="0" y="0" drill="2.9464"/>
 <circle x="0" y="0" radius="2.3241" width="0" layer="39"/>
-<circle x="0" y="0" radius="2.7178" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.7178" width="0.127" layer="49"/>
 </package>
 <package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1">
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
@@ -2451,7 +2453,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="DNP" x="43.561" y="6.096" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MF" value="N/A" x="43.561" y="6.096" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="N/A" x="43.561" y="6.096" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="42.291" y="6.096" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="42.418" y="6.096" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
 <element name="JP3" library="bschulz" package="SMT-JUMPER_2_NC_PASTE_SILK" package3d_urn="urn:adsk.eagle:package:39282/1" value="JUMPER-SMT_2_NC_PASTE_SILK" x="38.481" y="11.938" smashed="yes">
@@ -2717,7 +2718,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="DNP" x="34.036" y="15.113" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="N/A" x="34.036" y="15.113" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="N/A" x="34.036" y="15.113" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="34.036" y="16.4465" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="35.179" y="15.113" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
 <element name="R15" library="bschulz_passives" package="R0402" value="10k" x="27.051" y="18.669" smashed="yes" rot="R270">
@@ -2865,16 +2865,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MF" value="N/A" x="41.402" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="N/A" x="41.402" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="H1" library="bschulz" package="4_40_CLOSE" value="" x="2.159" y="2.159" smashed="yes">
-<attribute name="DIGIKEY" value="DNP" x="2.159" y="2.159" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="N/A" x="2.159" y="2.159" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="N/A" x="2.159" y="2.159" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H2" library="bschulz" package="4_40_CLOSE" value="" x="48.006" y="28.194" smashed="yes">
-<attribute name="DIGIKEY" value="DNP" x="48.006" y="28.194" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="N/A" x="48.006" y="28.194" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="N/A" x="48.006" y="28.194" size="1.778" layer="27" display="off"/>
-</element>
+<element name="H1" library="bschulz" package="4_40_CLOSE" value="" x="2.159" y="2.159" smashed="yes"/>
+<element name="H2" library="bschulz" package="4_40_CLOSE" value="" x="48.006" y="28.194" smashed="yes"/>
 <element name="J4" library="microbuilder" package="USB_C_CUSB31-CFM2AX-01-X" value="" x="40.259" y="31.623" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="2073-USB4105-GF-ACT-ND" x="40.259" y="31.623" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="GCT" x="40.259" y="31.623" size="1.778" layer="27" rot="R180" display="off"/>

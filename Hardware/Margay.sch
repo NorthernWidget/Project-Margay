@@ -1853,7 +1853,7 @@ Holes are offset 0.005" to hold pins in place while soldering.
 &lt;br&gt;TPlace ring is for diameter of pan head screw (recomended clearance) &lt;/p&gt;</description>
 <hole x="0" y="0" drill="2.9464"/>
 <circle x="0" y="0" radius="2.3241" width="0" layer="39"/>
-<circle x="0" y="0" radius="2.7178" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.7178" width="0.127" layer="49"/>
 </package>
 <package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1">
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
@@ -5052,11 +5052,7 @@ TPS2104/5 Inverted vs non-inverted enable pin
 </device>
 <device name="4_NP_CLOSE" package="4_40_CLOSE">
 <technologies>
-<technology name="">
-<attribute name="DIGIKEY" value="DNP" constant="no"/>
-<attribute name="MF" value="N/A" constant="no"/>
-<attribute name="MPN" value="N/A" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="4_PL_GND" package="4_40_GND">
