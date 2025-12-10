@@ -33,7 +33,7 @@
 "1","JUMPER-SMT_2_NC_PASTE_SILK","JUMPER-SMT_2_NC_PASTE_SILK","SMT-JUMPER_2_NC_PASTE_SILK","JP3","Normally closed solder jumper","DNP","","N/A","","N/A","","","",
 "1","JUMPER-SMT_2_NO_SILK","JUMPER-SMT_2_NO_SILK","SMT-JUMPER_2_NO_SILK","JP1","Normally open jumper","DNP","","N/A","","N/A","","","",
 "1","JUMPER-SMT_3_1-NC_PASTE_SILK","JUMPER-SMT_3_1-NC_PASTE_SILK","SMT-JUMPER_3_1-NC_PASTE_SILK","JP2","Normally closed solder jumper (1 of 2 connections)","DNP","","N/A","","N/A","","","",
-"1","MAX6070AAUT18","MAX6070AAUT18","SOT23-6L","U13","MAX6070 Low Noise high precision voltage referance","MAX6071AAUT18+TCT-ND","","Maxim","","MAX6071AAUT18+T","","","",
+"1","MAX6070AAUT18","MAX6070AAUT18","SOT23-6L","U13","MAX6070 Low Noise high precision voltage referance","MAX6070BAUT18+TCT-ND","","Maxim","","MAX6070BAUT18+T","","","",
 "1","MCP3421A1","MCP3421A1","SOT23-6L","U14","MCP342* - Sigma Delta ADC","MCP3421A1T-E/CHCT-ND","MCP3421","Microchip","","MCP3421A1T-E/CH","","","",
 "1","MIC94090C6","MIC94090C6","SC-70_6","U11","MIC9409x - Hight Side Load Switch","576-3484-1-ND","MIC94090","Microchip","","MIC94090YC6-TR","","","",
 "1","SDMMCWR-CRD","SDMMCWR-CRD","SD_WURTH_WR-CRD","J1","SD MMC Card holder","732-3817-1-ND","","Wurth","","693063010911","","","",
