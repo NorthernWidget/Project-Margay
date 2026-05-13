@@ -268,7 +268,7 @@ To upload the bootloader, do the following:
 
 ### Hardware test sketch
 
-The [`MargayHardwareTest`](Software/MargayHardwareTest/MargayHardwareTest.ino) sketch in the `Software/` folder lets you verify every hardware subsystem over the serial monitor at 38400 baud. Commands are listed in the [Full hardware test command reference](#full-hardware-test-command-reference) table below. It also handles serial number programming (`SN Set` / `SN Read`).
+The [`MargaySetup`](Software/MargaySetup/MargaySetup.ino) sketch in the `Software/` folder lets you verify every hardware subsystem over the serial monitor at 38400 baud. Commands are listed in the [Full hardware test command reference](#full-hardware-test-command-reference) table below. It also handles serial number programming (`SN Set` / `SN Read`).
 
 Required libraries — install manually from GitHub (see [Arduino library installation guide](https://www.arduino.cc/en/Guide/Libraries), "Manual" method):
 * [DS3231](https://github.com/NorthernWidget/DS3231) — real-time clock
@@ -288,7 +288,7 @@ Install the library and its dependencies manually from GitHub:
 
 ### Setting the serial number
 
-If you need to set a serial number on your Margay board, upload [this sketch](https://github.com/NorthernWidget/Project-Margay/tree/master/Software/MargayHardwareTest) available in the "Software" folder within this repository.
+If you need to set a serial number on your Margay board, upload [this sketch](https://github.com/NorthernWidget/Project-Margay/tree/master/Software/MargaySetup) available in the "Software" folder within this repository.
 
 Once the above testing sketch has been uploaded
 
