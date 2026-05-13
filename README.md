@@ -42,7 +42,7 @@ Changes from v2.2:
 * Increased mounting hole sizes to fit #4 screws
 * Moved one passive component to accommodate the larger holes
 
-All electrical specifications are otherwise identical to v2.2. Annotated pinout diagrams are preserved in the [Pinout and board interfaces (v2.2) section below](#pinout-and-board-interfaces-v22); full v3.0 annotations are forthcoming.
+All electrical specifications and pinout are otherwise identical to v2.2. Annotated pinout diagrams are in the [Pinout and board interfaces section below](#pinout-and-board-interfaces) and apply directly to v3.0.
 
 ### Past Iterations:
 
@@ -128,8 +128,8 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
   * Libraries available with each sensor, exposing a standard interface
 * Open-source licensing via GNU GPL 3.0
 
-### Pinout and board interfaces (v2.2)
-Pinout is listed on bottom of board, and shown here for v2.2. *These annotated diagrams are the most detailed available; v3.0 shares the same general interface.*
+### Pinout and board interfaces
+Pinout is listed on bottom of board. The pinout is identical across v2.2 and v3.0.
 
 ![Margay v2.2, top annotated](Documentation/images/Margay_v220_top_annotated_20200428.png "Margay v2.2, top annotated")
 
@@ -390,6 +390,8 @@ A full index of the public variables and functions within the Margay data logger
 
 ## Field operator's guide
 
+The [Margay Operations Guide (PDF)](Documentation/MargayGuide_20220622.pdf) covers field operation in printable form.
+
 ***Note: Logger will not be able to wake up unless the clock (RTC) is powered.***
 
 ### Logging Start
@@ -401,7 +403,29 @@ Logging begins automatically once power is applied. If error conditions are foun
 	- `AUX` light will turn **off**
 	- `STAT` light will illuminate with various colors depending on the status of the logger
     - See "Status Codes" under "Troubleshooting" below for details
-	- `STAT` light will blink blue quickly once to indicate logging (or attempted logging) has begun
+	- `STAT` light will flash **long-short-short blue** to indicate logging has begun (older firmware: 5× long blue flash)
+
+### Checking recorded data
+1. After initializing, wait 2–3 minutes.
+2. Follow the **SD card swap / Download** steps below to retrieve the SD card.
+3. Verify that all data are recorded at the proper (UTC) time.
+4. Verify that valid values are recorded for all sensors.
+5. If files are not present, replace the SD card, check all connections, and re-initialize.
+
+### SD card swap
+1. Turn battery pack **off**.
+2. Remove SD card. Label it and put it somewhere safe.
+3. Insert a freshly labeled SD card.
+4. Turn battery pack on and re-initialize.
+
+### Downloading data
+1. Turn battery pack **off**.
+2. Remove SD card.
+3. Insert SD card in computer.
+4. Navigate to the most recent log file: `NW → <serial_number> → Log<number>.txt`
+5. Save the file in a well-labeled and organized location.
+6. Safely eject the SD card.
+7. Re-initialize the logger.
 
 ### Troubleshooting
 If an error code is received try the following steps:
