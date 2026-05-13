@@ -121,7 +121,7 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
 
 ### Electronic Software and Firmware
 
-* Programmable using the Arduino IDE https://www.arduino.cc/en/main/software
+* Programmable using the Arduino IDE https://www.arduino.cc/en/software
 * Custom bootloader and board definition for ATMega1284p available via https://github.com/NorthernWidget/Arduino_Boards
 * Custom libraries from Northern Widget and the open-source community
   * Primary data-logger functions
@@ -237,7 +237,7 @@ Mechanized assembly by a professional circuit-board assembly house, which is ava
 
 ### Downloading and installing the Arduino IDE
 
-Go to https://www.arduino.cc/en/main/software. Choose the proper IDE version for your computer. For Windows, we suggest the non-app version to have more control over Arduino; this might change in the future. You will have to add custom libraries, so the web version will not work (at least, as of the time of writing). Download and install the Arduino IDE. Open it to begin the next steps.
+Go to https://www.arduino.cc/en/software. Choose the proper IDE version for your computer. For Windows, we suggest the non-app version to have more control over Arduino; this might change in the future. You will have to add custom libraries, so the web version will not work (at least, as of the time of writing). Download and install the Arduino IDE. Open it to begin the next steps.
 
 For additional setup guidance, see the [Northern Widget tutorial](https://docs.northernwidget.com/tutorial/).
 
@@ -293,7 +293,7 @@ If you need to set a serial number on your Margay board, upload [this sketch](ht
 Once the above testing sketch has been uploaded
 
 Type `SN Set`, followed by either a carriage return or a linefeed/newline character, to enter a prompt to set the serial number. This will give you three fields into which you can enter 4-digit hexadecimal (0-F) numbers:
-* Board type; at Northern Widget, this is `0x4D02` for the Margay v2.2. If you are working with one of our boards, please use this number and enter a group ID and uniuqe ID as instructed. If you have built your own board, please do *not* use this number, as we would like to keep our series separate for the sake of recordkeeping (and not track every single 3rd-party built board out there)
+* Board type; at Northern Widget, this is `0x4D02` for the Margay v2.2. If you are working with one of our boards, please use this number and enter a group ID and unique ID as instructed. If you have built your own board, please do *not* use this number, as we would like to keep our series separate for the sake of recordkeeping (and not track every single 3rd-party built board out there)
 * Group ID: We use this to denote collaborative projects vs. internal use vs. general sales
 * Unique ID: This is a monotonically increasing number.
 
@@ -318,7 +318,7 @@ Command | Description
 `SN Read` | Reads back the serial number from EEPROM
 
 ### Using Custom Software (Developer)
-As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for instillation and use are provided on the MightyCore GitHub page.
+As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for installation and use are provided on the MightyCore GitHub page.
 
 For **v2.0 and later** (ATmega1284p), the recommended settings are:
 
@@ -493,4 +493,4 @@ Support for this project provided by:
 
 <br/>
 <br/>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Hardware and documentation are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Software in the <code>Software/</code> directory is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License v3</a>.
