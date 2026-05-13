@@ -268,18 +268,23 @@ To upload the bootloader, do the following:
 
 ### Hardware test sketch
 
-The [`MargayHardwareTest`](Software/MargayHardwareTest/MargayHardwareTest.ino) sketch in the `Software/` folder lets you verify every hardware subsystem over the serial monitor at 38400 baud. Commands are listed in the [Full hardware test command reference](#full-hardware-test-command-reference) table below.
+The [`MargayHardwareTest`](Software/MargayHardwareTest/MargayHardwareTest.ino) sketch in the `Software/` folder lets you verify every hardware subsystem over the serial monitor at 38400 baud. Commands are listed in the [Full hardware test command reference](#full-hardware-test-command-reference) table below. It also handles serial number programming (`SN Set` / `SN Read`).
 
-Required libraries (install via the Arduino Library Manager or manually):
-* [DS3231](https://github.com/NorthernWidget/DS3231_Logger) — real-time clock
+Required libraries — install manually from GitHub (see [Arduino library installation guide](https://www.arduino.cc/en/Guide/Libraries), "Manual" method):
+* [DS3231](https://github.com/NorthernWidget/DS3231) — real-time clock
 * [MCP3421](https://github.com/NorthernWidget/MCP3421) — on-board ADC
-* [SD](https://www.arduino.cc/reference/en/libraries/sd/) — SD card (included with Arduino IDE)
+* SD — SD card (bundled with the Arduino IDE)
 
 ### Data logging
 
-For actual data logging, use the [Margay_Library](https://github.com/NorthernWidget/Margay_Library). It handles sleep, wake, SD writes, RTC, and on-board sensor reads automatically. Install it and its dependencies via the Arduino Library Manager; sample code is in the [Sample code](#sample-code) section below.
+For data logging, use the [Margay_Library](https://github.com/NorthernWidget/Margay_Library). It handles sleep, wake, SD writes, RTC, and on-board sensor reads automatically. Sample code is in the [Sample code](#sample-code) section below.
 
-Information on library installation can be found on the [Arduino](https://www.arduino.cc/en/Guide/Libraries) site; the "Manual" installation method ensures success with custom libraries.
+Install the library and its dependencies manually from GitHub:
+* [Margay_Library](https://github.com/NorthernWidget/Margay_Library)
+* [DS3231_Logger](https://github.com/NorthernWidget/DS3231_Logger)
+* [NW_MCP3421](https://github.com/NorthernWidget/MCP3421)
+* [BME](https://github.com/NorthernWidget/BME_Library)
+* [SdFat](https://github.com/greiman/SdFat) — available via Arduino Library Manager
 
 ### Setting the serial number
 
