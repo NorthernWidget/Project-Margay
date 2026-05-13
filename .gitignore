@@ -49,7 +49,7 @@ eagle.epf
 
 # KiCAD generated files
 _autosave-*
-#auto_saved_files#
+\#auto_saved_files#
 fp-info-cache
 *-backups/
 *.kicad_prl
