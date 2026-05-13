@@ -293,7 +293,7 @@ If you need to set a serial number on your Margay board, upload [this sketch](ht
 Once the above testing sketch has been uploaded
 
 Type `SN Set`, followed by either a carriage return or a linefeed/newline character, to enter a prompt to set the serial number. This will give you three fields into which you can enter 4-digit hexadecimal (0-F) numbers:
-* Board type; at Northern Widget, this is `0x4D02` for the Margay v2.2. If you are working with one of our boards, please use this number and enter a group ID and unique ID as instructed. If you have built your own board, please do *not* use this number, as we would like to keep our series separate for the sake of recordkeeping (and not track every single 3rd-party built board out there)
+* Board type; at Northern Widget, use `0x4D03` for the Margay v3.0, or `0x4D02` for v2.2 (full series: v0.0 = `0x4D00`, v1.0 = `0x4D01`). If you have built your own board, please do *not* use these numbers, as we would like to keep our series separate for the sake of recordkeeping
 * Group ID: We use this to denote collaborative projects vs. internal use vs. general sales
 * Unique ID: This is a monotonically increasing number.
 
