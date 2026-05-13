@@ -47,3 +47,10 @@ eagle.epf
 *.raw
 *.net
 
+# KiCAD generated files
+_autosave-*
+#auto_saved_files#
+fp-info-cache
+*-backups/
+*.kicad_prl
+
