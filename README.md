@@ -168,7 +168,7 @@ In this pinout, the name of each pin is shown, as well as the group of pins whic
 
 #### Callouts:
 1. This is the auxiliary LED, which indicate TX and RX status using red and blue channels, green channel is controlled by `BuiltInLED` pin
-2. This is the micro USB connection, which can be used for both programing via the Arduino IDE, and serial monitoring
+2. This is the USB connection (USB-C on v3.0; micro-USB on v2.x), which can be used for both programming via the Arduino IDE and serial monitoring
 3. This is the primary RGB status LED, where the individual channels are controlled by **D15**, **D14**, and **D13**
 4. This is the reconfigurable push-button, generally used to initiate logging, it is read by `LogInt` pin
 5. This is the hardware reset button, which will force the micro to return to the initial state after code upload
@@ -279,7 +279,7 @@ Information on library instillation can be found on the [Arduino](https://www.ar
 
 ### Setting the serial number
 
-If you need to set a serial number on your Margay board, upload [this sketch](https://github.com/NorthernWidget-Skunkworks/Project-Margay/tree/master/Software/Margay_HardwareTest_v2) available in the "Software" folder within this repository.
+If you need to set a serial number on your Margay board, upload [this sketch](https://github.com/NorthernWidget/Project-Margay/tree/master/Software/Margay_HardwareTest_v2) available in the "Software" folder within this repository.
 
 Once the above testing sketch has been uploaded
 
@@ -470,8 +470,8 @@ The second LED (STAT) will have one of the colors below.
 
 # Developer Notes
 
-+ (**<= Mrk 1.0**) When using power from the external rail (the 3v3 on the screw terminals) it is always advised to have a battery connected to the board, even if connected via USB. The USB connection is able to power the core components, but not the external rail. We know this is annoying, but fear not, the Northern Widget team is [working tirelessly](https://i.imgur.com/Kx97N0l.gifv) to fix this for the Mrk 2.0!
-+ (**<= Mrk 1.0**) When using I<sup>2</sup>C on the device, external pullups (4.7k&Omega; ~ 10k&Omega;) are required. If using device strictly onboard the internal pullups on the ATMEGA seem sufficient, but if you add capacitance of a cable attaching to an external sensor, etc, this is often too much, since the internal pullups are very weak. This is also being fixed in the Mrk 2.0 version with dedicated switchable on board pullups.
++ (**v0.0 / v1.0 only**) When using power from the external rail (the 3v3 on the screw terminals) it is always advised to have a battery connected to the board, even if connected via USB. The USB connection is able to power the core components, but not the external rail. This was resolved in v2.0.
++ (**v0.0 / v1.0 only**) When using I<sup>2</sup>C on the device, external pullups (4.7k&Omega; ~ 10k&Omega;) are required. If using devices strictly on-board, the internal pullups on the ATmega may be sufficient, but adding the capacitance of an external sensor cable often causes problems since the internal pullups are very weak. Dedicated switchable on-board pullups were added in v2.0.
 + (**All models**) The external power rails and the switched battery rail should be enabled in hardware by default, however, it is our recommendation to explicitly define these pins (`Ext3v3Ctrl`) as outputs and drive them `LOW` even if you never intend to switch them on and off. This prevents the rails from inadvertently being turned off due to a transient on the floating control line.
 
 # Acknowledgments
