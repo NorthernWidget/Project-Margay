@@ -266,20 +266,24 @@ To upload the bootloader, do the following:
 
 ***Note: Be sure to download and/or update drivers for your ISP.***
 
-### Using Northern Widget Software
-This includes a usage guide to demo software which is provided to both test the hardware features of the board in general (the MargayHardwareTest file), and to set the device up as a logger using a [TP-Downhole](https://github.com/NorthernWidget/TP-DownHole) device as a sensor which runs on I2C. This logger demo tests all hardware on the board and ensures all required systems are connected and indicates the result of these tests using the Status LED on startup. A green light indicated all systems check out, and the device is ready to log, otherwise a red light indicates there is a problem, it is recommended to open up a serial monitor to determine which system is failing. If a green light is indicated, when the system is ready to log, logging is initiated by pressing the log button, which makes an initial log and starts a sequence of logs which will continue to occur every 15 minutes (by default) or by a different user defined time. In between logging events, the system is put to sleep to save power. Each time the log button is pressed, a new SD card file is created named "Logx.txt" where x increments with each button press, and each one of these individual files is initiated with a header to inform the user of the data columns used by the CSV type file.
+### Hardware test sketch
 
-To use this software the following libraries must be installed in the Arduino IDE:
-* [SdFat](https://github.com/greiman/SdFat)
-* [DS3231_Logger](https://github.com/NorthernWidget/DS3231_Logger)
-* [MCP3421](https://github.com/NorthernWidget/MCP3421)
-* [MS5803](https://github.com/NorthernWidget/MS5803)
+The [`MargayHardwareTest`](Software/MargayHardwareTest/MargayHardwareTest.ino) sketch in the `Software/` folder lets you verify every hardware subsystem over the serial monitor at 38400 baud. Commands are listed in the [Full hardware test command reference](#full-hardware-test-command-reference) table below.
 
-Information on library instillation can be found on the [Arduino](https://www.arduino.cc/en/Guide/Libraries) site, the "Manual" instillation method should be used to ensure success
+Required libraries (install via the Arduino Library Manager or manually):
+* [DS3231](https://github.com/NorthernWidget/DS3231_Logger) — real-time clock
+* [MCP3421](https://github.com/NorthernWidget/MCP3421) — on-board ADC
+* [SD](https://www.arduino.cc/reference/en/libraries/sd/) — SD card (included with Arduino IDE)
+
+### Data logging
+
+For actual data logging, use the [Margay_Library](https://github.com/NorthernWidget/Margay_Library). It handles sleep, wake, SD writes, RTC, and on-board sensor reads automatically. Install it and its dependencies via the Arduino Library Manager; sample code is in the [Sample code](#sample-code) section below.
+
+Information on library installation can be found on the [Arduino](https://www.arduino.cc/en/Guide/Libraries) site; the "Manual" installation method ensures success with custom libraries.
 
 ### Setting the serial number
 
-If you need to set a serial number on your Margay board, upload [this sketch](https://github.com/NorthernWidget/Project-Margay/tree/master/Software/Margay_HardwareTest_v2) available in the "Software" folder within this repository.
+If you need to set a serial number on your Margay board, upload [this sketch](https://github.com/NorthernWidget/Project-Margay/tree/master/Software/MargayHardwareTest) available in the "Software" folder within this repository.
 
 Once the above testing sketch has been uploaded
 
