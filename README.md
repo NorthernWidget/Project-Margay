@@ -2,9 +2,9 @@
 
 # Project-Margay
 
-![Margay Andy hand Dec 2020](Documentation/images/MargayAndyHand_cropped_2020-02-16_19.22.39.png)
+![Margay v3.0, top view](Documentation/images/Margay_v30_top_20250206.jpg)
 
-***Margay data logger v2.2.*** *Back side with full-size SD card holder and pinout labels. Standard sized SD card for data storage and scale.*
+***Margay data logger v3.0.*** *Top side showing ATmega1284p processor, USB-C connector, screw terminal I/O on both sides, and LOG/STAT/RST buttons.*
 
 Project Margay is a micro scale environmental data logger designed based on the ALog series, it is designed to trade IO capabilities for cost and size, allowing for a very simple, but very useful data logger
 
@@ -31,47 +31,18 @@ This includes a description of the PCB and component functionality
 
 ### Current iteration:
 
-![Margay v2.2 interior elements labeled](Documentation/images/Margay_v220_top_annotated_interior_20200428.png)
+#### v3.0
 
-***Significant components on the Margay v2.2.***
+![Margay v3.0, back with SD card and quarter for scale](Documentation/images/Margay_v30_back_with_quarter_20250206.jpg)
 
-#### v2.2
-* Microcontroller (computer) core
-  * ATMega1284p
-  * Arduino compatible
-  * programmable using C++
-  * 8 MHz
-* Real-time clock
-  * DS3231M
-  * Temperature-compensated crystal for high accuracy (±5 ppm)
-* Sensor and general-purpose connections
-  * Combined digital humidity and pressure sensor
-    * BME280
-* Data storage and return
-  * Local storage: SD card
-* Power
-  * Coin cell battery - CR1220, 3V
-  * Power consumption
-    * I<sub>Q</sub> = <2.5&mu;A (Estimated)
-    * I<sub>out</sub> = 200mA, max (Regulated power supplied to sensors)
-    * V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected)
-    <!-- Absolute max voltage 6.0V; we recommend not exceeding 5.5V -->
-* User interface
-  * "Log" button
-  * "Reset" button
-  * Auxiliary LED
-  * RGB Status LED
+***Margay data logger v3.0, back side.*** *Full-size SD card for data storage. US quarter (24.3 mm diameter) shown for scale.*
 
-**IO**
-* 1 ADC, 18 bit
-* 1 I<sup>2</sup>C Bus
-* 1 UART Channel
-* 2 GPIO Pins (one configurable as an 8 bit ADC)
-* 1 PWM Channel (output configurable to 3.3v or VBat via a jumper on bottom of board)
-* RGB Status LED
-* Auxiliary LED
-* Log Button
-* Reset Button
+Changes from v2.2:
+* USB-C connector (replacing micro-USB)
+* Increased mounting hole sizes to fit #4 screws
+* Moved one passive component to accommodate the larger holes
+
+All electrical specifications are otherwise identical to v2.2. Annotated pinout diagrams are preserved in the [Pinout and board interfaces (v2.2) section below](#pinout-and-board-interfaces-v22); full v3.0 annotations are forthcoming.
 
 ### Past Iterations:
 
@@ -157,8 +128,8 @@ V<sub>in</sub> = 3.3 ~ 5.5v (Reverse polarity protected) <br>
   * Libraries available with each sensor, exposing a standard interface
 * Open-source licensing via GNU GPL 3.0
 
-### Pinout and board interfaces
-Pinout is listed on bottom of board, and shown here for v2.2.
+### Pinout and board interfaces (v2.2)
+Pinout is listed on bottom of board, and shown here for v2.2. *These annotated diagrams are the most detailed available; v3.0 shares the same general interface.*
 
 ![Margay v2.2, top annotated](Documentation/images/Margay_v220_top_annotated_20200428.png "Margay v2.2, top annotated")
 
@@ -268,9 +239,7 @@ Mechanized assembly by a professional circuit-board assembly house, which is ava
 
 Go to https://www.arduino.cc/en/main/software. Choose the proper IDE version for your computer. For Windows, we suggest the non-app version to have more control over Arduino; this might change in the future. You will have to add custom libraries, so the web version will not work (at least, as of the time of writing). Download and install the Arduino IDE. Open it to begin the next steps.
 
-***Note: Users should see the code included below in the README and follow the directions indicated in http://northernwidget.com/tutorial. Some of the below information is deprecated.***
-
-***Note: Currently, users should modify their Arduino libraries to include the most recent version 1 of SdFat; Margay is incompatible at present with version 2.***
+For additional setup guidance, see the [Northern Widget tutorial](https://docs.northernwidget.com/tutorial/).
 
 ### Installing the Bootloader
 
@@ -290,7 +259,7 @@ To upload the bootloader, do the following:
 
 1. Open the Arduino IDE. If you have not yet installed the Northern Widget board definitions, find and install them here (instructions provided): https://github.com/NorthernWidget/Arduino_Boards - the Margay board should be run using the "TLog v1" board definition.
 2. Select the desired board -- most likely ***ATMega1284p 8MHz*** under *Northern Widget Boards*.
-3. Plug the data logger into your computer via a micro-USB cable to provide power.
+3. Plug the data logger into your computer via USB (USB-C on v3.0; micro-USB on v2.x) to provide power.
 4. Plug your ISP of choice into your computer (via a USB cable) and onto the 6-pin header. There are two ways to place it on; the header is aligned such that the ribbon cable should be facing away from the board while programming. If this fails without being able to upload, try flipping the header around.
 5. Go to Tools --> Programmer and select the appropriate programmer based on what you are using.
 6. Go to Tools --> Burn bootloader. Typically, within a few seconds, you learn whether you succeeded or failed. Hopefully it worked!
@@ -321,12 +290,39 @@ Type `SN Set`, followed by either a carriage return or a linefeed/newline charac
 
 If you wish to later read the serial number, type `SN Read`.
 
->> @awickert @bschulz: Document other testing capabilities within the sketch?
+### Full hardware test command reference
+
+The same sketch provides a serial command interface at **38400 baud** for testing all individual hardware subsystems. Send a command followed by a carriage return or newline. Continuous tests run until a carriage return is sent to stop them.
+
+Command | Description
+--------|------------
+`SD` | Writes a random value and short string to the SD card, reads it back, reports PASS/FAIL
+`Clock` | Sets the RTC to a known time, waits 5 seconds, reads it back, reports PASS/FAIL
+`I2C` | Scans the I2C bus and prints the address of every device found
+`ADC Disp` | Continuously prints voltages for the on-board reference, thermistor, battery, and external ADC (Ax)
+`IO` | Toggles the VSwitch and ExtInt pins
+`PG` | Reads the Power Good pin and reports PASS/FAIL
+`Power` | Toggles the external 3.3V rail on and off
+`Button` | Waits 2 seconds for the Log button to be pressed and reports if detected
+`LED` | Cycles through each channel of the RGB and AUX LEDs
+`SN Set` | Sets the serial number in EEPROM (see above)
+`SN Read` | Reads back the serial number from EEPROM
 
 ### Using Custom Software (Developer)
 As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for instillation and use are provided on the MightyCore GitHub page.
 
-For the Margay (any model), the recommended settings are as follows:
+For **v2.0 and later** (ATmega1284p), the recommended settings are:
+
+Setting | Value
+--------|------
+`Board` | `ATmega1284`
+`Pinout` | `Standard`
+`Clock` | `8MHz External`
+`Compiler LTO` | `Disabled`
+`Variant` | `1284P`
+`BOD` | `2.7v`
+
+For **v0.0 and v1.0** (ATmega644p), the recommended settings are:
 
 Setting | Value
 --------|------
@@ -334,7 +330,7 @@ Setting | Value
 `Pinout` | `Standard`
 `Clock` | `8MHz External`
 `Compiler LTO` | `Disabled`
-`Variant` | `644P/644PA`
+`Variant` | `644P / 644PA`
 `BOD` | `2.7v`
 
 #### Sample code
@@ -349,7 +345,7 @@ Setting | Value
 
 // Instantiate classes
 // Sensor mySensor; (for any Northern Widget standard sensor library)
-Margay Logger;
+Margay Logger(MODEL_3v0);  // defaults to MODEL_3v0 if omitted; update for older hardware
 
 // Empty header to start; will include sensor labels and information
 String header;
@@ -390,7 +386,7 @@ void initialize(){
 
 ### Reference
 
-A full index of the public variables and functions within the Margay data logger library is available at https://github.com/NorthernWidget-Skunkworks/Margay_Library. (currently under construction)
+A full index of the public variables and functions within the Margay data logger library is available at https://github.com/NorthernWidget/Margay_Library.
 
 ## Field operator's guide
 
