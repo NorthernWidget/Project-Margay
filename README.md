@@ -403,6 +403,10 @@ The [Margay Operations Guide (PDF)](Documentation/MargayGuide_20220622.pdf) cove
 
 ***Note: Logger will not be able to wake up unless the clock (RTC) is powered.***
 
+The RTC (DS3231M) is powered exclusively by the **CR1220 coin cell** mounted on the back of the board. This is a separate power source from the main battery pack — the logger cannot wake from sleep if the coin cell is missing, dead, or making poor contact, even if the main batteries are fully charged.
+
+**Cold-weather deployments:** Standard CR1220 cells (Li-MnO₂) are rated to −20°C and may fail at temperatures common in subarctic and arctic field sites. Observed clock failures in cold deployments are likely caused by the coin cell browning out at low temperature. For deployments below −20°C, replace the CR1220 with a [**Panasonic BR1220**](https://www.digikey.com/en/products/detail/panasonic-bsg/BR1220-BE/447510) (Li-CFx chemistry, rated −40°C to +125°C, drop-in replacement).
+
 ### Logging Start
 Logging begins automatically once power is applied. If error conditions are found, they will be indicated by status lights, but the logger will attempt to continue if possible. The following should represent the light sequence.
 
