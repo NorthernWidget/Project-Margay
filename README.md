@@ -6,7 +6,7 @@
 
 ***Margay data logger v3.0.*** *Top side showing ATmega1284p processor, USB-C connector, screw terminal I/O on both sides, and LOG/STAT/RST buttons.*
 
-Project Margay is a micro scale environmental data logger designed based on the ALog series, it is designed to trade IO capabilities for cost and size, allowing for a very simple, but very useful data logger
+Project Margay is a micro-scale environmental data logger based on the ALog series. It trades I/O capabilities for cost and size, resulting in a simple yet capable logger.
 
 ## Namesake
 
@@ -202,7 +202,7 @@ VMain | Bat | 500 | 2.25
 3v3 | USB | 220 | 0.5 
 3v3 | Bat | 450 | 2.0
 
-Note: Instantanious current may exceed these values - these values corespond to the time averaged power consumption. This disctinction is most important when driving a load via PWM. 
+Note: Instantaneous current may exceed these values — these values correspond to the time-averaged power consumption. This distinction is most important when driving a load via PWM.
 
 ## On-board Devices
 
@@ -237,67 +237,61 @@ Mechanized assembly by a professional circuit-board assembly house, which is ava
 
 ### Downloading and installing the Arduino IDE
 
-Go to https://www.arduino.cc/en/software. Choose the proper IDE version for your computer. For Windows, we suggest the non-app version to have more control over Arduino; this might change in the future. You will have to add custom libraries, so the web version will not work (at least, as of the time of writing). Download and install the Arduino IDE. Open it to begin the next steps.
+Go to https://www.arduino.cc/en/software and download the IDE for your operating system. The web editor does not support custom libraries and will not work for this project. Install the IDE and open it before continuing.
 
 For additional setup guidance, see the [Northern Widget tutorial](https://docs.northernwidget.com/tutorial/).
 
-### Installing the Bootloader
+### Installing the bootloader
 
-Before a data logger can receive programs via the convenient USB port, it must have a *bootloader* that tells it to expect to receive new programs that way.  You can read more about bootloaders in general here: https://www.arduino.cc/en/Hacking/Bootloader.
+Before a data logger can receive programs via USB, it must have a *bootloader* installed. You can read more about bootloaders here: https://www.arduino.cc/en/Hacking/Bootloader.
 
-Because you can't upload the bootloader via USB, you use the 2x3-pin 6-pin ICSP (also called ISP) header with a special device called an "in-circuit system programmer" (or just "in-system programmer; yup, that's what the acronym stands for).
-
-Many devices exist to upload a bootloader including:
+The bootloader is loaded via the 6-pin ICSP (ISP) header using an in-circuit system programmer. Many programmers work:
 * The official [AVR ISP mkII](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42093-AVR-ISP-mkII_UserGuide.pdf) (no longer produced but available used)
 * Using an [Arduino as an ISP](https://www.arduino.cc/en/tutorial/arduinoISP)
 * The versatile [Olimex AVR-ISP-MK2](https://www.olimex.com/Products/AVR/Programmers/AVR-ISP-MK2/open-source-hardware)
 * The [Adafruit USBtinyISP](https://www.adafruit.com/product/46)
 
-***Important note for Linux users:*** You must supply permissions to the Arduino IDE for it to be able to use the ICSP, or you will have to run it using `sudo`. The former option is better; the latter is easier in the moment.
+***Important note for Linux users:*** You must supply permissions to the Arduino IDE for it to use the ICSP, or run the IDE with `sudo`.
 
-To upload the bootloader, do the following:
+To install the bootloader:
 
-1. Open the Arduino IDE. If you have not yet installed the Northern Widget board definitions, find and install them here (instructions provided): https://github.com/NorthernWidget/Arduino_Boards - the Margay board should be run using the "TLog v1" board definition.
-2. Select the desired board -- most likely ***ATMega1284p 8MHz*** under *Northern Widget Boards*.
-3. Plug the data logger into your computer via USB (USB-C on v3.0; micro-USB on v2.x) to provide power.
-4. Plug your ISP of choice into your computer (via a USB cable) and onto the 6-pin header. There are two ways to place it on; the header is aligned such that the ribbon cable should be facing away from the board while programming. If this fails without being able to upload, try flipping the header around.
-5. Go to Tools --> Programmer and select the appropriate programmer based on what you are using.
-6. Go to Tools --> Burn bootloader. Typically, within a few seconds, you learn whether you succeeded or failed. Hopefully it worked!
+1. Open the Arduino IDE and install the Northern Widget board definitions: https://github.com/NorthernWidget/Arduino_Boards — the Margay uses the **TLog v1** definition.
+2. Select ***ATMega1284p 8MHz*** under *Tools → Board → Northern Widget Boards*.
+3. Plug the Margay into your computer via USB (USB-C on v3.0; micro-USB on v2.x) to power it.
+4. Plug your ISP into your computer and onto the 6-pin ICSP header. The ribbon cable should face away from the board; if programming fails, try flipping the connector.
+5. Go to *Tools → Programmer* and select your programmer.
+6. Go to *Tools → Burn Bootloader*. Within a few seconds you will see a success or failure message.
 
-***Note: Be sure to download and/or update drivers for your ISP.***
+***Note: Download and install drivers for your ISP before use.***
 
 ### Hardware test sketch
 
-The [`MargaySetup`](Software/MargaySetup/MargaySetup.ino) sketch in the `Software/` folder lets you verify every hardware subsystem over the serial monitor at 38400 baud. Commands are listed in the [Full hardware test command reference](#full-hardware-test-command-reference) table below. It also handles serial number programming (`SN Set` / `SN Read`).
+The [`MargaySetup`](Software/MargaySetup/MargaySetup.ino) sketch verifies every hardware subsystem over the serial monitor at 38400 baud. It also handles serial number programming (`SN Set` / `SN Read`). See the [Full hardware test command reference](#full-hardware-test-command-reference) table below.
 
-Required libraries — install manually from GitHub (see [Arduino library installation guide](https://www.arduino.cc/en/Guide/Libraries), "Manual" method):
+Install these libraries before uploading (see [Arduino manual install guide](https://www.arduino.cc/en/Guide/Libraries)):
 * [DS3231](https://github.com/NorthernWidget/DS3231) — real-time clock
 * [MCP3421](https://github.com/NorthernWidget/MCP3421) — on-board ADC
-* SD — SD card (bundled with the Arduino IDE)
+* SD — bundled with the Arduino IDE
 
 ### Data logging
 
-For data logging, use the [Margay_Library](https://github.com/NorthernWidget/Margay_Library). It handles sleep, wake, SD writes, RTC, and on-board sensor reads automatically. Sample code is in the [Sample code](#sample-code) section below.
+For data logging, use the [Margay_Library](https://github.com/NorthernWidget/Margay_Library). It manages sleep/wake, SD writes, RTC reads, and on-board sensor sampling automatically. See the [Sample code](#sample-code) section below.
 
-Install the library and its dependencies manually from GitHub:
+Install these libraries manually from GitHub (see [Arduino manual install guide](https://www.arduino.cc/en/Guide/Libraries)):
 * [Margay_Library](https://github.com/NorthernWidget/Margay_Library)
 * [DS3231_Logger](https://github.com/NorthernWidget/DS3231_Logger)
 * [NW_MCP3421](https://github.com/NorthernWidget/MCP3421)
 * [BME](https://github.com/NorthernWidget/BME_Library)
-* [SdFat](https://github.com/greiman/SdFat) — available via Arduino Library Manager
+* [SdFat](https://github.com/greiman/SdFat) — available via *Tools → Manage Libraries*
 
 ### Setting the serial number
 
-If you need to set a serial number on your Margay board, upload [this sketch](https://github.com/NorthernWidget/Project-Margay/tree/master/Software/MargaySetup) available in the "Software" folder within this repository.
+Upload the [MargaySetup](Software/MargaySetup/MargaySetup.ino) sketch, open the serial monitor at **38400 baud**, and type `SN Set` followed by a carriage return or newline. You will be prompted for three 4-digit hexadecimal fields:
+* **Board type:** `0x4D03` for Margay v3.0; `0x4D02` for v2.2 (full series: v0.0 = `0x4D00`, v1.0 = `0x4D01`). If you built your own board, do not use these codes — they are reserved for Northern Widget recordkeeping.
+* **Group ID:** Used to denote collaborative projects vs. internal use vs. general sales.
+* **Unique ID:** A monotonically increasing number.
 
-Once the above testing sketch has been uploaded
-
-Type `SN Set`, followed by either a carriage return or a linefeed/newline character, to enter a prompt to set the serial number. This will give you three fields into which you can enter 4-digit hexadecimal (0-F) numbers:
-* Board type; at Northern Widget, use `0x4D03` for the Margay v3.0, or `0x4D02` for v2.2 (full series: v0.0 = `0x4D00`, v1.0 = `0x4D01`). If you have built your own board, please do *not* use these numbers, as we would like to keep our series separate for the sake of recordkeeping
-* Group ID: We use this to denote collaborative projects vs. internal use vs. general sales
-* Unique ID: This is a monotonically increasing number.
-
-If you wish to later read the serial number, type `SN Read`.
+To read back the serial number, type `SN Read`.
 
 ### Full hardware test command reference
 
@@ -318,7 +312,7 @@ Command | Description
 `SN Read` | Reads back the serial number from EEPROM
 
 ### Using Custom Software (Developer)
-As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** Board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for installation and use are provided on the MightyCore GitHub page.
+As we provide all information about on board pins and their functionality, it is easy for a user to write their own code in the Arduino IDE to leverage the hardware capabilities of the Margay to whatever degree is desired. To do this, the Northern Widget board file can be used (as described above), or the **[MightyCore](https://github.com/MCUdude/MightyCore)** board files can be used. These are the board files the Northern Widget ones were based on, but allow for more compilation options for the user. Full instructions for installation and use are provided on the MightyCore GitHub page.
 
 For **v2.0 and later** (ATmega1284p), the recommended settings are:
 
@@ -481,13 +475,13 @@ The second LED (STAT) will have one of the colors below.
 * *If* this error occurs while also connected over USB, check proper connection of batteries
 * Replace batteries
 
-# Developer Notes
+## Developer Notes
 
 + (**v0.0 / v1.0 only**) When using power from the external rail (the 3v3 on the screw terminals) it is always advised to have a battery connected to the board, even if connected via USB. The USB connection is able to power the core components, but not the external rail. This was resolved in v2.0.
 + (**v0.0 / v1.0 only**) When using I<sup>2</sup>C on the device, external pullups (4.7k&Omega; ~ 10k&Omega;) are required. If using devices strictly on-board, the internal pullups on the ATmega may be sufficient, but adding the capacitance of an external sensor cable often causes problems since the internal pullups are very weak. Dedicated switchable on-board pullups were added in v2.0.
 + (**All models**) The external power rails and the switched battery rail should be enabled in hardware by default, however, it is our recommendation to explicitly define these pins (`Ext3v3Ctrl`) as outputs and drive them `LOW` even if you never intend to switch them on and off. This prevents the rails from inadvertently being turned off due to a transient on the floating control line.
 
-# Acknowledgments
+## Acknowledgments
 
 Support for this project provided by:
 
