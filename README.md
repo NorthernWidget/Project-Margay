@@ -8,6 +8,12 @@
 
 Project Margay is a micro-scale environmental data logger based on the ALog series. It trades I/O capabilities for cost and size, resulting in a simple yet capable logger.
 
+## Citation
+
+If you use this data logger in a publication, please cite (temporary citation until a dedicated Margay paper is published):
+
+**Wickert, A. D., K. R. Barnhart, W. H. Armstrong, M. Romero, B. Schulz, G.-H. C. Ng, C. T. Sandell, J. La Frenierre, S. B. Penprase, M. Van Wyk de Vries, and K. R. MacGregor (2024), [Automated ablation stakes to constrain temperature-index melt models](https://doi.org/10.1017/aog.2024.21), *Ann. Glaciol.*, *64*(92), 425–438, doi:10.1017/aog.2024.21.**
+
 ## Namesake
 
 Due to its small size and adaptability to its environment, Project Margay owes its name to the small Margay cat native to the forests of Central and South America.
