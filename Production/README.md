@@ -8,9 +8,10 @@ This folder contains bills of materials, Gerber packages, and assembly files for
 
 | File | Version | Date | Notes |
 |------|---------|------|-------|
-| `Margay_BoM_2v2_-2021-05-10.csv` | v2.2 | 2021-05-10 | |
+| `Margay_BoM_2v2_-2021-05-10.csv` | v2.2 | 2021-05-10 | Assembly BoM (soldered components) |
 | `Margay_BoM_2v3_-_2023-03-16.csv` | v3.0 day 1 | 2023-03-16 | "v2.3" was a one-day working name; board became v3.0 |
-| `Margay_BoM_3v0_-_2023-03-17.csv` | v3.0 | 2023-03-17 | Final v3.0 BoM used for production |
+| `Margay_BoM_3v0_-_2023-03-17.csv` | v3.0 | 2023-03-17 | Assembly BoM: soldered components; used for Caltronics production run |
+| `Margay_BoM_3v0_board_-_2023-03-17.csv` | v3.0 | 2023-03-17 | Board BoM: non-soldered items inserted into the board (coin cell, SD card) |
 
 ### Gerber and assembly packages
 
@@ -49,6 +50,6 @@ CAMOutputs/
     gerber_job.gbrjob   — Job file (KiCAD/Gerber viewer metadata)
 ```
 
-Submit the full ZIP to the PCB fabricator. For assembly, additionally provide the pick-and-place files and the production BoM CSV.
+Submit the full ZIP to the PCB fabricator. For assembly, additionally provide the pick-and-place files and the assembly BoM CSV (`Margay_BoM_3v0_-_2023-03-17.csv`). The board BoM (`Margay_BoM_3v0_board_-_2023-03-17.csv`) covers the coin cell and SD card inserted after assembly and is not sent to the fab house.
 
 > **Note:** When these packages are restructured into versioned subdirectories, each subfolder will contain its own README with version-specific notes.
