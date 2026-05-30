@@ -405,7 +405,10 @@ The [Margay Operations Guide (PDF)](Documentation/MargayGuide_20220622.pdf) cove
 
 The RTC (DS3231M) is powered exclusively by the **CR1220 coin cell** mounted on the back of the board. This is a separate power source from the main battery pack — the logger cannot wake from sleep if the coin cell is missing, dead, or making poor contact, even if the main batteries are fully charged.
 
-**Cold-weather deployments:** Standard CR1220 cells (Li-MnO₂) are rated to −20°C and may fail at temperatures common in subarctic and arctic field sites. Observed clock failures in cold deployments are likely caused by the coin cell browning out at low temperature. For deployments below −20°C, replace the CR1220 with a [**Panasonic BR1220**](https://www.digikey.com/en/products/detail/panasonic-bsg/BR1220-BE/447510) (Li-CFx chemistry, rated −40°C to +125°C, drop-in replacement).
+**Cold-weather deployments:** Standard CR1220 cells (Li-MnO₂) are rated to −20°C and may fail at temperatures common in subarctic and arctic field sites. Observed clock failures in cold deployments are likely caused by the coin cell browning out at low temperature. The coin cell is the sole RTC power source during sleep — the main battery does not power the RTC between readings.
+
+- For deployments down to −30°C: replace the CR1220 with a [**Panasonic BR1220**](https://www.digikey.com/en/products/detail/panasonic-bsg/BR1220-BE/447510) (Li-CFx chemistry, rated −30°C to +85°C, drop-in replacement).
+- For deployments below −30°C: use a [**Panasonic BR1225A**](https://www.digikey.com/en/products/detail/panasonic-bsg/BR1225A-BE/447512) (Li-CFx, rated −40°C to +125°C). The BR1225A is 2.5mm thick vs. 2.0mm for the 1220 — the on-board holder (Linx BAT-HLD-012-SMT) officially supports both sizes.
 
 ### Logging Start
 Logging begins automatically once power is applied. If error conditions are found, they will be indicated by status lights, but the logger will attempt to continue if possible. The following should represent the light sequence.
