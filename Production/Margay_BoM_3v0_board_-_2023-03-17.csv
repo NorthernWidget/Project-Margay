@@ -1,0 +1,5 @@
+"Qty","Description","Manufacturer","MPN","DigiKey","Mouser","Notes"
+"1","Coin cell battery, Li-MnO2, 3V, 12.5mm dia x 2.0mm (standard; rated to −20°C)","Panasonic","CR1220","P033-ND","","Default ship-with cell"
+"1","Coin cell battery, Li-CFx, 3V, 12.5mm dia x 2.0mm (cold weather; rated to −30°C)","Panasonic","BR1220-BE","P342-ND","","Substitute for deployments below −20°C"
+"1","Coin cell battery, Li-CFx, 3V, 12.5mm dia x 2.5mm (arctic; rated to −40°C)","Panasonic","BR-1225A/FAN","P290-ND","","Substitute for deployments below −30°C; 2.5mm thick, holder supports both sizes"
+"1","SD card, full-size, 8 GB, industrial (−40°C to +85°C)","SanDisk","SDSDAF3-008G-XI","","","Available via Mouser; not stocked at DigiKey"
