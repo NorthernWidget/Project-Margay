@@ -490,6 +490,87 @@ The second LED (STAT) will have one of the colors below.
 + (**v0.0 / v1.0 only**) When using I<sup>2</sup>C on the device, external pullups (4.7k&Omega; ~ 10k&Omega;) are required. If using devices strictly on-board, the internal pullups on the ATmega may be sufficient, but adding the capacitance of an external sensor cable often causes problems since the internal pullups are very weak. Dedicated switchable on-board pullups were added in v2.0.
 + (**All models**) The external power rails and the switched battery rail should be enabled in hardware by default, however, it is our recommendation to explicitly define these pins (`Ext3v3Ctrl`) as outputs and drive them `LOW` even if you never intend to switch them on and off. This prevents the rails from inadvertently being turned off due to a transient on the floating control line.
 
+## NW-Device-Specification schema
+
+Margay's serial number scheme is [Schema 0](https://github.com/NorthernWidget/NW-Device-Specification) — the original 8-byte NW identity block, predating the formal specification. Schema 1 formalizes it as Page 0 and defines a putative Page 1 for the case where Margay acts as an I²C peripheral of a higher-level device (e.g., a cellular gateway or satellite modem). **Margay has no current I²C peripheral interface; Page 1 is hypothetical.**
+
+### Current EEPROM serial number (Schema 0)
+
+Eight bytes at `EEPROM[length−8]` through `EEPROM[length−1]` (bytes 4088–4095 on the ATmega1284P), big-endian uint16 per field, written by MargaySetup `SN Set`:
+
+| Bytes | Field | Example (Margay v3.0) |
+|-------|-------|-----------------------|
+| 0–1 | Board type | `0x4D03` (`'M'` = 0x4D, revision 3) |
+| 2–3 | Group ID | operator-assigned |
+| 4–5 | Unique ID | monotonically increasing |
+| 6–7 | FirmwareID | `0x0000` (hardcoded) |
+
+Displayed as `XXXX-XXXX-XXXX-XXXX` in hex (e.g. `4D03-0001-0042-0000`).
+
+### Proposed register layout (NW-Device-Specification Schema 1)
+
+**Page 0 (0x00–0x1F) — Identity (EEPROM)**
+
+Block 2 directly formalizes the existing 8-byte serial number with no data loss. The board type encoding (`'M'` = 0x4D high byte, revision index low byte) already follows the Schema 1 convention.
+
+```
+Block 0 (0x00–0x07)   Core identity
+  0x00        0x01                           Schema (NW-Device-Specification v1)
+  0x01–0x06   'M','a','r','g','a','y'        Device name (6 bytes)
+  0x07        0x00                           Reserved
+
+Block 1 (0x08–0x0F)   Version
+  0x08        HW major
+  0x09        HW minor
+  0x0A        FW patch
+  0x0B–0x0D   0x00,0x00,0x00                Unused (combined repo convention)
+  0x0E–0x0F   0x00,0x00                     Reserved
+
+Block 2 (0x10–0x17)   Serial number
+  0x10–0x11   0x4D,0x03                     Board type ('M'=0x4D, revision index)
+  0x12–0x13   [manufacture]                 Group ID
+  0x14–0x15   [manufacture]                 Unique ID
+  0x16–0x17   0x00,0x00                     FirmwareID (legacy, reserved)
+
+Block 3 (0x18–0x1F)   Integrity + administration
+  0x18–0x1C   0x00 ×5                       Reserved
+  0x1D        0x00                          Magic byte (reserved; purpose TBD)
+  0x1E        [computed]                    CRC-8 of bytes 0x00–0x1D
+  0x1F        0x00                          I²C address (unassigned; Margay is
+                                            currently I²C controller only)
+```
+
+**Page 1 (0x20–0x3F) — Logger status (SRAM) — HYPOTHETICAL**
+
+Margay is currently an I²C controller only and has no peripheral interface. This layout is proposed for the case where a future version acts as an I²C peripheral of a higher-level device. A natural peripheral address would be `0x4D` (ASCII `'M'`).
+
+```
+Block 0 (0x20–0x27)   System status + battery
+  0x20        Status       bit 0=ready, bit 1=SD fault, bit 2=RTC fault,
+                           bit 3=onboard fault, bit 4=sensor fault,
+                           bit 5=battery warning, bit 6=battery error
+  0x21        Bat %        uint8, 0–100
+  0x22–0x23   Bat voltage  uint16, 0.01 V
+  0x24–0x27   Reserved
+
+Block 1 (0x28–0x2F)   BME280 — onboard environment
+  0x28–0x29   Temperature  int16, 0.01 °C
+  0x2A–0x2B   Humidity     uint16, 0.01 %RH
+  0x2C–0x2F   Pressure     uint32, 0.01 hPa
+
+Block 2 (0x30–0x37)   DS3231M — RTC
+  0x30–0x33   Timestamp    uint32, Unix time (seconds since 1970-01-01 UTC)
+  0x34–0x35   Temperature  int16, 0.01 °C
+  0x36–0x37   Reserved
+
+Block 3 (0x38–0x3F)   Logger state
+  0x38–0x39   Ext interrupts  uint16, accumulated count
+  0x3A–0x3B   Log file #      uint16
+  0x3C–0x3F   Log interval    uint32, seconds
+```
+
+No Page 2. Battery discharge curve coefficients and Steinhart–Hart thermistor constants are hardcoded in the library; no per-unit calibration is stored.
+
 ## Acknowledgments
 
 Support for this project provided by:
