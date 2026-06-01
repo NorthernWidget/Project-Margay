@@ -1095,7 +1095,7 @@
         (effects (font (size 1.27 1.27)))
       )
       (symbol "JUMPER-SMT_2_NO_SILK_1_0"
-        (arc (start -0.381 -0.635) (mid 0.2541 -0.0001) (end -0.3808 0.635)
+        (arc (start -0.381 -0.635) (mid 0.2514 -0.0001) (end -0.3808 0.635)
           (stroke (width 1.27) (type solid))
           (fill (type none))
         )
