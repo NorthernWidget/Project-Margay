@@ -2509,6 +2509,9 @@
   (junction (at 246.38 139.7) (diameter 0) (color 0 0 0 0)
     (uuid df41d4f4-0735-4663-9969-11dd906419a7)
   )
+  (junction (at 266.7 180.34) (diameter 0) (color 0 0 0 0)
+    (uuid f3f4d048-1bd3-4f5d-af25-c79e8cd0365c)
+  )
 
   (wire (pts (xy 53.34 58.42) (xy 58.42 58.42))
     (stroke (width 0.1524) (type solid))
@@ -2645,6 +2648,10 @@
   (wire (pts (xy 96.52 205.74) (xy 99.06 205.74))
     (stroke (width 0.1524) (type solid))
     (uuid 561d9386-5ad0-4b68-afc7-7a3449d99b71)
+  )
+  (wire (pts (xy 266.7 172.72) (xy 279.4 172.72))
+    (stroke (width 0.1524) (type solid))
+    (uuid 5658ac20-6726-45bf-b759-301a19e8a296)
   )
   (wire (pts (xy 218.44 104.14) (xy 215.9 104.14))
     (stroke (width 0.1524) (type solid))
@@ -3006,6 +3013,10 @@
   (wire (pts (xy 218.44 129.54) (xy 215.9 129.54))
     (stroke (width 0.1524) (type solid))
     (uuid efff6868-99e6-4683-925c-88099dbbe093)
+  )
+  (wire (pts (xy 266.7 180.34) (xy 279.4 180.34))
+    (stroke (width 0.1524) (type solid))
+    (uuid f48192f1-d2b5-4006-bf50-78df06609527)
   )
   (wire (pts (xy 200.66 182.88) (xy 251.46 182.88))
     (stroke (width 0.1524) (type solid))
@@ -3434,7 +3445,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 259.08 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23e24e4b-9509-4b63-b130-a9e71930f4fc)
-    (property "Reference" "#GND32" (at 259.08 185.42 0)
+    (property "Reference" "#GND032" (at 259.08 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 187.96 0)
@@ -3450,7 +3461,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND32") (unit 1)
+          (reference "#GND032") (unit 1)
         )
       )
     )
@@ -3459,7 +3470,7 @@
   (symbol (lib_id "Margay-eagle-import:SparkFun-PowerSymbols_GND") (at 63.5 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a35841f-be7f-45d6-b001-a7e45c7d8fb0)
-    (property "Reference" "#GND20" (at 63.5 83.82 0)
+    (property "Reference" "#GND020" (at 63.5 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 84.074 0)
@@ -3475,7 +3486,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND20") (unit 1)
+          (reference "#GND020") (unit 1)
         )
       )
     )
@@ -3660,7 +3671,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 248.92 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 681d4f2f-b6a3-477c-8cc8-cc1db8a9f552)
-    (property "Reference" "#GND30" (at 248.92 111.76 0)
+    (property "Reference" "#GND030" (at 248.92 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 114.3 0)
@@ -3676,7 +3687,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND30") (unit 1)
+          (reference "#GND030") (unit 1)
         )
       )
     )
@@ -3912,7 +3923,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 177.8 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77b4d0b4-e76d-44cd-8a4d-04904e2c76ac)
-    (property "Reference" "#GND26" (at 177.8 68.58 0)
+    (property "Reference" "#GND026" (at 177.8 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 71.12 0)
@@ -3928,7 +3939,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND26") (unit 1)
+          (reference "#GND026") (unit 1)
         )
       )
     )
@@ -3937,7 +3948,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 40.64 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d46edeb-93fc-4d72-860e-32dbbb9e4f04)
-    (property "Reference" "#GND18" (at 40.64 195.58 0)
+    (property "Reference" "#GND018" (at 40.64 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 198.12 0)
@@ -3953,7 +3964,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND18") (unit 1)
+          (reference "#GND018") (unit 1)
         )
       )
     )
@@ -4147,7 +4158,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 251.46 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 873f008e-574f-43eb-807e-1b2d765b58a9)
-    (property "Reference" "#GND31" (at 251.46 187.96 0)
+    (property "Reference" "#GND031" (at 251.46 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 248.92 190.5 0)
@@ -4163,7 +4174,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND31") (unit 1)
+          (reference "#GND031") (unit 1)
         )
       )
     )
@@ -4172,7 +4183,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 58.42 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8aed8a46-b889-4224-b970-bbefcc9b9226)
-    (property "Reference" "#GND19" (at 58.42 60.96 0)
+    (property "Reference" "#GND019" (at 58.42 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 63.5 0)
@@ -4188,7 +4199,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND19") (unit 1)
+          (reference "#GND019") (unit 1)
         )
       )
     )
@@ -4197,7 +4208,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 254 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b4030a2-2467-4722-8231-17f82e213b1d)
-    (property "Reference" "#GND28" (at 254 78.74 0)
+    (property "Reference" "#GND028" (at 254 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 81.28 0)
@@ -4213,7 +4224,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND28") (unit 1)
+          (reference "#GND028") (unit 1)
         )
       )
     )
@@ -4222,7 +4233,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 109.22 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8bc757f5-5d1b-44a7-8b4b-e3c847440097)
-    (property "Reference" "#GND24" (at 109.22 60.96 0)
+    (property "Reference" "#GND024" (at 109.22 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 63.5 0)
@@ -4238,7 +4249,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND24") (unit 1)
+          (reference "#GND024") (unit 1)
         )
       )
     )
@@ -4326,7 +4337,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 99.06 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd56c52a-0d97-4c40-87fe-d4780d18592c)
-    (property "Reference" "#GND23" (at 99.06 210.82 0)
+    (property "Reference" "#GND023" (at 99.06 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 213.36 0)
@@ -4342,7 +4353,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND23") (unit 1)
+          (reference "#GND023") (unit 1)
         )
       )
     )
@@ -4351,7 +4362,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 246.38 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2064db9-bb87-4b9d-bdd9-1f0dd1ced045)
-    (property "Reference" "#GND29" (at 246.38 144.78 0)
+    (property "Reference" "#GND029" (at 246.38 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 147.32 0)
@@ -4367,7 +4378,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND29") (unit 1)
+          (reference "#GND029") (unit 1)
         )
       )
     )
@@ -4376,7 +4387,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 208.28 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c27ba88a-7168-4d81-a745-1f4fc03477d1)
-    (property "Reference" "#GND27" (at 208.28 147.32 0)
+    (property "Reference" "#GND027" (at 208.28 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.74 149.86 0)
@@ -4392,7 +4403,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND27") (unit 1)
+          (reference "#GND027") (unit 1)
         )
       )
     )
@@ -4456,7 +4467,7 @@
   (symbol (lib_id "Margay-eagle-import:SparkFun-PowerSymbols_GND") (at 119.38 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdacbbe7-5da9-4bb5-ba4c-fb9bccd6e443)
-    (property "Reference" "#GND25" (at 119.38 83.82 0)
+    (property "Reference" "#GND025" (at 119.38 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 84.074 0)
@@ -4472,7 +4483,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND25") (unit 1)
+          (reference "#GND025") (unit 1)
         )
       )
     )
@@ -4499,6 +4510,32 @@
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
           (reference "R21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Margay-eagle-import:C-EUC0603") (at 279.4 175.26 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d1e0fbc0-c366-4490-b6f9-d35f8a9344d4)
+    (property "Reference" "C20" (at 280.924 174.879 0)
+      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    )
+    (property "Value" "1uF" (at 280.924 179.959 0)
+      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    )
+    (property "Footprint" "Margay:C0603" (at 279.4 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 279.4 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0dd9ba6d-ef18-4685-98fd-e9fdee7c77b2))
+    (pin "2" (uuid bfa3a8d2-eeb1-4b2f-97fc-fc25fb3cd824))
+    (instances
+      (project "Margay"
+        (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -4533,7 +4570,7 @@
   (symbol (lib_id "Margay-eagle-import:SparkFun-PowerSymbols_GND") (at 93.98 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5a8d27a-9b80-4e36-8bb1-808b440710f1)
-    (property "Reference" "#GND22" (at 93.98 121.92 0)
+    (property "Reference" "#GND022" (at 93.98 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 122.174 0)
@@ -4549,7 +4586,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND22") (unit 1)
+          (reference "#GND022") (unit 1)
         )
       )
     )
@@ -4728,7 +4765,7 @@
   (symbol (lib_id "Margay-eagle-import:GND") (at 68.58 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4ed2827-115e-4670-8eb5-608d5940977d)
-    (property "Reference" "#GND21" (at 68.58 165.1 0)
+    (property "Reference" "#GND021" (at 68.58 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 167.64 0)
@@ -4744,7 +4781,7 @@
     (instances
       (project "Margay"
         (path "/44591453-0fe4-48d8-a9e2-921075afaa78/8b29bb9a-8b12-402b-8332-650c6f7ae85e"
-          (reference "#GND21") (unit 1)
+          (reference "#GND021") (unit 1)
         )
       )
     )
