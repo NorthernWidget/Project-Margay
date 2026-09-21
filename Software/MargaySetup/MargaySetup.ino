@@ -54,7 +54,7 @@ void setup() {
   Serial.print("Loading...");
 
   Wire.begin();
-  adc.SetResolution(18);
+  adc.setResolution(18);
 
   Serial.println("Done.");
   Serial.println("Enter When Ready...");
@@ -296,7 +296,7 @@ void ADCDisp() {
     Serial.println(" V");
 
     Serial.print("Ax = ");
-    Serial.print(adc.GetVoltage() * (3.3 / 1024.0));
+    Serial.print(adc.getVoltage() * (3.3 / 1024.0));
     Serial.println(" V");
 
     Serial.print("\n\n");
