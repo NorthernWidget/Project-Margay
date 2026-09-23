@@ -588,7 +588,7 @@ Implements [NW-Device-Specification](https://github.com/NorthernWidget/NW-Device
 Block 0:  Schema=0x01, Name='M','a','r','g','a','y',0x00
 Block 1:  HW major=[mfr], HW minor=[mfr], FW patch=[mfr], 0x00,0x00,0x00, Reserved
 Block 2:  Board type=0x4D03 ('M'=0x4D, rev 3), Group ID=[mfr], Unique ID=[mfr], FirmwareID=0x0000
-Block 3:  Reserved, Magic=0x00, CRC=[computed], I2C address=0x00 (controller; no peripheral interface)
+Block 3:  Reserved, Magic=0x4E, CRC=[computed], I2C address=0x00 (controller; no peripheral interface)
 ```
 
 ## Acknowledgments
