@@ -141,6 +141,42 @@
 				)
 			)
 		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd57f6d5-5b6d-4a90-9ddf-0bc505636044")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff2bf8f8-6d06-40cc-bcd6-79c019aece8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "165e2407-8eb7-4f0c-ac31-3986cc70006a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/34f54cae-0062-433f-894e-8f1121b6174e")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -305,6 +341,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "873579db-9d98-42db-83eb-a44e7f43c460")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12d90330-1c3f-433f-bf48-5107caadc82f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-10.0KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02c7cf31-faff-430f-863f-70215ebbee39")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -475,6 +547,42 @@
 				)
 			)
 		)
+		(property "MPN" "TMK107B7105KA-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54926270-9d3d-458b-8ff0-fbe75b8cabf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yaiyo Yuden"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d0e0d74-c799-4d13-a6b7-b5559c0543a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "587-2984-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a5f1727-8945-414d-8d5d-f14ad7d34655")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/6e7babab-8846-4240-b5c1-e99b7808014e")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -639,6 +747,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e426f07-5d51-4170-98e3-b304e964c169")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3305ec1d-0895-4d9c-a9c0-8b5a318ae81f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-10.0KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6afdd9e4-3382-4983-ac76-113f653f1ae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -811,6 +955,42 @@
 				)
 			)
 		)
+		(property "MPN" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a0d3508-2cc4-4932-84d9-8fd142875aeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36481958-4c01-4cab-9b0e-9f718debfc33")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "DNP"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c1e98f3-6e98-4c82-82ad-e4cb4f6c8b64")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/7b52ace0-cdce-45a4-bf07-ec3ce8160f5d")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -892,6 +1072,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74b2a09a-7aa3-422f-9302-e27928fa3ac0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2e64c5d-5a4e-4ad8-b2cb-5d9fb914e952")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-10.0KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "757ac227-10c7-49fa-a508-fdf5a95c1822")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1062,6 +1278,42 @@
 				)
 			)
 		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e1b29c8-9e12-471c-8786-10c9155be503")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edbb29d6-81bf-46db-bf3e-7717c4857d0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d631eb0-d761-4d93-b3af-dd406d08959f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/c7c4898a-bb24-4c93-bc29-b427e17bf913")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -1226,6 +1478,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4c341b0-f96b-4c0f-b999-3ef1d3dc18ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02b0b142-fb20-44dc-911d-e469b1494940")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f0cef11-b424-4583-9e53-5aa21a8af67d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1395,6 +1683,42 @@
 				)
 			)
 		)
+		(property "MPN" "TPS7A0533PDBVR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1ae9ac7-a791-4eab-94de-cee8054ceb29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05cf9659-20ec-455b-b21f-6ed3c33813fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "296-50256-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fb7b58e-4235-4fc4-8119-34392dd77ef8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/7676c172-df30-46ff-b9e0-802067eee61c")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -1537,6 +1861,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50e1db2a-a83f-45fd-94c9-97902ab010eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e70148a7-2b95-40fe-a077-a49646b76ba1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "YAG3086CT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa46cbca-80d0-469a-9a77-15e14c3bb5c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1707,6 +2067,42 @@
 				)
 			)
 		)
+		(property "MPN" "GRM21BR61C106KE15K"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "982bbfad-e1da-483d-a5f3-a193deef477f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e2d1b8d-a169-4a9a-a5f6-0e5617080cd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-6473-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94f122ce-6d06-4a83-bb69-3b707ac26185")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/a7c6a4ec-de64-4bc8-9a94-3b39108d5181")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -1871,6 +2267,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0727RL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9307c32b-bee8-4df8-a718-17e8a036505f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "017856bb-4474-4f5a-9512-73017aed24a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "YAG3086CT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4b1b604-1870-4e8c-bec2-67e56e87f139")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2041,6 +2473,42 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d6df5f8-d840-4b85-88fe-d2fc7cf830f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34eca92f-a758-43bf-83ea-7026e2eed611")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-10.0KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c81a3be0-a1ae-4596-8c69-d16ed30ae31e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/01a9f910-0c30-43df-be5b-05df5a107a0c")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -2208,6 +2676,42 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-075K1L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a901a4f0-1441-402a-bda7-07f15c3e929a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a9c982c-fcb4-4549-b9f6-0df5ca984680")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-5.10KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4e3401f-c5c9-41bf-aa76-d1fbbffdc72e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/1b3115f3-7039-4040-aca3-c313ac01d60b")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -2372,6 +2876,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-075K1L"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02e0ae6d-8342-46c5-9999-7865680ac3df")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83cadf6f-8e9c-4a75-b62d-6c954328bddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-5.10KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fe71adc-00f4-44e3-b90f-ed2680f193ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2731,6 +3271,42 @@
 				)
 			)
 		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40ec6f27-7181-4655-80bf-4437a34ef0e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3b990de-e1cf-4a8a-a163-5f7268fe3a34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7e5ef93-7fd0-43be-8d61-37eb25d03fe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/94a65a09-efa5-4fbd-ac6f-e4f4568f04ea")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -2921,6 +3497,18 @@
 				)
 			)
 		)
+		(property "MF" "TI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26a33f90-6cc0-433f-b861-0277c4d82c99")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/71b66cdc-5476-49f0-a2a9-3d49a6da794c")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -3064,6 +3652,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CLVBA-FKA-CAEDH8BBB7A363"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec93161e-3eea-4c49-99b6-d880adc2abc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cree"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18c882ee-872a-4636-895c-06394b237f49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "CLVBA-FKA-CAEDH8BBB7A363CT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd1c738f-a133-4ebf-9024-c4daeb845221")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3211,6 +3835,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA2B2C0G1H120J050BA"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c38cfc11-3cab-475e-b162-2c14c36f6356")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TDK"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "923cc3e3-a5d2-4204-a92b-715779671967")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "445-5585-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c1021dc-b406-40ba-8ceb-af169fdee4ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3583,6 +4243,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f0232b5-a91d-490a-8495-495b2a13862e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2221fbf-5842-4d78-bd2d-9873d1ff5cd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "DNP"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16b5f21f-a3fd-49e4-aec4-5a9dab1d81ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4506,6 +5202,42 @@
 				)
 			)
 		)
+		(property "MPN" "SN74LVC1G3157DCKR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b208edf5-048c-4364-aa25-957f6360d14a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fc319d1-692a-465b-9db5-45a3df3bee5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "296-14909-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce3802b4-09b2-496a-8d75-1b045035608b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/0204142d-bbf9-4978-b923-7c794e2f4c7a")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -4659,6 +5391,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OSTVN06A150"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "226a72be-b48a-4b54-8ea1-359843ec28ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "OnShore"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf499dab-7637-4684-a803-639c8feb947d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "ED10565-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0747183f-2db2-42bc-9da3-9e309ac54d87")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4919,6 +5687,42 @@
 				)
 			)
 		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62c1064f-3577-425d-9194-4dd3e3169d4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9939e8b-2132-445e-97b9-446e032c3c9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18eb6715-be92-4cd3-9d0d-a7f5c4f0a1ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/01670895-90c1-4b5c-a809-a5eed7940ba7")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -5086,6 +5890,42 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-07330RL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9486ca7c-a799-4171-86bc-c64d42857e60")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f252933-17f6-466e-9fd7-395c9c3769e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8888efb6-f9ee-4edd-b206-8a086b2d1e8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/b7679756-4be0-4250-93f2-11592e3963fa")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -5250,6 +6090,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a5e492c-4bf5-4350-8ad6-d313e8a46656")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "730b386a-b041-405e-9aaf-69a576a8513b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-10.0KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ef064b5-9904-4351-86bf-2a79b71334c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5975,6 +6851,42 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-07330RL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a8a7c06-a793-43ad-b8fb-3fbbdcf1009c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "024ab505-63c3-4c4f-ae28-27c5fc9378e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9824763e-8157-4a43-9280-fc7301314a5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/abfd6031-1921-4cde-9bf1-59d00167318f")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -6142,6 +7054,42 @@
 				)
 			)
 		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6795d821-dfd9-44ea-9c50-bfc69924f824")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29c8677d-9af7-4007-8a0c-1577a9277867")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6705cf9-ac0c-44c6-8d1d-5ba476e0e1cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/766db4b9-7d5a-4219-904c-0d418909fe9b")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -6306,6 +7254,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TMK107B7105KA-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f053a13d-5ddd-4e4e-8bb5-931eb2a0113d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yaiyo Yuden"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbe6732b-f2bf-42dc-82ec-11a5abfa68e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "587-2984-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30d22614-bf22-4fc5-8021-65077a1d346d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6623,6 +7607,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS79733DCKR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e537d5a5-82ec-4203-8aec-a8686611ba45")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "542332da-2d1f-4df2-acaa-8963a7dc2280")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "296-11990-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcf16396-d618-46f3-b8a7-81b0f5688aec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7036,6 +8056,42 @@
 				)
 			)
 		)
+		(property "MPN" "BAT-HLD-012-SMT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eed2dc88-363d-4c16-9fbe-b3a6c3006fb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Linx"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04fb8ddf-fb17-448a-a081-06c1bd9e8988")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "BAT-HLD-012-SMT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0598d048-e1e9-4d31-ba1b-d81b83cbb284")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/80638c14-5c7c-42e5-a2ef-6774dd92a09f")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -7238,6 +8294,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SN74AUP3G34DCUR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ceaa02a-ee7e-4126-aa39-b670d55ad767")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16ee2c1f-d857-4c36-a953-16b92ba353ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "296-25595-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f528c0b-927b-4b6c-b1f9-dfca791a87b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7637,6 +8729,42 @@
 				)
 			)
 		)
+		(property "MPN" "CLVBA-FKA-CAEDH8BBB7A363"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24bb802e-1128-4f6f-9360-9184fdd5d0a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Cree"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2736bf15-f86c-4e6c-acf7-411fd3d12b3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "CLVBA-FKA-CAEDH8BBB7A363CT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f322829f-e023-4fd6-8194-cfd17c2dd3d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/e20d68ef-e09b-455e-ae51-9d6955933372")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -7963,6 +9091,42 @@
 				)
 			)
 		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a45dfd8f-4adf-4feb-8d8a-098e7bf6fbcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e55617b9-34a2-4409-b2eb-c8997193e2de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80cf152b-a8e9-4b82-b5a9-d7fd0d2442a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/08ef2b79-eecc-4717-8845-f3a820566fe9")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -8127,6 +9291,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS22916CYFPT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a3d1425-6ec5-4132-a0a4-aac71605d2b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19a6f1a0-beea-443f-90fb-1af07e16d869")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "296-47464-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19dd0d67-e432-4fdf-883f-ddf532503fe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8476,6 +9676,42 @@
 				)
 			)
 		)
+		(property "MPN" "2N7002W-7-F"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea17239c-3bac-491a-9f6a-ef6037116fd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Diodes Incorporated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "577a6dfc-cc48-495e-8b93-e07ef283e92f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "2N7002W-FDICT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b355d3b-0113-4e23-90dc-a02e02f1a2cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/6c1e9f53-140b-4c34-a608-c300ede20656")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -8592,6 +9828,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-07130KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "219ec91d-714d-4e2a-a6a6-d66afa6bfa94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b4a098c-1abd-474b-bc7a-3c0276eda1a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-130KHRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c688228-0f1c-4646-af4c-ce011bc5231d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8762,6 +10034,42 @@
 				)
 			)
 		)
+		(property "MPN" "PTS810 SJG 250 SMTR LFS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ea88d17-b94b-47dc-a9e2-5a8d4ba58854")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "C&K"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80a64913-bed6-40ee-a78e-f0f9dc1337c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "CKN10504CT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aee5bcb7-7011-45d9-bb4e-906b43762e47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/2167b696-6dfd-40a5-8cf3-f6ed03d6a268")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -8886,6 +10194,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BME280"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c3f315a-c8f0-4c3b-9ebe-501e62dc2fb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Bosch"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34886165-8c5d-46fb-872d-c6773f8c4f4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "828-1063-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62c525dd-7310-4c55-8cb4-1ba17a7eb050")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9059,6 +10403,42 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a03e2610-51ba-4943-bd8a-d0ebb3a20319")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3506b06-9e56-4859-b71c-7c033dbfed7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-10.0KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3da17d3-2ff4-416a-947c-5f14ddcbb2c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/03d4ebae-ef25-4320-be65-7ffd6e872e4a")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -9228,6 +10608,42 @@
 				)
 			)
 		)
+		(property "MPN" "DMG3404L-7"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1360b768-7c0b-42d8-8135-115916fc2a37")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Diodes Incorporated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04ad620e-44ee-435e-a4d4-4301045e3e0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "DMG3404L-7DICT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b90cd35-490d-4d1c-924a-212d6e30c7ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/aea0eb7f-ea16-411e-892f-38991e7ce59e")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -9344,6 +10760,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MCP3421A1T-E/CH"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e315d00-c3e8-4adf-b58c-c5e6ebb74f5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Microchip"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaf42e13-9b7a-4a2c-9b27-1a4bf846b003")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "MCP3421A1T-E/CHCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40fcc504-14a8-4bbf-9689-0fb63929edd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9653,6 +11105,42 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-07330RL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f6375d8-03b5-4ded-bfe2-2ab75c839d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a73cfdc8-6e35-4aea-a9e1-7ee4a13e154c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc75429b-cce3-4b61-8398-7f640c7f0e80")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/11d29286-b9a7-42a4-9c35-f4727c42889e")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -9820,6 +11308,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ATMEGA1284P-MUR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae978f17-711f-4147-b390-7285cdceb81e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Atmel"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d0613e1-d569-42cc-8da8-463764b1cae4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "ATMEGA1284P-MURCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a5acc61-147c-46f8-b966-96f27475b5c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11051,6 +12575,42 @@
 				)
 			)
 		)
+		(property "MPN" "FT231XQ-R"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bdad320-ab12-4338-8997-f53c57a5e593")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "FTDI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f8691db-c3a2-4984-8434-dd863bc2a789")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "768-1128-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbd595f7-cfa9-4222-ab13-75b59ad105c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/081f551d-de87-40ab-bcc3-b394a1ec4da6")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -11413,6 +12973,42 @@
 				)
 			)
 		)
+		(property "MPN" "GCM1555C1H180JA16D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fb9800a-ae7b-4fd5-9691-eb29fd9dcf78")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bcbb5ed-727b-43f6-bd79-89d5af54728b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-12650-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68b6ce86-b7f3-4dca-b24a-a0ca259912f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/10ecd2e2-5dc1-4193-a5d7-036d0069c385")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -11577,6 +13173,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fccfa40-554e-4238-b159-016950b5c170")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24d90cf4-1cbf-4621-b140-7eb9c94315ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-10.0KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4667de2-4547-49c9-a4f1-d0beaacc2ba6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11747,6 +13379,42 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-07330RL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6ac7c0f-ae61-40d8-a488-20250108fb73")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a43e78e0-722c-47bc-a39f-531dda567773")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "559d9a9d-7ef0-4074-8c34-a63583bc0a7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/fead1adb-9bb3-477a-aabe-3fc20fd992d1")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -11914,6 +13582,42 @@
 				)
 			)
 		)
+		(property "MPN" "GRM21BR61C106KE15K"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5473992f-a253-4d6c-b614-d00e771310f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51a9090d-5b6e-40bb-8601-d5216d2ead8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-6473-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edafa84a-67b3-4ed9-8da2-d91e9ecdaaba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/f3e2a026-a733-4b3c-bb6b-95566bf0f9ea")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -12078,6 +13782,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f544c976-15e2-42ba-aef5-1c34018ad915")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad0d0602-865f-4567-b2f2-bf268e529521")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "579cd1af-edf2-4016-8497-b69a55c14120")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12268,6 +14008,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Maxim"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "168b648d-463d-4c8f-b4d4-c2eccc62b2df")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12578,6 +14330,42 @@
 				)
 			)
 		)
+		(property "MPN" "TLV3691IDPFR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5108da70-3053-4d6e-a95b-95cea08088ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed5401fe-9b01-4e2f-924e-9181c87724fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "296-37242-6-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c07a2e1-055e-4ec2-9c13-3d8754117f65")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/cab803d5-53c8-415b-b8de-737e2ff746b1")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -12739,6 +14527,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d808053-ded3-4224-96c6-c0d1eab82372")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afb5e443-1502-4fbe-9d9b-5d9329930909")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2f7b414-48f8-4465-bbf8-635efd83f8fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12909,6 +14733,42 @@
 				)
 			)
 		)
+		(property "MPN" "TMK107B7105KA-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "023a7b83-3f0c-4e6b-9013-af1ea8c8b101")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yaiyo Yuden"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a31d771b-acbc-4054-9bad-cbdfff05259d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "587-2984-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1babbe2a-21f9-46d8-8c20-4f132a6933c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/d1e0fbc0-c366-4490-b6f9-d35f8a9344d4")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -13075,6 +14935,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DS3231MZ+"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "026e77cd-72ca-4e65-9c94-b4e28196c649")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Maxim"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9989b1d8-3099-42e8-8685-5a9f2399b9b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "DS3231MZ+-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85052c2a-795a-4cb9-961b-376fc03d266d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13409,6 +15305,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-07330RL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a1774ce-8a95-4171-965e-52333b29f156")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f448b3d-511e-4340-b611-d646a02d0278")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b285498-3d50-4d48-a414-e43acb5f1d58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13758,6 +15690,42 @@
 				)
 			)
 		)
+		(property "MPN" "GCM1555C1H180JA16D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a910a2d0-2700-49d7-87b7-304bc549635a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1db23b99-c411-437e-8e22-f1b07b999fbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-12650-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90d7b88a-32da-4814-a664-286a550d431f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/d9c2f0a3-c1d8-4f8c-83ed-471d0e2881c0")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -13925,6 +15893,42 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27f47849-7cc0-4022-b9c1-1c333d0dca41")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6184ae1-4967-4fcb-bd7a-e43739c4dc77")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-10.0KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8045c38-4283-4d02-b9bd-ced62ef5bdd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/f8cad015-cd49-4a76-9afc-2df2c1e2039e")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -14089,6 +16093,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-07100RL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0114dde3-abc9-4b13-9b99-61ed19e6ed44")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32f12646-44ad-44cf-89d4-3ce8daad3755")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-100LRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22fba967-206d-40fb-9fe1-ade50361cd72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14260,6 +16300,42 @@
 				)
 			)
 		)
+		(property "MPN" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "609b5ade-a29e-42c6-9260-b81641d29ab9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e909fca-eaa3-49a9-a443-866bba7e39a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "DNP"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16c49d44-3f6b-43e1-bdda-ecefbb10fee7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/59d30b5e-15ec-401f-ac18-0caafb4c2f7c")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -14427,6 +16503,42 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f38fb7df-f89d-42a9-a70b-a88580edbf34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ecef078-fe89-4131-a6d8-a6f480a254a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-10.0KLRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15e492af-cd5f-4d04-aaa3-e4d78bc03ee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/067568d8-d1fd-432f-a7ff-647b97c8caba")
 		(sheetname "Margay_1")
 		(sheetfile "Margay_1.kicad_sch")
@@ -14591,6 +16703,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02cf9e09-0eff-4c39-b8d9-17ad53fd9007")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba23e369-b4f9-4ac8-8b04-8215f041acbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2675b9e-6eb9-4f4e-bf75-e4d4d6c8a777")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15125,6 +17273,42 @@
 				)
 			)
 		)
+		(property "MPN" "GCM155R71C104KA55D"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08f3cce0-f2fe-4a08-a061-5e551ee9499c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Murata"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9eb01a70-4c49-42e7-8e02-4bb2851047a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "490-4759-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3744e94e-7d00-4721-bf58-8d3aa937f754")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/d48d4421-d772-40ea-a6bb-ad1d54ee6e57")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -15304,6 +17488,30 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-07330RL"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68af4857-8d5f-4ba6-9e46-4727773c03af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e85aca6f-1aed-4dc1-b41b-2fcbf55abe19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/85bb848f-4a5f-416c-aa6f-5efdde2d6867")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -15468,6 +17676,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA2B2C0G1H120J050BA"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ffe3188-52f5-421a-ab66-ff6293853308")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TDK"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5af650dd-6fe6-440f-b37b-dd85f991827b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "445-5585-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc94de02-dfbd-488f-b7c4-59b3ae453863")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15638,6 +17882,42 @@
 				)
 			)
 		)
+		(property "MPN" "TPL5010DDCT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9e85aff-d472-4ce3-a244-ea9ba4fe3358")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "TI"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fac9117-2eef-4fdb-a947-ae432f50f255")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "296-38829-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63ca5d8b-e8d6-4d2f-8504-829626813657")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/7e83051f-d0ff-4a56-a231-e486e256368e")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -15789,6 +18069,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MIC94090YC6-TR"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be6a646b-4d88-4cf8-a53b-1df101372131")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Microchip"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "835357bc-bc34-4176-9796-e656ae1a2a06")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "576-3484-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79801e4e-0390-4e91-a302-b607347d34a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15945,6 +18261,42 @@
 				)
 			)
 		)
+		(property "MPN" "PTS810 SJG 250 SMTR LFS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1d52cf1-cfc7-4a75-9ff7-d7c4bfb2a67f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "C&K"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52ff21d2-e12c-4520-afb4-7bfcc2597325")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "CKN10504CT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27292088-9ccd-48f9-b5b0-33790d2c47c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/4359292d-64be-4d07-9c6d-076b094536d5")
 		(sheetname "Margay_2")
 		(sheetfile "Margay_2.kicad_sch")
@@ -16071,6 +18423,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "OSTVN10A150"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ca7794f-f4db-4d08-b3a4-a4cfadef2afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "On Shore"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89610dac-f961-4dd8-adab-83cbff6f0bff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "ED10567-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fdee388-2735-4c60-91af-ef2162a2ba7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16419,6 +18807,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "693063010911"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aced3d8c-cd27-4de8-9691-679c530cbaab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Wurth"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e26f602-3966-4849-bf78-42dabd9077e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "732-3817-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21763874-ca87-49c4-8b4b-948b34e7f77d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17469,6 +19893,42 @@
 				)
 			)
 		)
+		(property "MPN" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a51b015-b889-48f4-a14a-f6fb46f5828c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ed33f60-588d-4a68-844f-36381ed1bef4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "DNP"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "500a44fe-fa2f-4d83-8710-fd556989b8a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/808ab8b5-08b5-4031-9d3b-984133ef4702")
 		(sheetname "Margay_3")
 		(sheetfile "Margay_3.kicad_sch")
@@ -17643,6 +20103,42 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86339b1b-9491-4f06-9780-5b13a6a7ebf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "N/A"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bf4523d-0297-415e-bb00-47a278714686")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "DNP"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "576fc0b0-d850-4f71-9619-133efd4a0791")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
