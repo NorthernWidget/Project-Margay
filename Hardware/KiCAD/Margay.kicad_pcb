@@ -92,7 +92,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "0753a751-218e-466d-b5b1-867ce81718d3")
 		(at 156.0676 102.8066 90)
@@ -265,7 +265,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "08e93e16-5165-47ed-8f5b-1935e77ab37c")
 		(at 150.4796 101.5366 -90)
@@ -438,7 +438,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0603"
+	(footprint "nw-cold-silicon:C0603"
 		(layer "F.Cu")
 		(uuid "13153aef-ee5f-4592-9328-a8d834796cba")
 		(at 160.5126 106.2356)
@@ -611,7 +611,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "13f65448-a718-4fde-9fd9-d12594633b96")
 		(at 155.8136 110.4266 90)
@@ -784,7 +784,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:4_40_CLOSE"
+	(footprint "nw-cold-silicon:4_40_CLOSE"
 		(layer "F.Cu")
 		(uuid "157e7bde-e230-446e-b20f-0c8ec6db47de")
 		(at 125.5876 118.0466)
@@ -870,7 +870,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "18257d84-fb80-4baf-a46d-b095a57d041c")
 		(at 129.6516 118.8086)
@@ -1043,7 +1043,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "1aaacc9c-d9ee-4cf3-b5f5-e7cc69d46003")
 		(at 144.7646 92.2656 180)
@@ -1216,7 +1216,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "1bb609af-fbeb-460a-94fc-594ee00da68d")
 		(at 162.0366 110.9346 -90)
@@ -1389,7 +1389,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SOT23-5"
+	(footprint "nw-cold-silicon:SOT23-5"
 		(layer "F.Cu")
 		(uuid "1fb0e67f-f033-4487-897c-a24dedb452ae")
 		(at 157.2106 106.4896)
@@ -1546,7 +1546,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "20e3c1c5-88a1-48c3-af18-0be842004dd9")
 		(at 154.4166 91.1226)
@@ -1719,7 +1719,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0805"
+	(footprint "nw-cold-silicon:C0805"
 		(layer "F.Cu")
 		(uuid "211dfa39-a496-4085-a335-331ba659cae5")
 		(at 154.5436 106.4896 -90)
@@ -1892,7 +1892,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "2557e033-76ed-4568-b7d6-156d0e12d2f0")
 		(at 154.4166 92.2656)
@@ -2065,7 +2065,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "2562e6e7-4126-4a18-8cff-4aab976f6a44")
 		(at 161.2238 98.4886 -90)
@@ -2238,7 +2238,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "295b381e-d60e-4332-a3de-624a63d52121")
 		(at 163.4336 97.8536 180)
@@ -2411,7 +2411,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "3278ed1d-0b2c-40e1-8cf3-9a51115e57cd")
 		(at 166.4816 97.8536)
@@ -2584,7 +2584,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SOD323-R"
+	(footprint "nw-cold-silicon:SOD323-R"
 		(layer "F.Cu")
 		(uuid "3b4be9f6-e120-4a88-859f-646d21459585")
 		(at 153.7181 93.6626)
@@ -2779,7 +2779,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "3e922cd6-ff20-49eb-a111-b8e92a1b982c")
 		(at 144.7646 100.2666 90)
@@ -2952,7 +2952,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SOT23-5"
+	(footprint "nw-cold-silicon:SOT23-5"
 		(layer "F.Cu")
 		(uuid "3f8358a6-8ffa-4d39-ab7e-15d0adade395")
 		(at 158.6076 102.5526 -90)
@@ -3136,7 +3136,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:CLVBA-FKA"
+	(footprint "nw-cold-silicon:CLVBA-FKA"
 		(layer "F.Cu")
 		(uuid "3fc376be-2869-44f4-ba12-4fb67b7438d1")
 		(at 157.2106 95.8216 90)
@@ -3295,7 +3295,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "424d43a0-4dbd-43f7-9a2b-b03a5b753c2d")
 		(at 156.5756 91.6306 -90)
@@ -3468,7 +3468,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0603"
+	(footprint "nw-cold-silicon:R0603"
 		(layer "F.Cu")
 		(uuid "455c05fd-1b44-4800-8ef7-9b85aaf3cf50")
 		(at 131.4296 97.4726 -90)
@@ -3677,7 +3677,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:4_40_CLOSE"
+	(footprint "nw-cold-silicon:4_40_CLOSE"
 		(layer "F.Cu")
 		(uuid "4b9fb05e-3810-407e-bc3c-abc704abd4ea")
 		(at 171.4346 92.0116)
@@ -3763,7 +3763,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SOD323-R"
+	(footprint "nw-cold-silicon:SOD323-R"
 		(layer "F.Cu")
 		(uuid "4faf910a-9d80-41d3-bfdf-acf016216e9d")
 		(at 152.4 116.84)
@@ -3958,7 +3958,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:VDIV_MARGAY_2021"
+	(footprint "nw-cold-silicon:VDIV_MARGAY_2021"
 		(layer "F.Cu")
 		(uuid "55e394a1-7da0-4a4e-b959-fc3bae7cad4c")
 		(at 164.8306 102.5526 90)
@@ -4604,7 +4604,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:DCK_R-PDSO-G6"
+	(footprint "nw-cold-silicon:DCK_R-PDSO-G6"
 		(layer "F.Cu")
 		(uuid "5cc15e23-a335-46a9-86f2-68c1954845c0")
 		(at 152.7656 100.2666 90)
@@ -4777,7 +4777,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:1X06_SCREW"
+	(footprint "nw-cold-silicon:1X06_SCREW"
 		(layer "F.Cu")
 		(uuid "60e62c43-b8cb-4f90-a00b-da742f439297")
 		(at 169.7836 110.4266 90)
@@ -5054,7 +5054,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "6106244a-05e5-4f19-90e5-97fc272b2d26")
 		(at 171.1806 100.3936 90)
@@ -5227,7 +5227,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "6c6608ff-2884-43c1-a606-b3c215ab94bd")
 		(at 154.9246 96.2661 -90)
@@ -5400,7 +5400,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "73d812b0-389b-49c4-b447-95e0b7ccee03")
 		(at 160.1316 99.7586 -90)
@@ -5573,7 +5573,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:USB_C_CUSB31-CFM2AX-01-X"
+	(footprint "nw-cold-silicon:USB_C_CUSB31-CFM2AX-01-X"
 		(layer "F.Cu")
 		(uuid "7425763f-e35d-437d-b2cc-6ea993cf66f6")
 		(at 163.6876 88.5826 180)
@@ -6011,7 +6011,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SOT23-3@1"
+	(footprint "nw-cold-silicon:SOT23-3"
 		(layer "F.Cu")
 		(uuid "745e087e-550d-4e24-8e3d-9efeb092158b")
 		(at 163.6368 100.1396 90)
@@ -6177,7 +6177,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "74982136-f45d-4e4a-8002-2a074ae10953")
 		(at 153.6546 96.2661 -90)
@@ -6350,7 +6350,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "7db5ff15-9900-4671-aba5-54c6c73737d4")
 		(at 161.2746 102.2986 -90)
@@ -6523,7 +6523,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0603"
+	(footprint "nw-cold-silicon:C0603"
 		(layer "F.Cu")
 		(uuid "83b2464c-5229-4831-b35f-f1844d00f273")
 		(at 157.5916 110.4266 -90)
@@ -6696,7 +6696,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:CRYSTAL_5X3.2_2-SMD"
+	(footprint "nw-cold-silicon:CRYSTAL_5X3.2_2-SMD"
 		(layer "F.Cu")
 		(uuid "85b1b2ed-2cb6-4ae2-a986-faec4b3b01c5")
 		(at 139.9386 107.3786 180)
@@ -6852,7 +6852,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:DCK_R-PDSO-G5"
+	(footprint "nw-cold-silicon:DCK_R-PDSO-G5"
 		(layer "F.Cu")
 		(uuid "86a0f93d-420a-4778-ad75-162ad3dadccc")
 		(at 159.8776 110.4266)
@@ -7071,7 +7071,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0603"
+	(footprint "nw-cold-silicon:R0603"
 		(layer "F.Cu")
 		(uuid "8ad2c9b3-41f8-4747-9812-0a2f52a67269")
 		(at 164.7036 108.3946)
@@ -7280,7 +7280,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:LINX_BAT-HLD-012-SMT"
+	(footprint "nw-cold-silicon:LINX_BAT-HLD-012-SMT"
 		(layer "F.Cu")
 		(uuid "8c0c9c51-e90f-4c68-a389-73ffadea5c49")
 		(at 141.3356 114.6176 180)
@@ -7370,7 +7370,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:DCU_(R-PDSO-G8)"
+	(footprint "nw-cold-silicon:DCU_(R-PDSO-G8)"
 		(layer "F.Cu")
 		(uuid "8c4d0a89-1dd1-4b82-a8c2-c36b9eac07d4")
 		(at 132.6996 104.2036 90)
@@ -7791,7 +7791,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:CLVBA-FKA"
+	(footprint "nw-cold-silicon:CLVBA-FKA"
 		(layer "F.Cu")
 		(uuid "926252bf-65e2-4311-b4ff-17247521da0b")
 		(at 139.1766 91.6306 180)
@@ -7951,7 +7951,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "94ddde76-651a-4ecd-a718-968448665397")
 		(at 144.7646 91.1226)
@@ -8136,7 +8136,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "95e8cc5e-f671-4366-b28c-7ae50356780b")
 		(at 166.8626 100.3936 90)
@@ -8309,7 +8309,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:YFP0004"
+	(footprint "nw-cold-silicon:YFP0004"
 		(layer "F.Cu")
 		(uuid "9ae29cc1-3f15-4e30-a06a-1bf2098b9618")
 		(at 156.9566 100.5206 -90)
@@ -8463,7 +8463,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0603"
+	(footprint "nw-cold-silicon:R0603"
 		(layer "F.Cu")
 		(uuid "9ca18de4-3b2e-4ad4-abd4-1cfd12e053e3")
 		(at 133.5886 97.4726 90)
@@ -8672,7 +8672,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SOT323"
+	(footprint "nw-cold-silicon:SOT323"
 		(layer "F.Cu")
 		(uuid "9ebb8e30-821e-4864-9113-a18a5bb11978")
 		(at 164.6401 102.9336 -90)
@@ -8801,7 +8801,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0603"
+	(footprint "nw-cold-silicon:R0603"
 		(layer "F.Cu")
 		(uuid "9f4d3bf2-f876-4281-ac19-2f2b460162f8")
 		(at 164.5766 115.7098)
@@ -8974,7 +8974,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SWITCH_4.2X3.2"
+	(footprint "nw-cold-silicon:SWITCH_4.2X3.2"
 		(layer "F.Cu")
 		(uuid "a181823a-8a20-466e-b963-47e224292b95")
 		(at 132.8266 108.0136 90)
@@ -9113,7 +9113,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:BME280"
+	(footprint "nw-cold-silicon:BME280"
 		(layer "F.Cu")
 		(uuid "a253c537-70dc-4cc4-aa87-e421d593c961")
 		(at 145.9076 104.3306 90)
@@ -9307,7 +9307,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "a3c2d401-1913-41c0-9d96-6c5c0ab1419d")
 		(at 152.4 115.316)
@@ -9480,7 +9480,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SOT23-3"
+	(footprint "nw-cold-silicon:SOT23-3"
 		(layer "F.Cu")
 		(uuid "a6ada205-4282-4b2d-9fef-daf06d32d2ae")
 		(at 164.5766 110.9346 -90)
@@ -9610,7 +9610,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SOT23-6L"
+	(footprint "nw-cold-silicon:SOT23-6L"
 		(layer "F.Cu")
 		(uuid "aa286d8d-5401-46ac-b553-1a67f02801b3")
 		(at 164.1956 105.7276 90)
@@ -9934,7 +9934,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "b21e6157-8ebf-4d22-acc7-d2890c27ee77")
 		(at 139.4306 94.5516 90)
@@ -10107,7 +10107,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:MLF44-TH"
+	(footprint "nw-cold-silicon:MLF44-TH"
 		(layer "F.Cu")
 		(uuid "b2afc008-1683-44b9-aca4-d0cf600c9b88")
 		(at 139.1766 100.5206 90)
@@ -11472,7 +11472,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:QFN20"
+	(footprint "nw-cold-silicon:QFN20"
 		(layer "F.Cu")
 		(uuid "b2dfd998-426e-4444-b0b8-4c5577e960d8")
 		(at 149.3366 94.8056 90)
@@ -11898,7 +11898,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "b4bf427f-516a-446e-a99e-321a7a58be92")
 		(at 136.1286 107.5056 -90)
@@ -12071,7 +12071,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "bcabe604-53b5-404c-a74c-69d54c81241a")
 		(at 162.4176 102.2986 90)
@@ -12244,7 +12244,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "bd3adb00-5252-49d2-8d70-c8f4c53ece57")
 		(at 138.0336 94.5516 90)
@@ -12417,7 +12417,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0805"
+	(footprint "nw-cold-silicon:C0805"
 		(layer "F.Cu")
 		(uuid "bd967da5-4bfb-4691-95b3-d1c719bcb541")
 		(at 172.0696 96.8376 90)
@@ -12590,7 +12590,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "bf67f0bb-a9a3-4756-a359-8d70c0d9caa9")
 		(at 133.5886 118.8086)
@@ -12763,7 +12763,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SOT23-6L"
+	(footprint "nw-cold-silicon:SOT23-6L"
 		(layer "F.Cu")
 		(uuid "bf826af3-c60f-4bc1-8fc4-1e81b4bb8eca")
 		(at 168.8946 100.1396 180)
@@ -13111,7 +13111,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:DPF0006A"
+	(footprint "nw-cold-silicon:DPF0006A"
 		(layer "F.Cu")
 		(uuid "c25350ac-0f23-4539-ad1a-60406f49de51")
 		(at 158.9251 99.5681 -90)
@@ -13291,7 +13291,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "c2935582-fd54-4722-8139-765079d6b259")
 		(at 150.8606 91.1226 180)
@@ -13464,7 +13464,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0603"
+	(footprint "nw-cold-silicon:C0603"
 		(layer "F.Cu")
 		(uuid "c7d39cf6-8a57-44fd-adf6-1426a0ddd90a")
 		(at 152.312 110.998)
@@ -13637,7 +13637,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SO08"
+	(footprint "nw-cold-silicon:SO08"
 		(layer "F.Cu")
 		(uuid "ca348188-64d3-497f-a39d-62896f49f07a")
 		(at 150.2256 106.6166)
@@ -13997,7 +13997,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "cb780772-a5ad-46d0-9403-53834a72fd23")
 		(at 140.8276 94.5516 90)
@@ -14170,7 +14170,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "cb7afacf-0cb7-4f29-8fd1-bedcd4ae9d65")
 		(at 144.7646 93.4086)
@@ -14355,7 +14355,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "cd5908d4-7105-4df5-972e-4462fcd3acc6")
 		(at 143.7486 107.5056 90)
@@ -14528,7 +14528,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "ce1dc359-dcbe-4718-afb2-8a5a37299195")
 		(at 135.2396 93.7896 -90)
@@ -14701,7 +14701,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "cfe32047-4d98-4304-98ca-d79bc34fee96")
 		(at 165.7704 100.3936 -90)
@@ -14874,7 +14874,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SMT-JUMPER_2_NC_PASTE_SILK"
+	(footprint "nw-cold-silicon:SMT-JUMPER_2_NC_PASTE_SILK"
 		(layer "F.Cu")
 		(uuid "d75bdbbc-d268-41de-bf9c-18d91bb35578")
 		(at 161.9096 108.2676)
@@ -15048,7 +15048,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "d82d3eca-a29c-4218-b90c-f0527dd186e8")
 		(at 149.3366 101.5366 -90)
@@ -15221,7 +15221,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "d921c031-58fa-4812-8635-51afbe854ef0")
 		(at 170.5456 96.3296 90)
@@ -15394,7 +15394,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:AVRISP"
+	(footprint "nw-cold-silicon:AVRISP"
 		(layer "F.Cu")
 		(uuid "dacc76a9-27e4-493e-9214-cdc50d0ddb5b")
 		(at 159.1156 116.1416)
@@ -15776,7 +15776,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "dcbe45ee-387c-4103-9324-e6eee36f3694")
 		(at 172.5776 100.3936 90)
@@ -15949,7 +15949,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:R0402"
+	(footprint "nw-cold-silicon:R0402"
 		(layer "F.Cu")
 		(uuid "de91eb9b-f757-4eab-9826-ae6a47396726")
 		(at 147.8126 91.1226)
@@ -16134,7 +16134,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:C0402"
+	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "e7afbd73-beb4-4f2f-bd3f-6d6f4a64cc67")
 		(at 157.7186 91.6306 -90)
@@ -16307,7 +16307,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:DDC_R-PDSO-G6"
+	(footprint "nw-cold-silicon:DDC_R-PDSO-G6"
 		(layer "F.Cu")
 		(uuid "edc03059-0db2-4be7-a365-f6286600f271")
 		(at 164.3226 118.0466 90)
@@ -16479,7 +16479,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SC-70_6"
+	(footprint "nw-cold-silicon:SC-70_6"
 		(layer "F.Cu")
 		(uuid "f392e359-1ddf-4020-a139-600e3dd6493f")
 		(at 163.8146 113.8556 90)
@@ -16648,7 +16648,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SWITCH_4.2X3.2"
+	(footprint "nw-cold-silicon:SWITCH_4.2X3.2"
 		(layer "F.Cu")
 		(uuid "fa5d5afb-2869-4161-b53c-ccf43af0810d")
 		(at 132.8266 92.9006 90)
@@ -16787,7 +16787,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:1X10_SCREW"
+	(footprint "nw-cold-silicon:1X10_SCREW"
 		(layer "F.Cu")
 		(uuid "fb50be83-06dc-441a-97bd-6da127917e15")
 		(at 126.7306 102.8066 -90)
@@ -17164,7 +17164,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SD_WURTH_WR-CRD"
+	(footprint "nw-cold-silicon:SD_WURTH_WR-CRD"
 		(layer "B.Cu")
 		(uuid "1810a86e-6dee-4f5e-bedd-45ed9e0a9a3a")
 		(at 142.9866 114.8716)
@@ -18032,7 +18032,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:NWLOGO_MED"
+	(footprint "nw-cold-silicon:NWLOGO_MED"
 		(layer "B.Cu")
 		(uuid "9c212598-ab3a-4c08-9428-c8dc7a3853ab")
 		(at 164.0686 107.5056 180)
@@ -18257,7 +18257,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SMT-JUMPER_3_1-NC_PASTE_SILK"
+	(footprint "nw-cold-silicon:SMT-JUMPER_3_1-NC_PASTE_SILK"
 		(layer "B.Cu")
 		(uuid "ac86a6c8-6603-460b-b856-a9950015b44c")
 		(at 166.9896 114.1096 90)
@@ -18443,7 +18443,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Margay:SMT-JUMPER_2_NO_SILK"
+	(footprint "nw-cold-silicon:SMT-JUMPER_2_NO_SILK"
 		(layer "B.Cu")
 		(uuid "d97364bc-4d9a-4c4e-afcf-5f686a852fc7")
 		(at 157.4646 105.0926 -90)

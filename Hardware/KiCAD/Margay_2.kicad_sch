@@ -33,7 +33,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Margay:AVRISP"
+			(property "Footprint" "nw-cold-silicon:AVRISP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -264,7 +264,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Margay:SWITCH_4.2X3.2"
+			(property "Footprint" "nw-cold-silicon:SWITCH_4.2X3.2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -469,7 +469,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Margay:CLVBA-FKA"
+			(property "Footprint" "nw-cold-silicon:CLVBA-FKA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -892,7 +892,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Margay:1X10_SCREW"
+			(property "Footprint" "nw-cold-silicon:1X10_SCREW"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1315,7 +1315,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Margay:1X06_SCREW"
+			(property "Footprint" "nw-cold-silicon:1X06_SCREW"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2478,7 +2478,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Margay:SMT-JUMPER_2_NO_SILK"
+			(property "Footprint" "nw-cold-silicon:SMT-JUMPER_2_NO_SILK"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2637,7 +2637,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Margay:R0402"
+			(property "Footprint" "nw-cold-silicon:R0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2796,7 +2796,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Margay:R0603"
+			(property "Footprint" "nw-cold-silicon:R0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2954,7 +2954,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Margay:DCU_(R-PDSO-G8)"
+			(property "Footprint" "nw-cold-silicon:DCU_(R-PDSO-G8)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3446,7 +3446,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Margay:DCK_R-PDSO-G6"
+			(property "Footprint" "nw-cold-silicon:DCK_R-PDSO-G6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3930,7 +3930,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Margay:DDC_R-PDSO-G6"
+			(property "Footprint" "nw-cold-silicon:DDC_R-PDSO-G6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6270,7 +6270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Margay:DCK_R-PDSO-G6"
+		(property "Footprint" "nw-cold-silicon:DCK_R-PDSO-G6"
 			(at 226.06 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6549,7 +6549,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:R0402"
+		(property "Footprint" "nw-cold-silicon:R0402"
 			(at 58.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6662,7 +6662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Margay:SWITCH_4.2X3.2"
+		(property "Footprint" "nw-cold-silicon:SWITCH_4.2X3.2"
 			(at 137.16 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -6781,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Margay:AVRISP"
+		(property "Footprint" "nw-cold-silicon:AVRISP"
 			(at 73.66 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -6910,7 +6910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Margay:CLVBA-FKA"
+		(property "Footprint" "nw-cold-silicon:CLVBA-FKA"
 			(at 99.568 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7029,7 +7029,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:R0402"
+		(property "Footprint" "nw-cold-silicon:R0402"
 			(at 73.66 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7252,7 +7252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Margay:SWITCH_4.2X3.2"
+		(property "Footprint" "nw-cold-silicon:SWITCH_4.2X3.2"
 			(at 137.16 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -7559,7 +7559,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:1X10_SCREW"
+		(property "Footprint" "nw-cold-silicon:1X10_SCREW"
 			(at 48.26 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -7696,7 +7696,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Margay:DDC_R-PDSO-G6"
+		(property "Footprint" "nw-cold-silicon:DDC_R-PDSO-G6"
 			(at 226.06 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7822,7 +7822,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:1X06_SCREW"
+		(property "Footprint" "nw-cold-silicon:1X06_SCREW"
 			(at 86.36 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -7947,7 +7947,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:R0402"
+		(property "Footprint" "nw-cold-silicon:R0402"
 			(at 91.694 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8137,7 +8137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Margay:DCU_(R-PDSO-G8)"
+		(property "Footprint" "nw-cold-silicon:DCU_(R-PDSO-G8)"
 			(at 226.06 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8345,7 +8345,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:R0402"
+		(property "Footprint" "nw-cold-silicon:R0402"
 			(at 106.68 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8458,7 +8458,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:R0402"
+		(property "Footprint" "nw-cold-silicon:R0402"
 			(at 99.568 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8571,7 +8571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Margay:CLVBA-FKA"
+		(property "Footprint" "nw-cold-silicon:CLVBA-FKA"
 			(at 66.04 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8690,7 +8690,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:R0603"
+		(property "Footprint" "nw-cold-silicon:R0603"
 			(at 200.66 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8804,7 +8804,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Margay:SMT-JUMPER_2_NO_SILK"
+		(property "Footprint" "nw-cold-silicon:SMT-JUMPER_2_NO_SILK"
 			(at 147.32 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8917,7 +8917,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:R0402"
+		(property "Footprint" "nw-cold-silicon:R0402"
 			(at 157.48 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -9030,7 +9030,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Margay:R0402"
+		(property "Footprint" "nw-cold-silicon:R0402"
 			(at 66.04 101.6 0)
 			(hide yes)
 			(show_name no)
