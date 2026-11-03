@@ -19621,7 +19621,7 @@
 		(layer "B.Cu")
 		(uuid "9c212598-ab3a-4c08-9428-c8dc7a3853ab")
 		(at 164.0686 107.5056 180)
-		(property "Reference" "U$2"
+		(property "Reference" "LOGO1"
 			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -19634,7 +19634,7 @@
 				(justify right top mirror)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "NWLOGO_MED"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -19658,7 +19658,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Northern Widget logo, medium, silkscreen"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19669,6 +19669,10 @@
 				)
 			)
 		)
+		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/0a57c8e4-c05e-4ddd-adc3-2c8088ec0403")
+		(sheetname "Margay_1")
+		(sheetfile "Margay_1.kicad_sch")
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.585428 1.993)
