@@ -6882,11 +6882,11 @@
 	)
 	(polyline
 		(pts
-			(xy 143.51 5.08) (xy 143.51 212.09)
+			(xy 143.51 3.81) (xy 143.51 215.9)
 		)
 		(stroke
 			(width 0.1524)
-			(type solid)
+			(type dash)
 		)
 		(uuid "cdf0624d-e28f-4548-be7b-6c2b1b35255f")
 	)

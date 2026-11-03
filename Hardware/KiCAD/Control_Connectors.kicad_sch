@@ -3728,7 +3728,7 @@
 		)
 		(stroke
 			(width 0.1524)
-			(type solid)
+			(type dash)
 		)
 		(uuid "10251491-38f8-4191-a489-b538c2b29929")
 	)
@@ -4458,7 +4458,7 @@
 		)
 		(stroke
 			(width 0.1524)
-			(type solid)
+			(type dash)
 		)
 		(uuid "f354b789-644f-42fd-90ab-32b91103a12e")
 	)
