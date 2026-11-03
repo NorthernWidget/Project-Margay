@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "3b2cb099-c04b-472a-b4dc-697d5ea8cab6")
 	(paper "A3")
+	(title_block
+		(date "2024-11-01")
+		(rev "2.2")
+	)
 	(lib_symbols
 		(symbol "nw-cold-silicon:BATTERY_COIN12MM"
 			(exclude_from_sim no)
