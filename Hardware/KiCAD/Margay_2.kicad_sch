@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "9f8e2c55-f5d4-4be2-929f-c3062ff4088b")
-	(paper "User" 317.5 254.127)
+	(paper "A3")
 	(lib_symbols
 		(symbol "nw-cold-silicon:AVRISP-6"
 			(exclude_from_sim no)
