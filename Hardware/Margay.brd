@@ -2627,9 +2627,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="37.973" y="9.779" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="U13" library="bschulz" package="SOT23-6L" value="MAX6070AAUT18" x="45.466" y="20.066" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="MAX6071AAUT18+TCT-ND" x="45.466" y="20.066" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="MAX6070BAUT18+TCT-ND" x="45.466" y="20.066" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Maxim" x="45.466" y="20.066" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MAX6071AAUT18+T" x="45.466" y="20.066" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="MAX6070BAUT18+T" x="45.466" y="20.066" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="45.466" y="22.352" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="45.466" y="22.479" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>

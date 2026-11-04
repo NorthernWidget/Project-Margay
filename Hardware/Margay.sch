@@ -12523,8 +12523,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R23" library="bschulz_passives" deviceset="R-EU_" device="R0603" technology="10K" value="10k"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U13" library="bschulz" deviceset="MAX6070AAUT*" device="" technology="18">
-<attribute name="DIGIKEY" value="MAX6071AAUT18+TCT-ND"/>
-<attribute name="MPN" value="MAX6071AAUT18+T"/>
+<attribute name="DIGIKEY" value="MAX6070BAUT18+TCT-ND"/>
+<attribute name="MPN" value="MAX6070BAUT18+T"/>
 </part>
 <part name="C18" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="0.1UF" value="0.1uF"/>
 <part name="C17" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="0.1UF" value="0.1uF"/>
