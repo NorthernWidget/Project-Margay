@@ -13995,7 +13995,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "MAX6070AAUT18+TCT-ND"
+		(property "DIGIKEY" "MAX6070BAUT18+TCT-ND"
 			(at 337.7892 200.2792 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14007,7 +14007,7 @@
 				)
 			)
 		)
-		(property "MPN" "MAX6071AAUT18+T"
+		(property "MPN" "MAX6070BAUT18+T"
 			(at 337.7892 200.2792 0)
 			(layer "F.Fab")
 			(hide yes)
