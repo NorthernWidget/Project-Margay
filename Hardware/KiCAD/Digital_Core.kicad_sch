@@ -5146,16 +5146,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 127) (xy 115.57 127)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4639b7c0-2048-47f9-a402-cf1a06e8511d")
-	)
-	(wire
-		(pts
 			(xy 113.03 160.02) (xy 115.57 160.02)
 		)
 		(stroke
@@ -6183,16 +6173,6 @@
 			(justify left bottom)
 		)
 		(uuid "c681f5bf-64be-4d20-80d8-e9a7e5974016")
-	)
-	(label "THERM_SENSE"
-		(at 115.57 127 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1c0d787-ce35-4f78-8b86-d1c84dd9e5b1")
 	)
 	(label "D+"
 		(at 128.27 22.86 0)
@@ -7269,6 +7249,10 @@
 				(justify left)
 			)
 		)
+	)
+	(no_connect
+		(at 113.03 127)
+		(uuid "aeb5a1a1-e5f2-541b-97d0-105849cb740b")
 	)
 	(symbol
 		(lib_id "nw-cold-silicon:PWR_FLAG")

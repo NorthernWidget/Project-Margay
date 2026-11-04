@@ -12469,7 +12469,7 @@
 			(size 0.3 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Digital_Core/THERM_SENSE")
+			(net "unconnected-(U1-(PCINT1{slash}ADC1)PA1-Pad36)")
 			(thermal_bridge_angle 0)
 			(uuid "e06f339b-996c-4d5a-9872-5c54b7f91004")
 		)
