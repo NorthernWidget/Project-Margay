@@ -1,1 +1,16 @@
 (version 1)
+
+# Rules that say how the Eagle board was fabricated (Andy, 2026-11-04: match the way the
+# Eagle boards printed). Each names the part and the measured geometry it accepts.
+
+# J4 is the USB-C: in the package as fabricated its own non-plated holes sit 0.18 mm
+# from its VBUS and GND pads, under the board's 0.25 mm hole rule.
+(rule "J4 pads against its own holes, as fabricated"
+  (condition "A.Reference == 'J4' && B.Reference == 'J4'")
+  (constraint hole_clearance (min 0.17mm)))
+
+# The RST via sits 0.146 mm from C20's GND pad and 0.152 mm from a MOSI track, under
+# Eagle's 6 mil (0.1524 mm); the board was fabricated so.
+(rule "RST via, as fabricated"
+  (condition "(A.NetName == 'RST' && A.Type == 'Via') || (B.NetName == 'RST' && B.Type == 'Via')")
+  (constraint clearance (min 0.14mm)))
