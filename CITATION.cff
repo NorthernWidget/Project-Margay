@@ -12,3 +12,18 @@ version: 3.0.0
 doi: 10.5281/zenodo.4572338
 date-released: 2023-08-01
 url: "https://github.com/NorthernWidget/Project-Margay"
+type: hardware
+preferred-citation:
+  type: generic
+  authors:
+  - family-names: "Schulz"
+    given-names: "Bobby"
+    orcid: https://orcid.org/0000-0002-9272-4756
+  - family-names: "Wickert"
+    given-names: "Andy"
+    orcid: "https://orcid.org/0000-0002-9545-3365"
+  title: "Project-Margay"
+  version: 3.0.0
+  doi: 10.5281/zenodo.4572338
+  date-released: 2023-08-01
+  url: "https://github.com/NorthernWidget/Project-Margay"
