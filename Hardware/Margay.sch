@@ -12494,12 +12494,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R8" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="330" value="330">
 <attribute name="MF" value="Yageo"/>
 </part>
-<part name="R9" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="1K" value="1k">
-<attribute name="MPN" value="RC0402FR-071KL"/>
-</part>
-<part name="R7" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="1K" value="1k">
-<attribute name="MPN" value="RC0402FR-071KL"/>
-</part>
+<part name="R9" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="330" value="330"/>
+<part name="R7" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="330" value="330"/>
 <part name="S2" library="bschulz" deviceset="BUTTON" device="4.2X3.2"/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R14" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k"/>

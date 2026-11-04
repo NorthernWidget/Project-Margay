@@ -2478,10 +2478,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="33.782" y="9.779" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE_PART" value="10k" x="32.385" y="9.779" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R7" library="bschulz_passives" package="R0402" value="1k" x="21.336" y="29.083" smashed="yes">
-<attribute name="DIGIKEY" value="311-1.00KLRCT-ND" x="21.336" y="29.083" size="1.778" layer="27" display="off"/>
+<element name="R7" library="bschulz_passives" package="R0402" value="330" x="21.336" y="29.083" smashed="yes">
+<attribute name="DIGIKEY" value="311-330LRCT-ND" x="21.336" y="29.083" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="21.336" y="29.083" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0402FR-071KL" x="21.336" y="29.083" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0402FR-07330RL" x="21.336" y="29.083" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="21.336" y="29.845" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="21.336" y="27.686" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE_PART" value="1k" x="21.336" y="29.083" size="1.778" layer="27" display="off"/>
@@ -2566,10 +2566,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="24.384" y="27.686" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE_PART" value="330" x="24.384" y="29.083" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R9" library="bschulz_passives" package="R0402" value="1k" x="21.336" y="26.797" smashed="yes">
-<attribute name="DIGIKEY" value="311-1.00KLRCT-ND" x="21.336" y="26.797" size="1.778" layer="27" display="off"/>
+<element name="R9" library="bschulz_passives" package="R0402" value="330" x="21.336" y="26.797" smashed="yes">
+<attribute name="DIGIKEY" value="311-330LRCT-ND" x="21.336" y="26.797" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Yageo" x="21.336" y="26.797" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0402FR-071KL" x="21.336" y="26.797" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0402FR-07330RL" x="21.336" y="26.797" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.606" y="26.797" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="21.336" y="25.4" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE_PART" value="1k" x="21.336" y="26.797" size="1.778" layer="27" display="off"/>
