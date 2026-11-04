@@ -10018,7 +10018,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07100RL"
+		(property "MPN" "RC0402FR-07100KL"
 			(at 31.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10040,7 +10040,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-100LRCT-ND"
+		(property "DIGIKEY" "311-100KLRCT-ND"
 			(at 31.75 81.28 0)
 			(hide yes)
 			(show_name no)
