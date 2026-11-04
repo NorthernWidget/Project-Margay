@@ -12553,7 +12553,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MF" value="Diodes Inc"/>
 <attribute name="MPN" value="DMP3099L-7"/>
 </part>
-<part name="R19" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100" value="100k"/>
+<part name="R19" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100K" value="100k"/>
 <part name="R21" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="10K" value="10k"/>
 <part name="GND22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C13" library="bschulz_passives" deviceset="C-EU" device="C0603" technology="1UF" value="1uF"/>

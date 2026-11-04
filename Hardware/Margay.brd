@@ -2671,9 +2671,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="40.2082" y="21.717" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R19" library="bschulz_passives" package="R0402" value="100k" x="42.3418" y="19.812" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="311-100LRCT-ND" x="42.3418" y="19.812" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="311-100KLRCT-ND" x="42.3418" y="19.812" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="42.3418" y="19.812" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="42.3418" y="19.812" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0402FR-07100KL" x="42.3418" y="19.812" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="43.2308" y="19.812" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="40.9448" y="19.812" size="0.6096" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE_PART" value="100" x="42.3418" y="19.812" size="1.778" layer="27" rot="R270" display="off"/>
