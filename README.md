@@ -190,7 +190,6 @@ Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Pin Number (v2.x) | Function
 `GreenLED` | D15 | D15 | D15 | Connected to green channel on **STAT** LED, on when pin is low
 `BlueLED` | D14 | D14 | D14 | Connected to blue channel on **STAT** LED, on when pin is low
 `VRef_Pin` | A2 | A2 | A3 | Analog pin to read 1.8v on board reference, AUX power must be on to use
-`ThermSensePin` | A1 | A1 | A1 | Analog pin to read thermistor voltage divider, AUX power must be on to use
 `BatSensePin` | A0 | A0 | A2 | Analog pin to read battery voltage divider, AUX power must be on to use
 `VSwitch_Pin` | D3 | D3 | D12 | Connected to MOSFET driver for **Vs** pin, active low
 `Ext3v3Ctrl` | D12 | D19 | D22 | Turns on AUX power, active low
@@ -578,7 +577,7 @@ Page 3, Block 0 (0x60–0x67)   Logger state
   0x64–0x67   Log interval    uint32, seconds
 ```
 
-No Page 2. Battery discharge curve coefficients and Steinhart–Hart thermistor constants are hardcoded in the library; no per-unit calibration is stored.
+No Page 2. Battery discharge curve coefficients are hardcoded in the library; no per-unit calibration is stored.
 
 ## NW-Device-Specification — Schema 1, Page 0
 
