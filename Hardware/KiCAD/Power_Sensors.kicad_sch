@@ -5810,6 +5810,14 @@
 		(color 0 0 0 0)
 		(uuid "f3f4d048-1bd3-4f5d-af25-c79e8cd0365c")
 	)
+	(no_connect
+		(at 209.55 149.86)
+		(uuid "5a02751b-942a-598e-b8d5-ea01b867277a")
+	)
+	(no_connect
+		(at 209.55 157.48)
+		(uuid "ead41e13-adcd-5066-b6ce-84b1071daec8")
+	)
 	(wire
 		(pts
 			(xy 39.37 40.64) (xy 44.45 40.64)

@@ -4539,6 +4539,66 @@
 		(color 0 0 0 0)
 		(uuid "f9655d37-998a-4fdc-b638-607ed44d7065")
 	)
+	(no_connect
+		(at 232.41 60.96)
+		(uuid "14154b22-bb5f-5c02-9d72-cfb5025f85d6")
+	)
+	(no_connect
+		(at 113.03 114.3)
+		(uuid "256f01f9-7943-5a8f-9c24-5af2c5a5454c")
+	)
+	(no_connect
+		(at 232.41 78.74)
+		(uuid "3d03092b-7b82-500c-b5d0-bad67ee5de6e")
+	)
+	(no_connect
+		(at 232.41 63.5)
+		(uuid "40338c4f-49d0-50ab-b8b9-3bf390b44bd2")
+	)
+	(no_connect
+		(at 232.41 71.12)
+		(uuid "4c89661f-8c96-5850-8353-f630a6be73ec")
+	)
+	(no_connect
+		(at 67.31 60.96)
+		(uuid "5669d1a1-4c23-55bc-a62c-7f6ce07c4a5c")
+	)
+	(no_connect
+		(at 113.03 152.4)
+		(uuid "59f4bb0c-17e4-5a40-9e62-76e6a45e422e")
+	)
+	(no_connect
+		(at 128.27 33.02)
+		(uuid "7a346ca1-6717-59cf-88a7-75bfa7378458")
+	)
+	(no_connect
+		(at 52.07 60.96)
+		(uuid "8d588b4e-dc1a-5b40-9b42-c7e7d6fdc4f2")
+	)
+	(no_connect
+		(at 69.85 60.96)
+		(uuid "b42f58e4-78ff-5c08-a8bd-de79ef0d9647")
+	)
+	(no_connect
+		(at 113.03 111.76)
+		(uuid "c38b1755-9ba4-5f1e-b537-c3e1971490f2")
+	)
+	(no_connect
+		(at 232.41 66.04)
+		(uuid "c3d69d5e-2304-54f3-8a8a-febba96ef2eb")
+	)
+	(no_connect
+		(at 232.41 53.34)
+		(uuid "c6858dea-bd46-5bf4-b099-d20cd35682d0")
+	)
+	(no_connect
+		(at 128.27 35.56)
+		(uuid "db46c8dd-c737-5af8-9449-a8b4c46cf2f3")
+	)
+	(no_connect
+		(at 113.03 116.84)
+		(uuid "f084a58e-6f6c-556b-b721-7efcbceb0626")
+	)
 	(wire
 		(pts
 			(xy 212.09 139.7) (xy 212.09 142.24)
@@ -5989,16 +6049,6 @@
 		)
 		(uuid "6afe078c-f169-4ca3-a917-6de622f9f90f")
 	)
-	(label "SBU1"
-		(at 128.27 33.02 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b14054f-e3a7-4605-b931-c9c1c8744b2f")
-	)
 	(label "TX"
 		(at 115.57 195.58 0)
 		(effects
@@ -6008,16 +6058,6 @@
 			(justify left bottom)
 		)
 		(uuid "76145714-fc17-44d7-82f9-5cd2c562d43d")
-	)
-	(label "SBU2"
-		(at 128.27 35.56 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "82be9599-d605-43ad-ae92-3261a26bdad0")
 	)
 	(label "D-"
 		(at 128.27 25.4 0)
