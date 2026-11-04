@@ -4413,7 +4413,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 85.852 60.96)
+			(xy 83.82 60.96) (xy 86.36 60.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -4859,7 +4859,7 @@
 	)
 	(global_label "3V3"
 		(shape bidirectional)
-		(at 85.852 60.96 0)
+		(at 86.36 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4869,7 +4869,7 @@
 		)
 		(uuid "3d7e358e-d3d7-429e-baa3-6a2731ac3601")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.1748 60.96 0)
+			(at 91.6828 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

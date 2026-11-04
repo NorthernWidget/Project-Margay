@@ -4736,16 +4736,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 35.56) (xy 135.89 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "02cbbd95-b514-48a7-91b4-a18125ee5b85")
-	)
-	(wire
-		(pts
 			(xy 59.69 137.16) (xy 59.69 139.7)
 		)
 		(stroke
@@ -4836,7 +4826,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 58.42) (xy 240.03 58.42)
+			(xy 232.41 58.42) (xy 234.95 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -5116,7 +5106,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 48.26) (xy 260.35 48.26)
+			(xy 252.73 48.26) (xy 255.27 48.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -5276,7 +5266,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 30.48) (xy 205.232 30.48)
+			(xy 209.55 30.48) (xy 205.74 30.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -5316,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 53.34) (xy 270.51 53.34)
+			(xy 262.89 53.34) (xy 265.43 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -5613,16 +5603,6 @@
 			(type solid)
 		)
 		(uuid "9619acd9-7960-43ed-b81a-ca61beb71c50")
-	)
-	(wire
-		(pts
-			(xy 128.27 33.02) (xy 135.89 33.02)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "98b0e725-2c8c-4428-a918-6a94f74e5309")
 	)
 	(wire
 		(pts
@@ -7244,7 +7224,7 @@
 	)
 	(global_label "VUSB"
 		(shape bidirectional)
-		(at 205.232 30.48 180)
+		(at 205.74 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7254,7 +7234,7 @@
 		)
 		(uuid "fdf6f934-6e07-46a7-ba6a-5dfa75b7d9f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.9356 30.48 0)
+			(at 199.4436 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
