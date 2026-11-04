@@ -96,6 +96,8 @@
 			(outputdirectory "")
 		)
 	)
+	(property "DESIGNER" "Bobby Schulz")
+	(property "PROJECT" "Margay")
 	(footprint "nw-cold-silicon:C0402"
 		(layer "F.Cu")
 		(uuid "0753a751-218e-466d-b5b1-867ce81718d3")
