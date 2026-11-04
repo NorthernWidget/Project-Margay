@@ -5060,7 +5060,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 12.7 2.54 180)
 					(length 5.08)
 					(name "VOUT"
