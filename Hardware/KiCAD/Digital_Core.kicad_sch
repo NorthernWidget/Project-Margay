@@ -9326,7 +9326,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 251.46 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9369,7 +9369,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-071KL"
+		(property "MPN" "RC0402FR-07330RL"
 			(at 247.65 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -9379,6 +9379,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 247.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 247.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9418,7 +9440,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 261.62 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9461,7 +9483,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-071KL"
+		(property "MPN" "RC0402FR-07330RL"
 			(at 257.81 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -9471,6 +9493,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 257.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 257.81 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

@@ -8886,7 +8886,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 0 1.397 0)
 			(layer "F.Fab")
 			(uuid "1e9eb3b6-3202-43eb-a2a0-ed1adad0ee1a")
@@ -8919,7 +8919,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07330RL"
+		(property "MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8927,6 +8927,30 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5304b08-8bc7-460b-989d-cd291345a894")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "259e493a-b66c-4a2b-af2a-d23dc9961245")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -15485,7 +15509,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 0 1.397 0)
 			(layer "F.Fab")
 			(uuid "c2ae91fc-a2f4-44bf-b06f-451c74e9bee4")
@@ -15518,7 +15542,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-07330RL"
+		(property "MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15526,6 +15550,30 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cd374de-1658-46a3-aab8-5f347ee482db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DIGIKEY" "311-330LRCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53792f26-dabe-48e3-b491-bc6c2642bfb8")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
