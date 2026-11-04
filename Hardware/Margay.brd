@@ -2353,7 +2353,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C14" library="bschulz_passives" package="C0603" value="1uF" x="34.163" y="9.779" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="587-2984-1-ND" x="34.163" y="9.779" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yaiyo Yuden" x="34.163" y="9.779" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Taiyo Yuden" x="34.163" y="9.779" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="TMK107B7105KA-T" x="34.163" y="9.779" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="33.274" y="9.779" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="32.766" y="9.779" size="0.6096" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
@@ -2688,7 +2688,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C13" library="bschulz_passives" package="C0603" value="1uF" x="37.084" y="13.97" smashed="yes">
 <attribute name="DIGIKEY" value="587-2984-1-ND" x="37.084" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Yaiyo Yuden" x="37.084" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Taiyo Yuden" x="37.084" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TMK107B7105KA-T" x="37.084" y="13.97" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.084" y="14.859" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="37.084" y="12.573" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>

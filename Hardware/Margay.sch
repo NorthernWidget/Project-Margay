@@ -8561,7 +8561,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </technology>
 <technology name="1UF">
 <attribute name="DIGIKEY" value="587-2984-1-ND" constant="no"/>
-<attribute name="MF" value="Yaiyo Yuden" constant="no"/>
+<attribute name="MF" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="TMK107B7105KA-T" constant="no"/>
 </technology>
 <technology name="2.2NF">
