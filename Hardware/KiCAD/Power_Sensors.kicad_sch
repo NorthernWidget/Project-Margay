@@ -9794,7 +9794,7 @@
 				)
 			)
 		)
-		(property "MF" "Yaiyo Yuden"
+		(property "MF" "Taiyo Yuden"
 			(at 49.53 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10653,7 +10653,7 @@
 				)
 			)
 		)
-		(property "MF" "Yaiyo Yuden"
+		(property "MF" "Taiyo Yuden"
 			(at 95.25 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12624,7 +12624,7 @@
 				)
 			)
 		)
-		(property "MF" "Yaiyo Yuden"
+		(property "MF" "Taiyo Yuden"
 			(at 265.43 157.48 0)
 			(hide yes)
 			(show_name no)
