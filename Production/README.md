@@ -11,7 +11,7 @@ This folder contains bills of materials, Gerber packages, and assembly files for
 | `Margay_BoM_2v2_-2021-05-10.csv` | v2.2 | 2021-05-10 | Assembly BoM (soldered components) |
 | `Margay_BoM_2v3_-_2023-03-16.csv` | v3.0 day 1 | 2023-03-16 | "v2.3" was a one-day working name; board became v3.0 |
 | `Margay_BoM_3v0_-_2023-03-17.csv` | v3.0 as built | 2023-03-17 | Assembly BoM: soldered components; the Caltronics production run used this file (the copy in `CaltronicsQuote_2023-08-01.zip` is unedited). U13 here was corrected by hand on 2025-12-11 |
-| `Margay_BoM_3v0_-_2026-11-04.csv` | v3.0 corrected | 2026-11-04 | Assembly BoM rebuilt from `Hardware/Margay.sch` with `tools/eagle_bom.py`, after U13 (MAX6070BAUT18), R7/R9 (330 Ω, RC0402FR-07330RL), and R19 (100 kΩ) were corrected in the design. The assembly BoM of v3.0.0, the built boards with their parts corrected; the next production run uses the KiCad design (v3.1.0-rc.2) |
+| `Margay_BoM_3v0_-_2026-11-04.csv` | v3.0 corrected | 2026-11-04 | Assembly BoM rebuilt from `Hardware/Margay.sch` with `tools/eagle_bom.py`, after U13 (MAX6070BAUT18), R7/R9 (330 Ω, RC0402FR-07330RL), and R19 (100 kΩ) were corrected in the design. Build v3.0.0-rc.2 from this file: the 2023 copper with the corrected part numbers. The KiCad board is v3.1.0, with its own BoM |
 | `Margay_BoM_3v0_board_-_2023-03-17.csv` | v3.0 | 2023-03-17 | Board BoM: non-soldered items inserted into the board (coin cell, SD card) |
 
 ### Gerber and assembly packages
@@ -51,6 +51,6 @@ CAMOutputs/
     gerber_job.gbrjob   — Job file (KiCAD/Gerber viewer metadata)
 ```
 
-Submit the full ZIP to the PCB fabricator. For assembly, additionally provide the pick-and-place files and the assembly BoM CSV. For these 2023 Gerbers, that is `Margay_BoM_3v0_-_2026-11-04.csv`, with U13, R7, R9, and R19 corrected; the next production run uses the KiCad design (v3.1.0-rc.2) and its own BoM. The board BoM (`Margay_BoM_3v0_board_-_2023-03-17.csv`) covers the coin cell and SD card inserted after assembly and is not sent to the fab house.
+Submit the full ZIP to the PCB fabricator. For assembly, additionally provide the pick-and-place files and the assembly BoM CSV. For these 2023 Gerbers, that is `Margay_BoM_3v0_-_2026-11-04.csv`, with U13, R7, R9, and R19 corrected; that is the v3.0.0-rc.2 build (same copper, corrected part numbers); the KiCad board is v3.1.0 and has its own BoM. The board BoM (`Margay_BoM_3v0_board_-_2023-03-17.csv`) covers the coin cell and SD card inserted after assembly and is not sent to the fab house.
 
 > **Note:** When these packages are restructured into versioned subdirectories, each subfolder will contain its own README with version-specific notes.
