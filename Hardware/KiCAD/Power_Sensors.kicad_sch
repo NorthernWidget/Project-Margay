@@ -12210,7 +12210,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRT0603-BY-1002ELFCT-ND"
+		(property "MPN" "CRT0603-BY-1002ELF"
 			(at 240.03 50.8 0)
 			(hide yes)
 			(show_name no)
