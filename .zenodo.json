@@ -1,0 +1,16 @@
+{
+  "title": "Project-Margay",
+  "description": "Small and low-power environmental data logger.",
+  "upload_type": "other",
+  "creators": [
+    {
+      "name": "Schulz, Bobby",
+      "orcid": "0000-0002-9272-4756"
+    },
+    {
+      "name": "Wickert, Andy",
+      "orcid": "0000-0002-9545-3365"
+    }
+  ],
+  "license": "cc-by-sa-4.0"
+}
