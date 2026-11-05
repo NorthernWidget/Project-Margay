@@ -221,24 +221,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "POWER1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -10792,9 +10774,6 @@
 		)
 		(pin "POWER0"
 			(uuid "b3af5994-b316-433f-ab06-7a7de77b638b")
-		)
-		(pin "POWER1"
-			(uuid "78794848-3d6c-4b03-b7d2-a0d36509c410")
 		)
 		(instances
 			(project "Margay"

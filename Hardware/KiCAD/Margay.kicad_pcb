@@ -4506,7 +4506,7 @@
 			(at -1.1 0)
 			(size 0.6 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(RTC1-VBAT)")
+			(net "Net-(BT1-+)")
 			(thermal_bridge_angle 0)
 			(uuid "ec2091f0-2550-4e70-871a-c19ef6e553b3")
 		)
@@ -8102,7 +8102,7 @@
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/80638c14-5c7c-42e5-a2ef-6774dd92a09f")
 		(sheetname "Power_Sensors")
 		(sheetfile "Power_Sensors.kicad_sch")
-		(duplicate_pad_numbers_are_jumpers no)
+		(duplicate_pad_numbers_are_jumpers yes)
 		(fp_line
 			(start 6.75 2.54)
 			(end 4.821212 3.989871)
@@ -8111,7 +8111,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "909208fd-efea-41f2-a9dd-fdd380c2c19c")
+			(uuid "8699d565-9f74-4515-9f1b-7f37215dacc6")
 		)
 		(fp_line
 			(start 6.75 -2.54)
@@ -8121,7 +8121,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "01c1c4f0-d9a3-4470-9130-40019a89043b")
+			(uuid "3fcc7a89-36e7-4262-a1c8-d586e1a18b2d")
 		)
 		(fp_line
 			(start 4.75 -4.54)
@@ -8131,7 +8131,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "493388be-7283-487c-ba69-d4f4fdb61bdf")
+			(uuid "8fca2569-16ba-4fa3-b55e-f4fbe3deb4ac")
 		)
 		(fp_line
 			(start 2.689896 4.162018)
@@ -8141,7 +8141,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "70bd5502-bc3d-4e4a-8d8e-6d8f4ae32fd0")
+			(uuid "ee9de5f3-d8e7-47cf-b8e4-56180ad2d853")
 		)
 		(fp_line
 			(start -0.929578 3.237968)
@@ -8151,7 +8151,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e2d72955-8855-47dc-a3da-39f1c4c48a4a")
+			(uuid "95fa7591-f6ac-4deb-8c08-08214a0c9c31")
 		)
 		(fp_line
 			(start -4.75 -4.54)
@@ -8161,7 +8161,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6a3db4bf-aefa-4800-a5bc-1332c9eb9fbb")
+			(uuid "a5518609-3baa-4be7-b04a-bcb180ada27e")
 		)
 		(fp_line
 			(start -4.821212 3.989871)
@@ -8171,7 +8171,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cfda63b0-3615-4f03-901a-ad3c3f89f799")
+			(uuid "bcd82493-2e82-4b73-8dbd-dfc2dc61145c")
 		)
 		(fp_line
 			(start -6.75 2.54)
@@ -8181,7 +8181,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cf60ed3f-1e9b-4b29-8c80-5a626d23b761")
+			(uuid "159de59c-11d3-40c8-aa66-3930f615bc20")
 		)
 		(fp_line
 			(start -6.75 -2.54)
@@ -8191,7 +8191,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "abcef02d-26db-4d65-a3b3-bbda7c726dca")
+			(uuid "12313549-39e2-499d-bfa9-8dd884236917")
 		)
 		(fp_arc
 			(start 4.821212 3.989871)
@@ -8202,7 +8202,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ad282b8e-95b4-48c7-964b-6f98c24fd3ac")
+			(uuid "489a648c-5f10-42cd-a4fa-36605a658aef")
 		)
 		(fp_arc
 			(start -0.929579 3.237967)
@@ -8213,7 +8213,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f20415e7-e239-430c-8e95-1de048efffaa")
+			(uuid "dfc3a9bd-5a4e-4e49-ac61-f7b44e9177b2")
 		)
 		(fp_arc
 			(start -2.689896 4.162018)
@@ -8224,7 +8224,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "df261924-0a23-4e5f-9919-d778bcbf8fe0")
+			(uuid "aef10585-45b9-4591-b39b-7819e95e741e")
 		)
 		(pad "GND" smd roundrect
 			(at 0 0 180)
@@ -8233,23 +8233,23 @@
 			(roundrect_rratio 0.5)
 			(net "GND")
 			(thermal_bridge_angle 0)
-			(uuid "9bcfac9d-cc14-4135-a73f-b674531e33ad")
+			(uuid "d0121a13-fc48-4643-91c5-c9a8ee505527")
 		)
 		(pad "POWER0" smd rect
 			(at -7.62 0 180)
 			(size 2.54 5.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(RTC1-VBAT)")
+			(net "Net-(BT1-+)")
 			(thermal_bridge_angle 0)
-			(uuid "ec1f6274-461e-41ec-b4e1-13f72965edaf")
+			(uuid "13a0d82f-803c-4863-97c2-0374d3294d45")
 		)
-		(pad "POWER1" smd rect
+		(pad "POWER0" smd rect
 			(at 7.62 0 180)
 			(size 2.54 5.08)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(RTC1-VBAT)")
+			(net "Net-(BT1-+)")
 			(thermal_bridge_angle 0)
-			(uuid "7c3826e0-32e7-4fc4-949d-79ab5849f761")
+			(uuid "1aa8be25-5e2d-4c0f-a442-61784ddb2335")
 		)
 		(embedded_fonts no)
 	)
@@ -13956,7 +13956,7 @@
 			(at -0.65 0)
 			(size 0.7 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(RTC1-VBAT)")
+			(net "Net-(BT1-+)")
 			(thermal_bridge_angle 0)
 			(uuid "03e012a3-5ab5-424f-a8f6-71b083cfddc7")
 		)
@@ -14904,7 +14904,7 @@
 			(at -0.85 0)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(RTC1-VBAT)")
+			(net "Net-(BT1-+)")
 			(thermal_bridge_angle 0)
 			(uuid "024118b6-58b1-4a0b-b112-406d24a2ddb7")
 		)
@@ -15268,7 +15268,7 @@
 			(at 0.635 -2.8)
 			(size 0.6 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(RTC1-VBAT)")
+			(net "Net-(BT1-+)")
 			(thermal_bridge_angle 0)
 			(uuid "fbb3064a-6c2d-47d3-af19-2e7d3e7fa7ab")
 		)
@@ -28693,7 +28693,7 @@
 		(end 148.9556 114.6176)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "13d20f97-4b48-4180-b472-003d25164329")
 	)
 	(segment
@@ -28701,7 +28701,7 @@
 		(end 133.7156 117.2696)
 		(width 0.4064)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "3c616984-afe1-4c7e-8a1f-1d0b204a57c6")
 	)
 	(segment
@@ -28709,7 +28709,7 @@
 		(end 150.8606 105.962469)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "469083d0-9d8e-41ad-b2b0-125222baac6a")
 	)
 	(segment
@@ -28717,7 +28717,7 @@
 		(end 151.4448 106.546669)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "4cba69a4-7518-49fb-9e40-d28551e6de6b")
 	)
 	(segment
@@ -28725,7 +28725,7 @@
 		(end 150.8606 103.8166)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "4cdd1b32-e41b-4725-8401-6d472fcca3ea")
 	)
 	(segment
@@ -28733,7 +28733,7 @@
 		(end 148.9556 114.3636)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "4f4a9252-a430-4877-a12a-b84987570bd0")
 	)
 	(segment
@@ -28741,7 +28741,7 @@
 		(end 151.178 116.84)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "56619ffc-22af-403e-8443-d687e077359a")
 	)
 	(segment
@@ -28749,7 +28749,7 @@
 		(end 132.9386 118.8086)
 		(width 0.4064)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "57a1d8f5-5f07-4252-8286-c539792b44ca")
 	)
 	(segment
@@ -28757,7 +28757,7 @@
 		(end 151.4448 110.9808)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "8ac22e9e-c19b-4531-8ad6-9ea0201b8d15")
 	)
 	(segment
@@ -28765,7 +28765,7 @@
 		(end 151.462 111.8572)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "a3f63d81-1160-4a6c-a5a2-179f7f723a77")
 	)
 	(segment
@@ -28773,7 +28773,7 @@
 		(end 132.9386 118.0466)
 		(width 0.4064)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "c53f63ed-0550-44b9-ab2e-d8c624f8fb44")
 	)
 	(segment
@@ -28781,7 +28781,7 @@
 		(end 148.9556 114.6176)
 		(width 0.254)
 		(layer "F.Cu")
-		(net "Net-(RTC1-VBAT)")
+		(net "Net-(BT1-+)")
 		(uuid "d9f7fa7a-394f-404c-87ab-ad9a1d5d6c9e")
 	)
 	(segment
