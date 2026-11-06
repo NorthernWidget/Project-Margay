@@ -7469,7 +7469,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "XC2103CT-ND"
+		(property "DIGIKEY" "50-ECS-80-12-30-JGN-CT-ND"
 			(at 279.8772 214.7572 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7493,7 +7493,7 @@
 				)
 			)
 		)
-		(property "MPN" "ECS-80-18-30-JGN-TR"
+		(property "MPN" "ECS-80-12-30-JGN-TR"
 			(at 279.8772 214.7572 0)
 			(layer "F.Fab")
 			(hide yes)
