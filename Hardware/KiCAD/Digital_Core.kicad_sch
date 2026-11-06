@@ -8084,7 +8084,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12pF"
 			(at 42.164 128.905 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,7 +8127,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM1555C1H180JA16D"
+		(property "MPN" "CGA2B2C0G1H120J050BA"
 			(at 39.37 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8138,7 +8138,7 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "TDK"
 			(at 39.37 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8149,7 +8149,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "490-12650-1-ND"
+		(property "DIGIKEY" "445-5585-1-ND"
 			(at 39.37 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11351,7 +11351,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12pF"
 			(at 42.164 137.033 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11394,7 +11394,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM1555C1H180JA16D"
+		(property "MPN" "CGA2B2C0G1H120J050BA"
 			(at 39.37 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11405,7 +11405,7 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "TDK"
 			(at 39.37 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11416,7 +11416,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "490-12650-1-ND"
+		(property "DIGIKEY" "445-5585-1-ND"
 			(at 39.37 134.62 0)
 			(hide yes)
 			(show_name no)

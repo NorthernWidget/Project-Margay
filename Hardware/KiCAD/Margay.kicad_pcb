@@ -12971,7 +12971,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12pF"
 			(at 0 1.397 90)
 			(layer "F.Fab")
 			(uuid "f09b9fdf-53ac-4e67-a335-15cbf0cc9349")
@@ -13004,7 +13004,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM1555C1H180JA16D"
+		(property "MPN" "CGA2B2C0G1H120J050BA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13016,7 +13016,7 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13028,7 +13028,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "490-12650-1-ND"
+		(property "DIGIKEY" "445-5585-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15712,7 +15712,7 @@
 				)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "12pF"
 			(at 0 1.397 90)
 			(layer "F.Fab")
 			(uuid "7e1d3c2c-dde9-45cd-9d00-474a8cd62718")
@@ -15745,7 +15745,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM1555C1H180JA16D"
+		(property "MPN" "CGA2B2C0G1H120J050BA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15757,7 +15757,7 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "TDK"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15769,7 +15769,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "490-12650-1-ND"
+		(property "DIGIKEY" "445-5585-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
