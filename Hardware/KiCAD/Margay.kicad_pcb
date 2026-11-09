@@ -386,6 +386,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8beaa9f2-1428-46e9-a4ef-944fccc09866")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "758c7be7-cc1a-4139-b767-7934ef3fb635")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8573097d-6262-4a88-9c60-a66f4026f45e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/0f786d36-31c7-4420-ac8a-147784fb5471")
 		(sheetname "Digital_Core")
 		(sheetfile "Digital_Core.kicad_sch")
@@ -792,6 +828,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c64dd775-f993-4e67-afc3-1235914143c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc369ebc-a54c-4b29-b1d9-04f46773f005")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64a4c31f-b326-4fb8-9567-87ffa23a6b3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/ec955639-b65d-44fa-be25-8515c10cf5cb")
 		(sheetname "Power_Sensors")
 		(sheetfile "Power_Sensors.kicad_sch")
@@ -1110,6 +1182,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "757ac227-10c7-49fa-a508-fdf5a95c1822")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f33a01d1-9529-482f-b8e1-420c573675fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a1b0d57-b325-4e9d-8239-310bdb4b6324")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3d95c14-6d67-46bd-8996-d2f513ea7463")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,6 +2014,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P27.0LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a27f44da-3ab1-42ee-b5b5-602686254161")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "504d1d8b-c96d-413d-9e95-520bcf6e6abf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF27R0X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6802ab62-26b8-461c-ac08-3a6253dcc112")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/7e4b1681-66de-46e6-bfde-7f08cea4df72")
 		(sheetname "Digital_Core")
 		(sheetfile "Digital_Core.kicad_sch")
@@ -2312,6 +2456,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P27.0LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "057a70b1-98ba-4a4b-942e-0e64f48682e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52b95cfd-932b-4f18-a6d9-50704b71a0fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF27R0X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3a81204-0e9b-40ef-b43c-9f71edd62f3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/8bccf1f8-3c81-448c-abcb-fce9f181bebf")
 		(sheetname "Digital_Core")
 		(sheetfile "Digital_Core.kicad_sch")
@@ -2508,6 +2688,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c81a3be0-a1ae-4596-8c69-d16ed30ae31e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebc2e867-9f28-4b0e-b163-bb071a66e4ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d5cb063-e737-47a0-899f-a76bd7c7f6b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2402f67-d7b0-4e52-a9ee-eefd1bf1f558")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,6 +2934,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P5.10KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5be8868e-5655-4a9b-8ef9-30afa95320bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "571c69ef-0047-4525-ba1c-fd008ba0c7be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF5101X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42fb22f9-767c-48a0-b566-b3a202b70109")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/1b3115f3-7039-4040-aca3-c313ac01d60b")
 		(sheetname "Digital_Core")
 		(sheetfile "Digital_Core.kicad_sch")
@@ -2914,6 +3166,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6fe71adc-00f4-44e3-b90f-ed2680f193ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P5.10KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fedde76c-5bce-478f-b930-8c78b7ca9b24")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3889772a-36f7-4d30-8089-0eaebd56e38e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF5101X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd8f54b9-760a-4156-825d-1764ee1e059e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,6 +4367,42 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "RG16P10.0KBCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33bb1f46-00a7-4398-b78e-be0c072fea38")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Susumu"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5b2ce82-f8ca-4286-b052-2659f963f702")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "RG1608P-103-B-T5"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "116b5100-ce01-4292-9b1f-0990262a291c")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5932,6 +6256,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P330LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "491799e0-3221-4409-81ac-eefac22eb395")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56b5d737-704e-4de1-81db-559dc134ca47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF3300X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "656ed0ef-b37f-4637-9f34-f727e4072866")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/b7679756-4be0-4250-93f2-11592e3963fa")
 		(sheetname "Control_Connectors")
 		(sheetfile "Control_Connectors.kicad_sch")
@@ -6128,6 +6488,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ef064b5-9904-4351-86bf-2a79b71334c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5af27139-1163-4bf8-9919-c2de5da6a4e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1442184-83b4-43e0-bc16-cfb54717b6e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f6d6831-7718-4525-ae40-af1499b2abd4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,6 +7282,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9824763e-8157-4a43-9280-fc7301314a5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P330LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae54ce3d-d749-454d-9d49-a3523a326bec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64b32548-560b-49ab-970e-5bdde1c8847b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF3300X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbfae130-648a-4cf4-9723-e9d9973c2891")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,6 +8322,42 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "RG16P10.0KBCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79c5cbc6-da70-42d9-9119-a923e8b6bdfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Susumu"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fac602da-4c63-4916-9b86-a4f22b7951a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "RG1608P-103-B-T5"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12d485f6-a1ba-40a8-881f-8ff397d1fe7b")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8955,6 +9423,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P330LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b5c80ad-80c1-4097-8e66-c730ed835cfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61133797-70eb-4091-bea0-e7b6ef5e6309")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF3300X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4afaff81-bedf-4f52-aa3a-00c4cd55af8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/26a1778f-80ca-4484-b6c0-d7e906b38abc/3c946693-e513-44e2-b5e4-047fa1aeea46")
 		(sheetname "Digital_Core")
 		(sheetfile "Digital_Core.kicad_sch")
@@ -9539,6 +10043,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "RG16P10.0KBCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89f853fe-7367-4498-bbea-84d5792768bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Susumu"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df406902-5544-41a0-b3ce-889acc261823")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "RG1608P-103-B-T5"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e685a708-d690-47b9-bd23-991a3dfcde0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/588e4da5-c0f1-4fee-b42a-7983121cc3d3")
 		(sheetname "Power_Sensors")
 		(sheetfile "Power_Sensors.kicad_sch")
@@ -9891,6 +10431,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c688228-0f1c-4646-af4c-ce011bc5231d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "RMCF0603FT130KCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10e263b6-1c74-4638-8486-b927c4ee1e9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Stackpole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "158f0393-a215-4fe1-83b5-cc8a786643f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "RMCF0603FT130K"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcfe5fec-03ba-44d2-8f54-1a65b98b8ae4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,6 +11039,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f3da17d3-2ff4-416a-947c-5f14ddcbb2c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b984167b-137f-435c-a699-6ad90a926c8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e150aa67-d2e5-4039-bd57-a2742221f118")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14dd0ff9-8898-422b-ac91-585b50d2cd40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11165,6 +11777,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc75429b-cce3-4b61-8398-7f640c7f0e80")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P330LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cadb655b-3a8e-46d4-bdd6-b0a052dca944")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6af1303a-59fa-4b3d-84df-a02bda99653f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF3300X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19df3705-f11c-4863-8954-14cc5c2c2754")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13243,6 +13891,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0144a70e-b6f0-4783-8a3f-12dc025ab1fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "393b2563-5895-4f82-a546-a028612c71fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1628b70-f4b9-4c8e-9975-31f89d1888cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8b29bb9a-8b12-402b-8332-650c6f7ae85e/d0bc54f1-5827-4cc0-9a5f-a8c336a37b79")
 		(sheetname "Power_Sensors")
 		(sheetfile "Power_Sensors.kicad_sch")
@@ -13439,6 +14123,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "559d9a9d-7ef0-4074-8c34-a63583bc0a7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P330LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f189fff2-5e48-4221-abd1-9b96fe483398")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb86fc51-0f14-468c-8c63-7e6121b525e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF3300X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9da71fd-167f-4045-8256-2a53079aaa15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15375,6 +16095,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P330LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cebb89d4-f159-4eff-8ba5-e6e1bb2a0052")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9712e537-c509-4411-8bb9-698ccad05a4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF3300X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f768439-1a2c-49ee-b3c3-632aa94895d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/3932c6eb-d94b-48f1-b40e-9125f15af30e")
 		(sheetname "Control_Connectors")
 		(sheetfile "Control_Connectors.kicad_sch")
@@ -15571,6 +16327,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53792f26-dabe-48e3-b491-bc6c2642bfb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P330LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b036b32f-cb01-4d3b-bb02-252e3f7e2f94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "180c784b-422c-4ee3-a92a-aa038c907114")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF3300X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bc971ea-2b1d-468e-9470-055670f09f30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15984,6 +16776,42 @@
 				)
 			)
 		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b56205c-5adf-4131-a5f1-61044f4651f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "720c4417-1cc9-4ba9-acc0-128a6cbec6d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "935f1f4e-88c1-4da9-a131-68f9ea8e05ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5801299-a6ef-4fc2-bcb2-63120891a4b8/f8cad015-cd49-4a76-9afc-2df2c1e2039e")
 		(sheetname "Control_Connectors")
 		(sheetfile "Control_Connectors.kicad_sch")
@@ -16180,6 +17008,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22fba967-206d-40fb-9fe1-ade50361cd72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89f9a81d-8b82-49ae-8f11-6e6f096e6c97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e949932c-fcb8-4846-89b7-73187cc459da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5ab39a2-9190-400a-ac36-9f0ca8b2d786")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16587,6 +17451,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "15e492af-cd5f-4d04-aaa3-e4d78bc03ee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dc69f18-566c-4309-b815-241c54beacc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "549af662-0ec1-41e8-9af8-afa38c8ea28a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF1002X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4b0504b-988e-471d-97e4-268fb7bad6c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17560,6 +18460,42 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e85aca6f-1aed-4dc1-b41b-2fcbf55abe19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "P330LCT-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c39f683-6502-4935-bb80-70f046bc8098")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Panasonic"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "037b3264-3b1b-4a30-b0cb-cb418e420d7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "ERJ-2RKF3300X"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a64c09ce-1417-4b65-80a1-2911b24d8285")
 			(effects
 				(font
 					(size 1.27 1.27)
