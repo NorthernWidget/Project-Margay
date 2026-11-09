@@ -160,7 +160,7 @@ In this pinout, the name of each pin is shown, as well as the group of pins whic
 #### Pins:
 * 3v3, the switched 3.3v output rail, this rail can be turned on and off to disconnect power consumptive external devices
 * GND, the main output ground
-* BAT+, the positive connection for the battery line, voltage range 3.3v ~ 5.5v
+* BAT+, the positive connection for the battery line, voltage range 3.3v ~ 5.5v (see [Battery voltage](#battery-voltage) for the limits and the cells to use)
 * BAT-, Negative battery connection, ***note: this pin is NOT interchangeable with GND, as BAT- is reverse voltage protected to prevent damage from plugging the battery in backwards***
 * Vs, this is the switched PWM output, the voltage of this output is determined by a solder jumper on the bottom of the board, controlled by `VSwitch_Pin` - See information of limits and configuration below
 
@@ -208,6 +208,27 @@ VMain | Bat | 500 | 2.25
 3v3 | Bat | 450 | 2.0
 
 Note: Instantaneous current may exceed these values — these values correspond to the time-averaged power consumption. This distinction is most important when driving a load via PWM.
+
+#### Battery voltage
+
+Use three alkaline cells in series, AA or D. A fresh pack reads about 4.8 V (1.56–1.65 V per cell) and runs the logger for the life of the cells.
+
+| Limit | Voltage | Set by |
+|---|---|---|
+| Absolute maximum | 6.0 V | every chip on the battery line: TPS79733 (core regulator), TPS22916 (battery switch), TPS2104 (USB/battery switch), TPS7A05 (switched 3.3 V regulator) and MIC94090 (Vs switch, with the jumper on its default side) |
+| Maximum for operation | 5.5 V | the same chips |
+| Core 3.3 V in regulation down to | 3.5 V | the TPS79733's dropout (200 mV maximum at 10 mA) |
+| Switched 3.3 V in regulation at its full 200 mA down to | 3.63 V | the TPS7A05's dropout plus the switches ahead of it |
+
+Below these, the 3.3 V rails follow the battery down. The logger reports a battery under 3.3 V as too low to work properly (red, fast blinking).
+
+Do not use:
+* **Lithium AA cells** (lithium iron disulfide, such as Energizer Ultimate Lithium). Three fresh cells read 5.37–5.49 V, within 0.13 V of the 5.5 V maximum.
+* **3.6 V lithium AA-size cells** (lithium thionyl chloride, such as Saft LS14500). Three in series reach about 11 V and will destroy the logger.
+
+NiMH cells (about 3.75–4.26 V for three) work, but leave only about 0.1 V of headroom for the switched 3.3 V rail at full load.
+
+On USB, use a standard 5 V port or charger. The FT231X USB chip sets the ceiling there: its absolute maximum is 5.5 V, behind one Schottky diode.
 
 ## On-board Devices
 
