@@ -7459,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 0 1.016 90)
 			(layer "F.Fab")
 			(uuid "0470c580-1af5-4604-bc4e-84906fe36b79")
@@ -7492,7 +7492,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM155R71C104KA55D"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7504,7 +7504,7 @@
 				)
 			)
 		)
-		(property "MF" "Murata"
+		(property "MF" "Samsung"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7516,7 +7516,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "490-4759-1-ND"
+		(property "DIGIKEY" "1276-1445-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
