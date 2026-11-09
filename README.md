@@ -48,7 +48,7 @@ Changes from v2.2:
 * Increased mounting hole sizes to fit #4 screws
 * Moved one passive component to accommodate the larger holes
 
-All electrical specifications and pinout are otherwise identical to v2.2. Annotated pinout diagrams are in the [Pinout and board interfaces section below](#pinout-and-board-interfaces) and apply directly to v3.0.
+Input voltage: 3.5–5.5 V for regulated operation, 6.0 V absolute maximum; three alkaline AA or D cells (see [Battery voltage](#battery-voltage)). All other electrical specifications and pinout are identical to v2.2. Annotated pinout diagrams are in the [Pinout and board interfaces section below](#pinout-and-board-interfaces) and apply directly to v3.0.
 
 ### Past Iterations:
 
@@ -160,7 +160,7 @@ In this pinout, the name of each pin is shown, as well as the group of pins whic
 #### Pins:
 * 3v3, the switched 3.3v output rail, this rail can be turned on and off to disconnect power consumptive external devices
 * GND, the main output ground
-* BAT+, the positive connection for the battery line, voltage range 3.3v ~ 5.5v (see [Battery voltage](#battery-voltage) for the limits and the cells to use)
+* BAT+, the positive connection for the battery line: 3.5–5.5 V for regulated operation, 6.0 V absolute maximum (see [Battery voltage](#battery-voltage) for the limits and the cells to use)
 * BAT-, Negative battery connection, ***note: this pin is NOT interchangeable with GND, as BAT- is reverse voltage protected to prevent damage from plugging the battery in backwards***
 * Vs, this is the switched PWM output, the voltage of this output is determined by a solder jumper on the bottom of the board, controlled by `VSwitch_Pin` - See information of limits and configuration below
 
