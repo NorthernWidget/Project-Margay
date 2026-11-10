@@ -200,12 +200,14 @@ Pin Name | Pin Number (v0.0) | Pin Number (v1.0) | Pin Number (v2.x) | Function
 `LogInt` | D2 | D2 | A4 | Interrupt connected to **LOG** button, active low
 
 #### VSwitch Power Limits/Configuration:
-Jumper Selected | Logger Power Source | Current Limit, Avg [mA] | Power Limit, Avg [W] 
---------------- | ------------------- | ---------------------- | -------------------- 
-VMain | USB | 220 | 0.5 
-VMain | Bat | 500 | 2.25 
-3v3 | USB | 220 | 0.5 
-3v3 | Bat | 450 | 2.0
+Jumper Selected | Logger Power Source | Current Limit, Avg [mA] | Power Limit, Avg [W] | Set by
+--------------- | ------------------- | ---------------------- | -------------------- | ------
+VMain | USB | 100 | 0.5 | TPS2104, USB input (IN2)<sup>1</sup>
+VMain | Bat | 500 | 2.25 | TPS2104, battery input (IN1)
+3v3 | USB | 100 | 0.33 | TPS2104, USB input (IN2)<sup>1</sup>
+3v3 | Bat | 200 | 0.66 | TPS7A05, shared with the SD card and on-board sensors
+
+<sup>1</sup> <small>Rated continuous current. The TPS2104 can deliver up to 220 mA here, with a larger voltage drop.</small>
 
 Note: Instantaneous current may exceed these values — these values correspond to the time-averaged power consumption. This distinction is most important when driving a load via PWM.
 
