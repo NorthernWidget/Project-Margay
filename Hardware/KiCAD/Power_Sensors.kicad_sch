@@ -11175,7 +11175,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MOSFET_PCH-FDN360P"
+		(property "Value" "DMP3099LQ"
 			(at 37.084 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11218,7 +11218,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "DMP3099L-7DICT-ND"
+		(property "DIGIKEY" "31-DMP3099LQ-7CT-ND"
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11229,7 +11229,7 @@
 				)
 			)
 		)
-		(property "MF" "Diodes Inc"
+		(property "MF" "Diodes Incorporated"
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11240,7 +11240,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMP3099L-7"
+		(property "MPN" "DMP3099LQ-7"
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
