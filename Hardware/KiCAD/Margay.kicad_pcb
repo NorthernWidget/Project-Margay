@@ -5772,7 +5772,7 @@
 				)
 			)
 		)
-		(property "MF" "OnShore"
+		(property "MF" "On Shore"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14887,7 +14887,7 @@
 				)
 			)
 		)
-		(property "MF" "Maxim"
+		(property "MF" "Analog Devices"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15861,7 +15861,7 @@
 				)
 			)
 		)
-		(property "MF" "Maxim"
+		(property "MF" "Analog Devices"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

@@ -11334,7 +11334,7 @@
 				)
 			)
 		)
-		(property "MF" "Maxim"
+		(property "MF" "Analog Devices"
 			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13778,7 +13778,7 @@
 				)
 			)
 		)
-		(property "MF" "Maxim"
+		(property "MF" "Analog Devices"
 			(at 222.25 154.94 0)
 			(hide yes)
 			(show_name no)
