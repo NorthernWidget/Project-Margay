@@ -4619,6 +4619,12 @@
 		(uuid "99de3435-515d-44ec-b84f-14c9958fc445")
 	)
 	(junction
+		(at 209.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5537baf-9ad1-4407-a901-65f848e4eeaf")
+	)
+	(junction
 		(at 186.69 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4641,12 +4647,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b880f2b9-0a71-482c-9eba-8a99b1acc643")
-	)
-	(junction
-		(at 166.37 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6190a87-182d-46b3-b90d-8bd7cb1c2f89")
 	)
 	(junction
 		(at 59.69 195.58)
@@ -4707,6 +4707,10 @@
 	(no_connect
 		(at 52.07 60.96)
 		(uuid "8d588b4e-dc1a-5b40-9b42-c7e7d6fdc4f2")
+	)
+	(no_connect
+		(at 113.03 127)
+		(uuid "aeb5a1a1-e5f2-541b-97d0-105849cb740b")
 	)
 	(no_connect
 		(at 69.85 60.96)
@@ -4951,6 +4955,16 @@
 			(type solid)
 		)
 		(uuid "21166c18-bd5c-4921-addc-44abf6388390")
+	)
+	(wire
+		(pts
+			(xy 191.77 38.1) (xy 191.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2154e50d-44ed-4515-bfc8-704bd0a48b0b")
 	)
 	(wire
 		(pts
@@ -5274,7 +5288,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 30.48) (xy 205.74 30.48)
+			(xy 209.55 25.4) (xy 205.74 25.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -5634,16 +5648,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 27.94) (xy 166.37 30.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9b8ebabc-3b20-4b73-887a-a57d532b7108")
-	)
-	(wire
-		(pts
 			(xy 222.25 137.16) (xy 222.25 134.62)
 		)
 		(stroke
@@ -5774,7 +5778,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 33.02) (xy 209.55 30.48)
+			(xy 209.55 27.94) (xy 209.55 25.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -5821,6 +5825,16 @@
 			(type solid)
 		)
 		(uuid "bbe822b7-7770-4a02-8ef6-83e116b5096e")
+	)
+	(wire
+		(pts
+			(xy 199.39 38.1) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be59a083-01da-4d48-aef5-522c87574ca1")
 	)
 	(wire
 		(pts
@@ -6004,7 +6018,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 38.1) (xy 209.55 40.64)
+			(xy 209.55 33.02) (xy 209.55 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -7222,7 +7236,7 @@
 	)
 	(global_label "VUSB"
 		(shape bidirectional)
-		(at 205.74 30.48 180)
+		(at 205.74 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7232,7 +7246,7 @@
 		)
 		(uuid "fdf6f934-6e07-46a7-ba6a-5dfa75b7d9f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.4436 30.48 0)
+			(at 199.4436 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7268,10 +7282,6 @@
 			)
 		)
 	)
-	(no_connect
-		(at 113.03 127)
-		(uuid "aeb5a1a1-e5f2-541b-97d0-105849cb740b")
-	)
 	(symbol
 		(lib_id "nw-cold-silicon:PWR_FLAG")
 		(at 209.55 40.64 0)
@@ -7295,7 +7305,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 209.55 36.83 0)
+			(at 200.66 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7968,6 +7978,81 @@
 		)
 	)
 	(symbol
+		(lib_id "nw-cold-silicon:NWLOGO_MED")
+		(at 260.35 12.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "0a57c8e4-c05e-4ddd-adc3-2c8088ec0403")
+		(property "Reference" "LOGO1"
+			(at 260.35 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NWLOGO_MED"
+			(at 260.35 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "nw-cold-silicon:NWLOGO_MED"
+			(at 260.35 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Northern Widget logo, medium, silkscreen"
+			(at 260.35 12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Margay"
+				(path "/44591453-0fe4-48d8-a9e2-921075afaa78/402eb657-7eeb-4ce7-bb46-1d390158b563"
+					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "nw-cold-silicon:GND")
 		(at 118.11 48.26 0)
 		(unit 1)
@@ -8039,81 +8124,6 @@
 			(project "Margay"
 				(path "/44591453-0fe4-48d8-a9e2-921075afaa78/26a1778f-80ca-4484-b6c0-d7e906b38abc"
 					(reference "#GND043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nw-cold-silicon:NWLOGO_MED")
-		(at 260.35 12.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "0a57c8e4-c05e-4ddd-adc3-2c8088ec0403")
-		(property "Reference" "LOGO1"
-			(at 260.35 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NWLOGO_MED"
-			(at 260.35 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "nw-cold-silicon:NWLOGO_MED"
-			(at 260.35 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Northern Widget logo, medium, silkscreen"
-			(at 260.35 12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Margay"
-				(path "/44591453-0fe4-48d8-a9e2-921075afaa78/402eb657-7eeb-4ce7-bb46-1d390158b563"
-					(reference "LOGO1")
 					(unit 1)
 				)
 			)
@@ -8383,7 +8393,7 @@
 	)
 	(symbol
 		(lib_id "nw-cold-silicon:C-EUC0402")
-		(at 166.37 22.86 0)
+		(at 196.85 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8393,7 +8403,7 @@
 		(dnp no)
 		(uuid "1445b75b-ee58-47f6-8f89-933fcd774f5c")
 		(property "Reference" "C5"
-			(at 167.894 22.479 0)
+			(at 194.31 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8404,7 +8414,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 167.894 27.559 0)
+			(at 192.405 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8415,7 +8425,7 @@
 			)
 		)
 		(property "Footprint" "nw-cold-silicon:C0402"
-			(at 166.37 22.86 0)
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,7 +8436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 22.86 0)
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8437,7 +8447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 22.86 0)
+			(at 196.85 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8447,7 +8457,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71C104KA55D"
-			(at 166.37 22.86 0)
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8458,7 +8468,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 166.37 22.86 0)
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +8479,7 @@
 			)
 		)
 		(property "DIGIKEY" "490-4759-1-ND"
-			(at 166.37 22.86 0)
+			(at 196.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9339,7 +9349,7 @@
 	)
 	(symbol
 		(lib_id "nw-cold-silicon:DIODESOD-323")
-		(at 209.55 35.56 270)
+		(at 209.55 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9349,7 +9359,7 @@
 		(dnp no)
 		(uuid "3603ca2b-a1e8-482b-8dac-91c52ba13c70")
 		(property "Reference" "D1"
-			(at 210.0326 38.1 0)
+			(at 210.0326 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9360,7 +9370,7 @@
 			)
 		)
 		(property "Value" "BAT43WS"
-			(at 204.6986 33.02 0)
+			(at 204.6986 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9371,7 +9381,7 @@
 			)
 		)
 		(property "Footprint" "nw-cold-silicon:SOD323-R"
-			(at 209.55 35.56 0)
+			(at 209.55 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9382,7 +9392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 35.56 0)
+			(at 209.55 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9393,7 +9403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 35.56 0)
+			(at 209.55 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9403,7 +9413,7 @@
 			)
 		)
 		(property "DIGIKEY" "112-BAT43WS-HE3_A-08CT-ND"
-			(at 209.55 35.56 0)
+			(at 209.55 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9414,7 +9424,7 @@
 			)
 		)
 		(property "MF" "Vishay"
-			(at 209.55 35.56 0)
+			(at 209.55 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9435,7 @@
 			)
 		)
 		(property "MPN" "BAT43WS-HE3_A-08"
-			(at 209.55 35.56 0)
+			(at 209.55 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11142,6 +11152,83 @@
 		)
 	)
 	(symbol
+		(lib_id "nw-cold-silicon:GND")
+		(at 191.77 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5b606ca-3502-4442-af76-138f34e3ad25")
+		(property "Reference" "#GND06"
+			(at 191.77 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.865 46.355 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a5bbd5a-d2be-474b-8a1c-7d5fb5217818")
+		)
+		(instances
+			(project "Margay"
+				(path "/44591453-0fe4-48d8-a9e2-921075afaa78/26a1778f-80ca-4484-b6c0-d7e906b38abc"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "nw-cold-silicon:CRYSTAL5X3.2")
 		(at 46.99 132.08 90)
 		(unit 1)
@@ -11361,83 +11448,6 @@
 			(project "Margay"
 				(path "/44591453-0fe4-48d8-a9e2-921075afaa78/26a1778f-80ca-4484-b6c0-d7e906b38abc"
 					(reference "U$1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nw-cold-silicon:GND")
-		(at 166.37 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bd3c947d-cb88-4477-81e8-da6db8aa42c8")
-		(property "Reference" "#GND06"
-			(at 166.37 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 164.465 36.195 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a5bbd5a-d2be-474b-8a1c-7d5fb5217818")
-		)
-		(instances
-			(project "Margay"
-				(path "/44591453-0fe4-48d8-a9e2-921075afaa78/26a1778f-80ca-4484-b6c0-d7e906b38abc"
-					(reference "#GND06")
 					(unit 1)
 				)
 			)
