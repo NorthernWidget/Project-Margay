@@ -8543,7 +8543,7 @@
 				)
 			)
 		)
-		(property "MPN" "BAT-HLD-012-SMT-TR"
+		(property "MPN" "BK-916-TR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8555,7 +8555,7 @@
 				)
 			)
 		)
-		(property "MF" "Linx"
+		(property "MF" "MPD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8567,7 +8567,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "BAT-HLD-012-SMTCT-ND"
+		(property "DIGIKEY" "BK-916-CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
