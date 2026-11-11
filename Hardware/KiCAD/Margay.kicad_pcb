@@ -589,7 +589,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107B7105KA-T"
+		(property "MPN" "GCM188R71E105KA64D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -601,7 +601,7 @@
 				)
 			)
 		)
-		(property "MF" "Taiyo Yuden"
+		(property "MF" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -613,11 +613,47 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "587-2984-1-ND"
+		(property "DIGIKEY" "490-10673-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a5f1727-8945-414d-8d5d-f14ad7d34655")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "587-2984-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "044392e8-433a-457b-bcb9-f189c97fb17a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Taiyo Yuden"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24245f02-e928-4362-95db-8e481a64a770")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "TMK107B7105KA-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d88dc7f-a850-4f80-82ec-08dd91948638")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,7 +7544,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KA5NQNC"
+		(property "MPN" "GRT155R61E105KE01D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7520,7 +7556,7 @@
 				)
 			)
 		)
-		(property "MF" "Samsung"
+		(property "MF" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7532,11 +7568,47 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "1276-1445-1-ND"
+		(property "DIGIKEY" "490-12263-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e6705cf9-ac0c-44c6-8d1d-5ba476e0e1cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "1276-1445-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df6b3c4d-e823-44a6-b519-e7a149722f58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Samsung"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0c19fde-e357-46ac-8e8a-f300485cc160")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "CL05A105KA5NQNC"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3ae49cf-8df7-4e6d-a5ce-ee9d98811427")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +7783,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107B7105KA-T"
+		(property "MPN" "GCM188R71E105KA64D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7723,7 +7795,7 @@
 				)
 			)
 		)
-		(property "MF" "Taiyo Yuden"
+		(property "MF" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7735,11 +7807,47 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "587-2984-1-ND"
+		(property "DIGIKEY" "490-10673-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30d22614-bf22-4fc5-8021-65077a1d346d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "587-2984-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d620a9c3-154d-4574-a7ac-4d22a5282f8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Taiyo Yuden"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f553de2e-1132-46c5-91ee-1694e9538993")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "TMK107B7105KA-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7aae2389-ddee-4a1a-91b5-e665b0b06b87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15500,7 +15608,7 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107B7105KA-T"
+		(property "MPN" "GCM188R71E105KA64D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15512,7 +15620,7 @@
 				)
 			)
 		)
-		(property "MF" "Taiyo Yuden"
+		(property "MF" "Murata"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15524,11 +15632,47 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "587-2984-1-ND"
+		(property "DIGIKEY" "490-10673-1-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1babbe2a-21f9-46d8-8c20-4f132a6933c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_DIGIKEY" "587-2984-1-ND"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68029496-7b2d-49f0-bdb1-02515cdec1d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MF" "Taiyo Yuden"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6656af69-3fdc-4d6a-a030-6dd753ae07d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT_MPN" "TMK107B7105KA-T"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "245e737c-0e56-4baa-89bb-aa911ff34ec5")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -9873,7 +9873,43 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107B7105KA-T"
+		(property "ALT_DIGIKEY" "587-2984-1-ND"
+			(at 49.53 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MF" "Taiyo Yuden"
+			(at 49.53 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MPN" "TMK107B7105KA-T"
+			(at 49.53 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GCM188R71E105KA64D"
 			(at 49.53 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9884,7 +9920,7 @@
 				)
 			)
 		)
-		(property "MF" "Taiyo Yuden"
+		(property "MF" "Murata"
 			(at 49.53 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9895,7 +9931,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "587-2984-1-ND"
+		(property "DIGIKEY" "490-10673-1-ND"
 			(at 49.53 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10257,7 +10293,43 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A105KA5NQNC"
+		(property "ALT_DIGIKEY" "1276-1445-1-ND"
+			(at 26.67 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MF" "Samsung"
+			(at 26.67 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MPN" "CL05A105KA5NQNC"
+			(at 26.67 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRT155R61E105KE01D"
 			(at 26.67 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10268,7 +10340,7 @@
 				)
 			)
 		)
-		(property "MF" "Samsung"
+		(property "MF" "Murata"
 			(at 26.67 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10279,7 +10351,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "1276-1445-1-ND"
+		(property "DIGIKEY" "490-12263-1-ND"
 			(at 26.67 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10768,7 +10840,43 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107B7105KA-T"
+		(property "ALT_DIGIKEY" "587-2984-1-ND"
+			(at 95.25 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MF" "Taiyo Yuden"
+			(at 95.25 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MPN" "TMK107B7105KA-T"
+			(at 95.25 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GCM188R71E105KA64D"
 			(at 95.25 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10779,7 +10887,7 @@
 				)
 			)
 		)
-		(property "MF" "Taiyo Yuden"
+		(property "MF" "Murata"
 			(at 95.25 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10790,7 +10898,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "587-2984-1-ND"
+		(property "DIGIKEY" "490-10673-1-ND"
 			(at 95.25 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12808,7 +12916,43 @@
 				)
 			)
 		)
-		(property "MPN" "TMK107B7105KA-T"
+		(property "ALT_DIGIKEY" "587-2984-1-ND"
+			(at 265.43 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MF" "Taiyo Yuden"
+			(at 265.43 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MPN" "TMK107B7105KA-T"
+			(at 265.43 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GCM188R71E105KA64D"
 			(at 265.43 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12819,7 +12963,7 @@
 				)
 			)
 		)
-		(property "MF" "Taiyo Yuden"
+		(property "MF" "Murata"
 			(at 265.43 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12830,7 +12974,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "587-2984-1-ND"
+		(property "DIGIKEY" "490-10673-1-ND"
 			(at 265.43 157.48 0)
 			(hide yes)
 			(show_name no)
