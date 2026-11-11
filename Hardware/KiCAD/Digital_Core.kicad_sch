@@ -4052,6 +4052,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -7937,10 +7955,90 @@
 		(pin "B8"
 			(uuid "4ba08226-f5f7-4351-8beb-b46e72f38009")
 		)
+		(pin "S1"
+			(uuid "17746bb2-2a09-5974-8085-d9c137c3bf46")
+		)
 		(instances
 			(project "Margay"
 				(path "/44591453-0fe4-48d8-a9e2-921075afaa78/26a1778f-80ca-4484-b6c0-d7e906b38abc"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nw-cold-silicon:GND")
+		(at 118.11 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f1c48ac-5c7e-5c1b-9e74-f594550b6241")
+		(property "Reference" "#GND043"
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.205 51.435 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a112e8b5-b626-5197-a03b-c36f8f232ba8")
+		)
+		(instances
+			(project "Margay"
+				(path "/44591453-0fe4-48d8-a9e2-921075afaa78/26a1778f-80ca-4484-b6c0-d7e906b38abc"
+					(reference "#GND043")
 					(unit 1)
 				)
 			)
