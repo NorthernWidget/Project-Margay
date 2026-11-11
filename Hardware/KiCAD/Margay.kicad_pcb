@@ -3412,7 +3412,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "BAT43WS-FDICT-ND"
+		(property "DIGIKEY" "112-BAT43WS-HE3_A-08CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3424,7 +3424,7 @@
 				)
 			)
 		)
-		(property "MF" "Diodes Incorporated"
+		(property "MF" "Vishay"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3436,7 +3436,7 @@
 				)
 			)
 		)
-		(property "MPN" "BAT43WS-7-F"
+		(property "MPN" "BAT43WS-HE3_A-08"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4732,7 +4732,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "BAT43WS-FDICT-ND"
+		(property "DIGIKEY" "112-BAT43WS-HE3_A-08CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4744,7 +4744,7 @@
 				)
 			)
 		)
-		(property "MF" "Diodes Incorporated"
+		(property "MF" "Vishay"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4756,7 +4756,7 @@
 				)
 			)
 		)
-		(property "MPN" "BAT43WS-7-F"
+		(property "MPN" "BAT43WS-HE3_A-08"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

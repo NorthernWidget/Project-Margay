@@ -9402,7 +9402,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "BAT43WS-FDICT-ND"
+		(property "DIGIKEY" "112-BAT43WS-HE3_A-08CT-ND"
 			(at 209.55 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9413,7 +9413,7 @@
 				)
 			)
 		)
-		(property "MF" "Diodes Incorporated"
+		(property "MF" "Vishay"
 			(at 209.55 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9424,7 +9424,7 @@
 				)
 			)
 		)
-		(property "MPN" "BAT43WS-7-F"
+		(property "MPN" "BAT43WS-HE3_A-08"
 			(at 209.55 35.56 0)
 			(hide yes)
 			(show_name no)
