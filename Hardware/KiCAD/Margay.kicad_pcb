@@ -12079,7 +12079,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATMEGA1284M"
+		(property "Value" "ATMEGA1284P"
 			(at -2.75 1.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12114,7 +12114,7 @@
 				)
 			)
 		)
-		(property "MPN" "ATMEGA1284P-MUR"
+		(property "MPN" "ATMEGA1284P-MU"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12126,7 +12126,7 @@
 				)
 			)
 		)
-		(property "MF" "Atmel"
+		(property "MF" "Microchip"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12138,7 +12138,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "ATMEGA1284P-MURCT-ND"
+		(property "DIGIKEY" "ATMEGA1284P-MU-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

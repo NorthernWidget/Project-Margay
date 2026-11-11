@@ -8968,7 +8968,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ATMEGA1284M"
+		(property "Value" "ATMEGA1284P"
 			(at 64.77 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9011,7 +9011,7 @@
 				)
 			)
 		)
-		(property "MPN" "ATMEGA1284P-MUR"
+		(property "MPN" "ATMEGA1284P-MU"
 			(at 87.63 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9022,7 +9022,7 @@
 				)
 			)
 		)
-		(property "MF" "Atmel"
+		(property "MF" "Microchip"
 			(at 87.63 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9033,7 +9033,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "ATMEGA1284P-MURCT-ND"
+		(property "DIGIKEY" "ATMEGA1284P-MU-ND"
 			(at 87.63 154.94 0)
 			(hide yes)
 			(show_name no)
