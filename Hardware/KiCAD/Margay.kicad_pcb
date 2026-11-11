@@ -1857,7 +1857,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "296-50256-1-ND"
+		(property "DIGIKEY" "296-TPS7A0533PDBVRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
