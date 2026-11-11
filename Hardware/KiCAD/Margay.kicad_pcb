@@ -21244,6 +21244,38 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_arc
+		(start 167.2436 109.7916)
+		(mid 167.633104 108.784105)
+		(end 168.640599 108.394601)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "54d21af2-ce60-45fc-b009-9c0cf18776d8")
+	)
+	(gr_line
+		(start 167.2436 111.0616)
+		(end 167.2436 109.7916)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "c97b5ba2-4bc9-4346-a887-0802f46f2d6a")
+	)
+	(gr_arc
+		(start 168.6406 112.4586)
+		(mid 167.633105 112.069096)
+		(end 167.2436 111.061602)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "40f7858e-a2b0-4a50-8ab9-af5037046b20")
+	)
 	(gr_line
 		(start 123.4286 89.8016)
 		(end 123.4286 118.2056)
@@ -21339,41 +21371,64 @@
 		(layer "F.CrtYd")
 		(uuid "8d8a6e51-7963-4475-9abc-164e5f6ec793")
 	)
-	(gr_arc
-		(start 167.2436 109.7916)
-		(mid 167.633104 108.784105)
-		(end 168.640599 108.394601)
-		(stroke
-			(width 0.254)
-			(type solid)
+	(gr_text "RST"
+		(at 132.8266 111.1886 0)
+		(layer "F.SilkS")
+		(uuid "6cf531bb-7795-4055-9de8-5dfa1204c610")
+		(effects
+			(font
+				(size 0.69088 0.69088)
+				(thickness 0.12192)
+			)
 		)
-		(layer "B.Fab")
-		(uuid "54d21af2-ce60-45fc-b009-9c0cf18776d8")
 	)
-	(gr_line
-		(start 167.2436 111.0616)
-		(end 167.2436 109.7916)
-		(stroke
-			(width 0.254)
-			(type solid)
+	(gr_text "AUX"
+		(at 157.2106 98.6156 0)
+		(layer "F.SilkS")
+		(uuid "fd1156a3-ac5f-4c5e-af44-93ecd2f54d0b")
+		(effects
+			(font
+				(size 0.69088 0.69088)
+				(thickness 0.12192)
+			)
 		)
-		(layer "B.Fab")
-		(uuid "c97b5ba2-4bc9-4346-a887-0802f46f2d6a")
 	)
-	(gr_arc
-		(start 168.6406 112.4586)
-		(mid 167.633105 112.069096)
-		(end 167.2436 111.061602)
-		(stroke
-			(width 0.254)
-			(type solid)
+	(gr_text "J0"
+		(at 159.6236 108.2676 0)
+		(layer "F.SilkS")
+		(uuid "a821723c-df22-45c2-b05d-38224aa7bebe")
+		(effects
+			(font
+				(size 0.69088 0.69088)
+				(thickness 0.12192)
+			)
 		)
-		(layer "B.Fab")
-		(uuid "40f7858e-a2b0-4a50-8ab9-af5037046b20")
+	)
+	(gr_text "LOG"
+		(at 135.2396 91.3766 90)
+		(layer "F.SilkS")
+		(uuid "247be854-cff1-4fee-a972-ed6f8a6a7f69")
+		(effects
+			(font
+				(size 0.69088 0.69088)
+				(thickness 0.12192)
+			)
+		)
+	)
+	(gr_text "STAT"
+		(at 136.5096 91.3766 90)
+		(layer "F.SilkS")
+		(uuid "91e7a5fb-066e-4cc0-bac1-4f9710a604a1")
+		(effects
+			(font
+				(size 0.69088 0.69088)
+				(thickness 0.12192)
+			)
+		)
 	)
 	(gr_text "J2"
 		(at 159.1156 105.0926 -90)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "ba804066-23db-4cca-a031-8455d9c85ab8")
 		(effects
 			(font
@@ -21385,7 +21440,7 @@
 	)
 	(gr_text "J1"
 		(at 168.6406 115.2526 -90)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "cf5165c0-7363-4c07-ba70-3308ec3413b4")
 		(effects
 			(font
@@ -21397,7 +21452,7 @@
 	)
 	(gr_text "Project Margay v3.0\n--------------\nNorthern Widget &\nUniversity of Minnesota"
 		(at 172.9586 95.7581 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "c1f8debf-a491-4184-a211-9c316c8d2642")
 		(effects
 			(font
@@ -21409,7 +21464,7 @@
 	)
 	(gr_text "TX"
 		(at 124.6986 96.4566 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "334d3393-a48b-4527-9e77-c6e01e3e4a80")
 		(effects
 			(font
@@ -21421,7 +21476,7 @@
 	)
 	(gr_text "RX"
 		(at 124.6986 98.9966 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "0fa3c170-a678-4a06-bc5f-728f147b5255")
 		(effects
 			(font
@@ -21433,7 +21488,7 @@
 	)
 	(gr_text "A0"
 		(at 124.6986 101.5366 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "570ce04f-7d20-4383-996e-575c3a469a0d")
 		(effects
 			(font
@@ -21445,7 +21500,7 @@
 	)
 	(gr_text "D0"
 		(at 124.6986 104.0766 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "44f45da8-7c55-45e3-bc25-5150d6cc06ce")
 		(effects
 			(font
@@ -21457,7 +21512,7 @@
 	)
 	(gr_text "GND"
 		(at 124.6986 106.6166 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "fa1a2f27-03cb-4201-8f8a-50e7c65f5ce6")
 		(effects
 			(font
@@ -21469,7 +21524,7 @@
 	)
 	(gr_text "3v3"
 		(at 124.6986 109.1566 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "03292f2d-c5e4-4efe-8dfa-dfbe775e01c1")
 		(effects
 			(font
@@ -21481,7 +21536,7 @@
 	)
 	(gr_text "SDA"
 		(at 124.6986 111.6966 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "323929a1-5ae9-46b6-a894-241d48ae30bf")
 		(effects
 			(font
@@ -21493,7 +21548,7 @@
 	)
 	(gr_text "SCL"
 		(at 124.6986 114.2366 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "165d5c47-ec92-4788-bacb-dca08ca0d83c")
 		(effects
 			(font
@@ -21505,7 +21560,7 @@
 	)
 	(gr_text "GND"
 		(at 124.8256 91.3766 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "808551e1-d1b7-496b-a421-7b1b5350cd8b")
 		(effects
 			(font
@@ -21517,7 +21572,7 @@
 	)
 	(gr_text "3v3"
 		(at 124.8256 93.9166 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "c1905451-9ca0-431f-b7be-b81024d0fa61")
 		(effects
 			(font
@@ -21529,7 +21584,7 @@
 	)
 	(gr_text "SDA\nOB"
 		(at 157.4646 102.4256 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "c49c0742-0cc6-4552-95fe-707cc7690b67")
 		(effects
 			(font
@@ -21541,7 +21596,7 @@
 	)
 	(gr_text "SDA\nEXT"
 		(at 157.4646 107.5056 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "67fb69b9-bd28-4993-957a-9dd596d45d55")
 		(effects
 			(font
@@ -21553,7 +21608,7 @@
 	)
 	(gr_text "Vs"
 		(at 165.0846 114.1096 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "06cf418c-3f8f-4465-9088-0910afde6bad")
 		(effects
 			(font
@@ -21565,7 +21620,7 @@
 	)
 	(gr_text "3v3"
 		(at 165.7196 111.9506 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "24e71bef-6210-4ff4-a580-59b5f404ee80")
 		(effects
 			(font
@@ -21577,7 +21632,7 @@
 	)
 	(gr_text "VBat"
 		(at 165.7196 116.2686 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "43961252-e442-42ba-a28c-4eadaa649764")
 		(effects
 			(font
@@ -21589,7 +21644,7 @@
 	)
 	(gr_text "B+"
 		(at 171.9426 109.1566 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "1d79183e-ce9d-4a99-9523-53d5079bdce4")
 		(effects
 			(font
@@ -21601,7 +21656,7 @@
 	)
 	(gr_text "B-"
 		(at 171.9426 111.6966 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "ce895cff-949a-4c8b-bfe5-e079ef17c736")
 		(effects
 			(font
@@ -21613,7 +21668,7 @@
 	)
 	(gr_text "Vs"
 		(at 171.9426 114.2366 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "edff19ca-884a-426f-82d7-3cba1a4bc4b8")
 		(effects
 			(font
@@ -21625,7 +21680,7 @@
 	)
 	(gr_text "GND"
 		(at 171.9426 116.7766 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "f2ef6eee-8880-4b00-9f3a-1208209536aa")
 		(effects
 			(font
@@ -21637,7 +21692,7 @@
 	)
 	(gr_text "REF"
 		(at 171.942603 104.0766 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "e7d0d950-a138-473c-b85b-268183599e14")
 		(effects
 			(font
@@ -21649,7 +21704,7 @@
 	)
 	(gr_text "Ax"
 		(at 171.942603 106.6166 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "ee324d46-1166-48aa-8456-ca85b62f560b")
 		(effects
 			(font
@@ -21661,7 +21716,7 @@
 	)
 	(gr_text "±"
 		(at 168.1326 110.4266 0)
-		(layer "B.Fab")
+		(layer "B.SilkS")
 		(uuid "1bb3faaa-8f46-49a0-927c-e0e1c680df90")
 		(effects
 			(font
@@ -21669,61 +21724,6 @@
 				(thickness 0.1905)
 			)
 			(justify mirror)
-		)
-	)
-	(gr_text "RST"
-		(at 132.8266 111.1886 0)
-		(layer "F.Fab")
-		(uuid "6cf531bb-7795-4055-9de8-5dfa1204c610")
-		(effects
-			(font
-				(size 0.69088 0.69088)
-				(thickness 0.12192)
-			)
-		)
-	)
-	(gr_text "AUX"
-		(at 157.2106 98.6156 0)
-		(layer "F.Fab")
-		(uuid "fd1156a3-ac5f-4c5e-af44-93ecd2f54d0b")
-		(effects
-			(font
-				(size 0.69088 0.69088)
-				(thickness 0.12192)
-			)
-		)
-	)
-	(gr_text "J0"
-		(at 159.6236 108.2676 0)
-		(layer "F.Fab")
-		(uuid "a821723c-df22-45c2-b05d-38224aa7bebe")
-		(effects
-			(font
-				(size 0.69088 0.69088)
-				(thickness 0.12192)
-			)
-		)
-	)
-	(gr_text "LOG"
-		(at 135.2396 91.3766 90)
-		(layer "F.Fab")
-		(uuid "247be854-cff1-4fee-a972-ed6f8a6a7f69")
-		(effects
-			(font
-				(size 0.69088 0.69088)
-				(thickness 0.12192)
-			)
-		)
-	)
-	(gr_text "STAT"
-		(at 136.5096 91.3766 90)
-		(layer "F.Fab")
-		(uuid "91e7a5fb-066e-4cc0-bac1-4f9710a604a1")
-		(effects
-			(font
-				(size 0.69088 0.69088)
-				(thickness 0.12192)
-			)
 		)
 	)
 	(segment
