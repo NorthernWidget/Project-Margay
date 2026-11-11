@@ -7414,7 +7414,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7426,7 +7426,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7438,7 +7438,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7450,7 +7450,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7461,7 +7461,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7472,7 +7472,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7563,7 +7563,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 222.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7575,7 +7575,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 222.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7587,7 +7587,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 222.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7599,7 +7599,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 222.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7610,7 +7610,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 222.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7621,7 +7621,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 222.25 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8184,7 +8184,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 212.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8196,7 +8196,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 212.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8208,7 +8208,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 212.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8220,7 +8220,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 212.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8231,7 +8231,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 212.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8242,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 212.09 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8713,7 +8713,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P5.10KLCT-ND"
+		(property "ALT_DIGIKEY" "311-5.10KLRCT-ND"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8725,7 +8725,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8737,7 +8737,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF5101X"
+		(property "ALT_MPN" "RC0402FR-075K1L"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8749,7 +8749,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-075K1L"
+		(property "MPN" "ERJ-2RKF5101X"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8760,7 +8760,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8771,7 +8771,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-5.10KLRCT-ND"
+		(property "DIGIKEY" "P5.10KLCT-ND"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8862,7 +8862,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 39.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8874,7 +8874,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 39.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8886,7 +8886,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 39.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8898,7 +8898,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 39.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8909,7 +8909,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 39.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8920,7 +8920,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 39.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9253,7 +9253,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P5.10KLCT-ND"
+		(property "ALT_DIGIKEY" "311-5.10KLRCT-ND"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9265,7 +9265,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9277,7 +9277,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF5101X"
+		(property "ALT_MPN" "RC0402FR-075K1L"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9289,7 +9289,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-075K1L"
+		(property "MPN" "ERJ-2RKF5101X"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9300,7 +9300,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9311,7 +9311,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-5.10KLRCT-ND"
+		(property "DIGIKEY" "P5.10KLCT-ND"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9667,7 +9667,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 247.65 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9679,7 +9679,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 247.65 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9691,7 +9691,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 247.65 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9703,7 +9703,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 247.65 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -9715,7 +9715,7 @@
 				(justify right top)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 247.65 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9726,7 +9726,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 247.65 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9817,7 +9817,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9829,7 +9829,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9841,7 +9841,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9853,7 +9853,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 257.81 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -9865,7 +9865,7 @@
 				(justify right top)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9876,7 +9876,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 257.81 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10497,7 +10497,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P27.0LCT-ND"
+		(property "ALT_DIGIKEY" "YAG3086CT-ND"
 			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10509,7 +10509,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10521,7 +10521,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF27R0X"
+		(property "ALT_MPN" "RC0402FR-0727RL"
 			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10533,7 +10533,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "ERJ-2RKF27R0X"
 			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10544,7 +10544,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10555,7 +10555,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "YAG3086CT-ND"
+		(property "DIGIKEY" "P27.0LCT-ND"
 			(at 179.07 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10867,7 +10867,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P27.0LCT-ND"
+		(property "ALT_DIGIKEY" "YAG3086CT-ND"
 			(at 179.07 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10879,7 +10879,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 179.07 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10891,7 +10891,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF27R0X"
+		(property "ALT_MPN" "RC0402FR-0727RL"
 			(at 179.07 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10903,7 +10903,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "ERJ-2RKF27R0X"
 			(at 179.07 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10914,7 +10914,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 179.07 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10925,7 +10925,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "YAG3086CT-ND"
+		(property "DIGIKEY" "P27.0LCT-ND"
 			(at 179.07 58.42 0)
 			(hide yes)
 			(show_name no)

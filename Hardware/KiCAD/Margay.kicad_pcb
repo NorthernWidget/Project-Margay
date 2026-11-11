@@ -350,7 +350,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -362,7 +362,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -374,7 +374,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -386,7 +386,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -398,7 +398,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -410,7 +410,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -792,7 +792,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -804,7 +804,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -816,7 +816,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -828,7 +828,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -840,7 +840,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -852,7 +852,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1153,7 +1153,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1165,7 +1165,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1177,7 +1177,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1189,7 +1189,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1201,7 +1201,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1213,7 +1213,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1978,7 +1978,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "ERJ-2RKF27R0X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1990,7 +1990,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2002,7 +2002,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "YAG3086CT-ND"
+		(property "DIGIKEY" "P27.0LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2014,7 +2014,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P27.0LCT-ND"
+		(property "ALT_DIGIKEY" "YAG3086CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2026,7 +2026,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2038,7 +2038,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF27R0X"
+		(property "ALT_MPN" "RC0402FR-0727RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2420,7 +2420,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0727RL"
+		(property "MPN" "ERJ-2RKF27R0X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2432,7 +2432,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2444,7 +2444,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "YAG3086CT-ND"
+		(property "DIGIKEY" "P27.0LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2456,7 +2456,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P27.0LCT-ND"
+		(property "ALT_DIGIKEY" "YAG3086CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2468,7 +2468,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2480,7 +2480,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF27R0X"
+		(property "ALT_MPN" "RC0402FR-0727RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2659,7 +2659,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2671,7 +2671,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2683,7 +2683,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2695,7 +2695,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2707,7 +2707,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2719,7 +2719,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2898,7 +2898,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-075K1L"
+		(property "MPN" "ERJ-2RKF5101X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2910,7 +2910,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2922,7 +2922,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-5.10KLRCT-ND"
+		(property "DIGIKEY" "P5.10KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2934,7 +2934,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P5.10KLCT-ND"
+		(property "ALT_DIGIKEY" "311-5.10KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2946,7 +2946,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2958,7 +2958,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF5101X"
+		(property "ALT_MPN" "RC0402FR-075K1L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3137,7 +3137,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-075K1L"
+		(property "MPN" "ERJ-2RKF5101X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3149,7 +3149,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3161,7 +3161,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-5.10KLRCT-ND"
+		(property "DIGIKEY" "P5.10KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3173,7 +3173,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P5.10KLCT-ND"
+		(property "ALT_DIGIKEY" "311-5.10KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3185,7 +3185,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3197,7 +3197,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF5101X"
+		(property "ALT_MPN" "RC0402FR-075K1L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4335,7 +4335,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "CRT0603-BY-1002ELFCT-ND"
+		(property "DIGIKEY" "RG16P10.0KBCT-ND"
 			(at 33.957 228.9022 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4347,7 +4347,7 @@
 				)
 			)
 		)
-		(property "MF" "Bourns"
+		(property "MF" "Susumu"
 			(at 33.957 228.9022 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4359,7 +4359,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRT0603-BY-1002ELF"
+		(property "MPN" "RG1608P-103-B-T5"
 			(at 33.957 228.9022 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4371,7 +4371,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "RG16P10.0KBCT-ND"
+		(property "ALT_DIGIKEY" "CRT0603-BY-1002ELFCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4383,7 +4383,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Susumu"
+		(property "ALT_MF" "Bourns"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4395,7 +4395,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "RG1608P-103-B-T5"
+		(property "ALT_MPN" "CRT0603-BY-1002ELF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6220,7 +6220,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6232,7 +6232,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6244,7 +6244,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6256,7 +6256,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6268,7 +6268,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6280,7 +6280,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6459,7 +6459,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6471,7 +6471,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6483,7 +6483,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6495,7 +6495,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6507,7 +6507,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6519,7 +6519,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7269,7 +7269,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7281,7 +7281,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7293,7 +7293,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7305,7 +7305,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7317,7 +7317,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7329,7 +7329,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8306,7 +8306,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "CRT0603-BY-1002ELFCT-ND"
+		(property "DIGIKEY" "RG16P10.0KBCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8318,7 +8318,7 @@
 				)
 			)
 		)
-		(property "MF" "Bourns"
+		(property "MF" "Susumu"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8330,7 +8330,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRT0603-BY-1002ELF"
+		(property "MPN" "RG1608P-103-B-T5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8342,7 +8342,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "RG16P10.0KBCT-ND"
+		(property "ALT_DIGIKEY" "CRT0603-BY-1002ELFCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8354,7 +8354,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Susumu"
+		(property "ALT_MF" "Bourns"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8366,7 +8366,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "RG1608P-103-B-T5"
+		(property "ALT_MPN" "CRT0603-BY-1002ELF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9403,7 +9403,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9415,7 +9415,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9427,7 +9427,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9439,7 +9439,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9451,7 +9451,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9463,7 +9463,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10023,7 +10023,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "CRT0603-BY-1002ELFCT-ND"
+		(property "DIGIKEY" "RG16P10.0KBCT-ND"
 			(at 231.0612 -36.116 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10035,7 +10035,7 @@
 				)
 			)
 		)
-		(property "MF" "Bourns"
+		(property "MF" "Susumu"
 			(at 231.0612 -36.116 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10047,7 +10047,7 @@
 				)
 			)
 		)
-		(property "MPN" "CRT0603-BY-1002ELF"
+		(property "MPN" "RG1608P-103-B-T5"
 			(at 231.0612 -36.116 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10059,7 +10059,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "RG16P10.0KBCT-ND"
+		(property "ALT_DIGIKEY" "CRT0603-BY-1002ELFCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10071,7 +10071,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Susumu"
+		(property "ALT_MF" "Bourns"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10083,7 +10083,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "RG1608P-103-B-T5"
+		(property "ALT_MPN" "CRT0603-BY-1002ELF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11026,7 +11026,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11038,7 +11038,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11050,7 +11050,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11062,7 +11062,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11074,7 +11074,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11086,7 +11086,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11764,7 +11764,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11776,7 +11776,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11788,7 +11788,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11800,7 +11800,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11812,7 +11812,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11824,7 +11824,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13871,7 +13871,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13883,7 +13883,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13895,7 +13895,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13907,7 +13907,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13919,7 +13919,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13931,7 +13931,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14110,7 +14110,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14122,7 +14122,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14134,7 +14134,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14146,7 +14146,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14158,7 +14158,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14170,7 +14170,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16075,7 +16075,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16087,7 +16087,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16099,7 +16099,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16111,7 +16111,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16123,7 +16123,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16135,7 +16135,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16314,7 +16314,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16326,7 +16326,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16338,7 +16338,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16350,7 +16350,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16362,7 +16362,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16374,7 +16374,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16756,7 +16756,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16768,7 +16768,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16780,7 +16780,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16792,7 +16792,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16804,7 +16804,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16816,7 +16816,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16995,7 +16995,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17007,7 +17007,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17019,7 +17019,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17031,7 +17031,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17043,7 +17043,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17055,7 +17055,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17438,7 +17438,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17450,7 +17450,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17462,7 +17462,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-10.0KLRCT-ND"
+		(property "DIGIKEY" "P10.0KLCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17474,7 +17474,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P10.0KLCT-ND"
+		(property "ALT_DIGIKEY" "311-10.0KLRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17486,7 +17486,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17498,7 +17498,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF1002X"
+		(property "ALT_MPN" "RC0402FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18447,7 +18447,7 @@
 				)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "MF" "Panasonic"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18459,7 +18459,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "ERJ-2RKF3300X"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18471,7 +18471,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "311-330LRCT-ND"
+		(property "DIGIKEY" "P330LCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18483,7 +18483,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "P330LCT-ND"
+		(property "ALT_DIGIKEY" "311-330LRCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18495,7 +18495,7 @@
 				)
 			)
 		)
-		(property "ALT_MF" "Panasonic"
+		(property "ALT_MF" "Yageo"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18507,7 +18507,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "ERJ-2RKF3300X"
+		(property "ALT_MPN" "RC0402FR-07330RL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
