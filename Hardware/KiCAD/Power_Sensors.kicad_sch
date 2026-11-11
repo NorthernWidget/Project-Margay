@@ -11801,7 +11801,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 106.934 60.579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11812,7 +11812,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nw-cold-silicon:C0805"
+		(property "Footprint" "nw-cold-silicon:C0603"
 			(at 105.41 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11844,7 +11844,43 @@
 				)
 			)
 		)
-		(property "MPN" "GRM21BR61C106KE15K"
+		(property "ALT_DIGIKEY" "587-2786-1-ND"
+			(at 105.41 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MF" "Taiyo Yuden"
+			(at 105.41 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MPN" "EMK107ABJ475KA-T"
+			(at 105.41 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRT188R61C475KE13J"
 			(at 105.41 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11866,7 +11902,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "490-6473-1-ND"
+		(property "DIGIKEY" "490-GRT188R61C475KE13JCT-ND"
 			(at 105.41 55.88 0)
 			(hide yes)
 			(show_name no)
