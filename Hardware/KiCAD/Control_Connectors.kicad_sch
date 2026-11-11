@@ -7212,7 +7212,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPL5010DDCT"
+		(property "MPN" "TPL5010QDDCRQ1"
 			(at 210.82 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7234,7 +7234,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "296-38829-1-ND"
+		(property "DIGIKEY" "296-TPL5010QDDCRQ1CT-ND"
 			(at 210.82 38.1 0)
 			(hide yes)
 			(show_name no)

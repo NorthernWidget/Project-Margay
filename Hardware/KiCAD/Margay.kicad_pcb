@@ -19033,7 +19033,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPL5010DDCT"
+		(property "MPN" "TPL5010QDDCRQ1"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19057,7 +19057,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "296-38829-1-ND"
+		(property "DIGIKEY" "296-TPL5010QDDCRQ1CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
