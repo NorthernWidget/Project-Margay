@@ -4717,10 +4717,6 @@
 		(uuid "b42f58e4-78ff-5c08-a8bd-de79ef0d9647")
 	)
 	(no_connect
-		(at 113.03 111.76)
-		(uuid "c38b1755-9ba4-5f1e-b537-c3e1971490f2")
-	)
-	(no_connect
 		(at 232.41 66.04)
 		(uuid "c3d69d5e-2304-54f3-8a8a-febba96ef2eb")
 	)
@@ -6706,6 +6702,30 @@
 			)
 		)
 	)
+	(global_label "WD_WAKE"
+		(shape bidirectional)
+		(at 115.57 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "038ec75d-c95a-4db8-a28c-16f7eb07cef5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.491 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RST"
 		(shape bidirectional)
 		(at 36.83 124.46 180)
@@ -7281,6 +7301,16 @@
 				(justify left)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 115.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db00c3ae-d45b-4314-9232-2d73f2865d50")
 	)
 	(symbol
 		(lib_id "nw-cold-silicon:PWR_FLAG")

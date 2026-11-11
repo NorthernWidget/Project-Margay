@@ -3797,10 +3797,6 @@
 		(color 0 0 0 0)
 		(uuid "faa7a160-9dd1-4116-bc60-88b42c00df35")
 	)
-	(no_connect
-		(at 226.06 33.02)
-		(uuid "6c3552de-b0b9-5001-961c-af3a2f4151d2")
-	)
 	(wire
 		(pts
 			(xy 50.8 78.74) (xy 50.8 76.2)
@@ -5745,6 +5741,30 @@
 			)
 		)
 	)
+	(global_label "WD_WAKE"
+		(shape bidirectional)
+		(at 231.14 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "ab2cc4eb-5247-4e3d-b062-49334cb5e0f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.061 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPIO_EXT_D0"
 		(shape bidirectional)
 		(at 45.72 185.42 0)
@@ -5792,6 +5812,16 @@
 				(justify left)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 231.14 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4471a5a6-8060-4ef1-a7eb-361025f17f2a")
 	)
 	(symbol
 		(lib_id "nw-cold-silicon:SN74LVC1G3157SC70")
