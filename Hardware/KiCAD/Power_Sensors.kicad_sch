@@ -13212,7 +13212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 45.974 37.719 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13255,7 +13255,43 @@
 				)
 			)
 		)
-		(property "MPN" "GCM155R71C104KA55D"
+		(property "ALT_DIGIKEY" "1276-1445-1-ND"
+			(at 44.45 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MF" "Samsung"
+			(at 44.45 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALT_MPN" "CL05A105KA5NQNC"
+			(at 44.45 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRT155R61E105KE01D"
 			(at 44.45 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13277,7 +13313,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "490-4759-1-ND"
+		(property "DIGIKEY" "490-12263-1-ND"
 			(at 44.45 33.02 0)
 			(hide yes)
 			(show_name no)
