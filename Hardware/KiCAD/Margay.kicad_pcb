@@ -10337,7 +10337,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "MOSFET-NCH-2N7002PW"
+		(property "Value" "2V7002W"
 			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "e1055fe2-d91a-45f6-a450-33d4f75ef2bd")
@@ -10371,7 +10371,7 @@
 				)
 			)
 		)
-		(property "MPN" "2N7002W-7-F"
+		(property "MPN" "2V7002WT1G"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10383,7 +10383,7 @@
 				)
 			)
 		)
-		(property "MF" "Diodes Incorporated"
+		(property "MF" "onsemi"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10395,7 +10395,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "2N7002W-FDICT-ND"
+		(property "DIGIKEY" "2V7002WT1GOSCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

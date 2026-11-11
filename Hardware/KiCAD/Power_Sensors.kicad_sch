@@ -9714,7 +9714,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MOSFET-NCH-2N7002PW"
+		(property "Value" "2V7002W"
 			(at 82.804 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9757,7 +9757,7 @@
 				)
 			)
 		)
-		(property "MPN" "2N7002W-7-F"
+		(property "MPN" "2V7002WT1G"
 			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9768,7 +9768,7 @@
 				)
 			)
 		)
-		(property "MF" "Diodes Incorporated"
+		(property "MF" "onsemi"
 			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9779,7 +9779,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "2N7002W-FDICT-ND"
+		(property "DIGIKEY" "2V7002WT1GOSCT-ND"
 			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
