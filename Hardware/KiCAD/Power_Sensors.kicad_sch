@@ -11291,7 +11291,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX6070AAUT"
+		(property "Value" "MAX6070BAUT18"
 			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)

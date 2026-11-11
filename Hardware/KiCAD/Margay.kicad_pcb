@@ -14830,7 +14830,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX6070AAUT"
+		(property "Value" "MAX6070BAUT18"
 			(at 0 2.413 0)
 			(layer "F.Fab")
 			(uuid "438d39c4-e8b4-4ef5-9df2-f9453282e8dc")
