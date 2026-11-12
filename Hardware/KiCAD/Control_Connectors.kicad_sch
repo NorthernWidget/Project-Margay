@@ -7073,7 +7073,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nw-cold-silicon:1X10_SCREW"
+		(property "Footprint" "nw-cold-silicon:1X10_SCREW_2.54_D1.1"
 			(at 33.02 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -7336,7 +7336,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "nw-cold-silicon:1X06_SCREW"
+		(property "Footprint" "nw-cold-silicon:1X06_SCREW_2.54_D1.1"
 			(at 71.12 200.66 0)
 			(hide yes)
 			(show_name no)
