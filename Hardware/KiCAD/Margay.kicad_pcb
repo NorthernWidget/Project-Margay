@@ -10565,7 +10565,7 @@
 				)
 			)
 		)
-		(property "Value" "130k"
+		(property "Value" "57.6k"
 			(at 0 1.016 0)
 			(layer "F.Fab")
 			(uuid "48028c51-dc39-407b-8383-799ce0634d12")
@@ -10598,7 +10598,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-3EKF1303V"
+		(property "MPN" "ERJ-3EKF5762V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10622,7 +10622,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "P130KHCT-ND"
+		(property "DIGIKEY" "P57.6KHCT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10634,7 +10634,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "RMCF0603FT130KCT-ND"
+		(property "ALT_DIGIKEY" "738-RMCF0603FT57K6CT-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10658,7 +10658,7 @@
 				)
 			)
 		)
-		(property "ALT_MPN" "RMCF0603FT130K"
+		(property "ALT_MPN" "RMCF0603FT57K6"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

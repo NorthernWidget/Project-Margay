@@ -8301,7 +8301,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "130k"
+		(property "Value" "57.6k"
 			(at 188.722 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8344,7 +8344,7 @@
 				)
 			)
 		)
-		(property "ALT_DIGIKEY" "RMCF0603FT130KCT-ND"
+		(property "ALT_DIGIKEY" "738-RMCF0603FT57K6CT-ND"
 			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8368,7 +8368,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ALT_MPN" "RMCF0603FT130K"
+		(property "ALT_MPN" "RMCF0603FT57K6"
 			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8380,7 +8380,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ-3EKF1303V"
+		(property "MPN" "ERJ-3EKF5762V"
 			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8402,7 +8402,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY" "P130KHCT-ND"
+		(property "DIGIKEY" "P57.6KHCT-ND"
 			(at 185.42 43.18 0)
 			(hide yes)
 			(show_name no)
