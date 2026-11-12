@@ -7105,7 +7105,7 @@
 				)
 			)
 		)
-		(property "MPN" "OSTVN10A150"
+		(property "MPN" "1725737"
 			(at 33.02 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -7368,7 +7368,7 @@
 				)
 			)
 		)
-		(property "MPN" "OSTVN06A150"
+		(property "MPN" "1725698"
 			(at 71.12 200.66 0)
 			(hide yes)
 			(show_name no)

@@ -5833,7 +5833,7 @@
 				)
 			)
 		)
-		(property "MPN" "OSTVN06A150"
+		(property "MPN" "1725698"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19582,7 +19582,7 @@
 				)
 			)
 		)
-		(property "MPN" "OSTVN10A150"
+		(property "MPN" "1725737"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
