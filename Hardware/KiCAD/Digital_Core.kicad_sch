@@ -11406,7 +11406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nw-cold-silicon:VDIV_MARGAY_2021"
+		(property "Footprint" "nw-cold-silicon:VDIV_MARGAY_2026"
 			(at 267.97 175.26 0)
 			(hide yes)
 			(show_name no)
