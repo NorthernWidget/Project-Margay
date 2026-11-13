@@ -430,7 +430,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "${KIPRJMOD}/../../../nw-cold-silicon/nw-cold-silicon.kicad_wks"
+    "page_layout_descr_file": "${KIPRJMOD}/../../../NW-Cold-Silicon/nw-cold-silicon.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -456,7 +456,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "${KIPRJMOD}/../../../nw-cold-silicon/nw-cold-silicon.kicad_wks",
+    "page_layout_descr_file": "${KIPRJMOD}/../../../NW-Cold-Silicon/nw-cold-silicon.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
